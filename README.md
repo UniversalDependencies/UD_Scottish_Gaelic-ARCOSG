@@ -5,27 +5,69 @@ A treebank of Scottish Gaelic based on the
 
 # Introduction
 
-The Scottish Gaelic treebank takes data from ARCOSG, the Annotated Reference Corpus of Scottish Gaelic (Lamb _et al._ 2016) with the annotation scheme based on that in the Irish UD treebank.
+The Scottish Gaelic treebank takes data from ARCOSG, the Annotated Reference Corpus of Scottish Gaelic (Lamb _et al._ 2016) with the annotation scheme based on that in the Irish UD treebank. Full bibliographic details are to be had there.
 
-It contains eight subcorpora:
-- 
+It contains eight subcorpora of a varying number of original files, each of approximately 1000 tokens.
+Not all of them have made it into release 2.5. The test and dev files are complete and the training set will be filled out, hopefully before 2.6.
+All files listed below are in the training set unless they are explicitly marked as being in test or dev.
+In the ARCOSG documentation the names of contributors are given in Gaelic, which I have kept and glossed with their names in English where they will be familiar to non-Gaelic speakers.
 
-# Syntax
-
-We use the following additional dependency labels from the Irish treebank:
-
-- acl:relcl for relative clauses
-- case:voc for vocative particles
-- csubj:cleft for cleft subjects
-- csubj:cop for copular clausal subject
-- mark:prt for particles
-- nmod:poss for possessive pronouns
-- obl:tmod for nominal temporal modifiers
-- xcomp:pred for predicates of the substantive verb _bi_ 'to be'
-
-We also add
-
-- obl:smod for spatial temporal modifiers
+- Conversation. c01 is in test, c03 in dev and the rest in train. These are transcripts of interviews in the Western Isles from 1998 to 2000. In c03 and c04 speakers 2, 4 and 5 are children.
+- Public interview. p04 is in test, p05 in dev and the rest in train.
+- Sport. s06 is in test, s08 in dev and the rest in train. s01 to s05 are _Radio nan Gàidheil_ commentary on a match between Scotland and Australia; s06 to s10 on Scotland _vs._ Yugoslavia.
+- Oral narrative.
+    - n01: _Na Trì Leinntean Canaich_ (test)
+    - n02: _Conall Gulban_ (dev)
+    - n03: _Na Fiantaichean_
+    - n04: _Gille an Fheadain Duibh_
+    - n05: _Bodach Ròcabarraigh_
+    - n06: _Iain Beag MacAnndra_
+    - n07: _Fear a' Churracain Ghlais_
+    - n08: _Boban Saor_
+    - n09: _Bean 'ic Odrum_
+    - n10: _Blàr Chàirinis_
+- News scripts from _Radio nan Gàidheal_ in the early 1990s.
+    - ns01: Màiri Anna NicUalraig (Mary Ann Kennedy)
+    - ns02: Dòmhnall Moireasdan
+    - ns03: Iseabail NicIllinnein
+    - ns04: Innes Rothach
+    - ns05: Innes Rothach (test)
+    - ns06: Pàdraig MacAmhlaigh (dev)
+    - ns07: Dòmhnall Moireasdan (test)
+    - ns08: Màiri Anna NicUalraig (dev)
+    - ns09: Seumas Domhnallach
+    - ns10: Seumas Domhnallach
+- Fiction
+    - f01: _Am Fainne_ by Eilidh Watt
+    - f02: from _Cùmhnantan_ by Tormod MacGill-Eain
+    - f03: _Droch Àm_ by Pòl MacAonghais (test)
+    - f04: _Spàl Tìm_ by Cailean T. MacCoinneach
+    - f05: _Teine a Loisgeas_ by Eilidh Watt
+    - f06: _Beul na h-Oidhche_ by Somhairle MacGill-Eain (Sorley Maclean)
+    - f07: from _An t-Aonaran_ by Iain Mac a' Ghobhainn (Iain Crichton Smith)
+    - f08: _Briseadh na Cloiche_ by Iain Moireach (dev)
+- Formal prose:
+    - fp01: _Trì Ginealaichean_ by D. E. Dòmhnallach
+    - fp02: _Nua-Bhàrdachd Ghàidhlig_ by Dòmhnall MacAmhlaigh (Donald MacAulay)
+    - fp03: _Mairead N. Lachlainn_ by Somhairle MacGill-Eain (test)
+    - fp04: from _Bith-eòlas_ ('Biology') by Ruairidh MacThòmais (Derick Thomson)
+    - fp05: _Aramach am Bearnaraidh_
+    - fp06: _Blàr a' Chumhaing_ by Iain A. MacDonald
+    - fp07: _Na Marbhrannan_ by Coinneach D. MacDhòmhnaill
+    - fp08: _Cainnt is Cànan_ by J. MacInnes
+    - fp09: from Dòmhnall Uilleam Stiùbhart (Donald William Stewart)'s unpublished PhD thesis (dev)
+- Popular writing: columns from _The Scotsman_:
+    - pw01: _An Cuir am Papa..._ by Aileig O Hianlaidh (Alex O'Henley)
+    - pw02: _A bith mar Chorra..._ by Joina NicDhomnaill (test)
+    - pw03: _Pàdraig Sellar_ by Ùisdean MacIllinnein
+    - pw04: _A' Cur Às Dhuinn Fhìn_ by Aonghas Mac-a-Phì
+    - pw05: _Aon Dùthaich_ by Murchadh MacLeòid
+    - pw06: _Blas a' Ghuga_ by Coinneach MacLeòid (dev)
+    - pw07: _Luchd-ciùil_ by Criosaidh Dick
+    - pw08: _Na Gàidheil Ùra_ by Criosaidh Dick
+    - pw09: _A' Siubhail gu Rèidh_ by Tormod Domhnallach (dev)
+    - pw10: _Poileaticeans_ by Niall M. Brownlie
+    - pw11: _Oifigeir Gàidhlig_ by Aileig O Hianlaidh (test)
 
 # Acknowledgments
 
