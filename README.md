@@ -8,13 +8,13 @@ A treebank of Scottish Gaelic based on the
 The Scottish Gaelic treebank takes data from ARCOSG, the Annotated Reference Corpus of Scottish Gaelic (Lamb _et al._ 2016) with the annotation scheme based on that in the Irish UD treebank. Full bibliographic details are to be had there.
 
 It contains eight subcorpora of a varying number of original files, each of approximately 1000 tokens.
-Not all of them have made it into release 2.5. The test and dev files are complete and the training set will be filled out, hopefully before 2.6.
+Not all of them have made it into release 2.6. The test and dev files are complete and the training set will be filled out, hopefully before 2.7.
 All files listed below are in the training set unless they are explicitly marked as being in test or dev.
 In the ARCOSG documentation the names of contributors are given in Gaelic, which I have kept and glossed with their names in English where they will be familiar to non-Gaelic speakers.
 
 - Conversation. c01 is in test, c03 in dev and the rest in train. These are transcripts of interviews in the Western Isles from 1998 to 2000. In c03 and c04 speakers 2, 4 and 5 are children.
 - Public interview. p04 is in test, p05 in dev and the rest in train.
-- Sport. s06 is in test, s08 in dev and the rest in train. s01 to s05 are _Radio nan Gàidheil_ commentary on a match between Scotland and Australia; s06 to s10 on Scotland _vs._ Yugoslavia.
+- Sport. s06 is in test, s08 in dev and the rest in train. s01 to s05 are _Radio nan Gàidheal_ commentary on a match between Scotland and Australia; s06 to s10 on Scotland _vs._ Yugoslavia.
 - Oral narrative.
     - n01: _Na Trì Leinntean Canaich_ (test)
     - n02: _Conall Gulban_ (dev)
@@ -82,6 +82,8 @@ We wish to thank all of the contributors to ARCOSG and fellow Celtic language UD
 
 # Changelog
 
+* 2020-05-15 v2.6
+  * Small fixes to README.md.
 * 2019-11-15 v2.5
   * Initial release in Universal Dependencies.
 
