@@ -1,7 +1,7 @@
 # Summary
 
 A treebank of Scottish Gaelic based on the
-[Annotated Reference Corpus Of Scottish Gaelic (ARCOSG)](https://datashare.is.ed.ac.uk/handle/10283/2011).
+[Annotated Reference Corpus Of Scottish Gaelic (ARCOSG)](https://github.com/Gaelic-Algorithmic-Research-Group/ARCOSG).
 
 # Introduction
 
