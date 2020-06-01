@@ -84,6 +84,7 @@ We wish to thank all of the contributors to ARCOSG and fellow Celtic language UD
 
 * 2020-05-15 v2.6
   * Small fixes to README.md.
+  * Some missing sentences added to dev and test, bringing them both over 10000 words.
 * 2019-11-15 v2.5
   * Initial release in Universal Dependencies.
 
