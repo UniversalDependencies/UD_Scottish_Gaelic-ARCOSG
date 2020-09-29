@@ -69,6 +69,8 @@ In the ARCOSG documentation the names of contributors are given in Gaelic, which
     - pw10: _Poileaticeans_ by Niall M. Brownlie
     - pw11: _Oifigeir Gàidhlig_ by Aileig O Hianlaidh (test)
 
+See https://universaldependencies.org/gd/index.html for detailed documentation.
+
 # Acknowledgments
 
 We wish to thank all of the contributors to ARCOSG and fellow Celtic language UD developers Teresa Lynn, Johannes Heinecke and Fran Tyers.
