@@ -5,10 +5,12 @@ A treebank of Scottish Gaelic based on the
 
 # Introduction
 
-The Scottish Gaelic treebank takes data from ARCOSG, the Annotated Reference Corpus of Scottish Gaelic (Lamb _et al._ 2016) with the annotation scheme based on that in the Irish UD treebank. Full bibliographic details are to be had there.
+The Scottish Gaelic treebank takes data from ARCOSG, the Annotated Reference Corpus of Scottish Gaelic (Lamb _et al._ 2016) with the annotation scheme based on that in the Irish UD treebank.
+Full bibliographic details are to be had there.
 
 It contains eight subcorpora of a varying number of original files, each of approximately 1000 tokens.
-Not all of them have made it into release 2.6. The test and dev files are complete and the training set will be filled out, hopefully before 2.7.
+Not all of them have made it into release 2.7.
+The test and dev files are complete and the training set will be filled out, hopefully before 2.8.
 All files listed below are in the training set unless they are explicitly marked as being in test or dev.
 In the ARCOSG documentation the names of contributors are given in Gaelic, which I have kept and glossed with their names in English where they will be familiar to non-Gaelic speakers.
 
@@ -82,6 +84,18 @@ We wish to thank all of the contributors to ARCOSG and fellow Celtic language UD
 
 # Changelog
 
+* 2020-11-15 v2.7
+  * `Poss=Yes` added in line with Irish.
+  * Tokens in the original with XPOS beginning `Sap` and `Spp` are divided into their component words.
+  * Systematic tidying of `acl:relcl`, `advcl` and `ccomp`.
+  * `PronType=Emp` replaced with `Form=Emp` in line with Irish and extended to other parts of speech.
+  * `PART`s with XPOS `Qa` now tagged correctly `PartType=Cmpl`
+  * Words with UPOS `AUX` now have full features.
+  * The English borrowing _so_ is `CCONJ` not `SCONJ`.
+  * _'s_ in _fad 's_ and the like is now related to _fad_ or _o chionn_ by `fixed`.
+  * Cosubordinative _agus_ and _is_ are now `SCONJ` like in Irish.
+  * _ach_ is `PART` where it is a focus particle rather than a preposition or a conjunction.
+  * Use of `xcomp:pred` consistent in the sport subcorpora where the root is a footballer rather than _bi_.
 * 2020-05-15 v2.6
   * Small fixes to README.md.
   * Some missing sentences added to dev and test, bringing them both over 10000 words.
