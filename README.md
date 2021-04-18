@@ -75,7 +75,7 @@ See https://universaldependencies.org/gd/index.html for detailed documentation.
 
 # Acknowledgments
 
-We wish to thank all of the contributors to ARCOSG and fellow Celtic language UD developers Teresa Lynn, Johannes Heinecke and Fran Tyers.
+We wish to thank all of the contributors to ARCOSG and fellow Celtic language UD developers Teresa Lynn, Kevin Scannell, Johannes Heinecke and Fran Tyers.
 
 ## References
 
