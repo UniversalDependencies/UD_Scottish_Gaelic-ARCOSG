@@ -1875,8 +1875,8 @@
 43	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	36	xcomp:pred	_	_
 44	aig	aig	ADP	Sp	_	45	case	_	_
 45	leth-uair	leth-uair	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	36	obl	_	_
-46	an	an	ADP	Sp	_	45	nmod	_	_
-47	dèidh	dèidh	ADP	Nf	_	46	fixed	_	_
+46	an	an	ADP	Sp	_	47	case	_	_
+47	dèidh	dèidh	NOUN	Nf	_	45	nmod	_	_
 
 # sent_id = c03_137
 # speaker = [1]
@@ -3486,7 +3486,7 @@
 8	preasan	prea	NOUN	Ncpmd	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
 9	beaga	beaga	ADJ	Aq-pmd	Case=Dat|Gender=Masc|Number=Plur	8	amod	_	_
 10	a'	ag	PART	Sa	_	11	case	_	_
-11	ruith	ruith	NOUN	Nv	VerbForm=Vnoun	8	acl	_	_
+11	ruith	ruith	NOUN	Nv	VerbForm=Vnoun	8	xcomp	_	_
 12	a-steach	a-steach	ADV	Rs	_	11	advmod	_	_
 13-14	thuige	_	_	_	_	_	_	_	SpaceAfter=No
 13	gu	gu	ADP	Sp	_	14	case	_	_
@@ -3725,7 +3725,7 @@
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
 3	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3	1	obj	_	_
 4	a'	ag	PART	Sa	_	5	case	_	_
-5	snotairich	snotair	NOUN	Nv	VerbForm=Vnoun	3	acl	_	_
+5	snotairich	snotair	NOUN	Nv	VerbForm=Vnoun	3	xcomp	_	_
 6	mar	mar	ADP	Sp	_	7	case	_	_
 7	each	each	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	_
 8	aig	aig	ADP	Sp	_	9	case	_	_
@@ -4479,7 +4479,7 @@
 1	A-rithist	a-rithist	ADV	Rg	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	Fi	_	4	punct	_	_
 3	a'	ag	PART	Sa	_	4	case	_	_
-4	déiligeadh	déilig	NOUN	Nv	VerbForm=Vnoun	11	acl	_	_
+4	déiligeadh	déilig	NOUN	Nv	VerbForm=Vnoun	11	xcomp	_	_
 5	ri	ri	ADP	Sp	_	6	case	_	_
 6	eachdraidh	eachdraidh	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
 7	na	an	DET	Tdsfg	Case=Gen|Gender=Fem|Number=Sing	8	det	_	_
@@ -7093,7 +7093,7 @@
 12	le	le	ADP	Sp	_	13	case	_	_
 13	càin	càin	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
 14	a'	ag	PART	Sa	_	15	case	_	_
-15	dol	rach	NOUN	Nv	VerbForm=Vnoun	13	acl	_	_
+15	dol	rach	NOUN	Nv	VerbForm=Vnoun	13	xcomp	_	_
 16	air	air	ADP	Sp	_	17	case	_	_
 17	cuid	cuid	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
 18-19	dhuibh	_	_	_	_	_	_	_	SpaceAfter=No
