@@ -9,13 +9,12 @@ The Scottish Gaelic treebank takes data from ARCOSG, the Annotated Reference Cor
 Full bibliographic details are to be had there.
 
 It contains eight subcorpora of a varying number of original files, each of approximately 1000 tokens.
-Not all of them have made it into release 2.7.
-The test and dev files are complete and the training set will be filled out, hopefully before 2.8.
+Not all of the trees have made it into release 2.8.
+The test and dev files are complete and the training set will be filled out, hopefully before 2.9.
 All files listed below are in the training set unless they are explicitly marked as being in test or dev.
-In the ARCOSG documentation the names of contributors are given in Gaelic, which I have kept and glossed with their names in English where they will be familiar to non-Gaelic speakers.
+In the ARCOSG documentation the names of contributors are largely given in Gaelic, which I have kept and glossed with their names in English where they will be familiar to non-Gaelic speakers.
 
 - Conversation. c01 is in test, c03 in dev and the rest in train. These are transcripts of interviews in the Western Isles from 1998 to 2000. In c03 and c04 speakers 2, 4 and 5 are children.
-- Public interview. p04 is in test, p05 in dev and the rest in train.
 - Sport. s06 is in test, s08 in dev and the rest in train. s01 to s05 are _Radio nan Gàidheal_ commentary on a match between Scotland and Australia; s06 to s10 on Scotland _vs._ Yugoslavia.
 - Oral narrative.
     - n01: _Na Trì Leinntean Canaich_ (test)
@@ -39,6 +38,15 @@ In the ARCOSG documentation the names of contributors are given in Gaelic, which
     - ns08: Màiri Anna NicUalraig (dev)
     - ns09: Seumas Domhnallach
     - ns10: Seumas Domhnallach
+- Public interview
+    - p01: _Peataichean_, conversation on Coinneach MacÌomhair's programme
+    - p02: Fred MacAulay and Martin MacDonald
+    - p03: John MacInnes and William Matheson
+    - p04: Geamaichean Sholais 1, conversation on Coinneach MacÌomhair's programme (test)
+    - p05: Geamaichean Sholais 2 (dev)
+    - p06: Bonn Comhraidh, 1980s political discussion programme
+    - p07: Conversation on Coinneach MacÌomhair's programme 2000-01-17 part 1
+    - p08: Conversation on Coinneach MacÌomhair's programme 2000-01-17 part 2
 - Fiction
     - f01: _Am Fainne_ by Eilidh Watt
     - f02: from _Cùmhnantan_ by Tormod MacGill-Eain
@@ -71,11 +79,11 @@ In the ARCOSG documentation the names of contributors are given in Gaelic, which
     - pw10: _Poileaticeans_ by Niall M. Brownlie
     - pw11: _Oifigeir Gàidhlig_ by Aileig O Hianlaidh (test)
 
-See https://universaldependencies.org/gd/index.html for detailed documentation.
+See https://universaldependencies.org/gd/index.html for detailed linguistic documentation.
 
 # Acknowledgments
 
-We wish to thank all of the contributors to ARCOSG and fellow Celtic language UD developers Teresa Lynn, Johannes Heinecke and Fran Tyers.
+We wish to thank all of the contributors to ARCOSG and fellow Celtic language UD developers Teresa Lynn, Kevin Scannell, Johannes Heinecke and Fran Tyers.
 
 ## References
 
@@ -86,6 +94,12 @@ We wish to thank all of the contributors to ARCOSG and fellow Celtic language UD
 
 # Changelog
 
+* 2021-05-15 v2.8
+  * _ri linn 's_ is a fixed expression now.
+  * the _'_ in, for example, _'dol_ is no longer a separate token.
+  * `flat` has been replaced with `flat:name` in personal names and `flat:foreign` in foreign expressions. It remains for placenames, dates and telephone numbers.
+  * `nmod` and `obl` have been reviewed and corrected throughout the corpus and now replace `compound` for _f(h)(è)in_ and _a/ri chèile_.
+  * Documents identified with `newdoc`.
 * 2020-11-15 v2.7
   * `Poss=Yes` added in line with Irish.
   * Tokens in the original with XPOS beginning `Sap` and `Spp` are divided into their component words.
