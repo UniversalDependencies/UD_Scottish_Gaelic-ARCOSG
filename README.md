@@ -9,8 +9,8 @@ The Scottish Gaelic treebank takes data from ARCOSG, the Annotated Reference Cor
 Full bibliographic details are to be had there.
 
 It contains eight subcorpora of a varying number of original files, each of approximately 1000 tokens.
-Not all of the trees have made it into release 2.8.
-The test and dev files are complete and the training set will be filled out, hopefully before 2.9.
+Not all of the trees have made it into release 2.9.
+The test and dev files are complete and the training set will be filled out, hopefully in 2.10.
 All files listed below are in the training set unless they are explicitly marked as being in test or dev.
 In the ARCOSG documentation the names of contributors are largely given in Gaelic, which I have kept and glossed with their names in English where they will be familiar to non-Gaelic speakers.
 
@@ -60,7 +60,7 @@ In the ARCOSG documentation the names of contributors are largely given in Gaeli
     - fp01: _Trì Ginealaichean_ by D. E. Dòmhnallach
     - fp02: _Nua-Bhàrdachd Ghàidhlig_ by Dòmhnall MacAmhlaigh (Donald MacAulay)
     - fp03: _Mairead N. Lachlainn_ by Somhairle MacGill-Eain (test)
-    - fp04: from _Bith-eòlas_ ('Biology') by Ruairidh MacThòmais (Derick Thomson)
+    - fp04: from _Bith-eòlas_ ('Biology'), a translation by Ruairidh MacThòmais (Derick Thomson)
     - fp05: _Aramach am Bearnaraidh_
     - fp06: _Blàr a' Chumhaing_ by Iain A. MacDonald
     - fp07: _Na Marbhrannan_ by Coinneach D. MacDhòmhnaill
@@ -94,6 +94,11 @@ We wish to thank all of the contributors to ARCOSG and fellow Celtic language UD
 
 # Changelog
 
+* 2021-11-15 v2.9
+  * Small fixes to README.md
+  * Some missing sentences added.
+  * Added `PronType=Int` for interrogative pronouns and `PronType=Art` for articles.
+  * Made sure interrogative pronouns were all pronouns and adjusted trees and documentation accordingly.
 * 2021-05-15 v2.8
   * _ri linn 's_ is a fixed expression now.
   * the _'_ in, for example, _'dol_ is no longer a separate token.
