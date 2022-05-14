@@ -94,6 +94,8 @@ We wish to thank all of the contributors to ARCOSG and fellow Celtic language UD
 
 # Changelog
 
+* 2022-05-15 v2.10
+  * All of ARCOSG now in the treebank.
 * 2021-11-15 v2.9
   * Small fixes to README.md
   * Some missing sentences added.
