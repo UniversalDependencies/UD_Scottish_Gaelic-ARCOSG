@@ -2143,7 +2143,7 @@
 6-7	dhut	_	_	_	_	_	_	_	_
 6	do	do	ADP	Sp	_	7	case	_	_
 7	thu	thu	PRON	Pp2s	Number=Sing|Person=2	3	obl	_	_
-8	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3	3	nsubj	_	SpaceAfter=No
+8	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3	3	obj	_	SpaceAfter=No
 9	?	?	PUNCT	Fg	_	3	punct	_	_
 
 # sent_id = c03_155
@@ -5285,7 +5285,7 @@
 23	a’	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	bheinn-sheilg	beinn-sheilg	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	18	xcomp:pred	_	SpaceAfter=No
 25	,	,	PUNCT	Fi	_	26	punct	_	_
-26	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
+26	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	18	appos	_	_
 27	fhèin	fèin	PRON	Px	Reflex=Yes	26	nmod	_	_
 28	agus	agus	CCONJ	Cc	_	29	cc	_	_
 29	uaislean	uaisl	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	26	conj	_	_
@@ -7560,7 +7560,7 @@
 6	bha	bi	VERB	V-s	Tense=Past	2	acl:relcl	_	_
 7	trì	trì	NUM	Mc	_	9	nummod	_	SpaceAfter=No
 8	-	-	PUNCT	Fb	_	9	punct	_	SpaceAfter=No
-9	bliadhn'	bliadhna	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	bliadhn'	bliadhna	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	6	xcomp:pred	_	SpaceAfter=No
 10	-	-	PUNCT	Fb	_	9	punct	_	SpaceAfter=No
 11	deug	deug	NUM	Mc	_	9	compound	_	_
 12	-	-	PUNCT	Fb	_	6	punct	_	_
@@ -8907,7 +8907,7 @@
 6	a	a	PART	Q-r	PartType=Vb|PronType=Rel	7	nsubj	_	_
 7	bh	bh	VERB	Xsi	_	5	acl:relcl	_	_
 8	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	t-àrd-ionmhair	àrd-ionmhair	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	t-àrd-ionmhair	àrd-ionmhair	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	7	xcomp:pred	_	_
 10	ann	an	ADP	Sp	_	12	case	_	_
 11	an	an	ADP	Sp	_	10	fixed	_	_
 12	Uibhist	Uibhist	PROPN	Nt	_	7	obl	_	_
@@ -9957,7 +9957,7 @@
 8	a	a	PART	Q-r	PartType=Vb|PronType=Rel	9	nsubj	_	_
 9	chuir	cuir	VERB	V-s	Tense=Past	4	csubj:cleft	_	_
 10	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	turas	turas	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	turas	turas	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
 12	air	air	ADP	Sp	_	13	case	_	_
 13	dòigh	dòigh	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
 14	.	.	PUNCT	Fe	_	4	punct	_	_
@@ -10480,7 +10480,7 @@
 27	na	an	DET	Tdpm	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
 28	balaich	balach	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
 29	sìos	sìos	ADV	Rg	_	26	advmod	_	_
-30	sinn	sinn	PRON	Pp1p	Number=Plur|Person=1	26	nsubj	_	_
+30	sinn	sinn	PRON	Pp1p	Number=Plur|Person=1	26	obj	_	_
 31	idir	idir	ADV	Rg	_	26	advmod	_	SpaceAfter=No
 32	.	.	PUNCT	Fe	_	12	punct	_	_
 
@@ -11134,7 +11134,7 @@
 7	air	air	ADP	Sp	_	8	case	_	_
 8	bàtaichean	bàta	NOUN	Ncpmd	Case=Dat|Gender=Masc|Number=Plur	0	root	_	_
 9	iasgaich	iasgach	NOUN	Ncsmg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
-10	a	a	PART	Q-r	PartType=Vb|PronType=Rel	11	nsubj	_	_
+10	a	a	PART	Q-r	PartType=Vb|PronType=Rel	11	obl	_	_
 11	bhiodh	bi	VERB	V-h	Mood=Cnd	8	csubj:cleft	_	_
 12	Sgalpaich	sgalpach	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
 13	a’	ag	PART	Sa	_	14	case	_	_
@@ -13240,7 +13240,7 @@
 11	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	9	fixed	_	_
 12	gu	gu	ADP	Sp	_	13	case	_	_
 13	Johnston	Johnston	PROPN	Nn	_	1	conj	_	_
-14	a	a	PART	Q-r	PartType=Vb|PronType=Rel	15	nsubj	_	_
+14	a	a	PART	Q-r	PartType=Vb|PronType=Rel	15	obl	_	_
 15	chaidh	rach	VERB	V-s	Tense=Past	13	acl:relcl	_	_
 16	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3	15	nsubj	_	_
 17	agus	agus	CCONJ	Cc	_	1	conj	_	_

@@ -1173,7 +1173,7 @@
 # sent_id = c01_080
 # speaker = [1]
 # text = dè am fuaim a bha siud?
-1	dè	dè	PRON	Uq	PronType=Int	3	nsubj	_	_
+1	dè	dè	PRON	Uq	PronType=Int	3	nmod	_	_
 2	am	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	fuaim	fuaim	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 4	a	a	PART	Q-r	PartType=Vb|PronType=Rel	5	nsubj	_	_
@@ -2852,7 +2852,7 @@
 13	an	an	ADP	Sp	_	12	fixed	_	_
 14	Glaschu	Glaschu	PROPN	Nt	_	11	obl	_	_
 15	a	a	PART	Q-r	PartType=Vb|PronType=Rel	16	advmod	_	_
-16	chuireadh	cuir	VERB	V-s0	Person=0|Tense=Past	6	csubj:cleft	_	_
+16	chuireadh	cuir	VERB	V-s0	Person=0|Tense=Past	6	csubj:outer	_	_
 17	eòlas	eòlas	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
 18	an	an	ADV	Rt	_	16	advmod	_	_
 19	toiseach	toiseach	ADV	Rt	_	18	fixed	_	_
@@ -2906,7 +2906,7 @@
 20	iad	iad	PRON	Pp3p	Number=Plur|Person=3	18	obl	_	_
 21	,	,	PUNCT	Fi	_	23	punct	_	_
 22	a	a	PART	Q-r	PartType=Vb|PronType=Rel	23	advmod	_	_
-23	rinn	dèan	VERB	V-s	Tense=Past	6	csubj:cleft	_	_
+23	rinn	dèan	VERB	V-s	Tense=Past	6	csubj:outer	_	_
 24	a	a	DET	Dp3sm	Gender=Masc|Number=Sing|Person=3|Poss=Yes	25	nmod:poss	_	_
 25	mhàthair-san	màthair	NOUN	Ncsfne	Case=Nom|Form=Emp|Gender=Fem|Number=Sing	23	nsubj	_	_
 26	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -4066,7 +4066,7 @@
 14	,	,	PUNCT	Fi	_	17	punct	_	_
 15	a	a	PART	Q-r	PartType=Vb|PronType=Rel	17	advmod	_	_
 16	b'	is	AUX	Ws	Tense=Past	17	cop	_	_
-17	urrainn	urrainn	NOUN	Uf	_	8	csubj:cleft	_	_
+17	urrainn	urrainn	NOUN	Uf	_	8	csubj:outer	_	_
 18	do	do	ADP	Sp	_	19	case	_	_
 19	neach	neach	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	_
 20	a	a	PART	Ug	PartType=Inf	21	mark:prt	_	_
@@ -5514,7 +5514,7 @@
 3	iad	iad	PRON	Pp3p	Number=Plur|Person=3	2	nsubj	_	_
 4	an	an	ADV	Rs	_	2	advmod	_	_
 5	seo	seo	ADV	Rs	_	4	fixed	_	_
-6	fadachd	fadachd	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+6	fadachd	fadachd	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	_
 7-8	air	_	_	_	_	_	_	_	_
 7	air	air	ADP	Sp	_	8	case	_	_
 8	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	2	obl	_	_
@@ -5931,9 +5931,9 @@
 
 # sent_id = n01_038
 # text = Agus dè bha iad ag iarraidh, bha iad ag iarraidh na Cìre Buidhe ars' esan agus "dà" ars' ise, "tha a' Chìr Bhuidhe an sin" ars' ise, "tha i thall air an dreasair" ars' ise, "'s tog thusa leat i a ghràidhein" ars' ise.
-1	Agus	agus	CCONJ	Cc	_	3	cc	_	_
-2	dè	dè	PRON	Uq	PronType=Int	3	nsubj	_	_
-3	bha	bi	VERB	V-s	Tense=Past	0	root	_	_
+1	Agus	agus	CCONJ	Cc	_	2	cc	_	_
+2	dè	dè	PRON	Uq	PronType=Int	0	root	_	_
+3	bha	bi	VERB	V-s	Tense=Past	2	acl:relcl	_	_
 4	iad	iad	PRON	Pp3p	Number=Plur|Person=3	3	nsubj	_	_
 5	ag	ag	PART	Sa	_	6	case	_	_
 6	iarraidh	iarr	NOUN	Nv	VerbForm=Vnoun	3	xcomp:pred	_	SpaceAfter=No
@@ -6778,7 +6778,7 @@
 16	air	air	ADP	Sp	_	17	case	_	_
 17	leth	leth	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	15	nmod	_	_
 18	a	a	PART	Q-r	PartType=Vb|PronType=Rel	19	nsubj	_	_
-19	bh'	bi	VERB	V-s	Tense=Past	1	csubj:cleft	_	_
+19	bh'	bi	VERB	V-s	Tense=Past	15	csubj:cleft	_	_
 20-21	annta	_	_	_	_	_	_	_	SpaceAfter=No
 20	annta	an	ADP	Sp	_	21	case	_	_
 21	iad	iad	PRON	Pp3p	Number=Plur|Person=3	19	xcomp:pred	_	_
@@ -10994,7 +10994,7 @@
 16	an	an	ADP	Sp	_	17	case	_	_
 17	céill	céill	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
 18	na	na	PART	Q-r	PartType=Vb|PronType=Rel	19	mark:prt	_	_
-19	tha	bi	VERB	V-p	Tense=Pres	15	csubj:cleft	_	_
+19	tha	bi	VERB	V-p	Tense=Pres	17	acl:relcl	_	_
 20	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3	19	nsubj	_	_
 21	dèanamh	dèan	NOUN	Nv	VerbForm=Vnoun	19	xcomp:pred	_	_
 22	dha	do	ADP	Sp	_	24	case	_	_
@@ -11136,7 +11136,7 @@
 4	an	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	riochd	riochd	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 6	a	a	PART	Q-r	PartType=Vb|PronType=Rel	7	nsubj	_	_
-7	bhios	bi	VERB	V-f--r	Tense=Fut	5	csubj:cleft	_	_
+7	bhios	bi	VERB	V-f--r	Tense=Fut	5	acl:relcl	_	_
 8-9	orra	_	_	_	_	_	_	_	_
 8	air	air	ADP	Sp	_	9	case	_	_
 9	iad	iad	PRON	Pp3p	Number=Plur|Person=3	7	xcomp:pred	_	_
