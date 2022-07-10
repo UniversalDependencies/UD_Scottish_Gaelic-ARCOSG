@@ -2911,7 +2911,7 @@
 25	mhàthair-san	màthair	NOUN	Ncsfne	Case=Nom|Form=Emp|Gender=Fem|Number=Sing	23	nsubj	_	_
 26	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	rud	rud	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	23	obj	_	_
-28	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	30	mark:prt	_	_
+28	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	30	obj	_	_
 29	do	do	PART	Q--s	Tense=Past	30	mark:prt	_	_
 30	dhìochuimhnich	dìochuimhnich	VERB	V-s	Tense=Past	27	acl:relcl	_	_
 31	Màiri	Màiri	PROPN	Nn-fn	Case=Nom|Gender=Fem	30	nsubj	_	_
@@ -6611,7 +6611,7 @@
 18	ruighinn	ruig	NOUN	Nv	VerbForm=Vnoun	13	xcomp:pred	_	_
 19	ri	ri	ADP	Sp	_	20	case	_	_
 20	pàrantan	pàrant	NOUN	Ncpmd	Case=Dat|Gender=Masc|Number=Plur	18	obl	_	_
-21	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	22	mark:prt	_	_
+21	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	22	nsubj	_	_
 22	eil	bi	VERB	V-p--d	Tense=Pres	18	acl:relcl	_	_
 23	a'	ag	PART	Sa	_	24	case	_	_
 24	toirt	toir	NOUN	Nv	VerbForm=Vnoun	22	xcomp:pred	_	_
@@ -7462,7 +7462,7 @@
 35	fichead	fichead	NUM	Mc	_	37	nummod	_	_
 36	mìle	mìle	NUM	Mc	_	37	nummod	_	_
 37	boireannach	boireannach	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	_
-38	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	39	mark:prt	_	_
+38	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	39	nsubj	_	_
 39	deach	rach	VERB	V-s--d	Tense=Past	34	acl:relcl	_	_
 40-41	tron	_	_	_	_	_	_	_	_
 40	tro	tro	ADP	Sp	_	42	case	_	_
@@ -7774,7 +7774,7 @@
 3-4	dhe	_	_	_	_	_	_	_	_
 3	de	de	ADP	Sp	_	4	case	_	_
 4	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
-5	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	6	mark:prt	_	_
+5	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	6	nsubj	_	_
 6	gabh	gabh	VERB	V-f--d	Tense=Fut	1	acl:relcl	_	_
 7	a	a	PART	Ug	PartType=Inf	8	mark:prt	_	_
 8	chosg	cosg	NOUN	Nv	VerbForm=Inf	6	xcomp	_	_

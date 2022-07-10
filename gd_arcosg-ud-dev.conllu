@@ -261,7 +261,7 @@
 # speaker = [1]
 # text = carson nach gabh thu gearr thu am pie agad fhèin?
 1	carson	carson	PRON	Uq	PronType=Int	0	root	_	_
-2	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	3	mark:prt	_	_
+2	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	3	obl	_	_
 3	gabh	gabh	VERB	V-f--d	Tense=Fut	5	reparandum	_	_
 4	thu	thu	PRON	Pp2s	Number=Sing|Person=2	3	nsubj	_	_
 5	gearr	gearr	VERB	V-f--d	Tense=Fut	1	acl:relcl	_	_
@@ -2631,10 +2631,10 @@
 3	,	,	PUNCT	Fi	_	1	punct	_	_
 4	shèimh	sèimh	ADJ	Aq-sfn	Case=Nom|Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
 5	,	,	PUNCT	Fi	_	8	punct	_	_
-6	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	8	mark:prt	_	_
+6	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	8	nsubj	_	_
 7	do	do	PART	Q--s	Tense=Past	8	mark:prt	_	_
 8	rinn	dèan	VERB	V-s	Tense=Past	1	acl:relcl	_	_
-9	cron	cron	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+9	cron	cron	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
 10	a-riamh	a-riamh	ADV	Rt	_	8	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	Fe	_	1	punct	_	_
 
@@ -4559,7 +4559,7 @@
 32	am	am	ADJ	Aq	_	31	amod	_	_
 33	muigh	muigh	ADJ	Aq	_	32	fixed	_	SpaceAfter=No
 34	,	,	PUNCT	Fi	_	36	punct	_	_
-35	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	36	mark:prt	_	_
+35	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	36	obj	_	_
 36	eil	bi	VERB	V-p--d	Tense=Pres	28	parataxis	_	SpaceAfter=No
 37	,	,	PUNCT	Fi	_	36	punct	_	_
 38	ach	ach	CCONJ	Cc	_	39	cc	_	_
@@ -10244,7 +10244,7 @@
 12	a'	ag	PART	Sa	_	13	case	_	_
 13	reic	reic	NOUN	Nv	VerbForm=Vnoun	11	xcomp:pred	_	_
 14	rudan	rud	NOUN	Ncpmg	Case=Gen|Gender=Masc|Number=Plur	13	obj	_	_
-15	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	16	mark:prt	_	_
+15	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	16	obj	_	_
 16	fhaighear	faigh	VERB	V-f0-d	Person=0|Tense=Fut	13	acl:relcl	_	_
 17-18	rin	_	_	_	_	_	_	_	_
 17	rin	rin	ADP	Sp	_	19	case	_	_
@@ -10756,7 +10756,7 @@
 5	an	an	PART	Qq	PartType=Vb|PronType=Int	6	mark:prt	_	_
 6	deach	rach	VERB	V-s--d	Tense=Past	2	acl:relcl	_	_
 7	sinn	sinn	PRON	Pp1p	Number=Plur|Person=1	6	nsubj	_	_
-8	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	9	mark:prt	_	_
+8	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	9	obl	_	_
 9	robh	bi	VERB	V-s--d	Tense=Past	6	acl:relcl	_	_
 10	deagh	deagh	ADJ	Ar	_	11	amod	_	_
 11	fhàilte	fàilte	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
