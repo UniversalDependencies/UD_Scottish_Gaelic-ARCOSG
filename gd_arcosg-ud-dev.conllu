@@ -1580,7 +1580,7 @@
 7	a’	ag	PART	Sa	_	8	case	_	_
 8	smaoineachadh	smaoinich	NOUN	Nv	VerbForm=Vnoun	5	xcomp:pred	_	_
 
-# comment = look at node 25
+# comment = I think node 25 should be Ug. Retagged.
 # sent_id = c03_122
 # speaker = [3]
 # text = uill thog mi dà le Joan Aitken ach thuirt [Name] an uair sin gur dòcha gun robh feadhainn eile ann a b’ fhearr a chòrdadh ri gillean ‘s sheall i dhomh iad so tha fear ann le Alan Alderburg
@@ -1609,7 +1609,7 @@
 22	a	a	PART	Q-r	PartType=Vb|PronType=Rel	24	obl	_	_
 23	b’	is	AUX	Ws	Tense=Past	24	cop	_	_
 24	fhearr	math	ADJ	Apc	Degree=Cmp,Sup	18	acl:relcl	_	_
-25	a	a	PART	Q-r	PartType=Vb|PronType=Rel	26	mark:prt	_	_
+25	a	a	PART	Ug	PartType=Inf	26	mark:prt	_	_
 26	chòrdadh	còrd	VERB	V-h	Mood=Cnd	24	csubj:cleft	_	_
 27	ri	ri	ADP	Sp	_	28	case	_	_
 28	gillean	gille	NOUN	Ncpmd	Case=Dat|Gender=Masc|Number=Plur	26	obl	_	_
@@ -4523,6 +4523,7 @@
 38	luachmhor	luachmhor	ADJ	Ap	_	34	xcomp:pred	_	SpaceAfter=No
 39	.	.	PUNCT	Fe	_	11	punct	_	_
 
+# comment = retagged "arc tearc" to Sp/Ap, ADJ/ADJ
 # sent_id = fp09_016
 # text = A-thaobh nam mac-léinn co-aimsireach, tha briathran Chaluim MhicPhàrlain a cheart cho fìor an-diugh 's a bha iad ann an 1923, 's e a' càineadh “eachdraichean bho ‘n taobh am muigh, nach eil, ach tearc, r' am faotainn ro-eòlach air cànain, air sloinneadh, air mèinn, air beachdachadh, air àbhaistean no air oilean nan Gaidheal a bh' ann o chian."
 1	A-thaobh	a-thaobh	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
@@ -4562,8 +4563,8 @@
 35	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	36	obj	_	_
 36	eil	bi	VERB	V-p--d	Tense=Pres	28	parataxis	_	SpaceAfter=No
 37	,	,	PUNCT	Fi	_	36	punct	_	_
-38	ach	ach	CCONJ	Cc	_	39	cc	_	_
-39	tearc	tearc	ADV	Rt	_	36	conj	_	SpaceAfter=No
+38	ach	ach	ADP	Sp	_	39	case	_	_
+39	tearc	tearc	ADJ	Ap	_	36	xcomp:pred	_	SpaceAfter=No
 40	,	,	PUNCT	Fi	_	43	punct	_	_
 41	r'	ro	PART	Sa	_	43	case	_	_
 42	am	an	DET	Dp3p	Number=Plur|Person=3|Poss=Yes	43	obj	_	_
@@ -4917,7 +4918,7 @@
 10	air	air	ADP	Sp	_	13	case	_	_
 11	mar	mar	SCONJ	Cs	_	13	mark	_	_
 12	a	a	PART	Q-r	PartType=Vb|PronType=Rel	13	mark:prt	_	_
-13	bha	bi	VERB	V-s	Tense=Past	6	acl:relcl	_	_
+13	bha	bi	VERB	V-s	Tense=Past	6	advcl	_	_
 14	féin-mhisneachd	féin-mhisneachd	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
 15-16	ann	_	_	_	_	_	_	_	_
 15	an	an	ADP	Sp	_	16	case	_	_
@@ -7024,9 +7025,9 @@
 24	muillean	muillean	NUM	Mc	_	25	nummod	_	_
 25	not	not	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	26	obl	_	_
 26	gann	gann	ADJ	Ap	_	21	xcomp:pred	_	_
-27	air	air	ADP	Sp	_	29	case	_	_
-28	na	na	PART	Q-r	PartType=Vb|PronType=Rel	29	mark:prt	_	_
-29	bhitheas	bi	VERB	V-f--r	Tense=Fut	26	acl:relcl	_	_
+27	air	air	ADP	Sp	_	28	case	_	_
+28	na	na	PRON	Q-r	PronType=Rel	26	obl	_	_
+29	bhitheas	bi	VERB	V-f--r	Tense=Fut	28	acl:relcl	_	_
 30	a	a	ADP	Sp	_	31	case	_	_
 31	dhìth	dìth	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	29	xcomp:pred	_	SpaceAfter=No
 32	,	,	PUNCT	Fi	_	34	punct	_	_
@@ -8034,7 +8035,6 @@
 22	leasachadh	leasaich	NOUN	Nv	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
 23	.	.	PUNCT	Fe	_	1	punct	_	_
 
-# comment = look again at node 27
 # sent_id = ns08_015
 # text = Cuiridh Comhairle Choimhearsnachd Nis coinneamh air dòigh ann an Sgoil Lionail air an t-siathamh-latha-deug dhen ath mhìos gus an cluinn iad na tha dhith air muinntir an àite.
 1	Cuiridh	cuir	VERB	V-f	Tense=Fut	0	root	_	_
@@ -8064,8 +8064,8 @@
 24	an	an	PART	Qq	PartType=Vb|PronType=Int	25	mark:prt	_	_
 25	cluinn	cluinn	VERB	V-f--d	Tense=Fut	5	advcl	_	_
 26	iad	iad	PRON	Pp3p	Number=Plur|Person=3	25	nsubj	_	_
-27	na	na	PART	Q-r	PartType=Vb|PronType=Rel	28	mark:prt	_	_
-28	tha	bi	VERB	V-p	Tense=Pres	25	acl:relcl	_	_
+27	na	na	PRON	Q-r	PronType=Rel	25	obl	_	_
+28	tha	bi	VERB	V-p	Tense=Pres	27	acl:relcl	_	_
 29	dhith	dith	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	28	xcomp:pred	_	_
 30	air	air	ADP	Sp	_	31	case	_	_
 31	muinntir	muinntir	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	29	nmod	_	_
@@ -9338,10 +9338,10 @@
 2	dol	rach	NOUN	Nv	VerbForm=Vnoun	0	root	_	_
 3	air	air	ADP	Sp	_	4	case	_	_
 4	ais	ais	NOUN	Nf	_	2	obl	_	_
-5	dhan	do	ADP	Sp	_	8	case	_	_
+5	dhan	do	ADP	Sp	_	7	case	_	_
 6	a	a	X	Xsi	_	7	reparandum	_	_
-7	na	na	PART	Q-r	PartType=Vb|PronType=Rel	8	mark:prt	_	_
-8	bha	bi	VERB	V-s	Tense=Past	2	obl	_	_
+7	na	na	PRON	Q-r	PronType=Rel	2	obl	_	_
+8	bha	bi	VERB	V-s	Tense=Past	7	acl:relcl	_	_
 9	sibh	sibh	PRON	Pp2p	Number=Plur|Person=2	8	nsubj	_	_
 10	a'	ag	PART	Sa	_	11	case	_	_
 11	toir	toir	NOUN	Nv	VerbForm=Vnoun	8	xcomp:pred	_	_
@@ -9391,16 +9391,16 @@
 # text = an tac an taca ris na bha si na bhathar a' toir a-steach
 1	an	an	ADP	Sp	_	3	reparandum	_	_
 2	tac	tac	X	Xsi	_	1	fixed	_	_
-3	an	an	ADP	Sp	_	7	xcomp:pred	_	_
+3	an	an	ADP	Sp	_	9	case	_	_
 4	taca	taca	ADP	Nf	_	3	fixed	_	_
 5	ris	ri	ADP	Sp	_	3	fixed	_	_
-6	na	na	PART	Q-r	PartType=Vb|PronType=Rel	7	mark:prt	_	_
-7	bha	bi	VERB	V-s	Tense=Past	0	root	_	_
+6	na	na	PRON	Q-r	PronType=Rel	9	reparandum	_	_
+7	bha	bi	VERB	V-s	Tense=Past	6	acl:relcl	_	_
 8	si	si	X	Xsi	_	7	nsubj	_	_
-9	na	na	PART	Q-r	PartType=Vb|PronType=Rel	10	mark:prt	_	_
-10	bhathar	bathar	VERB	V-s0	Person=0|Tense=Past	7	acl:relcl	_	_
+9	na	na	PRON	Q-r	PronType=Rel	0	root	_	_
+10	bhathar	bathar	VERB	V-s0	Person=0|Tense=Past	9	acl:relcl	_	_
 11	a'	ag	PART	Sa	_	12	case	_	_
-12	toir	toir	NOUN	Nv	VerbForm=Vnoun	10	xcomp	_	_
+12	toir	toir	NOUN	Nv	VerbForm=Vnoun	10	xcomp:pred	_	_
 13	a-steach	a-steach	ADV	Rs	_	12	advmod	_	_
 
 # sent_id = p05_025a
@@ -9435,9 +9435,9 @@
 11	an	an	ADV	Rs	_	10	fixed	_	_
 12	seo	seo	ADV	Rs	_	10	fixed	_	_
 13	an-dràsda	an-dràsda	ADV	Rt	_	10	advmod	_	_
-14	a-rèir	a-rèir	ADP	Sp	_	16	case	_	_
-15	na	na	PART	Q-r	PartType=Vb|PronType=Rel	16	mark:prt	_	_
-16	tha	bi	VERB	V-p	Tense=Pres	6	acl:relcl	_	_
+14	a-rèir	a-rèir	ADP	Sp	_	15	case	_	_
+15	na	na	PRON	Q-r	PronType=Rel	6	obl	_	_
+16	tha	bi	VERB	V-p	Tense=Pres	15	acl:relcl	_	_
 17	sibh	sibh	PRON	Pp2p	Number=Plur|Person=2	16	nsubj	_	_
 18	a'	ag	PART	Sa	_	19	case	_	_
 19	toir	toir	NOUN	Nv	VerbForm=Vnoun	16	xcomp:pred	_	_
