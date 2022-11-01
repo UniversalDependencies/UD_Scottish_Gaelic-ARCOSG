@@ -6029,6 +6029,7 @@
 33	esan	e	PRON	Pp3sm-e	Form=Emp|Gender=Masc|Number=Sing|Person=3	32	nsubj	_	SpaceAfter=No
 34	.	.	PUNCT	Fe	_	6	punct	_	_
 
+# comment = this is rach + PP[aig] + verbal noun so isn't in fact a passive.
 # sent_id = n02_026
 # text = “A well", ars’ a' bodach, “bha mise uair rachadh agam fhìn air baisteadh a dhèanamh" ars’ esan.
 1	“	“	PUNCT	Fq	_	2	punct	_	SpaceAfter=No
@@ -6429,6 +6430,7 @@
 7	taigh	taigh	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	1	xcomp:pred	_	SpaceAfter=No
 8	.	.	PUNCT	Fe	_	1	punct	_	_
 
+# comment = and here the missing xcomp:pred is the "an" that would go in between nodes 23 and 24 given enhanced dependencies
 # sent_id = n02_038a
 # text = Agus a chuile duine choinneachadh a’ Rìgh rachadh e air a’ ghlùin dha 's dh’fhoighneachadh e dheth, "O cà robh sibh a Rìgh Èireann, o chionn trì ràithean?"
 1	Agus	agus	CCONJ	Cc	_	8	cc	_	_
