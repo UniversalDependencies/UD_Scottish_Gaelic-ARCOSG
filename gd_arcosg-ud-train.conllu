@@ -24128,7 +24128,7 @@
 12	a	a	PART	Ug	PartType=Inf	13	mark:prt	_	_
 13	bhith	bi	NOUN	Nv	VerbForm=Inf	10	xcomp	_	_
 14	beò	beò	ADJ	Ap	_	13	xcomp:pred	_	_
-15	a-measg	a-measg	ADP	Sp	_	16	case	_	SpaceAfter=Yes
+15	a-measg	a-measg	ADP	Sp	_	16	case	_	_
 16	dhaoine	duine	NOUN	Ncpmg	Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
 17	eile	eile	ADJ	Aq-pmg	Case=Gen|Gender=Masc|Number=Plur	16	amod	_	_
 18	a	a	ADP	Sp	_	20	case	_	_
