@@ -9,8 +9,6 @@ The Scottish Gaelic treebank takes data from ARCOSG, the Annotated Reference Cor
 Full bibliographic details are to be had there.
 
 It contains eight subcorpora of a varying number of original files, each of approximately 1000 tokens.
-Not all of the trees have made it into release 2.9.
-The test and dev files are complete and the training set will be filled out, hopefully in 2.10.
 All files listed below are in the training set unless they are explicitly marked as being in test or dev.
 In the ARCOSG documentation the names of contributors are largely given in Gaelic, which I have kept and glossed with their names in English where they will be familiar to non-Gaelic speakers.
 
@@ -94,6 +92,9 @@ We wish to thank all of the contributors to ARCOSG and fellow Celtic language UD
 
 # Changelog
 
+* 2023-05-15 v2.12
+  * Content clauses should all be `acl` now.
+  * Anonymised places and people have `Anonymised=Yes` in the MISC column.
 * 2022-11-15 v2.11
   * Passives formed with _rach_ 'to go' now mirror those in English and other languages using the `aux:pass`, `nsubj:pass` and very occasionally the `nsubj:outer` deprels.
 * 2022-05-15 v2.10
