@@ -97,7 +97,7 @@
 7	aig	aig	ADP	Sp	_	8	case	_	_
 8	thu	thu	PRON	Pp2s	Number=Sing|Person=2	6	nmod	_	_
 9	an-diugh	an-diugh	ADV	Rt	_	6	advmod	_	_
-10	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	3	vocative	_	SpaceAfter=No
+10	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	3	vocative	_	Anonymised=Yes|SpaceAfter=No
 11	?	?	PUNCT	Fg	_	3	punct	_	_
 
 # sent_id = c03_007
@@ -202,7 +202,7 @@
 # speaker = [4]
 # text = thuirt [Name] gun robh e ag obair gu anmoch so [?]
 1	thuirt	abair	VERB	V-s	Tense=Past	0	root	_	_
-2	[Name]	[Name]	PROPN	Nn-mn	Case=Nom|Gender=Masc	1	nsubj	_	_
+2	[Name]	[Name]	PROPN	Nn-mn	Case=Nom|Gender=Masc	1	nsubj	_	Anonymised=Yes
 3	gun	gun	PART	Qa	PartType=Cmpl	4	mark:prt	_	_
 4	robh	bi	VERB	V-s--d	Tense=Past	1	ccomp	_	_
 5	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
@@ -218,7 +218,7 @@
 # text = dè thuirt [Name]?
 1	dè	dè	PRON	Uq	PronType=Int	2	obj	_	_
 2	thuirt	abair	VERB	V-s	Tense=Past	0	root	_	_
-3	[Name]	[Name]	PROPN	Nn-fn	Case=Nom|Gender=Fem	2	nsubj	_	SpaceAfter=No
+3	[Name]	[Name]	PROPN	Nn-fn	Case=Nom|Gender=Fem	2	nsubj	_	Anonymised=Yes|SpaceAfter=No
 4	?	?	PUNCT	Fg	_	2	punct	_	_
 
 # sent_id = c03_018
@@ -306,7 +306,7 @@
 6	mhòr	mòr	ADJ	Aq-smd	Case=Dat|Gender=Masc|Number=Sing	5	amod	_	_
 7	a-neist	a-neist	ADV	Rt	_	5	advmod	_	_
 8	a	a	PART	Uv	PartType=Voc	9	case:voc	_	_
-9	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	1	vocative	_	_
+9	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	1	vocative	_	Anonymised=Yes
 
 # sent_id = c03_024
 # speaker = [3]
@@ -318,7 +318,7 @@
 5	goirt	goirt	ADJ	Ap	_	2	xcomp:pred	_	_
 6	an-diugh	an-diugh	ADV	Rt	_	2	advmod	_	_
 7	a	a	PART	Uv	PartType=Voc	8	case:voc	_	_
-8	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	2	vocative	_	_
+8	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	2	vocative	_	Anonymised=Yes
 
 # sent_id = c03_025
 # speaker = [4]
@@ -368,7 +368,7 @@
 8	thu	thu	PRON	Pp2s	Number=Sing|Person=2	6	nmod	_	_
 9	fhèin	fèin	PRON	Px	Reflex=Yes	8	nmod	_	_
 10	a	a	PART	Uv	PartType=Voc	11	case:voc	_	_
-11	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	2	vocative	_	SpaceAfter=No
+11	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	2	vocative	_	Anonymised=Yes|SpaceAfter=No
 12	?	?	PUNCT	Fg	_	2	punct	_	_
 
 # sent_id = c03_031
@@ -440,7 +440,7 @@
 1	dè	dè	PRON	Uq	PronType=Int	2	obj	_	_
 2	thuirt	abair	VERB	V-s	Tense=Past	0	root	_	_
 3	Mrs	Mrs	NOUN	Y	_	2	nsubj	_	_
-4	[Name]	[Name]	PROPN	Nn	_	3	flat:name	_	_
+4	[Name]	[Name]	PROPN	Nn	_	3	flat:name	_	Anonymised=Yes
 5-6	riut	_	_	_	_	_	_	_	_
 5	ri	ri	ADP	Sp	_	6	case	_	_
 6	thu	thu	PRON	Pp2s	Number=Sing|Person=2	2	obl	_	_
@@ -451,7 +451,7 @@
 # speaker = [1]
 # text = a [Name]
 1	a	a	PART	Uv	PartType=Voc	2	case:voc	_	_
-2	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	0	root	_	_
+2	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	0	root	_	Anonymised=Yes
 
 # sent_id = c03_038
 # speaker = [2]
@@ -507,7 +507,7 @@
 11	an	an	ADV	Rs	_	6	advmod	_	_
 12	sin	sin	ADV	Rs	_	11	fixed	_	_
 13	a	a	PART	Uv	PartType=Voc	14	case:voc	_	_
-14	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	6	vocative	_	SpaceAfter=No
+14	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	6	vocative	_	Anonymised=Yes|SpaceAfter=No
 15	?	?	PUNCT	Fg	_	2	punct	_	_
 
 # sent_id = c03_042
@@ -571,7 +571,7 @@
 # sent_id = c03_048
 # speaker = [1]
 # text = [Name]?
-1	[Name]	[Name]	PROPN	Nn-mn	Case=Nom|Gender=Masc	0	root	_	SpaceAfter=No
+1	[Name]	[Name]	PROPN	Nn-mn	Case=Nom|Gender=Masc	0	root	_	Anonymised=Yes|SpaceAfter=No
 2	?	?	PUNCT	Fg	_	1	punct	_	_
 
 # sent_id = c03_049
@@ -639,7 +639,7 @@
 6	aig	aig	ADP	Sp	_	7	case	_	_
 7	sibh	sibh	PRON	Pp2p	Number=Plur|Person=2	2	xcomp:pred	_	_
 8	an-diugh	an-diugh	ADV	Rt	_	2	advmod	_	_
-9	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	2	vocative	_	SpaceAfter=No
+9	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	2	vocative	_	Anonymised=Yes|SpaceAfter=No
 10	?	?	PUNCT	Fg	_	2	punct	_	_
 
 # sent_id = c03_053
@@ -732,7 +732,7 @@
 1	thachair	tachair	VERB	V-s	Tense=Past	0	root	_	_
 2	sin	sin	PRON	Pd	_	1	nsubj	_	_
 3	do	do	ADP	Sp	_	4	case	_	_
-4	dh’[Name]	[Name]	PROPN	Nn-md	Case=Dat|Gender=Masc	1	obl	_	_
+4	dh’[Name]	[Name]	PROPN	Nn-md	Case=Dat|Gender=Masc	1	obl	_	Anonymised=Yes
 
 # sent_id = c03_064
 # speaker = [4]
@@ -744,7 +744,7 @@
 5	left	left	ADJ	Xfe	Foreign=Yes	4	amod	_	_
 6	hand	hand	NOUN	Xfe	Foreign=Yes	5	flat:foreign	_	_
 7	aig	aig	ADP	Sp	_	8	case	_	_
-8	[Name]	[Name]	PROPN	Nn-md	Case=Dat|Gender=Masc	4	xcomp:pred	_	_
+8	[Name]	[Name]	PROPN	Nn-md	Case=Dat|Gender=Masc	4	xcomp:pred	_	Anonymised=Yes
 
 # sent_id = c03_065a
 # speaker = [3]
@@ -794,7 +794,7 @@
 6	anns	an	ADP	Sp	_	8	case	_	_
 7	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
 8	test	test	NOUN	Xfe	Foreign=Yes	3	obl	_	_
-9	[Name]	[Name]	PROPN	Nn-fv	Case=Voc|Gender=Fem	3	vocative	_	SpaceAfter=No
+9	[Name]	[Name]	PROPN	Nn-fv	Case=Voc|Gender=Fem	3	vocative	_	Anonymised=Yes|SpaceAfter=No
 10	?	?	PUNCT	Fg	_	3	punct	_	_
 
 # sent_id = c03_068
@@ -848,7 +848,7 @@
 # text = dh’fhàg Mr [Name] na sheets aig an taigh
 1	dh’fhàg	fàg	VERB	V-s	Tense=Past	0	root	_	_
 2	Mr	Mr	NOUN	Y	_	1	nsubj	_	_
-3	[Name]	[Name]	PROPN	Nn	_	2	flat:name	_	_
+3	[Name]	[Name]	PROPN	Nn	_	2	flat:name	_	Anonymised=Yes
 4	na	an	DET	Tdp	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	sheets	sheets	X	Xfe	Foreign=Yes	1	obj	_	_
 6	aig	aig	ADP	Sp	_	8	case	_	_
@@ -884,7 +884,7 @@
 8-9	agad	_	_	_	_	_	_	_	_
 8	aig	aig	ADP	Sp	_	9	case	_	_
 9	thu	thu	PRON	Pp2s	Number=Sing|Person=2	6	xcomp:pred	_	_
-10	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	3	vocative	_	SpaceAfter=No
+10	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	3	vocative	_	Anonymised=Yes|SpaceAfter=No
 11	?	?	PUNCT	Fg	_	3	punct	_	_
 
 # sent_id = c03_075a
@@ -978,7 +978,7 @@
 4	do	do	DET	Dp2s	Number=Sing|Person=2|Poss=Yes	5	nmod:poss	_	_
 5	dheidhinn-sa	deidhinn	ADP	Nf---e	Form=Emp	0	root	_	_
 6	a	a	PART	Uv	PartType=Voc	7	case:voc	_	_
-7	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	5	vocative	_	_
+7	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	5	vocative	_	Anonymised=Yes
 
 # sent_id = c03_081b
 # speaker = [3]
@@ -1034,7 +1034,7 @@
 8	tha	bi	VERB	V-p	Tense=Pres	3	csubj:cleft	_	_
 9	sin	sin	PRON	Pd	_	8	xcomp:pred	_	_
 10	a	a	PART	Uv	PartType=Voc	11	case:voc	_	_
-11	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	3	vocative	_	_
+11	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	3	vocative	_	Anonymised=Yes
 
 # sent_id = c03_084b
 # speaker = [1]
@@ -1054,7 +1054,7 @@
 12	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	leabhar	leabhar	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
 14	aig	aig	ADP	Sp	_	15	case	_	_
-15	[Name]	[Name]	PROPN	Nn-md	Case=Dat|Gender=Masc	13	obl	_	_
+15	[Name]	[Name]	PROPN	Nn-md	Case=Dat|Gender=Masc	13	obl	_	Anonymised=Yes
 16	an	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	oidhche	oidhche	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	13	nmod	_	_
 18-19	roimhe	_	_	_	_	_	_	_	SpaceAfter=No
@@ -1073,7 +1073,7 @@
 6	a	a	PART	Q-r	PartType=Vb|PronType=Rel	7	nsubj	_	_
 7	th’	bi	VERB	V-p	Tense=Pres	3	csubj:cleft	_	_
 8	aig	aig	ADP	Sp	_	9	case	_	_
-9	[Name]	[Name]	PROPN	Nn-md	Case=Dat|Gender=Masc	7	xcomp:pred	_	_
+9	[Name]	[Name]	PROPN	Nn-md	Case=Dat|Gender=Masc	7	xcomp:pred	_	Anonymised=Yes
 10	an-dràsda	an-dràsda	ADV	Rt	_	7	advmod	_	_
 
 # sent_id = c03_086a
@@ -1085,15 +1085,15 @@
 4	smaointinn	smaoinich	NOUN	Nv	VerbForm=Vnoun	1	xcomp:pred	_	_
 5	gur	is	AUX	Wpdia	Polarity=Aff|Tense=Pres	7	cop	_	_
 6	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	5	fixed	_	_
-7	[Name]	[Name]	PROPN	Nn-fn	Case=Nom|Gender=Fem	12	reparandum	_	_
-8	[Name]	[Name]	PROPN	Nn	_	7	flat:name	_	_
+7	[Name]	[Name]	PROPN	Nn-fn	Case=Nom|Gender=Fem	12	reparandum	_	Anonymised=Yes
+8	[Name]	[Name]	PROPN	Nn	_	7	flat:name	_	Anonymised=Yes
 9	gur	is	AUX	Wpdia	Polarity=Aff|Tense=Pres	12	cop	_	_
 10	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	9	fixed	_	_
 11	a	a	DET	Dp3sf	Gender=Fem|Number=Sing|Person=3|Poss=Yes	12	nmod:poss	_	_
 12	h-uncle	uncle	X	Xfe	Foreign=Yes	4	ccomp	_	_
-13	[Name]	[Name]	PROPN	Nn-mn	Case=Nom|Gender=Masc	12	appos	_	_
-14	[Name]	[Name]	PROPN	Nn	_	13	flat:name	_	_
-15	[Name]	[Name]	PROPN	Nn	_	13	flat:name	_	_
+13	[Name]	[Name]	PROPN	Nn-mn	Case=Nom|Gender=Masc	12	appos	_	Anonymised=Yes
+14	[Name]	[Name]	PROPN	Nn	_	13	flat:name	_	Anonymised=Yes
+15	[Name]	[Name]	PROPN	Nn	_	13	flat:name	_	Anonymised=Yes
 
 # sent_id = c03_086b
 # speaker = [1]
@@ -1223,16 +1223,16 @@
 7	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	6	fixed	_	_
 8	uncle	uncle	NOUN	Xfe	Foreign=Yes	1	ccomp	_	_
 9	do	do	ADP	Sp	_	10	case	_	_
-10	[Name]	[Name]	PROPN	Nn-fd	Case=Dat|Gender=Fem	1	obl	_	_
-11	[Name]	[Name]	PROPN	Nn	_	10	flat:name	_	_
+10	[Name]	[Name]	PROPN	Nn-fd	Case=Dat|Gender=Fem	1	obl	_	Anonymised=Yes
+11	[Name]	[Name]	PROPN	Nn	_	10	flat:name	_	Anonymised=Yes
 
 # sent_id = c03_094b
 # speaker = [1]
 # text = an e [Name] [Name] a th’ aice?
 1	an	is	AUX	Wpdqa	Mood=Int|Polarity=Aff|Tense=Pres	3	cop	_	_
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	fixed	_	_
-3	[Name]	[Name]	PROPN	Nn	_	0	root	_	_
-4	[Name]	[Name]	PROPN	Nn	_	3	flat:name	_	_
+3	[Name]	[Name]	PROPN	Nn	_	0	root	_	Anonymised=Yes
+4	[Name]	[Name]	PROPN	Nn	_	3	flat:name	_	Anonymised=Yes
 5	a	a	PART	Q-r	PartType=Vb|PronType=Rel	6	nsubj	_	_
 6	th’	bi	VERB	V-p	Tense=Pres	3	csubj:cleft	_	_
 7-8	aice	_	_	_	_	_	_	_	SpaceAfter=No
@@ -1269,7 +1269,7 @@
 5	fhìn	fèin	PRON	Px	Reflex=Yes	4	nmod	_	_
 6	iad	iad	PRON	Pp3p	Number=Plur|Person=3	3	obj	_	_
 7	a	a	PART	Uv	PartType=Voc	8	case:voc	_	_
-8	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	1	vocative	_	_
+8	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	1	vocative	_	Anonymised=Yes
 
 # sent_id = c03_097b
 # speaker = [3]
@@ -1386,7 +1386,7 @@
 12	thu	thu	PRON	Pp2s	Number=Sing|Person=2	10	xcomp:pred	_	_
 13	an	an	ADV	Rs	_	10	advmod	_	_
 14	sin	sin	ADV	Rs	_	13	fixed	_	_
-15	[Name]	[Name]	PROPN	Nn-fv	Case=Voc|Gender=Fem	3	vocative	_	SpaceAfter=No
+15	[Name]	[Name]	PROPN	Nn-fv	Case=Voc|Gender=Fem	3	vocative	_	Anonymised=Yes|SpaceAfter=No
 16	?	?	PUNCT	Fg	_	3	punct	_	_
 
 # sent_id = c03_106
@@ -1435,13 +1435,13 @@
 6	do	do	ADP	Sp	_	7	case	_	_
 7	thu	thu	PRON	Pp2s	Number=Sing|Person=2	2	obl	_	_
 8	an-diugh	an-diugh	ADV	Rt	_	2	advmod	_	_
-9	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	2	vocative	_	_
+9	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	2	vocative	_	Anonymised=Yes
 10	às	as	ADP	Sp	_	12	case	_	_
 11	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
 12	library	library	NOUN	Xfe	Foreign=Yes	2	obl	_	_
 13	ann	an	ADP	Sp	_	15	case	_	_
 14	an	an	ADP	Sp	_	13	fixed	_	_
-15	[Placename]	[Placename]	PROPN	Nt	_	12	nmod	_	_
+15	[Placename]	[Placename]	PROPN	Nt	_	12	nmod	_	Anonymised=Yes
 
 # sent_id = c03_111
 # speaker = [4]
@@ -1464,7 +1464,7 @@
 11	cloinne	clann	NOUN	Ncsfg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
 12	‘s	's	CCONJ	Cc	_	13	cc	_	_
 13	thàinig	thig	VERB	V-s	Tense=Past	6	conj	_	_
-14	[Name]	[Name]	PROPN	Nn-fn	Case=Nom|Gender=Fem	13	nsubj	_	_
+14	[Name]	[Name]	PROPN	Nn-fn	Case=Nom|Gender=Fem	13	nsubj	_	Anonymised=Yes
 15	a-nall	a-nall	ADV	Rs	_	13	advmod	_	_
 16	‘s	's	CCONJ	Cc	_	17	cc	_	_
 17	dh’fhoighnich	foighnich	VERB	V-s	Tense=Past	13	conj	_	_
@@ -1498,7 +1498,7 @@
 7	le	le	ADP	Sp	_	8	case	_	_
 8	Joan	Joan	PROPN	Nn-fd	Case=Dat|Gender=Fem	5	nmod	_	_
 9	Aitken	Aitken	PROPN	Nn	_	8	flat:name	_	_
-10	[Name]	[Name]	PROPN	Nn-fv	Case=Voc|Gender=Fem	3	vocative	_	SpaceAfter=No
+10	[Name]	[Name]	PROPN	Nn-fv	Case=Voc|Gender=Fem	3	vocative	_	Anonymised=Yes|SpaceAfter=No
 11	?	?	PUNCT	Fg	_	3	punct	_	_
 
 # sent_id = c03_113
@@ -1593,7 +1593,7 @@
 7	Aitken	Aitken	PROPN	Nn	_	6	flat:name	_	_
 8	ach	ach	CCONJ	Cc	_	9	cc	_	_
 9	thuirt	abair	VERB	V-s	Tense=Past	2	conj	_	_
-10	[Name]	[Name]	PROPN	Nn-fn	Case=Nom|Gender=Fem	9	nsubj	_	_
+10	[Name]	[Name]	PROPN	Nn-fn	Case=Nom|Gender=Fem	9	nsubj	_	Anonymised=Yes
 11	an	an	ADV	Rt	_	9	advmod	_	_
 12	uair	uair	ADV	Rt	_	11	fixed	_	_
 13	sin	sin	ADV	Rt	_	11	fixed	_	_
@@ -1851,8 +1851,8 @@
 18	idir	idir	ADV	Rg	_	14	advmod	_	_
 19	bho	bho	SCONJ	Cs	_	20	mark	_	_
 20	tha	bi	VERB	V-p	Tense=Pres	14	advcl	_	_
-21	[Name]	[Name]	PROPN	Nn-mn	Case=Nom|Gender=Masc	20	nsubj	_	_
-22	[Name]	[Name]	PROPN	Nn	_	21	flat:name	_	_
+21	[Name]	[Name]	PROPN	Nn-mn	Case=Nom|Gender=Masc	20	nsubj	_	Anonymised=Yes
+22	[Name]	[Name]	PROPN	Nn	_	21	flat:name	_	Anonymised=Yes
 23	a’	ag	PART	Sa	_	24	case	_	_
 24	tighinn	thig	NOUN	Nv	VerbForm=Vnoun	20	xcomp:pred	_	_
 25-26	thugainn	_	_	_	_	_	_	_	_
@@ -1918,7 +1918,7 @@
 2	aig	aig	ADP	Sp	_	4	case	_	_
 3	a’	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	bhòrd	bòrd	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	_
-5	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	1	vocative	_	_
+5	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	1	vocative	_	Anonymised=Yes
 
 # sent_id = c03_139b
 # speaker = [1]
@@ -1984,7 +1984,7 @@
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
 3	tòrr	tòrr	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
 4	studaigeadh	studaigeadh	NOUN	Ncsmg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
-5	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	1	vocative	_	_
+5	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	1	vocative	_	Anonymised=Yes
 
 # sent_id = c03_143
 # speaker = [2]
@@ -2110,7 +2110,7 @@
 # speaker = [3]
 # text = a [Name] an gabh thusa yoghurt a-nis no kiwi fruit no rudeigin
 1	a	a	PART	Uv	PartType=Voc	2	case:voc	_	_
-2	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	4	vocative	_	_
+2	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	4	vocative	_	Anonymised=Yes
 3	an	an	PART	Qq	PartType=Vb|PronType=Int	4	mark:prt	_	_
 4	gabh	gabh	VERB	V-f--d	Tense=Fut	0	root	_	_
 5	thusa	thu	PRON	Pp2s--e	Form=Emp|Number=Sing|Person=2	4	nsubj	_	_
@@ -2138,8 +2138,8 @@
 1	an	an	PART	Qq	PartType=Vb|PronType=Int	3	mark:prt	_	_
 2	do	do	PART	Q--s	Tense=Past	3	mark:prt	_	_
 3	rùisg	rùisg	VERB	V-s	Tense=Past	0	root	_	_
-4	[Name]	[Name]	PROPN	Nn-fn	Case=Nom|Gender=Fem	3	nsubj	_	_
-5	[Name]	[Name]	PROPN	Nn-fg	Case=Gen|Gender=Fem	4	flat:name	_	_
+4	[Name]	[Name]	PROPN	Nn-fn	Case=Nom|Gender=Fem	3	nsubj	_	Anonymised=Yes
+5	[Name]	[Name]	PROPN	Nn-fg	Case=Gen|Gender=Fem	4	flat:name	_	Anonymised=Yes
 6-7	dhut	_	_	_	_	_	_	_	_
 6	do	do	ADP	Sp	_	7	case	_	_
 7	thu	thu	PRON	Pp2s	Number=Sing|Person=2	3	obl	_	_
@@ -2259,7 +2259,7 @@
 4	ag	ag	PART	Sa	_	5	case	_	_
 5	iarraidh	iarr	NOUN	Nv	VerbForm=Vnoun	2	xcomp:pred	_	_
 6	a	a	PART	Uv	PartType=Voc	7	case:voc	_	_
-7	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	2	vocative	_	_
+7	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	2	vocative	_	Anonymised=Yes
 
 # sent_id = c03_162
 # speaker = [2]
@@ -4420,7 +4420,7 @@
 2	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 3	fhios	fios	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 4	gu	gu	PART	Qa	PartType=Cmpl	5	mark:prt	_	_
-5	bheil	bi	VERB	V-p--d	Tense=Pres	2	ccomp	_	_
+5	bheil	bi	VERB	V-p--d	Tense=Pres	3	acl	_	_
 6	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	tràchdas	tràchdas	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 8	caran	caran	ADV	Rg	_	9	advmod	_	_
@@ -5869,11 +5869,11 @@
 # text = Tha thusa 'smaointinn gur h-ann a raoir a thàna tu ann, "ars’ esan.
 1	Tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	thusa	thu	PRON	Pp2s--e	Form=Emp|Number=Sing|Person=2	1	nsubj	_	_
-3	'smaointinn	smaoinich	NOUN	Nv	VerbForm=Vnoun	1	xcomp	_	_
+3	'smaointinn	smaoinich	NOUN	Nv	VerbForm=Vnoun	1	xcomp:pred	_	_
 4	gur	is	AUX	Wpdia	Polarity=Aff|Tense=Pres	6	cop	_	_
 5-6	h-ann	_	_	_	_	_	_	_	_
 5	an	an	ADP	Sp	_	6	case	_	_
-6	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	ccomp	_	_
+6	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	3	ccomp	_	_
 7	a	a	ADV	Rt	_	6	advmod	_	_
 8	raoir	raoir	ADV	Rt	_	7	fixed	_	_
 9	a	a	PART	Q-r	PartType=Vb|PronType=Rel	10	advmod	_	_
@@ -6384,9 +6384,9 @@
 29	fios	fios	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
 30-31	aige	_	_	_	_	_	_	_	_
 30	aig	aig	ADP	Sp	_	31	case	_	_
-31	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	28	obl	_	_
+31	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	28	xcomp:pred	_	_
 32	co-dhiubh	co-dhiubh	ADV	Cs	_	28	advmod	_	_
-33	bha	bi	VERB	V-s	Tense=Past	28	ccomp	_	_
+33	bha	bi	VERB	V-s	Tense=Past	29	acl	_	_
 34	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	33	nsubj	_	_
 35	falbh	falbh	NOUN	Nv	VerbForm=Vnoun	33	xcomp:pred	_	_
 36	a's	an	ADP	Sp	_	38	case	_	_
@@ -10466,12 +10466,12 @@
 12	bha	bi	VERB	V-s	Tense=Past	0	root	_	_
 13	eagal	eagal	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 14	air	air	ADP	Sp	_	15	case	_	_
-15	cuid	cuid	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+15	cuid	cuid	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	12	xcomp:pred	_	_
 16-17	againn	_	_	_	_	_	_	_	_
 16	aig	aig	ADP	Sp	_	17	case	_	_
-17	sinn	sinn	PRON	Pp1p	Number=Plur|Person=1	12	obl	_	_
+17	sinn	sinn	PRON	Pp1p	Number=Plur|Person=1	15	nmod	_	_
 18	gum	gum	PART	Qa	PartType=Cmpl	19	mark:prt	_	_
-19	faigheadh	faigh	VERB	V-h--d	Mood=Cnd	12	ccomp	_	_
+19	faigheadh	faigh	VERB	V-h--d	Mood=Cnd	13	acl	_	_
 20	iad	iad	PRON	Pp3p	Number=Plur|Person=3	19	nsubj	_	_
 21	droinneadh	droinneadh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	19	obj	_	_
 22	uabhasach	uabhasach	ADJ	Aq-smn	Case=Nom|Gender=Masc|Number=Sing	21	amod	_	_
@@ -11013,9 +11013,9 @@
 3-4	den	_	_	_	_	_	_	_	_
 3	de	de	ADP	Sp	_	5	case	_	_
 4	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
-5	bharail	barail	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	_
+5	bharail	barail	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	1	xcomp:pred	_	_
 6	gun	gun	PART	Qa	PartType=Cmpl	7	mark:prt	_	_
-7	robh	bi	VERB	V-s--d	Tense=Past	1	ccomp	_	_
+7	robh	bi	VERB	V-s--d	Tense=Past	5	acl	_	_
 8	feum	feum	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 9	air	air	ADP	Sp	_	10	case	_	_
 10	aiseag	aiseag	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	_
@@ -11374,7 +11374,7 @@
 3	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 4	dùil	dùil	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 5	gun	gun	PART	Qa	PartType=Cmpl	6	mark:prt	_	_
-6	tèid	rach	VERB	V-f--d	Tense=Fut	3	ccomp	_	_
+6	tèid	rach	VERB	V-f--d	Tense=Fut	4	acl	_	_
 7	factaraidh	factaraidh	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 8	giullachd	giullachd	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	_
 9	bhradan	brad	NOUN	Ncpmg	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_

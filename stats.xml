@@ -78,21 +78,20 @@
     <feat name="VerbForm" value="Vnoun" upos="NOUN">2655</feat><!-- dol, ràdh, tighinn, feuchainn, iarraidh, faighinn, cur, dèanamh, coimhead, ruith -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="46">
-    <dep name="acl">19</dep>
-    <dep name="acl:relcl">1455</dep>
-    <dep name="advcl">1000</dep>
+  <deps unique="45">
+    <dep name="acl">45</dep>
+    <dep name="acl:relcl">1456</dep>
+    <dep name="advcl">999</dep>
     <dep name="advmod">3665</dep>
-    <dep name="amod">2055</dep>
+    <dep name="amod">2054</dep>
     <dep name="appos">311</dep>
-    <dep name="aux">2</dep>
-    <dep name="aux:pass">149</dep>
+    <dep name="aux:pass">151</dep>
     <dep name="case">12827</dep>
     <dep name="case:voc">75</dep>
     <dep name="cc">3347</dep>
-    <dep name="ccomp">1081</dep>
+    <dep name="ccomp">1056</dep>
     <dep name="compound">111</dep>
-    <dep name="conj">3336</dep>
+    <dep name="conj">3337</dep>
     <dep name="cop">1160</dep>
     <dep name="csubj:cleft">471</dep>
     <dep name="csubj:cop">93</dep>
@@ -104,17 +103,17 @@
     <dep name="fixed">2844</dep>
     <dep name="flat">444</dep>
     <dep name="flat:foreign">194</dep>
-    <dep name="flat:name">709</dep>
+    <dep name="flat:name">710</dep>
     <dep name="mark">1043</dep>
     <dep name="mark:prt">4593</dep>
-    <dep name="nmod">5056</dep>
+    <dep name="nmod">5057</dep>
     <dep name="nmod:poss">873</dep>
-    <dep name="nsubj">8432</dep>
+    <dep name="nsubj">8430</dep>
     <dep name="nsubj:outer">3</dep>
     <dep name="nsubj:pass">127</dep>
     <dep name="nummod">749</dep>
     <dep name="obj">3107</dep>
-    <dep name="obl">5701</dep>
+    <dep name="obl">5674</dep>
     <dep name="obl:smod">59</dep>
     <dep name="obl:tmod">164</dep>
     <dep name="orphan">2</dep>
@@ -123,7 +122,7 @@
     <dep name="reparandum">145</dep>
     <dep name="root">4741</dep>
     <dep name="vocative">122</dep>
-    <dep name="xcomp">1330</dep>
-    <dep name="xcomp:pred">5800</dep>
+    <dep name="xcomp">1326</dep>
+    <dep name="xcomp:pred">5830</dep>
   </deps>
 </treebank>
