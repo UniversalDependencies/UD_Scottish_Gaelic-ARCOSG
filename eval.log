@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Scottish_Gaelic-ARCOSG:
-commit b4a7712a80c9b4a3e5635401cba8e932b7f05341
-Merge: 789b6c7 a657c8a
+commit f762104df431ad8727869e545d109f4bb83440df
+Merge: 9e3466e 96e596e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 89958 of 89958 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.99868578948164.
@@ -24,11 +24,11 @@ Udapi:
 Udapi: found 20962 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 89958 words.
 Genres: found 4 out of 17 known.
-validate.py --lang gd --max-err=10 UD_Scottish_Gaelic-ARCOSG/gd_arcosg-ud-dev.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang gd --max-err=10 UD_Scottish_Gaelic-ARCOSG/gd_arcosg-ud-dev.conllu
 *** PASSED ***
-validate.py --lang gd --max-err=10 UD_Scottish_Gaelic-ARCOSG/gd_arcosg-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang gd --max-err=10 UD_Scottish_Gaelic-ARCOSG/gd_arcosg-ud-test.conllu
 *** PASSED ***
-validate.py --lang gd --max-err=10 UD_Scottish_Gaelic-ARCOSG/gd_arcosg-ud-train.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang gd --max-err=10 UD_Scottish_Gaelic-ARCOSG/gd_arcosg-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
