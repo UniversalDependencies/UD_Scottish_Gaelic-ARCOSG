@@ -48,7 +48,7 @@
 # sent_id = c03_005
 # speaker = [2]
 # text = cha bhi thu a’ gabhail dad leis
-1	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	bhi	bi	VERB	V-f--d	Tense=Fut	0	root	_	_
 3	thu	thu	PRON	Pp2s	Number=Sing|Person=2	2	nsubj	_	_
 4	a’	ag	PART	Sa	_	5	case	_	_
@@ -61,7 +61,7 @@
 # sent_id = c03_006a
 # speaker = [3]
 # text = cha bhi thu a’ gabhail buntàta no càil nach bi?
-1	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	bhi	bi	VERB	V-f--d	Tense=Fut	0	root	_	_
 3	thu	thu	PRON	Pp2s	Number=Sing|Person=2	2	nsubj	_	_
 4	a’	ag	PART	Sa	_	5	case	_	_
@@ -69,7 +69,7 @@
 6	buntàta	buntàta	NOUN	Ncsmg	Case=Gen|Gender=Masc|Number=Sing	5	obj	_	_
 7	no	no	CCONJ	Cc	_	8	cc	_	_
 8	càil	càil	NOUN	Ncsfg	Case=Gen|Gender=Fem|Number=Sing	6	conj	_	_
-9	nach	nach	PART	Qn	PartType=Cmpl|Polarity=Neg	10	mark:prt	_	_
+9	nach	nach	PART	Qn	PartType=Vb|Polarity=Neg	10	mark:prt	_	_
 10	bi	bi	VERB	V-f--d	Tense=Fut	2	parataxis	_	SpaceAfter=No
 11	?	?	PUNCT	Fg	_	2	punct	_	_
 
@@ -127,7 +127,7 @@
 # sent_id = c03_009
 # speaker = [4]
 # text = cha do choimhead fhathast
-1	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	3	mark:prt	_	_
+1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	3	mark:prt	_	_
 2	do	do	PART	Q--s	Tense=Past	3	mark:prt	_	_
 3	choimhead	coimhead	VERB	V-s	Tense=Past	0	root	_	_
 4	fhathast	fhathast	ADV	Rt	_	3	advmod	_	_
@@ -234,7 +234,7 @@
 # sent_id = c03_019
 # speaker = [3]
 # text = cha do shaoil ise dad dhe
-1	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	3	mark:prt	_	_
+1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	3	mark:prt	_	_
 2	do	do	PART	Q--s	Tense=Past	3	mark:prt	_	_
 3	shaoil	saoil	VERB	V-s	Tense=Past	0	root	_	_
 4	ise	i	PRON	Pp3sf-e	Form=Emp|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
@@ -391,7 +391,7 @@
 # sent_id = c03_033
 # speaker = [2]
 # text = chan fhairich mi idir e anns a [?]
-1	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	fhairich	fairich	VERB	V-f--d	Tense=Fut	0	root	_	_
 3	mi	mi	PRON	Pp1s	Number=Sing|Person=1	2	nsubj	_	_
 4	idir	idir	ADV	Rg	_	2	advmod	_	_
@@ -565,7 +565,7 @@
 # speaker = [2]
 # text = uh cha robh
 1	uh	uh	INTJ	I	_	3	discourse	_	_
-2	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	3	mark:prt	_	_
+2	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	3	mark:prt	_	_
 3	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 
 # sent_id = c03_048
@@ -577,7 +577,7 @@
 # sent_id = c03_049
 # speaker = [2]
 # text = cha robh
-1	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 
 # sent_id = c03_050a
@@ -608,7 +608,7 @@
 # sent_id = c03_051
 # speaker = [2]
 # text = cha do dh’fhoighneachd mi idir dha
-1	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	3	mark:prt	_	_
+1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	3	mark:prt	_	_
 2	do	do	PART	Q--s	Tense=Past	3	mark:prt	_	_
 3	dh’fhoighneachd	foighneachd	VERB	V-s	Tense=Past	0	root	_	_
 4	mi	mi	PRON	Pp1s	Number=Sing|Person=1	3	nsubj	_	_
@@ -800,7 +800,7 @@
 # sent_id = c03_068
 # speaker = [5]
 # text = cha d’ fhuair sinn idir e
-1	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	3	mark:prt	_	_
+1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	3	mark:prt	_	_
 2	d’	do	PART	Q--s	Tense=Past	3	mark:prt	_	_
 3	fhuair	faigh	VERB	V-s	Tense=Past	0	root	_	_
 4	sinn	sinn	PRON	Pp1p	Number=Plur|Person=1	3	nsubj	_	_
@@ -810,14 +810,14 @@
 # sent_id = c03_069
 # speaker = [3]
 # text = cha d’ fhuair sibh an test no cha d’ fhuair sibh na results
-1	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	3	mark:prt	_	_
+1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	3	mark:prt	_	_
 2	d’	do	PART	Q--s	Tense=Past	3	mark:prt	_	_
 3	fhuair	faigh	VERB	V-s	Tense=Past	0	root	_	_
 4	sibh	sibh	PRON	Pp2p	Number=Plur|Person=2	3	nsubj	_	_
 5	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
 6	test	test	NOUN	Xfe	Foreign=Yes	3	obj	_	_
 7	no	no	CCONJ	Cc	_	10	cc	_	_
-8	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	10	mark:prt	_	_
+8	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	10	mark:prt	_	_
 9	d’	do	PART	Q--s	Tense=Past	10	mark:prt	_	_
 10	fhuair	faigh	VERB	V-s	Tense=Past	3	conj	_	_
 11	sibh	sibh	PRON	Pp2p	Number=Plur|Person=2	10	nsubj	_	_
@@ -832,7 +832,7 @@
 # sent_id = c03_071a
 # speaker = [3]
 # text = nach d’ fhuair?
-1	nach	nach	PART	Qn	PartType=Cmpl|Polarity=Neg	3	mark:prt	_	_
+1	nach	nach	PART	Qn	PartType=Vb|Polarity=Neg	3	mark:prt	_	_
 2	d’	do	PART	Q--s	Tense=Past	3	mark:prt	_	_
 3	fhuair	faigh	VERB	V-s	Tense=Past	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	Fg	_	3	punct	_	_
@@ -930,7 +930,7 @@
 # sent_id = c03_077a
 # speaker = [4]
 # text = chan eil
-1	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 
 # sent_id = c03_077b
@@ -950,7 +950,7 @@
 # sent_id = c03_078
 # speaker = [3]
 # text = chan fhàg thu
-1	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	fhàg	fàg	VERB	V-f--d	Tense=Fut	0	root	_	_
 3	thu	thu	PRON	Pp2s	Number=Sing|Person=2	2	nsubj	_	_
 
@@ -1170,7 +1170,7 @@
 # sent_id = c03_092
 # speaker = [1]
 # text = chan eil fhios a’m dè an title a bh’ air
-1	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 3	fhios	fios	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 4-5	a’m	_	_	_	_	_	_	_	_
@@ -1344,13 +1344,13 @@
 # sent_id = c03_102
 # speaker = [5]
 # text = cha ghabh
-1	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	ghabh	gabh	VERB	V-f--d	Tense=Fut	0	root	_	_
 
 # sent_id = c03_103
 # speaker = [3]
 # text = cha ghabh [?]
-1	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	ghabh	gabh	VERB	V-f--d	Tense=Fut	0	root	_	_
 3	[?]	[?]	X	Xx	_	2	discourse	_	_
 
@@ -1410,7 +1410,7 @@
 # sent_id = c03_108
 # speaker = [5]
 # text = cha robh mi riamh
-1	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 3	mi	mi	PRON	Pp1s	Number=Sing|Person=1	2	nsubj	_	_
 4	riamh	riamh	ADV	Rt	_	2	xcomp:pred	_	_
@@ -1419,7 +1419,7 @@
 # speaker = [1]
 # text = ò nach robh?
 1	ò	ò	INTJ	I	_	3	discourse	_	_
-2	nach	nach	PART	Qn	PartType=Cmpl|Polarity=Neg	3	mark:prt	_	_
+2	nach	nach	PART	Qn	PartType=Vb|Polarity=Neg	3	mark:prt	_	_
 3	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	Fg	_	3	punct	_	_
 
@@ -1513,7 +1513,7 @@
 2	iad	iad	PRON	Pp3p	Number=Plur|Person=3	1	nsubj	_	_
 3	sin	sin	DET	Dd	_	2	det	_	_
 4	math	math	ADJ	Ap	_	1	xcomp:pred	_	_
-5	nach	nach	PART	Qn	PartType=Cmpl|Polarity=Neg	6	mark:prt	_	_
+5	nach	nach	PART	Qn	PartType=Vb|Polarity=Neg	6	mark:prt	_	_
 6	eil	bi	VERB	V-p--d	Tense=Pres	1	parataxis	_	_
 
 # sent_id = c03_115
@@ -1683,7 +1683,7 @@
 # sent_id = c03_128b
 # speaker = [3]
 # text = chan eil cuimhn’ a’m a-nis ò àidh mu dheidhinn fear no tè a sgrìobh Byker Grove
-1	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 3	cuimhn’	cuimhne	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 4-5	a’m	_	_	_	_	_	_	_	_
@@ -1840,7 +1840,7 @@
 7	an	an	ADV	Rt	_	11	advmod	_	_
 8	toiseach	toiseach	ADV	Rt	_	7	fixed	_	_
 9	ach	ach	CCONJ	Cc	_	11	cc	_	_
-10	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	11	mark:prt	_	_
+10	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	11	mark:prt	_	_
 11	eil	bi	VERB	V-p--d	Tense=Pres	2	conj	_	_
 12	mi	mi	PRON	Pp1s	Number=Sing|Person=1	11	nsubj	_	_
 13	a’	ag	PART	Sa	_	14	case	_	_
@@ -1996,13 +1996,13 @@
 # sent_id = c03_144
 # speaker = [3]
 # text = cha dèan
-1	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	dèan	dèan	VERB	V-f--d	Tense=Fut	0	root	_	_
 
 # sent_id = c03_145
 # speaker = [1]
 # text = chan eil sibh a’ dol a dh’fhosgail sin an-dràsda idir
-1	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 3	sibh	sibh	PRON	Pp2p	Number=Plur|Person=2	2	nsubj	_	_
 4	a’	ag	PART	Sa	_	5	case	_	_
@@ -2040,7 +2040,7 @@
 # sent_id = c03_147a
 # speaker = [1]
 # text = chan eil ach trobhad fhèin a-nuas
-1	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 3	ach	ach	CCONJ	Cc	_	4	cc	_	_
 4	trobhad	trobhad	VERB	Vm-2s	Mood=Imp|Person=2	2	conj	_	_
@@ -2157,7 +2157,7 @@
 1	bha	bi	VERB	V-s	Tense=Past	0	root	_	_
 2	siud	siud	PRON	Pd	_	1	nsubj	_	_
 3	math	math	ADJ	Ap	_	1	xcomp:pred	_	_
-4	nach	nach	PART	Qn	PartType=Cmpl|Polarity=Neg	5	mark:prt	_	_
+4	nach	nach	PART	Qn	PartType=Vb|Polarity=Neg	5	mark:prt	_	_
 5	robh	bi	VERB	V-s--d	Tense=Past	1	parataxis	_	_
 
 # sent_id = c03_157
@@ -2216,7 +2216,7 @@
 8	deidh	deidh	ADP	Nf	_	7	fixed	_	_
 9	ochd	ochd	NUM	Mc	NumForm=Word|NumType=Card	6	nmod	_	_
 10	ach	ach	CCONJ	Cc	_	12	cc	_	_
-11	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	12	mark:prt	_	_
+11	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	12	mark:prt	_	_
 12	eil	bi	VERB	V-p--d	Tense=Pres	1	conj	_	_
 13	mi	mi	PRON	Pp1s	Number=Sing|Person=1	12	nsubj	_	_
 14	a’	ag	PART	Sa	_	15	case	_	_
@@ -2287,7 +2287,7 @@
 # sent_id = c03_164
 # speaker = [2]
 # text = chan eil
-1	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 
 # sent_id = c03_165
@@ -2329,7 +2329,7 @@
 
 # sent_id = f08_001
 # text = Cha do shaoil an t-seana chlach dad dheth.
-1	Cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	3	mark:prt	_	_
+1	Cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	3	mark:prt	_	_
 2	do	do	PART	Q--s	Tense=Past	3	mark:prt	_	_
 3	shaoil	saoil	VERB	V-s	Tense=Past	0	root	_	_
 4	an	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -2343,7 +2343,7 @@
 
 # sent_id = f08_002
 # text = Cha do dh’fhalbh ach crotal is pùdar mar cheò, rud beag leis gach buille.
-1	Cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	3	mark:prt	_	_
+1	Cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	3	mark:prt	_	_
 2	do	do	PART	Q--s	Tense=Past	3	mark:prt	_	_
 3	dh’fhalbh	falbh	VERB	V-s	Tense=Past	0	root	_	_
 4	ach	ach	PART	Sp	_	5	mark:prt	_	_
@@ -2362,7 +2362,7 @@
 
 # sent_id = f08_003
 # text = Cha do shaoil an t-seana chlach dad de nì sam bith.
-1	Cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	3	mark:prt	_	_
+1	Cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	3	mark:prt	_	_
 2	do	do	PART	Q--s	Tense=Past	3	mark:prt	_	_
 3	shaoil	saoil	VERB	V-s	Tense=Past	0	root	_	_
 4	an	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -2745,7 +2745,7 @@
 
 # sent_id = f08_022
 # text = Cha leigeadh e leas sealltainn ri an taigh – bha dealbh an taighe sgrìobhte le sgeilb na chuimhne.
-1	Cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	Cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	leigeadh	leig	VERB	V-h--d	Mood=Cnd	0	root	_	_
 3	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 4	leas	leas	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
@@ -2994,7 +2994,7 @@
 
 # sent_id = f08_031
 # text = Cha robh Catrìona air còmhradh gaoil de a shamhail a chluinntinn, agus gheall i a phòsadh.
-1	Cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	Cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 3	Catrìona	Catrìona	PROPN	Nn-fn	Case=Nom|Gender=Fem	2	nsubj	_	_
 4	air	air	PART	Sa	_	11	case	_	_
@@ -3076,7 +3076,7 @@
 8	an	an	ADP	Sp	_	9	case	_	_
 9	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	7	xcomp:pred	_	_
 10	,	,	PUNCT	Fi	_	7	punct	_	_
-11	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	12	mark:prt	_	_
+11	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	12	mark:prt	_	_
 12	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 13	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
 14	furasd	furasd	ADJ	Ap	_	12	xcomp:pred	_	_
@@ -3124,7 +3124,7 @@
 
 # sent_id = f08_038
 # text = Cha dèan thu càil dheth a charaid.
-1	Cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	Cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	dèan	dèan	VERB	V-f--d	Tense=Fut	0	root	_	_
 3	thu	thu	PRON	Pp2s	Number=Sing|Person=2	2	nsubj	_	_
 4	càil	càil	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	_
@@ -3137,7 +3137,7 @@
 
 # sent_id = f08_039
 # text = Chan fhuiling sin do chudthrom a sheòid.
-1	Chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	Chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	fhuiling	fuiling	VERB	V-f--d	Tense=Fut	0	root	_	_
 3	sin	sin	PRON	Pd	_	2	nsubj	_	_
 4	do	do	DET	Dp2s	Number=Sing|Person=2|Poss=Yes	5	nmod:poss	_	_
@@ -3323,7 +3323,7 @@
 2	bhliadhna	bliadhna	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	6	dislocated	_	_
 3	dheug	deug	NUM	Mc	NumForm=Word|NumType=Card	2	compound	_	SpaceAfter=No
 4	,	,	PUNCT	Fi	_	2	punct	_	_
-5	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	6	mark:prt	_	_
+5	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	6	mark:prt	_	_
 6	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 7	guth	guth	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 8	aig	aig	ADP	Sp	_	9	case	_	_
@@ -3333,7 +3333,7 @@
 12	Chogadh	cogadh	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
 13	an-diugh	an-diugh	ADV	Rt	_	6	advmod	_	SpaceAfter=No
 14	;	;	PUNCT	Fi	_	16	punct	_	_
-15	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	16	mark:prt	_	_
+15	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	16	mark:prt	_	_
 16	robh	bi	VERB	V-s--d	Tense=Past	6	parataxis	_	_
 17	beachd	beachd	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
 18-19	aca	_	_	_	_	_	_	_	_
@@ -3348,7 +3348,7 @@
 
 # sent_id = f08_048
 # text = Cha robh cuimhne aig Catrìona air suirghe fhasanta.
-1	Cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	Cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 3	cuimhne	cuimhne	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 4	aig	aig	ADP	Sp	_	5	case	_	_
@@ -3362,7 +3362,7 @@
 # text = Co-dhiù, cha robh na facail freagarrach tuilleadh.
 1	Co-dhiù	co-dhiù	ADV	Rg	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	Fi	_	4	punct	_	_
-3	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	4	mark:prt	_	_
+3	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	4	mark:prt	_	_
 4	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 5	na	an	DET	Tdpm	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	facail	facal	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
@@ -3603,7 +3603,7 @@
 
 # sent_id = f08_061
 # text = Cha togadh tu do thòin far a' bheing, nam faigheadh tu às leis.
-1	Cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	Cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	togadh	tog	VERB	V-h--d	Mood=Cnd	0	root	_	_
 3	tu	thu	PRON	Pp2s	Number=Sing|Person=2	2	nsubj	_	_
 4	do	do	DET	Dp2s	Number=Sing|Person=2|Poss=Yes	5	nmod:poss	_	_
@@ -3712,7 +3712,7 @@
 # sent_id = f08_064b
 # text = “Chan eil, tha mi a' leigeil m' anail."
 1	“	“	PUNCT	Fq	_	3	punct	_	SpaceAfter=No
-2	Chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	3	mark:prt	_	_
+2	Chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	3	mark:prt	_	_
 3	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Fi	_	3	punct	_	_
 5	tha	bi	VERB	V-p	Tense=Pres	3	parataxis	_	_
@@ -4032,7 +4032,7 @@
 40	bho	bho	ADP	Sp	_	41	case	_	_
 41	dheireadh	deireadh	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	35	nmod	_	_
 42	nan	an	DET	Tdp-g	Case=Gen|Number=Plur	43	det	_	_
-43	1630an	1630an	NUM	Mn	NumForm=Digits|NumType=Card	41	nmod	_	_
+43	1630an	1630an	NUM	Mn	NumForm=Digit|NumType=Card	41	nmod	_	_
 44	air	air	ADP	Sp	_	45	case	_	_
 45	adhart	adhart	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
 46	.	.	PUNCT	Fe	_	1	punct	_	_
@@ -4366,7 +4366,7 @@
 14	ach	ach	CCONJ	Cc	_	18	cc	_	_
 15	gu	gu	PART	Ua	PartType=Ad	16	mark:prt	_	_
 16	mì-fhortanach	mì-fhortanach	ADV	Rg	_	18	advmod	_	_
-17	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	18	mark:prt	_	_
+17	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	18	mark:prt	_	_
 18	eil	bi	VERB	V-p--d	Tense=Pres	7	conj	_	_
 19	na	an	DET	Tdpf	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
 20	cluaisean	cluais	NOUN	Ncpfn	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	_
@@ -4431,7 +4431,7 @@
 13	air	air	ADP	Sp	_	15	case	_	_
 14	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	aobhar-sa	aobhar-sa	NOUN	Ncsmde	Case=Dat|Form=Emp|Gender=Masc|Number=Sing	18	obl	_	_
-16	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	18	mark:prt	_	_
+16	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	18	mark:prt	_	_
 17	do	do	PART	Q--s	Tense=Past	18	mark:prt	_	_
 18	chuir	cuir	VERB	V-s	Tense=Past	2	conj	_	_
 19	mi	mi	PRON	Pp1s	Number=Sing|Person=1	18	nsubj	_	_
@@ -4546,7 +4546,7 @@
 18	iad	iad	PRON	Pp3p	Number=Plur|Person=3	17	nsubj	_	_
 19	ann	an	ADP	Sp	_	21	case	_	_
 20	an	an	ADP	Sp	_	19	fixed	_	_
-21	1923	1923	NUM	Mn	NumForm=Digits|NumType=Card	17	xcomp:pred	_	SpaceAfter=No
+21	1923	1923	NUM	Mn	NumForm=Digit|NumType=Card	17	xcomp:pred	_	SpaceAfter=No
 22	,	,	PUNCT	Fi	_	17	punct	_	_
 23	's	's	SCONJ	Cc	_	24	mark	_	_
 24	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	17	advcl	_	_
@@ -4603,7 +4603,7 @@
 # text = Co-dhiù, chan fhaod mi gun luaidh shònraichte a thoirt air na h-ailt agus na leabhraichean luachmhor a sgrìobh David Stevenson, R. A. Dodgshon, Francis J. Shaw agus Allan I. Macinnes.
 1	Co-dhiù	co-dhiù	ADV	Rg	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	Fi	_	4	punct	_	_
-3	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	4	mark:prt	_	_
+3	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	4	mark:prt	_	_
 4	fhaod	faod	VERB	V-f--d	Tense=Fut	0	root	_	_
 5	mi	mi	PRON	Pp1s	Number=Sing|Person=1	4	nsubj	_	_
 6	gun	gun	ADP	Sp	_	10	case	_	_
@@ -4667,7 +4667,7 @@
 26	gu	gu	PART	Ua	PartType=Ad	27	mark:prt	_	_
 27	sìmplidh	sìmplidh	ADV	Rg	_	30	advmod	_	SpaceAfter=No
 28	,	,	PUNCT	Fi	_	30	punct	_	_
-29	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	30	mark:prt	_	_
+29	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	30	mark:prt	_	_
 30	eil	bi	VERB	V-p--d	Tense=Pres	1	parataxis	_	_
 31	an	an	DET	Dp3p	Number=Plur|Person=3|Poss=Yes	32	nmod:poss	_	_
 32	cuspairean	cuspair	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	30	nsubj	_	_
@@ -4772,7 +4772,7 @@
 35	a-mach	a-mach	ADV	Rg	_	28	advmod	_	_
 36	ann	an	ADP	Sp	_	38	case	_	_
 37	an	an	ADP	Sp	_	36	fixed	_	_
-38	1988	1988	NUM	Mn	NumForm=Digits|NumType=Card	28	obl	_	SpaceAfter=No
+38	1988	1988	NUM	Mn	NumForm=Digit|NumType=Card	28	obl	_	SpaceAfter=No
 39	.	.	PUNCT	Fe	_	5	punct	_	_
 
 # sent_id = fp09_021
@@ -4801,7 +4801,7 @@
 21	a-riamh	a-riamh	ADV	Rt	_	20	advmod	_	SpaceAfter=No
 22	,	,	PUNCT	Fi	_	25	punct	_	_
 23	agus	agus	CCONJ	Cc	_	25	cc	_	_
-24	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	25	mark:prt	_	_
+24	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	25	mark:prt	_	_
 25	tigeadh	tig	VERB	V-h--d	Mood=Cnd	3	conj	_	_
 26-27	agam	_	_	_	_	_	_	_	_
 26	aig	aig	ADP	Sp	_	27	case	_	_
@@ -4869,7 +4869,7 @@
 11	math	math	ADV	Rg	_	7	advmod	_	_
 12	tàbhachdach	tàbhachdach	ADJ	Ap	_	3	xcomp:pred	_	SpaceAfter=No
 13	;	;	PUNCT	Fi	_	3	punct	_	_
-14	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	16	mark:prt	_	_
+14	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	16	mark:prt	_	_
 15	bu	is	AUX	Ws	Tense=Past	16	cop	_	_
 16	bheag	beag	ADJ	Ap	_	3	parataxis	_	_
 17	am	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -4928,7 +4928,7 @@
 19	Gàidheal	gàidheal	NOUN	Ncpmg	Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
 20	anns	an	ADP	Sp	_	22	case	_	_
 21	na	an	DET	Tdp	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
-22	1970an	1970an	NUM	Mn	NumForm=Digits|NumType=Card	13	obl	_	_
+22	1970an	1970an	NUM	Mn	NumForm=Digit|NumType=Card	13	obl	_	_
 23	a	a	PART	Q-r	PartType=Vb|PronType=Rel	24	nsubj	_	_
 24	tha	bi	VERB	V-p	Tense=Pres	14	acl:relcl	_	_
 25	's	is	AUX	Wp-i	Tense=Pres	26	cop	_	_
@@ -4993,7 +4993,7 @@
 44	Gàidhealtachd	gàidhealtachd	NOUN	Ncsfg	Case=Gen|Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No
 45	,	,	PUNCT	Fi	_	41	punct	_	_
 46	agus	agus	CCONJ	Cc	_	48	cc	_	_
-47	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	48	mark:prt	_	_
+47	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	48	mark:prt	_	_
 48	ghabhar	gabh	VERB	V-f0-d	Person=0|Tense=Fut	6	conj	_	_
 49	ás	as	ADP	Sp	_	50	case	_	_
 50	àicheadh	àicheadh	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	48	obl	_	_
@@ -5242,11 +5242,11 @@
 # sent_id = fp09_030
 # text = Ach chan eil rian nach tig latha mór a’ bhreitheanais orra fhathast!
 1	Ach	ach	CCONJ	Cc	_	3	cc	_	_
-2	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	3	mark:prt	_	_
+2	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	3	mark:prt	_	_
 3	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 4	rian	rian	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 5	nach	nach	PART	Qn	PartType=Cmpl|Polarity=Neg	6	mark:prt	_	_
-6	tig	thig	VERB	V-f--d	Tense=Fut	3	ccomp	_	_
+6	tig	thig	VERB	V-f--d	Tense=Fut	4	acl	_	_
 7	latha	latha	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 8	mór	mór	ADJ	Aq-smn	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
 9	a’	an	DET	Tdsmg	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -5335,7 +5335,7 @@
 5	a'	ag	PART	Sa	_	6	case	_	_
 6	dol	rach	NOUN	Nv	VerbForm=Vnoun	3	xcomp:pred	_	SpaceAfter=No
 7	…	…	PUNCT	Fb	_	3	punct	_	_
-8	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	9	mark:prt	_	_
+8	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	9	mark:prt	_	_
 9	robh	bi	VERB	V-s--d	Tense=Past	3	parataxis	_	_
 10	aig	aig	ADP	Sp	_	13	case	_	_
 11	a	a	ADJ	Ar	_	13	amod	_	_
@@ -5349,7 +5349,7 @@
 18	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	15	obl	_	_
 19	fhèin	fèin	PRON	Px	Reflex=Yes	18	nmod	_	_
 20	's	's	CCONJ	Cc	_	22	cc	_	_
-21	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	22	mark:prt	_	_
+21	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	22	mark:prt	_	_
 22	robh	bi	VERB	V-s--d	Tense=Past	9	conj	_	_
 23	aig	aig	ADP	Sp	_	25	case	_	_
 24	a’	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
@@ -5532,7 +5532,7 @@
 16	esan	e	PRON	Pp3sm-e	Form=Emp|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	SpaceAfter=No
 17	,	,	PUNCT	Fi	_	15	punct	_	_
 18	“	“	PUNCT	Fq	_	20	punct	_	SpaceAfter=No
-19	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	20	mark:prt	_	_
+19	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	20	mark:prt	_	_
 20	eil	bi	VERB	V-p--d	Tense=Pres	2	parataxis	_	_
 21	a-seo	a-seo	ADV	Rs	_	20	xcomp:pred	_	_
 22	ach	ach	PART	Sp	_	25	mark:prt	_	_
@@ -5667,7 +5667,7 @@
 19	mach	mach	ADV	Rs	_	17	advmod	_	SpaceAfter=No
 20	,	,	PUNCT	Fi	_	17	punct	_	_
 21	agus	agus	CCONJ	Cc	_	23	cc	_	_
-22	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	23	mark:prt	_	_
+22	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	23	mark:prt	_	_
 23	robh	bi	VERB	V-s--d	Tense=Past	17	conj	_	_
 24-25	air	_	_	_	_	_	_	_	_
 24	air	air	ADP	Sp	_	25	case	_	_
@@ -5689,7 +5689,7 @@
 7	dhol	rach	NOUN	Nv	VerbForm=Inf	3	xcomp	_	_
 8	a	a	ADV	Rs	_	7	advmod	_	_
 9	staigh	staigh	ADV	Rs	_	8	fixed	_	_
-10	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	11	mark:prt	_	_
+10	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	11	mark:prt	_	_
 11	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 12	taigh	taigh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 13	no	no	CCONJ	Cc	_	14	cc	_	_
@@ -5705,7 +5705,7 @@
 
 # sent_id = n02_013
 # text = Cha robh fios aige gu dé rud a dhèanadh e.
-1	Cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	Cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 3	fios	fios	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 4-5	aige	_	_	_	_	_	_	_	_
@@ -5724,7 +5724,7 @@
 1	Dh’fhalbh	falbh	VERB	V-s	Tense=Past	0	root	_	_
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
 3	agus	agus	CCONJ	Cc	_	5	cc	_	_
-4	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	5	mark:prt	_	_
+4	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	5	mark:prt	_	_
 5	robh	bi	VERB	V-s--d	Tense=Past	1	conj	_	_
 6	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 7	fada	fada	ADV	Rg	_	9	advmod	_	_
@@ -5919,7 +5919,7 @@
 # sent_id = n02_021
 # text = “chan eil sin," ars’ esan, “ach draoidheachd a’ bhrugh.
 1	“	“	PUNCT	Fq	_	3	punct	_	SpaceAfter=No
-2	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	3	mark:prt	_	_
+2	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	3	mark:prt	_	_
 3	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 4	sin	sin	PRON	Pd	_	3	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	Fi	_	7	punct	_	SpaceAfter=No
@@ -5973,7 +5973,7 @@
 # comment = closer inspection of node 3 needed
 # sent_id = n02_024
 # text = Cha robh ach gu feumte a’ pàisde a bhaisteadh aig a’ bhodach mu falbhadh an Rìgh.
-1	Cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	Cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 3	ach	ach	ADP	Sp	_	5	case	_	_
 4	gu	gu	PART	Qa	PartType=Cmpl	5	mark:prt	_	_
@@ -6003,7 +6003,7 @@
 8	Rìgh	rìgh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	Fi	_	12	punct	_	_
 10	“	“	PUNCT	Fq	_	12	punct	_	SpaceAfter=No
-11	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	12	mark:prt	_	_
+11	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	12	mark:prt	_	_
 12	eil	bi	VERB	V-p--d	Tense=Pres	6	parataxis	_	_
 13	fhios	fios	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 14-15	agamsa	_	_	_	_	_	_	_	SpaceAfter=No
@@ -6332,7 +6332,7 @@
 9	a	a	PART	Q-r	PartType=Vb|PronType=Rel	10	mark:prt	_	_
 10	ruigeas	ruig	VERB	V-f--r	Tense=Fut	13	advcl	_	_
 11	tusa	thu	PRON	Pp2s--e	Form=Emp|Number=Sing|Person=2	10	nsubj	_	_
-12	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	13	mark:prt	_	_
+12	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	13	mark:prt	_	_
 13	bhi	bi	VERB	V-f--d	Tense=Fut	1	conj	_	_
 14	feum	feum	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 15-16	aca	_	_	_	_	_	_	_	_
@@ -6379,7 +6379,7 @@
 24	a	a	PART	Q-r	PartType=Vb|PronType=Rel	25	xcomp:pred	_	_
 25	bha	bi	VERB	V-s	Tense=Past	23	csubj:cleft	_	_
 26	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
-27	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	28	mark:prt	_	_
+27	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	28	mark:prt	_	_
 28	robh	bi	VERB	V-s--d	Tense=Past	1	parataxis	_	_
 29	fios	fios	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
 30-31	aige	_	_	_	_	_	_	_	_
@@ -6500,7 +6500,7 @@
 3	ràinig	ruig	VERB	V-s	Tense=Past	7	advcl	_	_
 4	Rìgh	rìgh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 5	Èireann	Èireann	PROPN	Nt	_	3	obj	_	_
-6	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	7	mark:prt	_	_
+6	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	7	mark:prt	_	_
 7	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 8	feum	feum	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 9	air	air	ADP	Sp	_	12	case	_	_
@@ -6653,7 +6653,7 @@
 
 # sent_id = n02_044
 # text = Chan fhanadh a’ fear sin.
-1	Chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	Chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	fhanadh	fan	VERB	V-h--d	Mood=Cnd	0	root	_	_
 3	a’	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	fear	fear	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
@@ -6699,7 +6699,7 @@
 
 # sent_id = n02_047
 # text = Chan fhanadh a’ fear sin na bu mhuth'.
-1	Chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	Chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	fhanadh	fan	VERB	V-h--d	Mood=Cnd	0	root	_	_
 3	a’	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	fear	fear	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
@@ -6863,7 +6863,7 @@
 11	àm	àm	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
 12	,	,	PUNCT	Fi	_	15	punct	_	_
 13	ach	ach	CCONJ	Cc	_	15	cc	_	_
-14	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	15	mark:prt	_	_
+14	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	15	mark:prt	_	_
 15	deach	rach	VERB	V-s--d	Tense=Past	1	conj	_	_
 16	a	a	DET	Dp3sm	Gender=Masc|Number=Sing|Person=3|Poss=Yes	17	obj	_	_
 17	leòn	leòn	NOUN	Nv	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
@@ -7045,7 +7045,7 @@
 
 # sent_id = ns06_011
 # text = Cha deach suim a ghabhail de na cosgaisean air fad - leithid coimpiutairean dha na buill Pàrlamaid - 'n uair a chaidh na cosgaisean ullachadh.
-1	Cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	5	mark:prt	_	_
+1	Cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	5	mark:prt	_	_
 2	deach	rach	AUX	V-s--d	Tense=Past	5	aux:pass	_	_
 3	suim	suim	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 4	a	a	PART	Ug	PartType=Inf	5	mark:prt	_	_
@@ -7666,7 +7666,7 @@
 8	leis	le	ADP	Sp	_	9	case	_	_
 9	a-seo	a-seo	PRON	Pd	_	3	obl	_	_
 10	-	-	PUNCT	Fb	_	3	punct	_	_
-11	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	12	mark:prt	_	_
+11	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	12	mark:prt	_	_
 12	bhiodh	bi	VERB	V-h--d	Mood=Cnd	0	root	_	_
 13	ach	ach	PART	Sp	_	15	mark:prt	_	_
 14	aona	aona	NUM	Mc	NumForm=Word|NumType=Card	15	nummod	_	_
@@ -8352,8 +8352,8 @@
 9	Inbhir	Inbhir	PROPN	Nt	_	7	nmod	_	_
 10	Nis	Nis	PROPN	Nt	_	9	flat	_	_
 11	-	-	PUNCT	Fb	_	3	punct	_	_
-12	720	720	NUM	Mn	NumForm=Digits|NumType=Card	3	nsubj	_	_
-13	367	367	NUM	Mn	NumForm=Digits|NumType=Card	12	flat	_	SpaceAfter=No
+12	720	720	NUM	Mn	NumForm=Digit|NumType=Card	3	nsubj	_	_
+13	367	367	NUM	Mn	NumForm=Digit|NumType=Card	12	flat	_	SpaceAfter=No
 14	.	.	PUNCT	Fe	_	3	punct	_	_
 
 # comment = Geamaichean Sholais 2
@@ -8564,7 +8564,7 @@
 18	aig	aig	ADP	Sp	_	19	case	_	_
 19	Solas	Solas	PROPN	Nt	_	13	obl	_	_
 20	ach	ach	CCONJ	Cc	_	22	cc	_	_
-21	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	22	mark:prt	_	_
+21	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	22	mark:prt	_	_
 22	eil	bi	VERB	V-p--d	Tense=Pres	3	conj	_	_
 23	cuimhne	cuimhne	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
 24-25	a'm	_	_	_	_	_	_	_	_
@@ -8838,7 +8838,7 @@
 # text = mar eisimpleir cha robh iad a' toirt a-staigh de dh’ionmhas ach beagan a bha iad a' faighinn o dhaoine àraid mar a bha [?] aig na Cameron Highlanders tidsear Cheann a' Bhàigh fear Mr. Rose
 1	mar	mar	ADP	Sp	_	2	case	_	_
 2	eisimpleir	eisimpleir	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
-3	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	4	mark:prt	_	_
+3	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	4	mark:prt	_	_
 4	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 5	iad	iad	PRON	Pp3p	Number=Plur|Person=3	4	nsubj	_	_
 6	a'	ag	PART	Sa	_	7	case	_	_
@@ -9058,7 +9058,7 @@
 # sent_id = p05_010a
 # speaker = [1]
 # text = nach seall thu air an fheadhainn seo
-1	nach	nach	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	nach	nach	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	seall	seall	VERB	V-f--d	Tense=Fut	0	root	_	_
 3	thu	thu	PRON	Pp2s	Number=Sing|Person=2	2	nsubj	_	_
 4	air	air	ADP	Sp	_	6	case	_	_
@@ -9374,7 +9374,7 @@
 11	ann	an	ADP	Sp	_	13	case	_	_
 12	an	an	ADP	Sp	_	11	fixed	_	_
 13	duaisean	duais	NOUN	Ncpfd	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	_
-14	nach	nach	PART	Qn	PartType=Cmpl|Polarity=Neg	15	mark:prt	_	_
+14	nach	nach	PART	Qn	PartType=Vb|Polarity=Neg	15	mark:prt	_	_
 15	robh	bi	VERB	V-s--d	Tense=Past	1	parataxis	_	SpaceAfter=No
 16	?	?	PUNCT	Fg	_	1	punct	_	_
 
@@ -9545,7 +9545,7 @@
 2	nis	nis	ADV	Rg	_	6	discourse	_	_
 3	a	a	PART	Uv	PartType=Voc	4	case:voc	_	_
 4	Sheonaidh	Seonadh	PROPN	Nn-mv	Case=Voc|Gender=Masc	6	vocative	_	_
-5	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	6	mark:prt	_	_
+5	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	6	mark:prt	_	_
 6	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 7	ach	ach	PART	Sp	_	9	mark:prt	_	_
 8	na	an	DET	Tdpm	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
@@ -9733,7 +9733,7 @@
 10	fhichead	fichead	NUM	Mc	NumForm=Word|NumType=Card	11	nummod	_	_
 11	bliadhna	bliadhna	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	_
 12	agus	agus	CCONJ	Cc	_	14	cc	_	_
-13	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	14	mark:prt	_	_
+13	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	14	mark:prt	_	_
 14	eil	bi	VERB	V-p--d	Tense=Pres	1	conj	_	_
 15	mòran	mòran	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 16	a'	ag	PART	Sa	_	17	case	_	_
@@ -9884,7 +9884,7 @@
 23	duine	duine	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
 24	'faighinn	faigh	NOUN	Nv	VerbForm=Vnoun	20	xcomp:pred	_	_
 25	's	's	CCONJ	Cc	_	27	cc	_	_
-26	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	27	mark:prt	_	_
+26	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	27	mark:prt	_	_
 27	eil	bi	VERB	V-p--d	Tense=Pres	1	conj	_	_
 28	aig	aig	ADP	Sp	_	31	reparandum	_	SpaceAfter=No
 29	…	…	PUNCT	Fb	_	31	punct	_	_
@@ -9926,11 +9926,11 @@
 2	Diardaoin	diardaoin	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 3	,	,	PUNCT	Fi	_	6	punct	_	_
 4	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-5	16mh	16mh	NUM	Mo	NumForm=Digits|NumType=Ord	6	nummod	_	_
+5	16mh	16mh	NUM	Mo	NumForm=Digit|NumType=Ord	6	nummod	_	_
 6	Sultain	sultain	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 7	,	,	PUNCT	Fi	_	6	punct	_	_
 8	dh’fhalbh	falbh	VERB	V-s	Tense=Past	0	root	_	_
-9	35	35	NUM	Mn	NumForm=Digits|NumType=Card	10	nummod	_	_
+9	35	35	NUM	Mn	NumForm=Digit|NumType=Card	10	nummod	_	_
 10	duine	duine	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 11	à	à	ADP	Sp	_	12	case	_	_
 12	Leòdhas	Leòdhas	PROPN	Nt	_	10	nmod	_	_
@@ -10027,7 +10027,7 @@
 21	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Rubha	Rubha	PROPN	Nt	_	15	conj	_	SpaceAfter=No
 23	;	;	PUNCT	Fi	_	2	punct	_	_
-24	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	25	mark:prt	_	_
+24	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	25	mark:prt	_	_
 25	eil	bi	VERB	V-p--d	Tense=Pres	2	parataxis	_	_
 26	na	an	DET	Tdpm	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
 27	Nisich	niseach	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
@@ -10390,7 +10390,7 @@
 
 # sent_id = pw06_014
 # text = Chan eil càil a ghuth aig cuid de na daoine ud na h-Èireannaich air leabaidh.
-1	Chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	Chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 3	càil	càil	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 4	a	a	ADP	Sp	_	5	case	_	_
@@ -10409,7 +10409,7 @@
 
 # sent_id = pw06_015
 # text = Chan eil a leithid a fhacal idir aca.
-1	Chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	Chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 3	a	a	DET	Dp3sm	Gender=Masc|Number=Sing|Person=3|Poss=Yes	4	nmod:poss	_	_
 4	leithid	leithid	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
@@ -10441,7 +10441,7 @@
 15	ri	ri	ADP	Sp	_	16	case	_	_
 16	iad	iad	PRON	Pp3p	Number=Plur|Person=3	13	obl	_	_
 17	ach	ach	CCONJ	Cc	_	19	cc	_	_
-18	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	19	mark:prt	_	_
+18	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	19	mark:prt	_	_
 19	chan	can	VERB	V--f--d	_	7	conj	_	_
 20	sinn	sinn	PRON	Pp1p	Number=Plur|Person=1	19	nsubj	_	_
 21	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -10476,7 +10476,7 @@
 21	droinneadh	droinneadh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	19	obj	_	_
 22	uabhasach	uabhasach	ADJ	Aq-smn	Case=Nom|Gender=Masc|Number=Sing	21	amod	_	_
 23	ach	ach	CCONJ	Cc	_	26	cc	_	_
-24	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	26	mark:prt	_	_
+24	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	26	mark:prt	_	_
 25	do	do	PART	Q--s	Tense=Past	26	mark:prt	_	_
 26	leig	leig	VERB	V-s	Tense=Past	19	conj	_	_
 27	na	an	DET	Tdpm	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
@@ -10730,7 +10730,7 @@
 11	madainn	madainn	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	7	obl:tmod	_	_
 12	Diluain	diluain	NOUN	Ncsmg	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
 13	ach	ach	CCONJ	Cc	_	15	cc	_	_
-14	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	15	mark:prt	_	_
+14	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	15	mark:prt	_	_
 15	robh	bi	VERB	V-s--d	Tense=Past	7	conj	_	_
 16	duine	duine	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
 17	a	a	PART	Q-r	PartType=Vb|PronType=Rel	18	nsubj	_	_
@@ -10750,7 +10750,7 @@
 
 # sent_id = pw06_025
 # text = Cha robh àite don deach sinn nach robh deagh fhàilte romhainn agus pailteas de bhiadh, de cheòl agus drama no dhà.
-1	Cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	Cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 3	àite	àite	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 4-5	don	_	_	_	_	_	_	_	_
@@ -10830,7 +10830,7 @@
 # text = Suas gu 1975, bha na h-Eileanan an-Iar air an sgaradh gu mì-nàdarra.
 1	Suas	suas	ADV	Rt	_	5	advmod	_	_
 2	gu	gu	ADP	Sp	_	3	case	_	_
-3	1975	1975	NUM	Mn	NumForm=Digits|NumType=Card	1	obl	_	SpaceAfter=No
+3	1975	1975	NUM	Mn	NumForm=Digit|NumType=Card	1	obl	_	SpaceAfter=No
 4	,	,	PUNCT	Fi	_	5	punct	_	_
 5	bha	bi	VERB	V-s	Tense=Past	0	root	_	_
 6	na	an	DET	Tdpm	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
@@ -10868,7 +10868,7 @@
 
 # sent_id = pw09_002
 # text = Cha robh e furasta siubhal eadar na h-eileanan oir cha robh guth air drochaidean neo cabhsairean ach ann an Uibhist a-mhàin – tha Uibhist a Deas agus Beinn na Fadhla air a bhith air an ceangal le drochaid bho àm an dara cogaidh, agus air do chabhsair a’ Chinn a Tuath fosgladh ann an 1956 bha na trì eileanan sin air an toirt còmhla.
-1	Cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	Cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 3	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 4	furasta	furasta	ADJ	Ap	_	2	xcomp:pred	_	_
@@ -10877,7 +10877,7 @@
 7	na	an	DET	Tdpm	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	h-eileanan	eilean	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	5	obl	_	_
 9	oir	oir	CCONJ	Cc	_	11	cc	_	_
-10	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	11	mark:prt	_	_
+10	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	11	mark:prt	_	_
 11	robh	bi	VERB	V-s--d	Tense=Past	2	conj	_	_
 12	guth	guth	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 13	air	air	ADP	Sp	_	14	case	_	_
@@ -10923,7 +10923,7 @@
 53	fosgladh	fosgail	NOUN	Nv	VerbForm=Vnoun	57	xcomp	_	_
 54	ann	an	ADP	Sp	_	56	case	_	_
 55	an	an	ADP	Sp	_	54	fixed	_	_
-56	1956	1956	NUM	Mn	NumForm=Digits|NumType=Card	53	obl	_	_
+56	1956	1956	NUM	Mn	NumForm=Digit|NumType=Card	53	obl	_	_
 57	bha	bi	VERB	V-s	Tense=Past	23	conj	_	_
 58	na	an	DET	Tdpm	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	60	det	_	_
 59	trì	trì	NUM	Mc	NumForm=Word|NumType=Card	60	nummod	_	_
@@ -10939,7 +10939,7 @@
 # text = Ann an 1974, agus fios gun robh na h-Eileanan gu bhith air an dèanamh ’nan aon sgìre ionadail, chuir comhairlichean ceistean air CalMac.
 1	Ann	an	ADP	Sp	_	3	case	_	_
 2	an	an	ADP	Sp	_	1	fixed	_	_
-3	1974	1974	NUM	Mn	NumForm=Digits|NumType=Card	22	obl	_	SpaceAfter=No
+3	1974	1974	NUM	Mn	NumForm=Digit|NumType=Card	22	obl	_	SpaceAfter=No
 4	,	,	PUNCT	Fi	_	3	punct	_	_
 5	agus	agus	CCONJ	Cc	_	6	cc	_	_
 6	fios	fios	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
@@ -11037,7 +11037,7 @@
 
 # sent_id = pw09_007
 # text = Cha robh guth idir air drochaid no cabhsair agus cha tug iad beachd air na h-eileanan as fhaide a-deas ach a ràdh gun robh feum air bàta na bu mhotha eadar Bàgh a’ Chaisteil agus Bhatarsaigh.
-1	Cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	Cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 3	guth	guth	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 4	idir	idir	ADV	Rg	_	2	advmod	_	_
@@ -11046,7 +11046,7 @@
 7	no	no	CCONJ	Cc	_	8	cc	_	_
 8	cabhsair	cabhsair	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	6	conj	_	_
 9	agus	agus	CCONJ	Cc	_	11	cc	_	_
-10	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	11	mark:prt	_	_
+10	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	11	mark:prt	_	_
 11	tug	toir	VERB	V-s--d	Tense=Past	2	conj	_	_
 12	iad	iad	PRON	Pp3p	Number=Plur|Person=3	11	nsubj	_	_
 13	beachd	beachd	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	_
@@ -11158,7 +11158,7 @@
 4	a’	ag	PART	Sa	_	5	case	_	_
 5	ruith	ruith	NOUN	Nv	VerbForm=Vnoun	1	xcomp:pred	_	_
 6	fad	fad	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	5	obl:tmod	_	_
-7	30	30	NUM	Mn	NumForm=Digits|NumType=Card	8	nummod	_	_
+7	30	30	NUM	Mn	NumForm=Digit|NumType=Card	8	nummod	_	_
 8	bliadhna	bliadhna	NOUN	Ncsfg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
 9	gus	gus	SCONJ	Cs	_	14	mark	_	_
 10	an	an	PART	Qq	PartType=Vb|PronType=Int	14	mark:prt	_	_
@@ -11170,7 +11170,7 @@
 15	anns	an	ADP	Sp	_	17	case	_	_
 16	an	an	ADP	Sp	_	15	fixed	_	_
 17	Lùnastal	lùnastal	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	_
-18	1998	1998	NUM	Mn	NumForm=Digits|NumType=Card	14	obl	_	SpaceAfter=No
+18	1998	1998	NUM	Mn	NumForm=Digit|NumType=Card	14	obl	_	SpaceAfter=No
 19	.	.	PUNCT	Fe	_	1	punct	_	_
 
 # sent_id = pw09_012
@@ -11178,13 +11178,13 @@
 1	Chosg	cosg	VERB	V-s	Tense=Past	0	root	_	_
 2	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
 3	£	£	SYM	Xy	_	1	obj	_	SpaceAfter=No
-4	7.9	7.9	NUM	Mn	NumForm=Digits|NumType=Card	5	nummod	_	_
+4	7.9	7.9	NUM	Mn	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	m	m	NUM	Y	NumForm=Word	3	nummod	_	SpaceAfter=No
 6	,	,	PUNCT	Fi	_	1	punct	_	_
 7	agus	agus	CCONJ	Cc	_	8	cc	_	_
 8	thàinig	thig	VERB	V-s	Tense=Past	1	conj	_	_
 9	£	£	SYM	Xy	_	8	nsubj	_	SpaceAfter=No
-10	4.2	4.2	NUM	Mn	NumForm=Digits|NumType=Card	11	nummod	_	_
+10	4.2	4.2	NUM	Mn	NumForm=Digit|NumType=Card	11	nummod	_	_
 11	m	m	NUM	Y	NumForm=Word	9	nummod	_	_
 12-13	dheth	_	_	_	_	_	_	_	_
 12	de	de	ADP	Sp	_	13	case	_	_
@@ -11303,9 +11303,9 @@
 1	An	an	ADV	Rt	_	7	advmod	_	_
 2	sin	sin	ADV	Rt	_	1	fixed	_	_
 3	air	air	ADP	Sp	_	4	case	_	_
-4	8	8	NUM	Mn	NumForm=Digits|NumType=Card	7	obl	_	_
+4	8	8	NUM	Mn	NumForm=Digit|NumType=Card	7	obl	_	_
 5	Giblein	giblein	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	4	flat	_	_
-6	1999	1999	NUM	Mn	NumForm=Digits|NumType=Card	4	flat	_	_
+6	1999	1999	NUM	Mn	NumForm=Digit|NumType=Card	4	flat	_	_
 7	dh’fhosgail	fosgail	VERB	V-s	Tense=Past	0	root	_	_
 8	am	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Prionnsa	prionnsa	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -11324,9 +11324,9 @@
 6	a-nall	a-nall	ADV	Rs	_	4	conj	_	_
 7	ann	an	ADP	Sp	_	12	case	_	_
 8	a	a	ADP	Sp	_	7	fixed	_	_
-9	2	2	NUM	Mn	NumForm=Digits|NumType=Card	12	nummod	_	_
+9	2	2	NUM	Mn	NumForm=Digit|NumType=Card	12	nummod	_	_
 10	no	no	CCONJ	Cc	_	11	cc	_	_
-11	3	3	NUM	Mn	NumForm=Digits|NumType=Card	9	conj	_	_
+11	3	3	NUM	Mn	NumForm=Digit|NumType=Card	9	conj	_	_
 12	mhionaidean	mionaid	NOUN	Ncpfd	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
 13	.	.	PUNCT	Fe	_	1	punct	_	_
 
@@ -11335,12 +11335,12 @@
 1	Chosg	cosg	VERB	V-s	Tense=Past	0	root	_	_
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
 3	£	£	SYM	Xy	_	1	obj	_	SpaceAfter=No
-4	6.6	6.6	NUM	Mn	NumForm=Digits|NumType=Card	5	nummod	_	_
+4	6.6	6.6	NUM	Mn	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	m	m	NUM	Y	NumForm=Word	3	nummod	_	SpaceAfter=No
 6	;	;	PUNCT	Fi	_	7	punct	_	_
 7	thàinig	thig	VERB	V-s	Tense=Past	1	parataxis	_	_
 8	£	£	SYM	Xy	_	7	nsubj	_	SpaceAfter=No
-9	3.3	3.3	NUM	Mn	NumForm=Digits|NumType=Card	8	nummod	_	_
+9	3.3	3.3	NUM	Mn	NumForm=Digit|NumType=Card	8	nummod	_	_
 10	m	m	NOUN	Y	_	8	nummod	_	_
 11-12	bhon	_	_	_	_	_	_	_	_
 11	bho	bho	ADP	Sp	_	13	case	_	_
@@ -11391,7 +11391,7 @@
 4	Bhatarsaigh	Batarsaigh	PROPN	Nt	_	3	nmod	_	_
 5	ann	an	ADP	Sp	_	7	case	_	_
 6	an	an	ADP	Sp	_	5	fixed	_	_
-7	1988	1988	NUM	Mn	NumForm=Digits|NumType=Card	2	obl	_	SpaceAfter=No
+7	1988	1988	NUM	Mn	NumForm=Digit|NumType=Card	2	obl	_	SpaceAfter=No
 8	,	,	PUNCT	Fi	_	2	punct	_	_
 9	thuirt	abair	VERB	V-s	Tense=Past	0	root	_	_
 10	Joe	Joe	PROPN	Nn-mn	Case=Nom|Gender=Masc	9	nsubj	_	_
@@ -11483,7 +11483,7 @@
 16	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	13	obl	_	_
 17	ann	an	ADP	Sp	_	19	case	_	_
 18	an	an	ADP	Sp	_	17	fixed	_	_
-19	2000	2000	NUM	Mn	NumForm=Digits|NumType=Card	13	obl	_	SpaceAfter=No
+19	2000	2000	NUM	Mn	NumForm=Digit|NumType=Card	13	obl	_	SpaceAfter=No
 20	.	.	PUNCT	Fe	_	1	punct	_	_
 
 # sent_id = pw09_030
@@ -11649,14 +11649,14 @@
 7	Chomhairle	comhairle	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 8	ann	an	ADP	Sp	_	10	case	_	_
 9	an	an	ADP	Sp	_	8	fixed	_	_
-10	1991	1991	NUM	Mn	NumForm=Digits|NumType=Card	5	obl	_	_
+10	1991	1991	NUM	Mn	NumForm=Digit|NumType=Card	5	obl	_	_
 11	thàinig	thig	VERB	V-s	Tense=Past	0	root	_	_
 12	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
 13	am	an	ADP	Sp	_	14	case	_	_
 14	follais	follais	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
 15	gun	gun	PART	Qa	PartType=Cmpl	16	mark:prt	_	_
 16	robh	bi	VERB	V-s--d	Tense=Past	14	ccomp	_	_
-17	40	40	NUM	Mn	NumForm=Digits|NumType=Card	18	nummod	_	_
+17	40	40	NUM	Mn	NumForm=Digit|NumType=Card	18	nummod	_	_
 18	teaghlach	teaghlach	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
 19	anns	an	ADP	Sp	_	21	case	_	_
 20	a’	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -11693,7 +11693,7 @@
 # text = Tha a-nis 27 companaidhean bhusaichean sna h-Eileanan an Iar agus tha iad uile air am fastadh leis a’ Chomhairle, a tha cumail sùil gheur air faraidhean agus aois agus cofhurtachd nan carbadan.
 1	Tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	a-nis	a-nis	ADV	Rt	_	1	xcomp:pred	_	_
-3	27	27	NUM	Mn	NumForm=Digits|NumType=Card	4	nummod	_	_
+3	27	27	NUM	Mn	NumForm=Digit|NumType=Card	4	nummod	_	_
 4	companaidhean	companadh	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
 5	bhusaichean	bus	NOUN	Ncpmg	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
 6-7	sna	_	_	_	_	_	_	_	_
@@ -11783,7 +11783,7 @@
 12	thoirt	toir	NOUN	Nv	VerbForm=Inf	5	xcomp	_	_
 13	a-rithist	a-rithist	ADV	Rt	_	12	advmod	_	_
 14	air	air	ADP	Sp	_	20	case	_	_
-15	9	9	NUM	Mn	NumForm=Digits|NumType=Card	16	nummod	_	_
+15	9	9	NUM	Mn	NumForm=Digit|NumType=Card	16	nummod	_	_
 16	mìle	mìle	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	20	obj	_	_
 17	de	de	ADP	Sp	_	18	case	_	_
 18	rathad	rathad	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	_
@@ -11806,7 +11806,7 @@
 5	dealbh	dealbh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
 6	an	an	ADV	Rt	_	1	advmod	_	_
 7	toiseach	toiseach	ADV	Rt	_	6	fixed	_	_
-8	150	150	NUM	Mn	NumForm=Digits|NumType=Card	9	nummod	_	_
+8	150	150	NUM	Mn	NumForm=Digit|NumType=Card	9	nummod	_	_
 9	bliadhna	bliadhna	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	obl:tmod	_	_
 10	air	air	ADP	Sp	_	11	case	_	_
 11	ais	ais	NOUN	Nf	_	9	nmod	_	SpaceAfter=No
@@ -11814,11 +11814,11 @@
 
 # sent_id = pw09_040
 # text = Chan eil teagamh nach dèanadh e mòr fheum.
-1	Chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	Chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 3	teagamh	teagamh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 4	nach	nach	PART	Qn	PartType=Cmpl|Polarity=Neg	5	mark:prt	_	_
-5	dèanadh	dèan	VERB	V-h--d	Mood=Cnd	2	xcomp:pred	_	_
+5	dèanadh	dèan	VERB	V-h--d	Mood=Cnd	3	acl	_	_
 6	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 7	mòr	mòr	ADJ	Ar	_	8	amod	_	_
 8	fheum	feum	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
@@ -12236,7 +12236,7 @@
 # sent_id = s08_027
 # speaker = [2]
 # text = nach robh cluicheadairean Yugoslavia furachail air an làimh dheas aca fhèin
-1	nach	nach	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	nach	nach	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 3	cluicheadairean	cluicheadair	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
 4	Yugoslavia	Yugoslavia	PROPN	Nt	_	3	nmod	_	_
@@ -12253,7 +12253,7 @@
 # sent_id = s08_028
 # speaker = [2]
 # text = cha robh [?]
-1	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 3	[?]	[?]	X	Xx	_	2	dep	_	_
 
@@ -12301,7 +12301,7 @@
 # sent_id = s08_031
 # speaker = [1]
 # text = chan eil gin aig Yugoslavia ach a-rèir choltais chan eil tadhal aig taobh seach taobh a's a’ ghèam eadar Sasainn agus an t-Suain
-1	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 3	gin	gin	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 4	aig	aig	ADP	Sp	_	5	case	_	_
@@ -12309,7 +12309,7 @@
 6	ach	ach	CCONJ	Cc	_	10	cc	_	_
 7	a-rèir	a-rèir	ADP	Sp	_	8	case	_	_
 8	choltais	coltas	NOUN	Ncsmg	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
-9	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	10	mark:prt	_	_
+9	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	10	mark:prt	_	_
 10	eil	bi	VERB	V-p--d	Tense=Pres	2	conj	_	_
 11	tadhal	tadhal	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 12	aig	aig	ADP	Sp	_	13	case	_	_
@@ -12422,7 +12422,7 @@
 # sent_id = s08_035
 # speaker = [2]
 # text = chan eil mi a' smaoineachadh gu robh iad a' coimhead cho comhfhurtail ri sin a's a’ bhocsa aca fhèin agus tha sinn a' faicinn gu bheil MacLeish air a dhol suas [?] Gough e fhèin a-staigh
-1	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 3	mi	mi	PRON	Pp1s	Number=Sing|Person=1	2	nsubj	_	_
 4	a'	ag	PART	Sa	_	5	case	_	_
@@ -12494,7 +12494,7 @@
 6	a	a	DET	Dp3sf	Gender=Fem|Number=Sing|Person=3|Poss=Yes	7	nmod:poss	_	_
 7	son	airson	ADP	Nf	_	1	obl	_	_
 8	agus	agus	CCONJ	Cc	_	10	cc	_	_
-9	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	10	mark:prt	_	_
+9	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	10	mark:prt	_	_
 10	robh	bi	VERB	V-s--d	Tense=Past	1	conj	_	_
 11	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
 12	siud	siud	DET	Dd	_	11	det	_	_
@@ -12507,7 +12507,7 @@
 # sent_id = s08_039
 # speaker = [2]
 # text = cha robh gu dearbh
-1	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 3	gu	gu	PART	Ua	PartType=Ad	4	mark:prt	_	_
 4	dearbh	dearbh	ADV	Rg	_	2	xcomp:pred	_	_
@@ -12978,7 +12978,7 @@
 # sent_id = s08_063
 # speaker = [1]
 # text = chan eil gin aig Yugoslavia
-1	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 3	gin	gin	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 4	aig	aig	ADP	Sp	_	5	case	_	_
@@ -13027,7 +13027,7 @@
 # sent_id = s08_066
 # speaker = [1]
 # text = chan eil mi buileach cinnteach carson
-1	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 3	mi	mi	PRON	Pp1s	Number=Sing|Person=1	2	nsubj	_	_
 4	buileach	buileach	ADV	Rg	_	5	advmod	_	_
@@ -13255,7 +13255,7 @@
 3	a'	ag	PART	Sa	_	4	case	_	_
 4	smaoineachadh	smaoinich	NOUN	Nv	VerbForm=Vnoun	1	xcomp:pred	_	_
 5	Aonghais	Aonghas	PROPN	Nn-mv	Case=Voc|Gender=Masc	8	vocative	_	_
-6	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	8	mark:prt	_	_
+6	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	8	mark:prt	_	_
 7	do	do	PART	Q--s	Tense=Past	8	mark:prt	_	_
 8	ghabh	gabh	VERB	V-s	Tense=Past	4	ccomp	_	_
 9	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
@@ -13265,7 +13265,7 @@
 # sent_id = s08_077
 # speaker = [2]
 # text = cha robh a chas air an talamh 'air a chaidh e a-steach agus tha mi a' smaoineachadh gur e sin a b' aobhar gun deach i a toirt do Yugoslavia
-1	cha	cha	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 3	a	a	DET	Dp3sm	Gender=Masc|Number=Sing|Person=3|Poss=Yes	4	nmod:poss	_	_
 4	chas	cas	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
@@ -13332,7 +13332,7 @@
 # sent_id = s08_081
 # speaker = [1]
 # text = chan eil mi a' smaoineachadh
-1	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 3	mi	mi	PRON	Pp1s	Number=Sing|Person=1	2	nsubj	_	_
 4	a'	ag	PART	Sa	_	5	case	_	_
@@ -13404,7 +13404,7 @@
 # sent_id = s08_085
 # speaker = [1]
 # text = chan eil ach dhà no thrì mionaidean bho leag e cuideigin eile 'sa chearcall meadhan
-1	chan	chan	PART	Qn	PartType=Cmpl|Polarity=Neg	2	mark:prt	_	_
+1	chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 3	ach	ach	PART	Sp	_	7	mark:prt	_	_
 4	dhà	dà	NUM	Mc	NumForm=Word|NumType=Card	7	nummod	_	_
