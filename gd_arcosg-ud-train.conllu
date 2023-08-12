@@ -25458,7 +25458,7 @@
 38	air	air	ADP	Sp	_	40	case	_	_
 39	a'	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	bhliadhna	bliadhna	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	37	obl	_	_
-41	1730	1730	NUM	Mn	NumForm=Digit|NumType=Card	40	nummod	_	SpaceAfter=No
+41	1730	1730	NUM	Mn	NumForm=Digit|NumType=Card	40	nmod	_	SpaceAfter=No
 42	,	,	PUNCT	Fi	_	43	punct	_	_
 43	sgeulachdan	sgeulachd	NOUN	Ncpfg	Case=Gen|Gender=Fem|Number=Plur	30	obj	_	_
 44	á	as	ADP	Sp	_	45	case	_	_
@@ -31226,7 +31226,7 @@
 33	anns	an	ADP	Sp	_	35	case	_	_
 34	a’	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	bhliadhna	bliadhna	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	_
-36	1865	1865	NUM	Mn	NumForm=Digit|NumType=Card	35	nummod	_	SpaceAfter=No
+36	1865	1865	NUM	Mn	NumForm=Digit|NumType=Card	35	nmod	_	SpaceAfter=No
 37	.	.	PUNCT	Fe	_	16	punct	_	_
 
 # comment = "ach" should be Cc I think
@@ -31459,7 +31459,7 @@
 36	anns	an	ADP	Sp	_	38	case	_	_
 37	a’	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	bhliadhna	bliadhna	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	_
-39	1881	1881	NUM	Mn	NumForm=Digit|NumType=Card	38	nummod	_	SpaceAfter=No
+39	1881	1881	NUM	Mn	NumForm=Digit|NumType=Card	38	nmod	_	SpaceAfter=No
 40	.	.	PUNCT	Fe	_	1	punct	_	_
 
 # sent_id = fp06_019
@@ -33133,7 +33133,7 @@
 14	anns	an	ADP	Sp	_	16	case	_	_
 15	an	an	ADP	Sp	_	14	fixed	_	_
 16	bhliadhna	bliadhna	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
-17	1774	1774	NUM	Mn	NumForm=Digit|NumType=Card	16	nummod	_	SpaceAfter=No
+17	1774	1774	NUM	Mn	NumForm=Digit|NumType=Card	16	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	Fe	_	1	punct	_	_
 
 # sent_id = fp07_021
@@ -33469,8 +33469,8 @@
 29	air	air	ADP	Sp	_	31	case	_	_
 30	a’	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	bhliadhna	bliadhna	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	_
-32	500	500	NUM	Mn	NumForm=Digit|NumType=Card	33	nummod	_	_
-33	AD	AD	NOUN	Y	_	31	nmod	_	SpaceAfter=No
+32	500	500	NUM	Mn	NumForm=Digit|NumType=Card	31	nmod	_	_
+33	AD	AD	NOUN	Y	_	32	flat	_	SpaceAfter=No
 34	.	.	PUNCT	Fe	_	1	punct	_	_
 
 # sent_id = fp08_006
@@ -34418,7 +34418,7 @@
 3	anns	an	ADP	Sp	_	5	case	_	_
 4	an	an	ADP	Sp	_	3	fixed	_	_
 5	bhliadhna	bliadhna	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	_
-6	1258	1258	NUM	Mn	NumForm=Digit|NumType=Card	5	compound	_	SpaceAfter=No
+6	1258	1258	NUM	Mn	NumForm=Digit|NumType=Card	5	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	Fi	_	5	punct	_	_
 8	nuair	nuair	SCONJ	Cs	_	10	mark	_	_
 9	a	a	PART	Q-r	PartType=Vb|PronType=Rel	10	mark:prt	_	_
