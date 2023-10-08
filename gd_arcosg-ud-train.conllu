@@ -25357,8 +25357,8 @@
 4	'	'	PUNCT	Fq	_	5	punct	_	SpaceAfter=No
 5	Neil	Neil	PROPN	Nn-mn	Case=Nom|Gender=Masc	3	nsubj	_	_
 6	Currie	Currie	PROPN	Nn	_	5	flat:name	_	_
-7	the	the	DET	Xfe	Foreign=Yes	5	flat:name	_	_
-8	bard	bard	NOUN	Xfe	Foreign=Yes	5	flat:name	_	SpaceAfter=No
+7	the	the	DET	Xfe	Foreign=Yes	5	flat:name	_	Lang=en
+8	bard	bard	NOUN	Xfe	Foreign=Yes	5	flat:name	_	Lang=en|SpaceAfter=No
 9	'	'	PUNCT	Fz	_	5	punct	_	_
 10	Niall	Niall	PROPN	Nn-mn	Case=Nom|Gender=Masc	5	appos	_	_
 11	Mac	Mac	PART	Up	PartType=Pat	10	flat:name	_	_
@@ -25952,7 +25952,7 @@
 10	de	de	ADP	Sp	_	12	case	_	_
 11	a	a	PART	Q-r	PartType=Vb|PronType=Rel	12	obj	_	_
 12	thubhairt	tubhairt	VERB	V-s	Tense=Past	9	acl:relcl	_	_
-13	lain	Iain	PROPN	Nn-mn	Case=Nom|Gender=Masc	12	nsubj	_	_
+13	lain	Iain	PROPN	Nn-mn	Case=Nom|Gender=Masc|Typo=Yes	12	nsubj	_	CorrectForm=Iain
 14	Òg	òg	ADJ	Aq-smn	Case=Nom|Gender=Masc|Number=Sing	13	amod	_	_
 15	Ile	Ile	PROPN	Nt	_	13	flat:name	_	SpaceAfter=No
 16	,	,	PUNCT	Fi	_	17	punct	_	Space=null
@@ -26257,7 +26257,7 @@
 24	,	,	PUNCT	Fi	_	26	punct	_	_
 25	ach	ach	CCONJ	Cc	_	26	cc	_	_
 26	chuir	cuir	VERB	V-s	Tense=Past	10	conj	_	_
-27	lain	Iain	PROPN	Nn-mn	Case=Nom|Gender=Masc	26	nsubj	_	_
+27	lain	Iain	PROPN	Nn-mn	Case=Nom|Gender=Masc|Typo=Yes	26	nsubj	_	CorrectForm=Iain
 28	Òg	òg	ADJ	Aq-smn	Case=Nom|Gender=Masc|Number=Sing	27	amod	_	_
 29	Ile	Ile	PROPN	Nt	_	27	flat	_	_
 30	an	an	ADP	Sp	_	31	case	_	_
@@ -26373,7 +26373,7 @@
 37	'ic	'ic	PART	Up	PartType=Pat	32	flat:name	_	_
 38	Dhòmhnaill	Dòmhnaill	PROPN	Nn-mg	Case=Gen|Gender=Masc	32	flat:name	_	_
 39	'ic	'ic	PART	Up	PartType=Pat	32	flat:name	_	_
-40	lain	Iain	PROPN	Nn-mg	Case=Gen|Gender=Masc	32	flat:name	_	_
+40	lain	Iain	PROPN	Nn-mg	Case=Gen|Gender=Masc|Typo=Yes	32	flat:name	_	CorrectForm=Iain
 41	'ic	'ic	PART	Up	PartType=Pat	32	flat:name	_	_
 42	Ràghaill	Ràghaill	PROPN	Nn-mg	Case=Gen|Gender=Masc	32	flat:name	_	SpaceAfter=No
 43	)	)	PUNCT	Fb	_	45	punct	_	SpaceAfter=No
@@ -26490,7 +26490,7 @@
 30	,	,	PUNCT	Fi	_	31	punct	_	_
 31	Dòmhnall	Dòmhnall	PROPN	Nn-mn	Case=Nom|Gender=Masc	28	appos	_	_
 32	mac	mac	PART	Up	PartType=Pat	31	flat:name	_	_
-33	lain	Iain	PROPN	Nn-mg	Case=Gen|Gender=Masc	31	flat:name	_	_
+33	lain	Iain	PROPN	Nn-mg	Case=Gen|Gender=Masc|Typo=Yes	31	flat:name	_	CorrectForm=Iain
 34	'ic	'ic	PART	Up	PartType=Pat	31	flat:name	_	_
 35	Ràghaill	Ràghaill	PROPN	Nn-mg	Case=Gen|Gender=Masc	31	flat:name	_	SpaceAfter=No
 36	.	.	PUNCT	Fe	_	2	punct	_	_
@@ -26681,7 +26681,7 @@
 22	,	,	PUNCT	Fi	_	21	punct	_	_
 23	Dòmhnall	Dòmhnall	PROPN	Nn-mn	Case=Nom|Gender=Masc	20	appos	_	_
 24	mac	mac	PART	Up	PartType=Pat	23	flat:name	_	_
-25	lain	Iain	PROPN	Nn-mg	Case=Gen|Gender=Masc	23	flat:name	_	_
+25	lain	Iain	PROPN	Nn-mg	Case=Gen|Gender=Masc|Typo=Yes	23	flat:name	_	CorrectForm=Iain
 26	'ic	'ic	PART	Up	PartType=Pat	23	flat:name	_	_
 27	Ràghaill	Ràghaill	PROPN	Nn-mg	Case=Gen|Gender=Masc	23	flat:name	_	_
 28	an	an	ADP	Sp	_	29	case	_	_
@@ -30604,7 +30604,7 @@
 22	a	a	PART	Ug	PartType=Inf	23	mark:prt	_	_
 23	thoirt	toir	NOUN	Nv	VerbForm=Inf	20	xcomp	_	_
 24	do	do	ADP	Sp	_	25	case	_	_
-25	lain	Iain	PROPN	Nn-md	Case=Dat|Gender=Masc	23	obl	_	_
+25	lain	Iain	PROPN	Nn-md	Case=Dat|Gender=Masc|Typo=Yes	23	obl	_	CorrectForm=Iain
 26	Dòmhnallach	Dòmhnallach	PROPN	Nn	_	25	flat:name	_	SpaceAfter=No
 27	,	,	PUNCT	Fi	_	28	punct	_	_
 28	tuathanach	tuathanach	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	25	appos	_	_
@@ -34426,10 +34426,10 @@
 11	Dòmhnall	Dòmhnall	PROPN	Nn-mn	Case=Nom|Gender=Masc	10	nsubj	_	_
 12	Og	og	ADJ	Aq-smn	Case=Nom|Gender=Masc|Number=Sing	11	amod	_	_
 13	'	'	PUNCT	Fq	_	14	punct	_	SpaceAfter=No
-14	tria	tria	NOUN	Xf	Foreign=Yes	10	obl	_	_
-15	san	san	NOUN	Xf	Foreign=Yes	14	flat:foreign	_	_
-16	nGaoidhilcc	ngaoidhilcc	NOUN	Xf	Foreign=Yes	14	flat:foreign	_	_
-17	nAlbanaigh	nalbanaigh	NOUN	Xf	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+14	tria	tria	NOUN	Xf	Foreign=Yes	10	obl	_	Lang=ghc
+15	san	san	NOUN	Xf	Foreign=Yes	14	flat:foreign	_	Lang=ghc
+16	nGaoidhilcc	ngaoidhilcc	NOUN	Xf	Foreign=Yes	14	flat:foreign	_	Lang=ghc
+17	nAlbanaigh	nalbanaigh	NOUN	Xf	Foreign=Yes	14	flat:foreign	_	Lang=ghc|SpaceAfter=No
 18	'	'	PUNCT	Fz	_	20	punct	_	SpaceAfter=No
 19	,	,	PUNCT	Fi	_	20	punct	_	_
 20	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
@@ -40658,7 +40658,7 @@
 9	am	an	ADP	Sp	_	10	case	_	_
 10	bad	bad	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	7	conj	_	_
 11	a	a	PRON	Px	Reflex=Yes	10	nmod	_	_
-12	chèile	cèile	PRON	Px	Reflex=Yes	10	fixed	_	_
+12	chèile	cèile	PRON	Px	Reflex=Yes	11	fixed	_	_
 13	gu	gu	PART	Qa	PartType=Cmpl	14	mark:prt	_	_
 14	robh	bi	VERB	V-s--d	Tense=Past	10	ccomp	_	_
 15	iad	iad	PRON	Pp3p	Number=Plur|Person=3	14	nsubj	_	_

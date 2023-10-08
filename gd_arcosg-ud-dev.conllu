@@ -4896,9 +4896,9 @@
 38	MhicAonghais	MacAonghais	PROPN	Nn	_	37	flat:name	_	SpaceAfter=No
 39	,	,	PUNCT	Fi	_	41	punct	_	_
 40	agus	agus	CCONJ	Cc	_	41	cc	_	_
-41	Introduction	introduction	NOUN	Xfe	Foreign=Yes	36	conj	_	_
+41	Introduction	introduction	NOUN	Xfe	Foreign=Yes	36	conj	_	Lang=en
 42	agus	agus	CCONJ	Cc	_	43	cc	_	_
-43	Companion	companion	NOUN	Xfe	Foreign=Yes	36	conj	_	_
+43	Companion	companion	NOUN	Xfe	Foreign=Yes	36	conj	_	Lang=en
 44	MhicThòmhais	MacThòmhais	PROPN	Nn	_	43	nmod	_	SpaceAfter=No
 45	.	.	PUNCT	Fe	_	3	punct	_	_
 
