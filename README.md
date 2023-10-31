@@ -92,6 +92,11 @@ We wish to thank all of the contributors to ARCOSG and fellow Celtic language UD
 
 # Changelog
 
+* 2023-11-15 v2.13
+  * Particles and numbers now lemmatised.
+  * NumType and NumForm features added.
+  * PartType on cha, chan and nach fixed.
+  * _dè cho_ annotated consistently.
 * 2023-05-15 v2.12
   * Content clauses should all be `acl` now.
   * Anonymised places and people have `Anonymised=Yes` in the MISC column.
