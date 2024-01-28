@@ -1055,13 +1055,13 @@
 # sent_id = c01_070
 # speaker = [1]
 # text = horse box
-1	horse	horse	NOUN	Xfe	Foreign=Yes	0	root	_	_
-2	box	box	NOUN	Xfe	Foreign=Yes	1	flat:foreign	_	_
+1	horse	horse	NOUN	Xfe	_	0	root	_	OrigLang=en
+2	box	box	NOUN	Xfe	_	1	flat	_	OrigLang=en
 
 # sent_id = c01_071
 # speaker = [3]
 # text = turbo-mowers
-1	turbo-mowers	turbo-mowers	NOUN	Xfe	Foreign=Yes	0	root	_	_
+1	turbo-mowers	turbo-mowers	NOUN	Xfe	_	0	root	_	OrigLang=en
 
 # comment = slight deviation from original tagging - ge brith dè is treated as a fixed phrase
 # sent_id = c01_072
@@ -1281,8 +1281,8 @@
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
 3	air	air	PART	Sa	_	7	case	_	_
-4	ten	ten	NUM	Xfe	Foreign=Yes|NumForm=Word	6	nummod	_	_
-5	thousand	thousand	NUM	Xfe	Foreign=Yes|NumForm=Word	4	flat:foreign	_	_
+4	ten	ten	NUM	Xfe	NumForm=Word	6	nummod	_	OrigLang=en
+5	thousand	thousand	NUM	Xfe	NumForm=Word	4	flat	_	OrigLang=en
 6	eile	eile	ADJ	Aq	_	7	obj	_	_
 7	fhaighinn	faigh	NOUN	Nv	VerbForm=Vnoun	1	xcomp:pred	_	_
 8	air	air	ADP	Sp	_	10	case	_	_
@@ -1294,8 +1294,8 @@
 # text = airson am fast track aig'
 1	airson	airson	ADP	Nf	_	3	case	_	_
 2	am	an	DET	Tds-g	Case=Gen|Number=Sing	3	det	_	_
-3	fast	fast	ADJ	Xfe	Foreign=Yes	0	root	_	_
-4	track	track	NOUN	Xfe	Foreign=Yes	3	flat:foreign	_	_
+3	fast	fast	ADJ	Xfe	_	0	root	_	OrigLang=en
+4	track	track	NOUN	Xfe	_	3	flat	_	OrigLang=en
 5-6	aig'	_	_	_	_	_	_	_	_
 5	aig'	aig	ADP	Sp	_	6	case	_	_
 6	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	3	obl	_	_
@@ -1315,9 +1315,9 @@
 3	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	fixed	_	_
 4	ach	ach	ADP	Sp	_	6	case	_	_
 5	airson	airson	ADP	Nf	_	6	case	_	_
-6	agricultural	agricultural	NOUN	Xfe	Foreign=Yes	0	root	_	_
-7	machinery	machinery	NOUN	Xfe	Foreign=Yes	6	flat:foreign	_	_
-8	mower	mower	NOUN	Xfe	Foreign=Yes	7	appos	_	_
+6	agricultural	agricultural	NOUN	Xfe	_	0	root	_	OrigLang=en
+7	machinery	machinery	NOUN	Xfe	_	6	flat	_	OrigLang=en
+8	mower	mower	NOUN	Xfe	_	7	appos	_	OrigLang=en
 9	's	's	CCONJ	Cc	_	10	cc	_	_
 10	smodal	smodal	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
 
@@ -1377,12 +1377,12 @@
 6	an	an	ADP	Sp	_	7	case	_	_
 7	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	5	xcomp:pred	_	_
 8	ach	ach	ADP	Sp	_	9	case	_	_
-9	equipment	equipment	NOUN	Xfe	Foreign=Yes	5	obl	_	_
+9	equipment	equipment	NOUN	Xfe	_	5	obl	_	OrigLang=en
 
 # sent_id = c01_090
 # speaker = [1]
 # text = equipment 's dòcha a bh' ann
-1	equipment	equipment	NOUN	Xfe	Foreign=Yes	3	dislocated	_	_
+1	equipment	equipment	NOUN	Xfe	_	3	dislocated	_	OrigLang=en
 2	's	is	AUX	Wp-i	Tense=Pres	3	cop	_	_
 3	dòcha	dòcha	NOUN	Uf	_	0	root	_	_
 4	a	a	PART	Q-r	PartType=Vb|PronType=Rel	5	nsubj	_	_
@@ -1397,13 +1397,13 @@
 1	àidh	àidh	INTJ	I	_	2	discourse	_	_
 2	gheibheadh	geibh	VERB	V-h	Mood=Cnd	0	root	_	_
 3	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
-4	twenty-five	twenty-five	NUM	Xfe	Foreign=Yes|NumForm=Word	2	obj	_	_
-5	percent	percent	NOUN	Xfe	Foreign=Yes	4	flat:foreign	_	_
+4	twenty-five	twenty-five	NUM	Xfe	NumForm=Word	2	obj	_	OrigLang=en
+5	percent	percent	NOUN	Xfe	_	4	flat	_	OrigLang=en
 6-7	dhen	_	_	_	_	_	_	_	_
 6	de	de	ADP	Sp	_	8	case	_	_
 7	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
-8	fast	fast	NOUN	Xfe	Foreign=Yes	5	nmod	_	_
-9	track	track	NOUN	Xfe	Foreign=Yes	8	flat:foreign	_	_
+8	fast	fast	NOUN	Xfe	Foreign=Yes	5	nmod	_	OrigLang=en
+9	track	track	NOUN	Xfe	Foreign=Yes	8	flat	_	OrigLang=en
 
 # sent_id = c01_092
 # speaker = [1]
@@ -1516,7 +1516,7 @@
 # speaker = [3]
 # text = Hosta Machineries
 1	Hosta	hosta	PROPN	Xfe	Foreign=Yes	0	root	_	_
-2	Machineries	machineries	PROPN	Xfe	Foreign=Yes	1	flat:foreign	_	_
+2	Machineries	machineries	NOUN	Xfe	Foreign=Yes	1	flat:name	_	_
 
 # sent_id = c01_101
 # speaker = [1]
@@ -1709,8 +1709,8 @@
 4	fear	fear	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
 5	dhe	de	ADP	Sp	_	7	case	_	_
 6	na	an	DET	Tdp	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	trailing	trailing	NOUN	Xfe	Foreign=Yes	4	nmod	_	_
-8	ploughs	ploughs	NOUN	Xfe	Foreign=Yes	7	flat:foreign	_	_
+7	trailing	trailing	NOUN	Xfe	_	4	nmod	_	OrigLang=en
+8	ploughs	ploughs	NOUN	Xfe	_	7	flat	_	OrigLang=en
 9	mhòr	mòr	ADJ	Aq-p	Number=Plur	7	amod	_	_
 10	a	a	PART	Q-r	PartType=Vb|PronType=Rel	11	nsubj	_	_
 11	tha	bi	VERB	V-p	Tense=Pres	7	acl:relcl	_	_
@@ -2383,8 +2383,8 @@
 9	gu	gu	ADP	Sp	_	10	case	_	_
 10	mi	mi	PRON	Pp1s	Number=Sing|Person=1	7	obl	_	_
 11	a	a	ADP	Sp	_	12	case	_	_
-12	Post	post	NOUN	Xfe	Foreign=Yes	7	obl	_	_
-13	Office	office	NOUN	Xfe	Foreign=Yes	12	flat:foreign	_	_
+12	Post	post	NOUN	Xfe	_	7	obl	_	OrigLang=en
+13	Office	office	NOUN	Xfe	_	12	flat	_	OrigLang=en
 14	an	an	DET	Tdsmg	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	eilein	eilein	NOUN	Ncsmg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	Fe	_	12	punct	_	_
@@ -3291,6 +3291,7 @@
 # newdoc id = fp03
 # sent_id = fp03_000
 # text = Tha Mairearad Nighean Lachlainn air aon de na bana-bhàird a bha beò mu dheireadh na seachdamh linn deug agus mu thoiseach na h-ochdamh linn deug.
+# text_en = Mairearad Nighean Lachlainn is the name of one of the female poets who was alive at the end of the seventeenth century and around the beginning of the eighteenth century.
 1	Tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	Mairearad	Mairearad	PROPN	Nn-fn	Case=Nom|Gender=Fem	1	nsubj	_	_
 3	Nighean	nighean	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	2	flat:name	_	_
@@ -3320,6 +3321,7 @@
 
 # sent_id = fp03_001
 # text = A réir an Ollaimh MacBhàtair, rugadh i mu 1660 agus chaochail i mu 1730, ach tha MacGill-Eain Mac na Ceàrdaich, 'na leabhar Na Bàird Ghàidhealach eadar 1715 agus 1765, ag ràdh; Is e an dàn a rinn i an 1751 'Òran do Shir Eachann MacGill-Eain', a chaochail anns an Ròimh an 1751.
+# text_en = According to Professor Watson, she was born around 1660 and died around 1730 but Maclean Sinclear, in his book "The Gaelic Bards: from 1715 to 1765", says; "The poem she wrote in 1751 'Òran do Shir Eachann MacGill-Eain', who died in Rome in 1751.
 1	A	a	ADP	Sp	_	4	case	_	_
 2	réir	réir	ADP	Nf	_	1	fixed	_	_
 3	an	an	DET	Tdsmg	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3386,6 +3388,7 @@
 
 # sent_id = fp03_002a
 # text = Am b' i Mairearad a rinn an dàn seo?
+# text_en = Was it Mairearad who wrote this poem?
 1	Am	am	PART	Qq	PartType=Vb|PronType=Int	4	mark:prt	_	_
 2	b'	is	AUX	Ws	Tense=Past	4	cop	_	_
 3	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3	2	fixed	_	_
@@ -3399,6 +3402,7 @@
 
 # sent_id = fp03_002b
 # text = Tha Mac na Ceàrdaich cinnteach gum b' i.
+# text_en = Sinclair is sure that it was.
 1	Tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	Mac	Mac	PART	Up	PartType=Pat	1	nsubj	_	_
 3	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	flat:name	_	_
@@ -3411,6 +3415,7 @@
 
 # sent_id = fp03_003
 # text = Tha Pàdraig Mac an Tuairneir de 'n cheart bharail, agus tha e soilleir nach robh Mac na Ceàrdaich ag aithris air Mac an Tuairneir a-mhàin oir tha iomadh eadar-dhealachadh bhriathran eatorra.
+# text_en = Peter Turner is of the correct opinion, and it is clear that Sinclair was not reporting solely on Turner for there are many differences of opinion between them.
 1	Tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	Pàdraig	Pàdraig	PROPN	Nn-mn	Case=Nom|Gender=Masc	1	nsubj	_	_
 3	Mac	Mac	PART	Up	PartType=Pat	2	flat:name	_	_
@@ -3449,6 +3454,7 @@
 
 # sent_id = fp03_004
 # text = Mar eisimpleir, tha Mac an Tuairneir a' tòiseachadh mar a leanas; Chan eil rann seach rann ag ràdh gu deimhinneach gu bheil Eachann marbh, 's cha mhotha tha rann eile anns an òran ag ràdh a leithid, ach a-mhàin gun dàinig a sgeul bàis; ach tha an siathamh rann (anns gach clò-bhualadh) a' nochdadh gum b' ann an déidh Blàr Chùil-Lodair a rinneadh an t-òran; Uime sin, ma tha Mac an Tuairneir agus Mac na Ceàrdaich ceart ann a bhith ag cur an òrain seo as leth Mairearaid, bha i beò an 1746 agus, a réir gach coltais, an 1751.
+# text_en = For example, Turner begins as follows;
 1	Mar	mar	ADP	Sp	_	2	case	_	_
 2	eisimpleir	eisimpleir	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	Fi	_	4	punct	_	_
@@ -3616,6 +3622,7 @@
 45	.	.	PUNCT	Fe	_	42	punct	_	SpaceAfter=No
 46	'	'	PUNCT	Fz	_	42	punct	_	_
 
+# comment = node 22 is a bit odd because it's a Gaelic word inside an English title. Borrowing within borrowing.
 # sent_id = fp03_006
 # text = Ged a thuirt e 1702 anns na Bàird Ghàidhealach, tha Mac na Ceàrdaich ag ràdh anns an leabhar The Clan Gillean; <English_text> Gidheadh, faodar a bhith cinnteach gu robh Mairearad ris na h-òrain roimh 1702, agus cha mhór dà bhliadhna anns an aois mhóir a fhuair Mairearad a réir beul-aithris.
 1	Ged	ged	SCONJ	Cs	_	3	mark	_	_
@@ -3639,7 +3646,7 @@
 19	leabhar	leabhar	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	_
 20	The	the	X	Xfe	Foreign=Yes	19	appos	_	_
 21	Clan	clan	X	Xfe	Foreign=Yes	20	flat:foreign	_	_
-22	Gillean	Gillean	PROPN	Nn	_	20	flat:foreign	_	SpaceAfter=No
+22	Gillean	Gillean	X	Nn	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
 23	;	;	PUNCT	Fi	_	16	punct	_	_
 24	<English_text>	<english_text>	X	Xf	Foreign=Yes	16	parataxis	_	_
 25	Gidheadh	gidheadh	ADV	Rg	_	27	advcl	_	SpaceAfter=No
@@ -7445,8 +7452,8 @@
 20	boireannaich	boireannach	NOUN	Ncpmd	Case=Dat|Gender=Masc|Number=Plur	14	nmod	_	_
 21	-	-	PUNCT	Fb	_	23	punct	_	_
 22	no	no	CCONJ	Cc	_	23	cc	_	_
-23	cervical	cervical	NOUN	Xfe	Foreign=Yes	15	conj	_	_
-24	cancer	cancer	NOUN	Xfe	Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
+23	cervical	cervical	NOUN	Xfe	_	15	conj	_	OrigLang=en
+24	cancer	cancer	NOUN	Xfe	_	23	flat	_	OrigLang=en|SpaceAfter=No
 25	,	,	PUNCT	Fi	_	23	punct	_	_
 26	an	an	ADP	Sp	_	29	case	_	_
 27	deidh	deidh	ADP	Nf	_	26	fixed	_	_
@@ -9439,9 +9446,9 @@
 # sent_id = pw02_000
 # text = BHA Celtic Connections 1999 a’ dol air adhart na bu tràithe air a’ mhìos seo ann an Talla Chonsairt Rìoghail Ghlaschu.
 1	BHA	bi	VERB	V-s	Tense=Past	0	root	_	_
-2	Celtic	celtic	NOUN	Xfe	Foreign=Yes	1	nsubj	_	_
-3	Connections	connections	NOUN	Xfe	Foreign=Yes	2	flat:foreign	_	_
-4	1999	1999	NUM	Mn	NumForm=Digit|NumType=Card	2	flat:foreign	_	_
+2	Celtic	celtic	ADV	Xfe	Foreign=Yes	1	nsubj	_	OrigLang=en
+3	Connections	connections	NOUN	Xfe	Foreign=Yes	2	flat	_	OrigLang=en
+4	1999	1999	NUM	Mn	_	2	flat	_	_
 5	a’	ag	PART	Sa	_	6	case	_	_
 6	dol	rach	NOUN	Nv	VerbForm=Vnoun	1	xcomp:pred	_	_
 7	air	air	ADP	Sp	_	8	case	_	_
@@ -9560,8 +9567,8 @@
 10	thoirt	toir	NOUN	Nv	VerbForm=Inf	16	xcomp	_	_
 11	thro	tro	ADP	Sp	_	12	case	_	_
 12	leabhran	leabhran	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
-13	Celtic	celtic	NOUN	Xfe	Foreign=Yes	12	nmod	_	_
-14	Connections	connections	NOUN	Xfe	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+13	Celtic	celtic	ADJ	Xfe	Foreign=Yes	12	nmod	_	OrigLang=en
+14	Connections	connections	NOUN	Xfe	Foreign=Yes	13	flat:name	_	OrigLang=en|SpaceAfter=No
 15	,	,	PUNCT	Fi	_	10	punct	_	_
 16	bha	bi	VERB	V-s	Tense=Past	0	root	_	_
 17	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
@@ -9608,8 +9615,8 @@
 13	mar	mar	ADP	Sp	_	14	case	_	_
 14	sin	sin	PRON	Pd	_	16	obl	_	_
 15	aig	aig	ADP	Sp	_	16	case	_	_
-16	Celtic	celtic	ADJ	Xfe	Foreign=Yes	7	conj	_	_
-17	Connections	connections	NOUN	Xfe	Foreign=Yes	16	flat:foreign	_	_
+16	Celtic	celtic	ADJ	Xfe	_	7	conj	_	OrigLang=en
+17	Connections	connections	NOUN	Xfe	_	16	flat:name	_	OrigLang=en
 18	cuideachd	cuideachd	ADV	Rg	_	17	advmod	_	SpaceAfter=No
 19	)	)	PUNCT	Fb	_	16	punct	_	_
 20	agus	agus	CCONJ	Cc	_	21	cc	_	_
@@ -9982,7 +9989,7 @@
 6	,	,	PUNCT	Fi	_	8	punct	_	_
 7	am	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
 8	Birgidale	Birgidale	PROPN	Nt	_	2	appos	_	_
-9	Complex	complex	NOUN	Xfe	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+9	Complex	complex	NOUN	Xfe	Foreign=Yes	8	flat	_	SpaceAfter=No
 10	,	,	PUNCT	Fi	_	13	punct	_	_
 11	far	far	SCONJ	Cs	_	13	mark	_	_
 12	am	am	PART	Qq	PartType=Vb|PronType=Int	13	mark:prt	_	_
