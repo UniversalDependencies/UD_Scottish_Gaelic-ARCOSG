@@ -3291,7 +3291,6 @@
 # newdoc id = fp03
 # sent_id = fp03_000
 # text = Tha Mairearad Nighean Lachlainn air aon de na bana-bhàird a bha beò mu dheireadh na seachdamh linn deug agus mu thoiseach na h-ochdamh linn deug.
-# text_en = Mairearad Nighean Lachlainn is the name of one of the female poets who was alive at the end of the seventeenth century and around the beginning of the eighteenth century.
 1	Tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	Mairearad	Mairearad	PROPN	Nn-fn	Case=Nom|Gender=Fem	1	nsubj	_	_
 3	Nighean	nighean	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	2	flat:name	_	_
@@ -3321,7 +3320,6 @@
 
 # sent_id = fp03_001
 # text = A réir an Ollaimh MacBhàtair, rugadh i mu 1660 agus chaochail i mu 1730, ach tha MacGill-Eain Mac na Ceàrdaich, 'na leabhar Na Bàird Ghàidhealach eadar 1715 agus 1765, ag ràdh; Is e an dàn a rinn i an 1751 'Òran do Shir Eachann MacGill-Eain', a chaochail anns an Ròimh an 1751.
-# text_en = According to Professor Watson, she was born around 1660 and died around 1730 but Maclean Sinclear, in his book "The Gaelic Bards: from 1715 to 1765", says; "The poem she wrote in 1751 'Òran do Shir Eachann MacGill-Eain', who died in Rome in 1751.
 1	A	a	ADP	Sp	_	4	case	_	_
 2	réir	réir	ADP	Nf	_	1	fixed	_	_
 3	an	an	DET	Tdsmg	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3388,7 +3386,6 @@
 
 # sent_id = fp03_002a
 # text = Am b' i Mairearad a rinn an dàn seo?
-# text_en = Was it Mairearad who wrote this poem?
 1	Am	am	PART	Qq	PartType=Vb|PronType=Int	4	mark:prt	_	_
 2	b'	is	AUX	Ws	Tense=Past	4	cop	_	_
 3	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3	2	fixed	_	_
@@ -3402,7 +3399,6 @@
 
 # sent_id = fp03_002b
 # text = Tha Mac na Ceàrdaich cinnteach gum b' i.
-# text_en = Sinclair is sure that it was.
 1	Tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	Mac	Mac	PART	Up	PartType=Pat	1	nsubj	_	_
 3	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	flat:name	_	_
@@ -3415,7 +3411,6 @@
 
 # sent_id = fp03_003
 # text = Tha Pàdraig Mac an Tuairneir de 'n cheart bharail, agus tha e soilleir nach robh Mac na Ceàrdaich ag aithris air Mac an Tuairneir a-mhàin oir tha iomadh eadar-dhealachadh bhriathran eatorra.
-# text_en = Peter Turner is of the correct opinion, and it is clear that Sinclair was not reporting solely on Turner for there are many differences of opinion between them.
 1	Tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	Pàdraig	Pàdraig	PROPN	Nn-mn	Case=Nom|Gender=Masc	1	nsubj	_	_
 3	Mac	Mac	PART	Up	PartType=Pat	2	flat:name	_	_
@@ -3454,7 +3449,6 @@
 
 # sent_id = fp03_004
 # text = Mar eisimpleir, tha Mac an Tuairneir a' tòiseachadh mar a leanas; Chan eil rann seach rann ag ràdh gu deimhinneach gu bheil Eachann marbh, 's cha mhotha tha rann eile anns an òran ag ràdh a leithid, ach a-mhàin gun dàinig a sgeul bàis; ach tha an siathamh rann (anns gach clò-bhualadh) a' nochdadh gum b' ann an déidh Blàr Chùil-Lodair a rinneadh an t-òran; Uime sin, ma tha Mac an Tuairneir agus Mac na Ceàrdaich ceart ann a bhith ag cur an òrain seo as leth Mairearaid, bha i beò an 1746 agus, a réir gach coltais, an 1751.
-# text_en = For example, Turner begins as follows;
 1	Mar	mar	ADP	Sp	_	2	case	_	_
 2	eisimpleir	eisimpleir	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	Fi	_	4	punct	_	_

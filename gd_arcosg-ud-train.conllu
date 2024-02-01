@@ -126,7 +126,6 @@
 # sent_id = c02_002a
 # speaker = [1]
 # text = ò bha mi shuas ann am [Placename] aig na bùithtean 's thadhal mi air [Name]
-# text_en = oh I was up in [Placename] at the shops and I met [Name]
 1	ò	ò	INTJ	I	_	2	discourse	_	_
 2	bha	bi	VERB	V-s	Tense=Past	0	root	_	_
 3	mi	mi	PRON	Pp1s	Number=Sing|Person=1	2	nsubj	_	_
@@ -146,7 +145,6 @@
 # sent_id = c02_002b
 # speaker = [1]
 # text = tha m' amhaich goirt 's tha mi a' call mo ghuth an seothach
-# text_en = I have a sore throat and I'm losing my voice here
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	m'	mo	DET	Dp1s	Number=Sing|Person=1|Poss=Yes	3	nmod:poss	_	_
 3	amhaich	amhaich	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
@@ -164,7 +162,6 @@
 # sent_id = c02_003a
 # speaker = [2]
 # text = ò chan e droch rud tha sin idir
-# text_en = oh that's not a bad thing at all
 1	ò	ò	INTJ	I	_	5	discourse	_	_
 2	chan	is	AUX	Wp-in	Polarity=Neg|Tense=Pres	5	cop	_	_
 3	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	2	fixed	_	_
@@ -177,7 +174,6 @@
 # sent_id = c02_003b
 # speaker = [2]
 # text = gheibh sinn fois a-nochd co-dhiubh
-# text_en = we'll rest tonight anyway
 1	gheibh	faigh	VERB	V-f	Tense=Fut	0	root	_	_
 2	sinn	sinn	PRON	Pp1p	Number=Plur|Person=1	1	nsubj	_	_
 3	fois	fois	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	obj	_	_
@@ -212,7 +208,6 @@
 # sent_id = c02_005a
 # speaker = [2]
 # text = ò tha mise eòlach gu leòr air a' phinidh co-dhiubh
-# text_en = oh I know the pinny well anyway
 1	ò	ò	INTJ	I	_	2	discourse	_	_
 2	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 3	mise	mi	PRON	Pp1s--e	Form=Emp|Number=Sing|Person=1	2	nsubj	_	_
@@ -242,7 +237,6 @@
 # sent_id = c02_006
 # speaker = [2]
 # text = shin agad e
-# text_en = there you have it
 1	shin	shin	PRON	Pd	_	0	root	_	_
 2-3	agad	_	_	_	_	_	_	_	_
 2	aig	aig	ADP	Sp	_	3	case	_	_
@@ -252,7 +246,6 @@
 # sent_id = c02_007
 # speaker = [1]
 # text = an d’ fhuair sibh sgath giomaich?
-# text_en = did you get a bit of lobster?
 1	an	an	PART	Qq	PartType=Vb|PronType=Int	3	mark:prt	_	_
 2	d’	do	PART	Q--s	Tense=Past	3	mark:prt	_	_
 3	fhuair	faigh	VERB	V-s	Tense=Past	0	root	_	_
@@ -342,7 +335,6 @@
 # sent_id = c02_009a
 # speaker = [1]
 # text = tha agam-sa ri dhol a-staigh a dh’obair tràth a-màireach
-# text_en = I have to come in to work early tomorrow
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2-3	agam-sa	_	_	_	_	_	_	_	_
 2	aig	aig	ADP	Sp	_	3	case	_	_
@@ -358,7 +350,6 @@
 # sent_id = c02_009b
 # speaker = [1]
 # text = tha agam ri bhith a-staigh aig a naoi
-# text_en = I have to be in at nine
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2-3	agam	_	_	_	_	_	_	_	_
 2	aig	aig	ADP	Sp	_	3	case	_	_
@@ -373,7 +364,6 @@
 # sent_id = c02_010
 # speaker = [2]
 # text = dè tha a' dol nuair a tha agaibh ri dhol a-staigh tràth?
-# text_en = how is it when you have to be in early?
 1	dè	dè	PRON	Uq	PronType=Int	2	nsubj	_	_
 2	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 3	a'	ag	PART	Sa	_	4	case	_	_
@@ -426,7 +416,6 @@
 # sent_id = c02_012a
 # speaker = [2]
 # text = ò àidh àidh tha mi a' tuigsinn
-# text_en = oh aye aye I understand
 1	ò	ò	INTJ	I	_	4	discourse	_	_
 2	àidh	àidh	INTJ	I	_	4	discourse	_	_
 3	àidh	àidh	INTJ	I	_	4	discourse	_	_
@@ -448,7 +437,6 @@
 # sent_id = c02_013
 # speaker = [1]
 # text = tha duine na dithis thall 'sa bhunkhouse
-# text_en = there's one or two people over in the bunkhouse
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	duine	duine	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 3	na	na	CCONJ	Cc	_	4	cc	_	_
@@ -462,7 +450,6 @@
 # sent_id = c02_014a
 # speaker = [2]
 # text = ò a bheil
-# text_en = oh is there
 1	ò	ò	INTJ	I	_	3	discourse	_	_
 2	a	a	PART	Qq	PartType=Vb|PronType=Int	3	mark:prt	_	_
 3	bheil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
@@ -470,14 +457,12 @@
 # sent_id = c02_014b
 # speaker = [2]
 # text = cò?
-# text_en = who?
 1	cò	cò	PRON	Uq	PronType=Int	0	root	_	SpaceAfter=No
 2	?	?	PUNCT	Fg	_	1	punct	_	_
 
 # sent_id = c02_015a
 # speaker = [1]
 # text = an dà chailleach a bh' ann an-raoir tè à [Placename] agus tè à [Placename] agus 's e Sasannach a th' anns a’ bhoireannach a thàinig an-diugh cuideachd 's e bha tuathanas
-# text_en = the two old women who were there last night one from [Placename] and one from [Placename] and the woman who came today's English too 
 1	an	an	DET	Tdsf	Gender=Fem|Number=Sing	3	det	_	_
 2	dà	dà	NUM	Mc	NumForm=Word|NumType=Card	3	nummod	_	_
 3	chailleach	cailleach	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
@@ -530,7 +515,6 @@
 # sent_id = c02_015c
 # speaker = [1]
 # text = bha i a' gearrain cianail air na prìsean a bh' acasan cuideachd
-# text_en = she was complaining sorely about the prices they had also
 1	bha	bi	VERB	V-s	Tense=Past	0	root	_	_
 2	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
 3	a'	ag	PART	Sa	_	4	case	_	_
@@ -1142,7 +1126,7 @@
 16	dithis	dithis	NOUN	Ncsfg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
 17	anns	an	ADP	Sp	_	19	case	_	_
 18	a'	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
-19	chanoe	chanoe	X	Xfe	Foreign=Yes	13	xcomp:pred	_	_
+19	chanoe	chanoe	NOUN	Xfe	Foreign=Yes	13	xcomp:pred	_	_
 20	a	a	PART	Q-r	PartType=Vb|PronType=Rel	21	nsubj	_	_
 21	bh'	bi	VERB	V-s	Tense=Past	19	acl:relcl	_	_
 22-23	aice	_	_	_	_	_	_	_	_
@@ -1163,7 +1147,7 @@
 36	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	duine	duine	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
 38	eile	eile	ADJ	Aq-smn	Case=Nom|Gender=Masc|Number=Sing	37	amod	_	_
-39	supposed	supposed	X	Xfe	Foreign=Yes	35	xcomp:pred	_	_
+39	supposed	supposed	ADJ	Xfe	Foreign=Yes	35	xcomp:pred	_	_
 40	a	a	PART	Ug	PartType=Inf	41	mark:prt	_	_
 41	bhith	bi	NOUN	Nv	VerbForm=Inf	39	xcomp	_	_
 42	's	's	CCONJ	Cc	_	45	cc	_	_
@@ -1197,7 +1181,7 @@
 8-9	'sa	_	_	_	_	_	_	_	_
 8	anns	an	ADP	Sp	_	10	case	_	_
 9	an	an	ADP	Sp	_	8	fixed	_	_
-10	chanoe	chanoe	X	Xfe	Foreign=Yes	6	obl	_	_
+10	chanoe	chanoe	NOUN	Xfe	Foreign=Yes	6	obl	_	_
 11	nuair	nuair	SCONJ	Cs	_	13	mark	_	_
 12	a	a	PART	Q-r	PartType=Vb|PronType=Rel	13	mark:prt	_	_
 13	bha	bi	VERB	V-s	Tense=Past	2	advcl	_	_
@@ -1255,7 +1239,7 @@
 7	b'	is	AUX	Ws	Tense=Past	8	cop	_	_
 8	fheàirrde	math	ADJ	Aps	_	1	conj	_	_
 9	duine	duine	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
-10	[?]	[?]	X	Xx	_	8	xcomp	_	_
+10	[?]	[?]	X	Xx	_	8	dep	_	_
 
 # sent_id = c02_038b
 # speaker = [2]
@@ -2185,7 +2169,6 @@
 # sent_id = c04_064
 # speaker = [5]
 # text = 's dè cho teth ‘s a bhios e a-muigh?
-# text_en = and how hot will it be outside?
 1	's	's	CCONJ	Cc	_	4	cc	_	_
 2	dè	dè	PRON	Uq	PronType=Int	4	advmod	_	_
 3	cho	cho	ADV	Rg	_	2	fixed	_	_
@@ -2839,12 +2822,12 @@
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
 3	a'	ag	PART	Sa	_	4	case	_	_
 4	ràdh	abair	NOUN	Nv	VerbForm=Vnoun	1	xcomp:pred	_	_
-5	the	the	X	Xfe	Foreign=Yes	4	ccomp	_	_
-6	people	people	X	Xfe	Foreign=Yes	5	flat:foreign	_	_
-7	over-capitalise	over-capitalise	X	Xfe	Foreign=Yes	5	flat:foreign	_	_
-8	on	on	X	Xfe	Foreign=Yes	5	flat:foreign	_	_
-9	their	their	X	Xfe	Foreign=Yes	5	flat:foreign	_	_
-10	houses	houses	X	Xfe	Foreign=Yes	5	flat:foreign	_	_
+5	the	the	X	Xfe	Foreign=Yes	4	ccomp	_	Lang=en
+6	people	people	X	Xfe	Foreign=Yes	5	flat:foreign	_	Lang=en
+7	over-capitalise	over-capitalise	X	Xfe	Foreign=Yes	5	flat:foreign	_	Lang=en
+8	on	on	X	Xfe	Foreign=Yes	5	flat:foreign	_	Lang=en
+9	their	their	X	Xfe	Foreign=Yes	5	flat:foreign	_	Lang=en
+10	houses	houses	X	Xfe	Foreign=Yes	5	flat:foreign	_	Lang=en
 
 # sent_id = c05_030
 # speaker = [2]
@@ -12599,7 +12582,6 @@
 # sent_id = c10_157
 # speaker = [2]
 # text = obh obh
-# text_en = oh dear
 1	obh	obh	INTJ	I	_	0	root	_	_
 2	obh	obh	INTJ	I	_	1	discourse	_	_
 
@@ -12621,7 +12603,6 @@
 # sent_id = c10_159
 # speaker = [2]
 # text = dè cho domhainn 's a chuir iad e
-# text_en = how deep they put it
 1	dè	dè	ADV	Uq	_	3	advmod	_	_
 2	cho	cho	ADV	Rg	_	1	fixed	_	_
 3	domhainn	domhainn	ADJ	Ap	_	0	root	_	_
@@ -46700,7 +46681,6 @@
 11	neo-eisimeileach	neo-eisimeileach	ADJ	Aq-pmd	Case=Dat|Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
 12	.	.	PUNCT	Fe	_	1	punct	_	_
 
-# comment = coimisean will have an acl coming off it come the revolution
 # sent_id = ns01_059
 # text = Chaidh iarraidh gun d' rachadh Coimisean rannsachaidh a chur air bhonn a choimhead air drugaichean ann an saoghal spòrs.
 1	Chaidh	rach	AUX	V-s	Tense=Past	2	aux:pass	_	_
@@ -60965,7 +60945,7 @@
 48	's	is	AUX	Wp-i	Tense=Pres	49	cop	_	_
 49	dòcha	dòcha	NOUN	Uf	_	40	advcl	_	_
 50	am	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	51	det	_	_
-51	Bomb	bomb	X	Xfe	Foreign=Yes	53	obj	_	_
+51	Bomb	bomb	NOUN	Xfe	Foreign=Yes	53	obj	_	_
 52	a	a	PART	Ug	PartType=Inf	53	mark:prt	_	_
 53	thilgeil	tilg	NOUN	Nv	VerbForm=Inf	49	xcomp	_	_
 54	air	air	ADP	Sp	_	55	case	_	_
@@ -61416,7 +61396,7 @@
 36	Gearmailtich	gearmailteach	NOUN	Ncpmd	Case=Dat|Gender=Masc|Number=Plur	33	obl	_	_
 37	fhèin	fèin	PRON	Px	Reflex=Yes	36	nmod	_	_
 38	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	39	det	_	_
-39	resistance	resistance	X	Xfe	Foreign=Yes	41	obj	_	_
+39	resistance	resistance	NOUN	Xfe	Foreign=Yes	41	obj	_	_
 40	a	a	PART	Ug	PartType=Inf	41	mark:prt	_	_
 41	chlaoidheadh	claoidh	NOUN	Nv	VerbForm=Inf	33	xcomp	_	_
 42	agus	agus	CCONJ	Cc	_	43	cc	_	_
@@ -61688,7 +61668,7 @@
 58	gum	gu	PART	Qa	PartType=Cmpl	59	mark:prt	_	_
 59	faodadh	faod	VERB	V-h--d	Mood=Cnd	46	conj	_	_
 60	sinn	sinn	PRON	Pp1p	Number=Plur|Person=1	59	nsubj	_	_
-61	sanctions	sanctions	X	Xfe	Foreign=Yes	59	obl	_	_
+61	sanctions	sanctions	NOUN	Xfe	Foreign=Yes	59	obl	_	OrigLang=en
 62	eile	eile	ADJ	Aq-p	Number=Plur	59	obl	_	_
 63	a	a	PART	Ug	PartType=Inf	64	mark:prt	_	_
 64	chleachdadh	cleachd	NOUN	Nv	VerbForm=Inf	59	xcomp	_	_
@@ -77927,7 +77907,7 @@
 27	còmhnaidh	còmhnaidh	ADV	Rt	_	26	fixed	_	_
 28	a	a	PART	Ug	PartType=Inf	29	mark:prt	_	_
 29	bhith	bi	NOUN	Nv	VerbForm=Inf	32	reparandum	_	_
-30	aire	aire	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	29	dep	_	_
+30	aire	aire	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	29	xcomp:pred	_	_
 31	a	a	PART	Ug	PartType=Inf	32	mark:prt	_	_
 32	bhith	bi	NOUN	Nv	VerbForm=Inf	24	xcomp:pred	_	_
 33	air	air	ADP	Sp	_	34	case	_	_

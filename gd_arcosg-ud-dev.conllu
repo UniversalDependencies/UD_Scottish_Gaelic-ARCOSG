@@ -3,7 +3,6 @@
 # sent_id = c03_000
 # speaker = [1]
 # text = dè ghabh thu?
-# text_en = what did you have?
 1	dè	dè	PRON	Uq	PronType=Int	2	obj	_	_
 2	ghabh	gabh	VERB	V-s	Tense=Past	0	root	_	_
 3	thu	thu	PRON	Pp2s	Number=Sing|Person=2	2	nsubj	_	SpaceAfter=No
@@ -12,14 +11,12 @@
 # sent_id = c03_001
 # speaker = [2]
 # text = turkey burger
-# text_en = turkey burger
 1	turkey	turkey	NOUN	Xfe	_	0	root	_	_
 2	burger	burger	NOUN	Xfe	_	1	flat	_	_
 
 # sent_id = c03_002
 # speaker = [1]
 # text = turkey burger an robh e math?
-# text_en = turkey burger was it good?
 1	turkey	turkey	NOUN	Xfe	_	0	root	_	_
 2	burger	burger	NOUN	Xfe	_	1	flat	_	_
 3	an	an	PART	Qq	PartType=Vb|PronType=Int	4	mark:prt	_	_
@@ -31,7 +28,6 @@
 # sent_id = c03_003
 # speaker = [2]
 # text = bha bha e okay
-# text_en = it was it was OK
 1	bha	bi	VERB	V-s	Tense=Past	2	discourse	_	_
 2	bha	bi	VERB	V-s	Tense=Past	0	root	_	_
 3	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
@@ -40,7 +36,6 @@
 # sent_id = c03_004
 # speaker = [3]
 # text = 's dè fhuair thu leis?
-# text_en = and what did you get with it?
 1	's	's	CCONJ	Cc	_	3	cc	_	_
 2	dè	dè	PRON	Uq	PronType=Int	3	obj	_	_
 3	fhuair	faigh	VERB	V-s	Tense=Past	0	root	_	_
@@ -53,7 +48,6 @@
 # sent_id = c03_005
 # speaker = [2]
 # text = cha bhi thu a’ gabhail dad leis
-# text_en = you won't get anything with it
 1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	bhi	bi	VERB	V-f--d	Tense=Fut	0	root	_	_
 3	thu	thu	PRON	Pp2s	Number=Sing|Person=2	2	nsubj	_	_
@@ -67,7 +61,6 @@
 # sent_id = c03_006a
 # speaker = [3]
 # text = cha bhi thu a’ gabhail buntàta no càil nach bi?
-# text_en = you'll get potato or something won't you?
 1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	bhi	bi	VERB	V-f--d	Tense=Fut	0	root	_	_
 3	thu	thu	PRON	Pp2s	Number=Sing|Person=2	2	nsubj	_	_
@@ -82,7 +75,6 @@
 
 # sent_id = c03_006b
 # text = slaod a-steach do shèithear ceart faisg air a’ bhòrd
-# text_en = pull your chair in right close to the table
 1	slaod	slaod	VERB	Vm-2s	Mood=Imp|Person=2	0	root	_	_
 2	a-steach	a-steach	ADV	Rs	_	1	advmod	_	_
 3	do	do	DET	Dp2s	Number=Sing|Person=2|Poss=Yes	4	nmod:poss	_	_
@@ -95,7 +87,6 @@
 
 # sent_id = c03_006c
 # text = an do dh’ith thusa na sandwiches a’d an-diugh [Name]?
-# text_en = did *you* eat your sandwiches today, [Name]?
 1	an	an	PART	Qq	PartType=Vb|PronType=Int	3	mark:prt	_	_
 2	do	do	PART	Q--s	Tense=Past	3	mark:prt	_	_
 3	dh’ith	ith	VERB	V-s	Tense=Past	0	root	_	_
@@ -112,13 +103,11 @@
 # sent_id = c03_007
 # speaker = [4]
 # text = mmhmm
-# text_en = mmhmm
 1	mmhmm	mmhmm	INTJ	I	_	0	root	_	_
 
 # sent_id = c03_008c
 # speaker = [3]
 # text = agus ciamar a bha a’ homework an do choimhead an tidsear ris?
-# text_en = and how was the homework did the teacher look at it?
 1	agus	agus	CCONJ	Cc	_	2	cc	_	_
 2	ciamar	ciamar	PRON	Uq	PronType=Int	0	root	_	_
 3	a	a	PART	Q-r	PartType=Vb|PronType=Rel	4	xcomp:pred	_	_
@@ -138,7 +127,6 @@
 # sent_id = c03_009
 # speaker = [4]
 # text = cha do choimhead fhathast
-# text_en = hasn't looked at it yet
 1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	3	mark:prt	_	_
 2	do	do	PART	Q--s	Tense=Past	3	mark:prt	_	_
 3	choimhead	coimhead	VERB	V-s	Tense=Past	0	root	_	_
@@ -228,7 +216,6 @@
 # sent_id = c03_017
 # speaker = [3]
 # text = dè thuirt [Name]?
-# text_en = what did [Name] say?
 1	dè	dè	PRON	Uq	PronType=Int	2	obj	_	_
 2	thuirt	abair	VERB	V-s	Tense=Past	0	root	_	_
 3	[Name]	[Name]	PROPN	Nn-fn	Case=Nom|Gender=Fem	2	nsubj	_	Anonymised=Yes|SpaceAfter=No
@@ -237,7 +224,6 @@
 # sent_id = c03_018
 # speaker = [4]
 # text = ach tha ise cho brainy co-dhiubh
-# text_en = but *she*'s so brainy anyway
 1	ach	ach	CCONJ	Cc	_	2	cc	_	_
 2	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 3	ise	i	PRON	Pp3sf-e	Form=Emp|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
@@ -260,7 +246,6 @@
 # sent_id = c03_020
 # speaker = [2]
 # text = Dad an geàrr thu am pie agam?
-# text_en = Dad did you cut my pie?
 1	Dad	dad	NOUN	Xfe	Foreign=Yes	3	vocative	_	_
 2	an	an	PART	Qq	PartType=Vb|PronType=Int	3	mark:prt	_	_
 3	geàrr	geàrr	VERB	V-f--d	Tense=Fut	0	root	_	_
@@ -275,7 +260,6 @@
 # sent_id = c03_021a
 # speaker = [1]
 # text = carson nach gabh thu gearr thu am pie agad fhèin?
-# text_en = Why did you not cut your own pie?
 1	carson	carson	PRON	Uq	PronType=Int	0	root	_	_
 2	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	3	obl	_	_
 3	gabh	gabh	VERB	V-f--d	Tense=Fut	5	reparandum	_	_
@@ -293,7 +277,6 @@
 # sent_id = c03_022
 # speaker = [2]
 # text = uill chan urrainn dhomh
-# text_en = well I can't
 1	uill	uill	INTJ	I	_	3	discourse	_	_
 2	chan	is	AUX	Wp-in	Polarity=Neg|Tense=Pres	3	cop	_	_
 3	urrainn	urrainn	NOUN	Uf	_	0	root	_	_
@@ -304,7 +287,6 @@
 # sent_id = c03_023a
 # speaker = [1]
 # text = och ‘s urrainn dhut
-# text_en = och you can
 1	och	och	INTJ	I	_	3	discourse	_	_
 2	‘s	is	AUX	Wp-i	Tense=Pres	3	cop	_	_
 3	urrainn	urrainn	NOUN	Uf	_	0	root	_	_
@@ -315,7 +297,6 @@
 # sent_id = c03_023b
 # speaker = [1]
 # text = tha thusa nad ghille mhòr a-neist a [Name]
-# text_en = you're a big boy now [Name]
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	thusa	thu	PRON	Pp2s--e	Form=Emp|Number=Sing|Person=2	1	nsubj	_	_
 3-4	nad	_	_	_	_	_	_	_	_
@@ -330,7 +311,6 @@
 # sent_id = c03_024
 # speaker = [3]
 # text = an robh d’ amhaich goirt an-diugh a [Name]
-# text_en = did you have a sore throat today [Name]
 1	an	an	PART	Qq	PartType=Vb|PronType=Int	2	mark:prt	_	_
 2	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 3	d’	do	DET	Dp2s	Number=Sing|Person=2|Poss=Yes	4	nmod:poss	_	_
@@ -343,26 +323,22 @@
 # sent_id = c03_025
 # speaker = [4]
 # text = mmhmm
-# text_en = mmhmm
 1	mmhmm	mmhmm	INTJ	I	_	0	root	_	_
 
 # sent_id = c03_026
 # speaker = [3]
 # text = bha?
-# text_en = was it?
 1	bha	bi	VERB	V-s	Tense=Past	0	root	_	SpaceAfter=No
 2	?	?	PUNCT	Fg	_	1	punct	_	_
 
 # sent_id = c03_027
 # speaker = [4]
 # text = àidh
-# text_en = aye
 1	àidh	àidh	INTJ	I	_	0	root	_	_
 
 # sent_id = c03_028
 # speaker = [1]
 # text = an toil leat mince pies?
-# text_en = do you like mince pies?
 1	an	is	AUX	Wpdqa	Mood=Int|Polarity=Aff|Tense=Pres	2	cop	_	_
 2	toil	toil	NOUN	Uf	_	0	root	_	_
 3-4	leat	_	_	_	_	_	_	_	_
@@ -375,14 +351,12 @@
 # sent_id = c03_029
 # speaker = [4]
 # text = ‘s toil
-# text_en = yes
 1	‘s	is	AUX	Wp-i	Tense=Pres	2	cop	_	_
 2	toil	toil	NOUN	Uf	_	0	root	_	_
 
 # sent_id = c03_030
 # speaker = [3]
 # text = ‘s ciamar a tha an cnatan agad fhèin a [Name]?
-# text_en = and how is your cold, [Name]?
 1	‘s	's	CCONJ	Cc	_	2	cc	_	_
 2	ciamar	ciamar	PRON	Uq	PronType=Int	0	root	_	_
 3	a	a	PART	Q-r	PartType=Vb|PronType=Rel	4	xcomp:pred	_	_
@@ -400,7 +374,6 @@
 # sent_id = c03_031
 # speaker = [2]
 # text = mm rud beag nas fhearr
-# text_en = mm a wee bit better
 1	mm	mm	INTJ	I	_	2	discourse	_	_
 2	rud	rud	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 3	beag	beag	ADJ	Aq-smn	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
@@ -410,7 +383,6 @@
 # sent_id = c03_032
 # speaker = [3]
 # text = ò a bheil?
-# text_en = oh is it?
 1	ò	ò	INTJ	I	_	3	discourse	_	_
 2	a	a	PART	Qq	PartType=Vb|PronType=Int	3	mark:prt	_	_
 3	bheil	bi	VERB	V-p--d	Tense=Pres	0	root	_	SpaceAfter=No
@@ -431,7 +403,6 @@
 # sent_id = c03_034
 # speaker = [3]
 # text = an robh thu a’ casadaich an-diugh?
-# text_en = were you coughing today?
 1	an	an	PART	Qq	PartType=Vb|PronType=Int	2	mark:prt	_	_
 2	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 3	thu	thu	PRON	Pp2s	Number=Sing|Person=2	2	nsubj	_	_
@@ -443,13 +414,11 @@
 # sent_id = c03_035
 # speaker = [2]
 # text = bha
-# text_en = yes
 1	bha	bi	VERB	V-s	Tense=Past	0	root	_	_
 
 # sent_id = c03_036a
 # speaker = [3]
 # text = dè thuirt [?] nach [?] sibh
-# text_en = what did [?] say were you [?]
 1	dè	dè	PRON	Uq	PronType=Int	2	obj	_	_
 2	thuirt	abair	VERB	V-s	Tense=Past	0	root	_	_
 3	[?]	[?]	X	Xx	_	2	nsubj	_	_
@@ -460,7 +429,6 @@
 # sent_id = c03_036b
 # speaker = [3]
 # text = tha sibh uile [?]
-# text_en = you're all [?]
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	sibh	sibh	PRON	Pp2p	Number=Plur|Person=2	1	nsubj	_	_
 3	uile	uile	ADV	Rg	_	1	advmod	_	_
@@ -469,7 +437,6 @@
 # sent_id = c03_036c
 # speaker = [3]
 # text = dè thuirt Mrs [Name] riut an-diugh?
-# text_en = what did Mrs [Name] say to you today?
 1	dè	dè	PRON	Uq	PronType=Int	2	obj	_	_
 2	thuirt	abair	VERB	V-s	Tense=Past	0	root	_	_
 3	Mrs	Mrs	NOUN	Y	_	2	nsubj	_	_
@@ -483,14 +450,12 @@
 # sent_id = c03_037
 # speaker = [1]
 # text = a [Name]
-# text_en = [Name]
 1	a	a	PART	Uv	PartType=Voc	2	case:voc	_	_
 2	[Name]	[Name]	PROPN	Nn-mv	Case=Voc|Gender=Masc	0	root	_	Anonymised=Yes
 
 # sent_id = c03_038
 # speaker = [2]
 # text = o sorry thuirt i um dìreach an aon rud
-# text_en = o sorry she said um just the same thing
 1	o	o	INTJ	I	_	3	discourse	_	_
 2	sorry	sorry	INTJ	Xfe	Foreign=Yes	3	discourse	_	_
 3	thuirt	abair	VERB	V-s	Tense=Past	0	root	_	_
@@ -504,7 +469,6 @@
 # sent_id = c03_039a
 # speaker = [1]
 # text = ciamar a bha an cnatan a’d
-# text_en = how was your cold
 1	ciamar	ciamar	ADV	Uq	_	0	root	_	_
 2	a	a	PART	Q-r	PartType=Vb|PronType=Rel	3	xcomp:pred	_	_
 3	bha	bi	VERB	V-s	Tense=Past	1	acl:relcl	_	_
@@ -517,7 +481,6 @@
 # sent_id = c03_039b
 # speaker = [1]
 # text = an e?
-# text_en = was it?
 1	an	is	AUX	Wpdqa	Mood=Int|Polarity=Aff|Tense=Pres	2	cop	_	_
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 3	?	?	PUNCT	Fg	_	2	punct	_	_
@@ -525,14 +488,12 @@
 # sent_id = c03_040
 # speaker = [2]
 # text = uh uh
-# text_en = uh uh
 1	uh	uh	INTJ	I	_	0	root	_	_
 2	uh	uh	INTJ	I	_	1	discourse	_	_
 
 # sent_id = c03_041
 # speaker = [1]
 # text = a bheil an cnatan air duine sam bith eile thall an sin a [Name]?
-# text_en = did anyone else over there have a cold, [Name]?
 1	a	a	PART	Qq	PartType=Vb|PronType=Int	2	mark:prt	_	_
 2	bheil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 3	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -552,7 +513,6 @@
 # sent_id = c03_042
 # speaker = [2]
 # text = àidh tha e aig tòrr dhaoine
-# text_en = aye lots of people have it
 1	àidh	àidh	INTJ	I	_	2	discourse	_	_
 2	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 3	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
@@ -563,14 +523,12 @@
 # sent_id = c03_043
 # speaker = [1]
 # text = a bheil
-# text_en = do they
 1	a	a	PART	Qq	PartType=Vb|PronType=Int	2	mark:prt	_	_
 2	bheil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 
 # sent_id = c03_044
 # speaker = [2]
 # text = àidh ‘s e bug a tha a’ dol timcheall
-# text_en = aye it's a bug that's going round
 1	àidh	àidh	INTJ	I	_	4	discourse	_	_
 2	‘s	is	AUX	Wp-i	Tense=Pres	4	cop	_	_
 3	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	2	fixed	_	_
@@ -584,7 +542,6 @@
 # sent_id = c03_045
 # speaker = [1]
 # text = och na bugs grànda tha sin
-# text_en = och 
 1	och	och	INTJ	I	_	3	discourse	_	_
 2	na	an	DET	Tdp	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	bugs	bugs	NOUN	Xfe	Foreign=Yes	0	root	_	_
@@ -816,21 +773,18 @@
 # sent_id = c03_066
 # speaker = [4]
 # text = an janitor
-# text_en = the janitor
 1	an	an	DET	Tds	Number=Sing	2	det	_	_
 2	janitor	janitor	NOUN	Xfe	Foreign=Yes	0	root	_	_
 
 # sent_id = c03_067a
 # speaker = [3]
 # text = an janitor
-# text_en = the janitor
 1	an	an	DET	Tds	Number=Sing	2	det	_	_
 2	janitor	janitor	X	Xfe	Foreign=Yes	0	root	_	_
 
 # sent_id = c03_067b
 # speaker = [3]
 # text = ciamar a chaidh dhut anns an test [Name]?
-# text_en = how did you do in the test, [Name]?
 1	ciamar	ciamar	ADV	Uq	_	0	root	_	_
 2	a	a	PART	Q-r	PartType=Vb|PronType=Rel	3	xcomp:pred	_	_
 3	chaidh	rach	VERB	V-s	Tense=Past	1	acl:relcl	_	_
@@ -846,7 +800,6 @@
 # sent_id = c03_068
 # speaker = [5]
 # text = cha d’ fhuair sinn idir e
-# text_en = we didn't get it at all
 1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	3	mark:prt	_	_
 2	d’	do	PART	Q--s	Tense=Past	3	mark:prt	_	_
 3	fhuair	faigh	VERB	V-s	Tense=Past	0	root	_	_
@@ -857,7 +810,6 @@
 # sent_id = c03_069
 # speaker = [3]
 # text = cha d’ fhuair sibh an test no cha d’ fhuair sibh na results
-# text_en = you didn't get the test or you didn't get the results
 1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	3	mark:prt	_	_
 2	d’	do	PART	Q--s	Tense=Past	3	mark:prt	_	_
 3	fhuair	faigh	VERB	V-s	Tense=Past	0	root	_	_
@@ -875,13 +827,11 @@
 # sent_id = c03_070
 # speaker = [5]
 # text = neither
-# text_en = neither
 1	neither	neither	X	Xfe	Foreign=Yes	0	root	_	_
 
 # sent_id = c03_071a
 # speaker = [3]
 # text = nach d’ fhuair?
-# text_en = didn't you?
 1	nach	nach	PART	Qn	PartType=Vb|Polarity=Neg	3	mark:prt	_	_
 2	d’	do	PART	Q--s	Tense=Past	3	mark:prt	_	_
 3	fhuair	faigh	VERB	V-s	Tense=Past	0	root	_	SpaceAfter=No
@@ -890,14 +840,12 @@
 # sent_id = c03_071b
 # speaker = [3]
 # text = carson?
-# text_en = why?
 1	carson	carson	PRON	Uq	_	0	root	_	SpaceAfter=No
 2	?	?	PUNCT	Fg	_	1	punct	_	_
 
 # sent_id = c03_072
 # speaker = [5]
 # text = dh’fhàg Mr [Name] na sheets aig an taigh
-# text_en = Mr [Name] left the sheets at home
 1	dh’fhàg	fàg	VERB	V-s	Tense=Past	0	root	_	_
 2	Mr	Mr	NOUN	Y	_	1	nsubj	_	_
 3	[Name]	[Name]	PROPN	Nn	_	2	flat:name	_	Anonymised=Yes
@@ -910,7 +858,6 @@
 # sent_id = c03_073
 # speaker = [3]
 # text = oh thì fhios gun robh e ag obair orra an-raoir
-# text_en = oh dear you know he was working on them last night
 1	oh	oh	INTJ	I	_	3	discourse	_	_
 2	thì	thì	INTJ	I	_	3	discourse	_	_
 3	fhios	fios	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -927,7 +874,6 @@
 # sent_id = c03_074
 # speaker = [1]
 # text = an d’ thuirt thu gun robh homework agad [Name]?
-# text_en = did you say you had homework [Name]?
 1	an	an	PART	Qq	PartType=Vb|PronType=Int	3	mark:prt	_	_
 2	d’	do	PART	Q--s	Tense=Past	3	mark:prt	_	_
 3	thuirt	abair	VERB	V-s	Tense=Past	0	root	_	_
@@ -944,7 +890,6 @@
 # sent_id = c03_075a
 # speaker = [4]
 # text = tha dà dhuilleag agam
-# text_en = I have two pages
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	dà	dà	NUM	Mc	NumForm=Word|NumType=Card	3	nummod	_	_
 3	dhuilleag	duilleag	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
@@ -955,7 +900,6 @@
 # sent_id = c03_075b
 # speaker = [4]
 # text = so dèan mi aonan airson a-nochd agus aonan a-màireach
-# text_en = so I'll do one tonight and one tomorrow
 1	so	so	CCONJ	Xfe	Foreign=Yes	2	cc	_	_
 2	dèan	dèan	VERB	V-f	Tense=Fut	0	root	_	_
 3	mi	mi	PRON	Pp1s	Number=Sing|Person=1	2	nsubj	_	_
@@ -969,7 +913,6 @@
 # sent_id = c03_076
 # speaker = [3]
 # text = ‘s a bheil an tè eile agad ri dhèanamh cuideachd?
-# text_en = and do you have the other one to do too?
 1	‘s	's	CCONJ	Cc	_	3	cc	_	_
 2	a	a	PART	Qq	PartType=Vb|PronType=Int	3	mark:prt	_	_
 3	bheil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
@@ -987,14 +930,12 @@
 # sent_id = c03_077a
 # speaker = [4]
 # text = chan eil
-# text_en = no
 1	chan	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 
 # sent_id = c03_077b
 # speaker = [4]
 # text = uill thà ach airson Dihaoine so dìreach fàgaidh mi e
-# text_en = well yes but for Friday so I'll just leave it
 1	uill	uill	INTJ	I	_	2	discourse	_	_
 2	thà	bi	VERB	V-p	Tense=Pres	0	root	_	_
 3	ach	ach	CCONJ	Cc	_	5	cc	_	_
@@ -1009,7 +950,6 @@
 # sent_id = c03_078
 # speaker = [3]
 # text = chan fhàg thu
-# text_en = you won't leave it
 1	chan	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	fhàg	fàg	VERB	V-f--d	Tense=Fut	0	root	_	_
 3	thu	thu	PRON	Pp2s	Number=Sing|Person=2	2	nsubj	_	_
@@ -1017,7 +957,6 @@
 # sent_id = c03_079
 # speaker = [1]
 # text = ‘s e [?]
-# text_en = it's [?]
 1	‘s	is	AUX	Wp-i	Tense=Pres	2	cop	_	_
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	0	root	_	_
 3	[?]	[?]	X	Xx	_	2	nsubj	_	_
@@ -1025,7 +964,6 @@
 # sent_id = c03_080
 # speaker = [1]
 # text = uill bha sin math
-# text_en = well that was good
 1	uill	uill	INTJ	I	_	2	discourse	_	_
 2	bha	bi	VERB	V-s	Tense=Past	0	root	_	_
 3	sin	sin	PRON	Pd	_	2	nsubj	_	_
@@ -1034,7 +972,6 @@
 # sent_id = c03_081a
 # speaker = [3]
 # text = ‘s dè mu do dheidhinn-sa a [Name]
-# text_en = and what about *you*, [Name]
 1	‘s	's	CCONJ	Cc	_	5	cc	_	_
 2	dè	dè	PRON	Uq	PronType=Int	5	nsubj	_	_
 3	mu	mu	ADP	Sp	_	5	case	_	_
@@ -1046,7 +983,6 @@
 # sent_id = c03_081b
 # speaker = [3]
 # text = a bheil Stamh agus Putag a’d ri leughadh an-nochd?
-# text_en = do you have Stamh agus Putag to read tonight?
 1	a	a	PART	Qq	PartType=Vb|PronType=Int	2	mark:prt	_	_
 2	bheil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 3	Stamh	Stamh	PROPN	Nn-mn	Case=Nom|Gender=Masc	2	nsubj	_	_
@@ -1063,7 +999,6 @@
 # sent_id = c03_082
 # speaker = [2]
 # text = fhuair mi leabhar ùr
-# text_en = I got a new book
 1	fhuair	faigh	VERB	V-s	Tense=Past	0	root	_	_
 2	mi	mi	PRON	Pp1s	Number=Sing|Person=1	1	nsubj	_	_
 3	leabhar	leabhar	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
@@ -1072,7 +1007,6 @@
 # sent_id = c03_083a
 # speaker = [3]
 # text = bheil thu deiseil de Stamh?
-# text_en = are you ready for Stamh?
 1	bheil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 2	thu	thu	PRON	Pp2s	Number=Sing|Person=2	1	nsubj	_	_
 3	deiseil	deiseil	ADJ	Ap	_	1	xcomp:pred	_	_
@@ -1083,14 +1017,12 @@
 # sent_id = c03_083b
 # speaker = [3]
 # text = tha?
-# text_en = yes?
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	SpaceAfter=No
 2	?	?	PUNCT	Fg	_	1	punct	_	_
 
 # sent_id = c03_084a
 # speaker = [1]
 # text = ‘se leabhar gu math doirbh a tha sin a [Name]
-# text_en = that's a pretty difficult book, [Name]
 1-2	‘se	_	_	_	_	_	_	_	_
 1	is	is	AUX	Wp-i	Tense=Pres	3	cop	_	_
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	fixed	_	_
@@ -1107,7 +1039,6 @@
 # sent_id = c03_084b
 # speaker = [1]
 # text = tha mise a’ smaointinn gu bheil e doirbh fhios agad an leabhar aig [Name] an oidhche roimhe?
-# text_en = I think it's hard, you know, [Name]'s book the night before?
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	mise	mi	PRON	Pp1s--e	Form=Emp|Number=Sing|Person=1	1	nsubj	_	_
 3	a’	ag	PART	Sa	_	4	case	_	_
@@ -1134,7 +1065,6 @@
 # sent_id = c03_085
 # speaker = [3]
 # text = ‘s e leabhar glè mhath a th’ aig [Name] an-dràsda
-# text_en = [Name]'s one is a very good book now
 1	‘s	is	AUX	Wp-i	Tense=Pres	3	cop	_	_
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	fixed	_	_
 3	leabhar	leabhar	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -1149,7 +1079,6 @@
 # sent_id = c03_086a
 # speaker = [1]
 # text = tha mi a’ smaointinn gur e [Name] [Name] gur e a h-uncle [Name] [Name] [Name]
-# text_en = I think [Name] [Name] is [Name] [Name] [Name]'s uncle
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	mi	mi	PRON	Pp1s	Number=Sing|Person=1	1	nsubj	_	_
 3	a’	ag	PART	Sa	_	4	case	_	_
@@ -1169,7 +1098,6 @@
 # sent_id = c03_086b
 # speaker = [1]
 # text = an robh fhios agad-sa air sin?
-# text_en = did *you* know that?
 1	an	an	PART	Qq	PartType=Vb|PronType=Int	2	mark:prt	_	_
 2	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 3	fhios	fios	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
@@ -1183,7 +1111,6 @@
 # sent_id = c03_087
 # speaker = [3]
 # text = uill ‘s iongantach mar a chuala
-# text_en = well it's surprising what you hear
 1	uill	uill	INTJ	I	_	3	discourse	_	_
 2	‘s	is	AUX	Wp-i	Tense=Pres	3	cop	_	_
 3	iongantach	iongantach	ADJ	Ap	_	0	root	_	_
@@ -1194,7 +1121,6 @@
 # sent_id = c03_088
 # speaker = [1]
 # text = aig cò?
-# text_en = from who?
 1	aig	aig	ADP	Sp	_	2	case	_	_
 2	cò	cò	PRON	Uq	PronType=Int	0	root	_	SpaceAfter=No
 3	?	?	PUNCT	Fg	_	2	punct	_	_
@@ -1202,7 +1128,6 @@
 # sent_id = c03_089
 # speaker = [3]
 # text = cuideigin a’ bruidhinn air
-# text_en = someone talking about it
 1	cuideigin	cuideigin	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 2	a’	ag	PART	Sa	_	3	case	_	_
 3	bruidhinn	bruidhinn	NOUN	Nv	VerbForm=Vnoun	1	xcomp:pred	_	_
@@ -1213,7 +1138,6 @@
 # sent_id = c03_090
 # speaker = [1]
 # text = uill thog mi an leabhar a bha seo anns an rùm an-diugh agus ‘s e esan a sgrìobh an leabhar
-# text_en = well I picked up the book that was in the room today and it was him who wrote the book
 1	uill	uill	INTJ	I	_	2	discourse	_	_
 2	thog	tog	VERB	V-s	Tense=Past	0	root	_	_
 3	mi	mi	PRON	Pp1s	Number=Sing|Person=1	2	nsubj	_	_
@@ -1239,7 +1163,6 @@
 # sent_id = c03_091
 # speaker = [3]
 # text = Cairteal gu Meadhan-latha
-# text_en = quarter to midday
 1	Cairteal	cairteal	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 2	gu	gu	ADP	Sp	_	3	case	_	_
 3	Meadhan-latha	meadhan-latha	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	_
@@ -1247,7 +1170,6 @@
 # sent_id = c03_092
 # speaker = [1]
 # text = chan eil fhios a’m dè an title a bh’ air
-# text_en = I don't know what the title was
 1	chan	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 3	fhios	fios	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
@@ -1266,7 +1188,6 @@
 # sent_id = c03_093a
 # speaker = [3]
 # text = tha e air a bhith ann a shin bho chionn bhliadhnachan
-# text_en = it had been there for years
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
 3	air	air	PART	Sa	_	5	case	_	_
@@ -1282,7 +1203,6 @@
 # sent_id = c03_093b
 # speaker = [3]
 # text = dè thachair an uair sin?
-# text_en = what happened then?
 1	dè	dè	PRON	Uq	PronType=Int	2	nsubj	_	_
 2	thachair	tachair	VERB	V-s	Tense=Past	0	root	_	_
 3	an	an	ADV	Rt	_	2	advmod	_	_
@@ -1293,7 +1213,6 @@
 # sent_id = c03_094a
 # speaker = [1]
 # text = dh’innis cuideigin dhen chlas gur e uncle do [Name] [Name]
-# text_en = someone in the class said that he was the uncle of [Name] [Name]
 1	dh’innis	innis	VERB	V-s	Tense=Past	0	root	_	_
 2	cuideigin	cuideigin	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
 3-4	dhen	_	_	_	_	_	_	_	_
@@ -1310,7 +1229,6 @@
 # sent_id = c03_094b
 # speaker = [1]
 # text = an e [Name] [Name] a th’ aice?
-# text_en = was she [Name] [Name]?
 1	an	is	AUX	Wpdqa	Mood=Int|Polarity=Aff|Tense=Pres	3	cop	_	_
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	fixed	_	_
 3	[Name]	[Name]	PROPN	Nn	_	0	root	_	Anonymised=Yes
@@ -1325,7 +1243,6 @@
 # sent_id = c03_095
 # speaker = [3]
 # text = se
-# text_en = yes
 1-2	se	_	_	_	_	_	_	_	_
 1	is	is	AUX	Wp-i	Tense=Pres	0	root	_	_
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	fixed	_	_
@@ -1333,7 +1250,6 @@
 # sent_id = c03_096
 # speaker = [2]
 # text = a bheil tuilleadh beans ann?
-# text_en = are there more beans?
 1	a	a	PART	Qq	PartType=Vb|PronType=Int	2	mark:prt	_	_
 2	bheil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 3	tuilleadh	tuilleadh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
@@ -1358,7 +1274,6 @@
 # sent_id = c03_097b
 # speaker = [3]
 # text = tha iad teth
-# text_en = they're hot
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	iad	iad	PRON	Pp3p	Number=Plur|Person=3	1	nsubj	_	_
 3	teth	teth	ADJ	Ap	_	1	xcomp:pred	_	_
@@ -1366,7 +1281,6 @@
 # sent_id = c03_098
 # speaker = [4]
 # text = am faod mise am faighinn?
-# text_en = may *I* have some?
 1	am	am	PART	Qq	PartType=Vb|PronType=Int	2	mark:prt	_	_
 2	faod	faod	VERB	V-f--d	Tense=Fut	0	root	_	_
 3	mise	mi	PRON	Pp1s--e	Form=Emp|Number=Sing|Person=1	2	nsubj	_	_
@@ -1377,7 +1291,6 @@
 # sent_id = c03_099a
 # speaker = [3]
 # text = mhmm an robh an t-acras ort
-# text_en = mhmm were you hungry
 1	mhmm	mhmm	INTJ	I	_	3	discourse	_	_
 2	an	an	PART	Qq	PartType=Vb|PronType=Int	3	mark:prt	_	_
 3	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
@@ -1390,7 +1303,6 @@
 # sent_id = c03_099b
 # speaker = [3]
 # text = ciamar a bha na veggie burgers a ghràidh?
-# text_en = how were the veggie burgers, love?
 1	ciamar	ciamar	ADV	Uq	_	0	root	_	_
 2	a	a	PART	Q-r	PartType=Vb|PronType=Rel	3	xcomp:pred	_	_
 3	bha	bi	VERB	V-s	Tense=Past	1	acl:relcl	_	_
@@ -1404,7 +1316,6 @@
 # sent_id = c03_100
 # speaker = [5]
 # text = bha iad alright
-# text_en = they were alright
 1	bha	bi	VERB	V-s	Tense=Past	0	root	_	_
 2	iad	iad	PRON	Pp3p	Number=Plur|Person=3	1	nsubj	_	_
 3	alright	alright	ADJ	Xfe	Foreign=Yes	1	xcomp:pred	_	_
@@ -1412,7 +1323,6 @@
 # sent_id = c03_101a
 # speaker = [3]
 # text = tha a dhà eile ann
-# text_en = there are two others
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	a	a	PART	Uo	PartType=Num	3	mark:prt	_	_
 3	dhà	dhà	PRON	Pn	_	1	nsubj	_	_
@@ -1424,7 +1334,6 @@
 # sent_id = c03_101b
 # speaker = [3]
 # text = an saoil an gabh thu iad
-# text_en = I wonder if you had them
 1	an	an	PART	Qq	PartType=Vb|PronType=Int	2	mark:prt	_	_
 2	saoil	saoil	VERB	V-f--d	Tense=Fut	0	root	_	_
 3	an	an	PART	Qq	PartType=Vb|PronType=Int	4	mark:prt	_	_
@@ -1435,14 +1344,12 @@
 # sent_id = c03_102
 # speaker = [5]
 # text = cha ghabh
-# text_en = no
 1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	ghabh	gabh	VERB	V-f--d	Tense=Fut	0	root	_	_
 
 # sent_id = c03_103
 # speaker = [3]
 # text = cha ghabh [?]
-# text_en = no [?]
 1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	ghabh	gabh	VERB	V-f--d	Tense=Fut	0	root	_	_
 3	[?]	[?]	X	Xx	_	2	discourse	_	_
@@ -1450,7 +1357,6 @@
 # sent_id = c03_104
 # speaker = [5]
 # text = gabhaidh mi aon [?] eile ach tha mi ro [?]
-# text_en = I'll have another [?] but I'm too [?]
 1	gabhaidh	gabh	VERB	V-f	Tense=Fut	0	root	_	_
 2	mi	mi	PRON	Pp1s	Number=Sing|Person=1	1	nsubj	_	_
 3	aon	aon	NUM	Pn	NumForm=Word	4	nummod	_	_
@@ -1465,7 +1371,6 @@
 # sent_id = c03_105
 # speaker = [1]
 # text = dè an t-ainm a bh’ air na rudan a bh’ agad an sin [Name]?
-# text_en = what was the name of the things you had there [Name]?
 1	dè	dè	PRON	Uq	PronType=Int	3	nmod	_	_
 2	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	t-ainm	ainm	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -1487,14 +1392,12 @@
 # sent_id = c03_106
 # speaker = [5]
 # text = veggie burgers
-# text_en = veggie burgers
 1	veggie	veggie	NOUN	Xfe	_	0	root	_	_
 2	burgers	burgers	NOUN	Xfe	_	1	flat	_	_
 
 # sent_id = c03_107
 # speaker = [1]
 # text = bheil thu nad vegetarian fhathast?
-# text_en = are you still a vegetarian?
 1	bheil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 2	thu	thu	PRON	Pp2s	Number=Sing|Person=2	1	nsubj	_	_
 3-4	nad	_	_	_	_	_	_	_	_
@@ -1507,7 +1410,6 @@
 # sent_id = c03_108
 # speaker = [5]
 # text = cha robh mi riamh
-# text_en = I never was
 1	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	_
 3	mi	mi	PRON	Pp1s	Number=Sing|Person=1	2	nsubj	_	_
@@ -1516,7 +1418,6 @@
 # sent_id = c03_109
 # speaker = [1]
 # text = ò nach robh?
-# text_en = oh weren't you?
 1	ò	ò	INTJ	I	_	3	discourse	_	_
 2	nach	nach	PART	Qn	PartType=Vb|Polarity=Neg	3	mark:prt	_	_
 3	robh	bi	VERB	V-s--d	Tense=Past	0	root	_	SpaceAfter=No
@@ -1525,7 +1426,6 @@
 # sent_id = c03_110
 # speaker = [3]
 # text = so fhuair mi dà leabhar dhut an-diugh [Name] às an library ann an [Placename]
-# text_en = so I got two books for you today [Name] from the library in [Placename]
 1	so	so	CCONJ	Xfe	Foreign=Yes	2	cc	_	_
 2	fhuair	faigh	VERB	V-s	Tense=Past	0	root	_	_
 3	mi	mi	PRON	Pp1s	Number=Sing|Person=1	2	nsubj	_	_
@@ -1546,13 +1446,11 @@
 # sent_id = c03_111
 # speaker = [4]
 # text = thanks
-# text_en = thanks
 1	thanks	thanks	INTJ	Xfe	Foreign=Yes	0	root	_	_
 
 # sent_id = c03_112a
 # speaker = [3]
 # text = nuair a bha mi a’ coimhead ann an section na cloinne ‘s thàinig [Name] a-nall ‘s dh’fhoighnich mi dhi dè mholadh i do ghille air primary seven so tha feadhainn glè mhath
-# text_en = when I was looking in the children's section and [Name] came in and and asked me what I would recommend to boys in primary seven so they are very good ones
 1	nuair	nuair	SCONJ	Cs	_	3	mark	_	_
 2	a	a	PART	Q-r	PartType=Vb|PronType=Rel	3	mark:prt	_	_
 3	bha	bi	VERB	V-s	Tense=Past	0	root	_	_
@@ -1591,7 +1489,6 @@
 # sent_id = c03_112b
 # speaker = [3]
 # text = an do leugh thusa gin riamh le Joan Aitken [Name]?
-# text_en = did you ever read anything by Joan Aitken, [Name]?
 1	an	an	PART	Qq	PartType=Vb|PronType=Int	3	mark:prt	_	_
 2	do	do	PART	Q--s	Tense=Past	3	mark:prt	_	_
 3	leugh	leugh	VERB	V-s	Tense=Past	0	root	_	_
@@ -1607,13 +1504,11 @@
 # sent_id = c03_113
 # speaker = [5]
 # text = mhmm
-# text_en = mhmm
 1	mhmm	mhmm	INTJ	I	_	0	root	_	_
 
 # sent_id = c03_114
 # speaker = [3]
 # text = tha iad sin math nach eil
-# text_en = they're good aren't they
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	iad	iad	PRON	Pp3p	Number=Plur|Person=3	1	nsubj	_	_
 3	sin	sin	DET	Dd	_	2	det	_	_
@@ -1624,7 +1519,6 @@
 # sent_id = c03_115
 # speaker = [5]
 # text = leugh mi The Kitchen Warrior
-# text_en = I read The Kitchen Warrior
 1	leugh	leugh	VERB	V-s	Tense=Past	0	root	_	_
 2	mi	mi	PRON	Pp1s	Number=Sing|Person=1	1	nsubj	_	_
 3	The	the	DET	Xfe	Foreign=Yes	5	det	_	_
@@ -1634,7 +1528,6 @@
 # sent_id = c03_116
 # speaker = [3]
 # text = an e sin Joan Aitken?
-# text_en = was that Joan Aitken?
 1	an	is	AUX	Wpdqa	Mood=Int|Polarity=Aff|Tense=Pres	3	cop	_	_
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	fixed	_	_
 3	sin	sin	PRON	Pd	_	0	root	_	_
@@ -1645,13 +1538,11 @@
 # sent_id = c03_117
 # speaker = [5]
 # text = mhmm
-# text_en = mhmm
 1	mhmm	mhmm	INTJ	I	_	0	root	_	_
 
 # sent_id = c03_118
 # speaker = [3]
 # text = am fear a bh’ againn air teip?
-# text_en = the one we had on tape?
 1	am	an	DET	Tdsm	Gender=Masc|Number=Sing	2	det	_	_
 2	fear	fear	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 3	a	a	PART	Q-r	PartType=Vb|PronType=Rel	4	nsubj	_	_
@@ -1666,13 +1557,11 @@
 # sent_id = c03_119
 # speaker = [5]
 # text = mmhmm
-# text_en = mmhmm
 1	mmhmm	mmhmm	INTJ	I	_	0	root	_	_
 
 # sent_id = c03_120
 # speaker = [3]
 # text = tha am fear sin math
-# text_en = that one is good
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	am	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	fear	fear	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -1682,7 +1571,6 @@
 # sent_id = c03_121
 # speaker = [1]
 # text = nì mi balgam tì tha mi a’ smaoineachadh
-# text_en = I'll have a drop of tea I think
 1	nì	dèan	VERB	V-f	Tense=Fut	0	root	_	_
 2	mi	mi	PRON	Pp1s	Number=Sing|Person=1	1	nsubj	_	_
 3	balgam	balgam	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
@@ -1696,7 +1584,6 @@
 # sent_id = c03_122
 # speaker = [3]
 # text = uill thog mi dà le Joan Aitken ach thuirt [Name] an uair sin gur dòcha gun robh feadhainn eile ann a b’ fhearr a chòrdadh ri gillean ‘s sheall i dhomh iad so tha fear ann le Alan Alderburg
-# text_en = well I picked up two by Joan Aitken but [Name] said then that there were probably other ones that boys would like better and she showed me them so there's one by Alan Alderburg
 1	uill	uill	INTJ	I	_	2	discourse	_	_
 2	thog	tog	VERB	V-s	Tense=Past	0	root	_	_
 3	mi	mi	PRON	Pp1s	Number=Sing|Person=1	2	nsubj	_	_
@@ -1746,13 +1633,11 @@
 # sent_id = c03_123
 # speaker = [4]
 # text = Athelburg
-# text_en = Athelburg
 1	Athelburg	Athelburg	PROPN	Nn	_	0	root	_	_
 
 # sent_id = c03_124
 # speaker = [2]
 # text = no Alder a th’ ann
-# text_en = or it's Alder
 1	no	no	CCONJ	Cc	_	2	cc	_	_
 2	Alder	alder	PROPN	Xsi	_	0	root	_	_
 3	a	a	PART	Q-r	PartType=Vb|PronType=Rel	4	nsubj	_	_
@@ -1764,36 +1649,32 @@
 # sent_id = c03_125
 # speaker = [4]
 # text = it’s the Giant Baby
-# text_en = it's the Giant Baby
-1	it’s	it's	X	Xfe	Foreign=Yes	0	root	_	_
-2	the	the	X	Xfe	Foreign=Yes	1	flat:foreign	_	_
-3	Giant	giant	X	Xfe	Foreign=Yes	1	flat:foreign	_	_
-4	Baby	baby	X	Xfe	Foreign=Yes	1	flat:foreign	_	_
+1	it’s	it's	X	Xfe	Foreign=Yes	0	root	_	Lang=en
+2	the	the	X	Xfe	Foreign=Yes	1	flat:foreign	_	Lang=en
+3	Giant	giant	X	Xfe	Foreign=Yes	1	flat:foreign	_	Lang=en
+4	Baby	baby	X	Xfe	Foreign=Yes	1	flat:foreign	_	Lang=en
 
 # sent_id = c03_126
 # speaker = [3]
 # text = mhmm an do leugh thu The Giant Baby?
-# text_en = mhmm did you read The Giant Baby?
 1	mhmm	mhmm	INTJ	I	_	4	discourse	_	_
 2	an	an	PART	Qq	PartType=Vb|PronType=Int	4	mark:prt	_	_
 3	do	do	PART	Q--s	Tense=Past	4	mark:prt	_	_
 4	leugh	leugh	VERB	V-s	Tense=Past	0	root	_	_
 5	thu	thu	PRON	Pp2s	Number=Sing|Person=2	4	nsubj	_	_
-6	The	the	DET	Xfe	Foreign=Yes	8	det	_	_
-7	Giant	giant	ADJ	Xfe	Foreign=Yes	8	amod	_	_
-8	Baby	baby	NOUN	Xfe	Foreign=Yes	4	obj	_	SpaceAfter=No
+6	The	the	DET	Xfe	Foreign=Yes	8	det	_	OrigLang=en
+7	Giant	giant	ADJ	Xfe	Foreign=Yes	8	amod	_	OrigLang=en
+8	Baby	baby	NOUN	Xfe	Foreign=Yes	4	obj	_	OrigLang=en|SpaceAfter=No
 9	?	?	PUNCT	Fg	_	4	punct	_	_
 
 # sent_id = c03_127
 # speaker = [4]
 # text = mhmm
-# text_en = mhmm
 1	mhmm	mhmm	INTJ	I	_	0	root	_	_
 
 # sent_id = c03_128a
 # speaker = [3]
 # text = agus tha fear eile
-# text_en = and there's another one
 1	agus	agus	CCONJ	Cc	_	2	cc	_	_
 2	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 3	fear	fear	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
@@ -1802,7 +1683,6 @@
 # sent_id = c03_128b
 # speaker = [3]
 # text = chan eil cuimhn’ a’m a-nis ò àidh mu dheidhinn fear no tè a sgrìobh Byker Grove
-# text_en = I don't remember now oh aye about the man or woman who wrote Byker Grove
 1	chan	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 3	cuimhn’	cuimhne	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
@@ -1825,7 +1705,6 @@
 # sent_id = c03_128c
 # speaker = [3]
 # text = ‘s e a sgrìobh an leabhar sin
-# text_en = he wrote that book
 1	‘s	is	AUX	Wp-i	Tense=Pres	2	cop	_	_
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	0	root	_	_
 3	a	a	PART	Q-r	PartType=Vb|PronType=Rel	4	nsubj	_	_
@@ -1837,14 +1716,12 @@
 # sent_id = c03_129
 # speaker = [4]
 # text = really?
-# text_en = really?
 1	really	really	ADV	Xfe	Foreign=Yes	0	root	_	SpaceAfter=No
 2	?	?	PUNCT	Fg	_	1	punct	_	_
 
 # sent_id = c03_130
 # speaker = [3]
 # text = agus man an cuimhnich mi air an toirt dhut mas fhalbh mi tha iad anns a’ bhaga-sgoil agam
-# text_en = and if I remember before I go to put it in my schoolbag
 1	agus	agus	CCONJ	Cc	_	14	cc	_	_
 2	man	man	SCONJ	Cs	_	4	mark	_	_
 3	an	an	PART	Qq	PartType=Vb|PronType=Int	4	mark:prt	_	_
@@ -1871,7 +1748,6 @@
 # sent_id = c03_131
 # speaker = [4]
 # text = cuin’ a dh’fheumas iad a bhith air ais?
-# text_en = when do they have to be back?
 1	cuin’	cuin'	ADV	Uq	_	0	root	_	_
 2	a	a	PART	Q-r	PartType=Vb|PronType=Rel	3	advmod	_	_
 3	dh’fheumas	feum	VERB	V-f--r	Tense=Fut	1	acl:relcl	_	_
@@ -1885,7 +1761,6 @@
 # sent_id = c03_132a
 # speaker = [3]
 # text = tha mi a’ creidsinn gur e trì seachdainnean nach bi an date orra
-# text_en = I think it's three weeks the date on them
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	mi	mi	PRON	Pp1s	Number=Sing|Person=1	1	nsubj	_	_
 3	a’	ag	PART	Sa	_	4	case	_	_
@@ -1905,7 +1780,6 @@
 # sent_id = c03_132b
 # speaker = [3]
 # text = tha mi a' creidsinn gun leugh thu ro dheireadh na seachdainn no dhà
-# text_en = I think you'll read it before the end of a week or two
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	mi	mi	PRON	Pp1s	Number=Sing|Person=1	1	nsubj	_	_
 3	a'	ag	PART	Sa	_	4	case	_	_
@@ -1923,13 +1797,11 @@
 # sent_id = c03_133
 # speaker = [4]
 # text = àidh
-# text_en = aye
 1	àidh	àidh	INTJ	I	_	0	root	_	_
 
 # sent_id = c03_134
 # speaker = [3]
 # text = nis nì thu do homework cho luath ‘s a dhèanas tu sin
-# text_en = now you'll do your homework as fast as you do that
 1	nis	nis	ADV	Rg	_	2	advmod	_	_
 2	nì	dèan	VERB	V-f	Tense=Fut	0	root	_	_
 3	thu	thu	PRON	Pp2s	Number=Sing|Person=2	2	nsubj	_	_
@@ -2012,7 +1884,6 @@
 # sent_id = c03_137
 # speaker = [1]
 # text = oidhche thrang [?]
-# text_en = busy night [?]
 1	oidhche	oidhche	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 2	thrang	trang	ADJ	Aq-sfn	Case=Nom|Gender=Fem|Number=Sing	1	amod	_	_
 3	[?]	[?]	X	Xx	_	1	dep	_	_
@@ -2034,7 +1905,6 @@
 # sent_id = c03_138b
 # speaker = [3]
 # text = ‘eil fhios a’d
-# text_en = do you know
 1	‘eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 2	fhios	fios	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 3-4	a’d	_	_	_	_	_	_	_	_
@@ -2044,7 +1914,6 @@
 # sent_id = c03_139a
 # speaker = [1]
 # text = fuirichibh aig a’ bhòrd [Name]
-# text_en = stay at the table [Name]
 1	fuirichibh	fuirich	VERB	Vm-2p	Mood=Imp|Person=2	0	root	_	_
 2	aig	aig	ADP	Sp	_	4	case	_	_
 3	a’	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -2054,7 +1923,6 @@
 # sent_id = c03_139b
 # speaker = [1]
 # text = suidh thall treiseag bheag eile
-# text_en = sit there for another wee while
 1	suidh	suidh	VERB	Vm-2s	Mood=Imp|Person=2	0	root	_	_
 2	thall	thall	ADV	Rs	_	1	advmod	_	_
 3	treiseag	treiseag	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	obl:tmod	_	_
@@ -2064,20 +1932,17 @@
 # sent_id = c03_140a
 # speaker = [3]
 # text = siuthad
-# text_en = on you go
 1	siuthad	siuthad	VERB	Vm-2s	Mood=Imp|Person=2	0	root	_	_
 
 # sent_id = c03_140b
 # speaker = [3]
 # text = suidh sìos
-# text_en = sit down
 1	suidh	suidh	VERB	Vm-2s	Mood=Imp|Person=2	0	root	_	_
 2	sìos	sìos	ADV	Rs	_	1	advmod	_	_
 
 # sent_id = c03_141a
 # speaker = [4]
 # text = no I know
-# text_en = no I know
 1	no	no	X	Xfe	Foreign=Yes	0	root	_	_
 2	I	i	X	Xfe	Foreign=Yes	1	flat:foreign	_	_
 3	know	know	X	Xfe	Foreign=Yes	1	flat:foreign	_	_
@@ -2085,7 +1950,6 @@
 # sent_id = c03_141b
 # speaker = [4]
 # text = tha mi dìreach [?]
-# text_en = I'm just [?]
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	mi	mi	PRON	Pp1s	Number=Sing|Person=1	1	nsubj	_	_
 3	dìreach	dìreach	ADV	Rg	_	1	advmod	_	_
@@ -3949,7 +3813,6 @@
 # newdoc id = fp09
 # sent_id = fp09_000
 # text = 'Ga chur gu sìmplidh, anns an tràchdas seo bithidh mi a' feuchainn ris na deifir cheanglaichean a réiteachadh eadar bàrdachd is rosg bho 'n t-seachdamh linn deug agus coluadar na Gàidhealtachd anns an deach an cur ri chéile; bithidh mi a' feuchainn ri eachdraidh nan Gàidheal a shoilleireachadh troimh thobraichean an litreachais.
-# text_en = To put it simply, in this thesis I will be trying to disentangle the connections between poetry and prose from the seventeenth century and the society of the Highlands in which they were put together; I shall try to illuminate the history of the Gaels through literary sources.
 1-2	'Ga	_	_	_	_	_	_	_	_
 1	ag	ag	PART	Sa	_	3	case	_	_
 2	a	a	PRON	Dp3sm	Gender=Masc|Number=Sing|Person=3|Poss=Yes	3	obj	_	_
@@ -4010,7 +3873,6 @@
 
 # sent_id = fp09_001
 # text = Tha am beum a chuirear air an fhianais litreachail ag adhbharachadh gur e taobh an iar na dùthcha - ceàrnaidhean seann Rìoghachd nan Eilean - as fhaide leam, ged a bhios mi a' gabhail gnothaich ris an taobh an ear, agus an ceann a tuath, 'nuair a tha e iomchaidh.
-# text_en = The emphasis placed on literary evidence means that the west of the country - the territory of the old Lordship of the Isles - will dominate, although I will deal with the east, and the north when it is appropriate.
 1	Tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	am	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	beum	beum	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -4070,7 +3932,6 @@
 
 # sent_id = fp09_002
 # text = Anns a’ cheud leth, bheirear tarraing air an t-suidheachadh ann an Éirinn, carson a ghabh na Gàidheil thall ri ideòlas stéidhichte cho daingeann air creideamh agus athartha, agus gu dé na tréithean litreachail a dh’éirich mar thoradh air an seo, nach fhaighear air an taobh seo de Shruth na Maoile.
-# text_en = The first half will draw upon the situation in Ireland, why the Gaels there accepted an ideology so strongly based on religion and patriarchy, and what literary traits arose as a result of this that did not occur on this side of the Straits of Moyle.
 1	Anns	an	ADP	Sp	_	4	case	_	_
 2	a’	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	cheud	ciad	NUM	Mo	NumForm=Word|NumType=Ord	4	nummod	_	_
@@ -4129,7 +3990,6 @@
 
 # sent_id = fp09_003
 # text = Tionndaidhear an uairsin a ghabhail beachd air an eachdraidh a-bhos, 's mi a' feuchainn ri barrachd solais a leigeil a-steach air tachartais nan deich bliadhna air fhichead fìor-thàbhachdach eadar cur-gu-buil Reachdan Idhe agus toiseach Cogaidhean nan Trì Rìoghachd bho dheireadh nan 1630an air adhart.
-# text_en = It will then turn to consider history over here, and I shall try to let more light in on the events of the thirty eventful years between the coming into effect of the Statutes of Iona and the start of the Wars of the Three Kingdoms from the end of the 1630s onwards.
 1	Tionndaidhear	tionndaidh	VERB	V-f0	Person=0|Tense=Fut	0	root	_	_
 2	an	an	ADV	Rt	_	1	advmod	_	_
 3	uairsin	uairsin	ADV	Rt	_	2	fixed	_	_
@@ -4179,7 +4039,6 @@
 
 # sent_id = fp09_004
 # text = Bithidh mi a' coimhead air na h-aobharan - an dà chuid aobharan geàrr-thréimhseach agus aobharan fad-thréimhseach – a tha air cùl nan atharrachaidhean soch-mhalairteach a bha a' sìor sgapadh ré nam bliadhnaichean ud.
-# text_en = I will be looking at the causes - both short-term causes and long-term causes - that are behind the socio-economic changes that were widespread during those years.
 1	Bithidh	bith	VERB	V-f	Tense=Fut	0	root	_	_
 2	mi	mi	PRON	Pp1s	Number=Sing|Person=1	1	nsubj	_	_
 3	a'	ag	PART	Sa	_	4	case	_	_
@@ -4217,7 +4076,6 @@
 
 # sent_id = fp09_005
 # text = 'S iad na h-atharrachaidhean seo, agus a’ bhuil a bh' aca air saoghal nan Gàidheal bho àm Athaiseag Theàrlaich II air adhart, a bhios fainear dhomh anns an dàrna leth de ‘n t-saothair.
-# text_en = These changes, and their effects on the world of the Gael since the Restoration of Charles II onwards, will be under my consideration in the second half of the work.
 1	'S	is	AUX	Wp-i	Tense=Pres	2	cop	_	_
 2	iad	iad	PRON	Pp3p	Number=Plur|Person=3	0	root	_	_
 3	na	an	DET	Tdpm	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -4261,7 +4119,6 @@
 
 # sent_id = fp09_006
 # text = Bha an Gàidheal a' sìor ghabhail barrachd de ‘n t-saoghal fo 'shròin, ach aig an aon àm - gu dearbh, gu ìre mhóir mar thoradh air na h-atharrachaidhean ud – ghreimich e na bu theinne ri sàr-bheachdan an t-seann shaoghail.
-# text_en = The Gael dealt mostly in the world in front of his nose, but at the same time - indeed to a great extent as a result of those changeds - he gripped more tightly to the ideals of the old world.
 1	Bha	bi	VERB	V-s	Tense=Past	0	root	_	_
 2	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Gàidheal	gàidheal	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -4308,7 +4165,6 @@
 
 # sent_id = fp09_007
 # text = Air cùl an t-suidheachaidh seo tha iomagain fhàsmhor mu na bliadhnaichean ri teachd, àm, a-réir coltais, 'nuair nach biodh ròl aig na Gàidheil idir; agus cuideachd mu dhol-sìos a’ choluadair ghaisgeil a bha mar bhonn-stéidh do ‘n fhéin-ìomhaigh aca, gu sònraichte do dh’fhéin-ìomhaigh nam fireannach.
-# text_en = Behind this situation there is growing concern about the years to come, a time, apparently, when there will be no role for the Gaels at all; and also about the downfall of the heroic society that was the foundation of their self-image, especially the self-image of the men.
 1	Air	air	ADP	Sp	_	2	case	_	_
 2	cùl	cùl	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
 3	an	an	DET	Tdsmg	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4365,7 +4221,6 @@
 
 # sent_id = fp09_008
 # text = Gu ìre co-dhiù, b' ann mar thoradh air an iomagain seo a bha aobhar nan Stiùbhartach cho féillmhor a-measg nan Gàidheal anns a’ cheud leth de ‘n ochdamh linn deug.
-# text_en = To some extent at least, it was as a result of this concern that the cause of the Stuarts was so popular among the Gaels in the first half of the eighteenth century.
 1	Gu	gu	ADP	Sp	_	2	case	_	_
 2	ìre	ìre	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
 3	co-dhiù	co-dhiù	ADV	Rg	_	9	advmod	_	SpaceAfter=No
@@ -4403,7 +4258,6 @@
 
 # sent_id = fp09_009
 # text = Anns an eàrr-ràdh bhithinn air sùil nas dlùithe a thoirt air an iomagain fhireann seo troimh eisimpleirean 'gan toirt bho ghnè fhàsmhoir na bàrdachd gaoil – mur a b' e na riaghailtean ùra.
-# text_en = In the conclusion I shall cast a closer eye on male concerns through examples taken from the growing genre of love poetry - if they were not the new rules.
 1	Anns	an	ADP	Sp	_	3	case	_	_
 2	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	eàrr-ràdh	eàrr-ràdh	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
@@ -4443,7 +4297,6 @@
 
 # sent_id = fp09_010
 # text = Gu mì-shealbhach, tha Oilthigh Dhùn Éideann, cleas iomadach acadamh eile 's an latha-an-diugh, a' fuiling fo dhroch bhuaidh an treud de bhurraidhean a tha, anns an fhichead bliadhna a chaidh seachad, air àite is ùghdarras fhaighinn dhaibh fhéin thairis air na mic-léinn.
-# text_en = Unfortunately, the University of Edinburgh
 1	Gu	gu	PART	Ua	PartType=Ad	2	mark:prt	_	_
 2	mì-shealbhach	mì-shealbhach	ADV	Rg	_	4	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	Fi	_	4	punct	_	_
@@ -4604,7 +4457,6 @@
 
 # sent_id = fp09_014
 # text = Ann an co-theacs Albannach, tha an tràchdas gu mór fo chomain aig obair Flinn, Gibson agus Smout, agus Whyte.
-# text_en = In the Scottish context, the thesis is greatly in debt to the work of Flinn, Gibson and Smout, and Whyte.
 1	Ann	an	ADP	Sp	_	3	case	_	_
 2	an	an	ADP	Sp	_	1	fixed	_	_
 3	co-theacs	co-theacs	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
@@ -4631,7 +4483,6 @@
 
 # sent_id = fp09_015
 # text = A-rithist, a' déiligeadh ri eachdraidh na Gàidhealtachd fhéin, fhuair mi mór-bhuannachd á obair Dhòmhnaill Ghriogaraich agus I. F. Grant, sgrùdaidhean anns am faigh an sgoilear tòrr fiosrachaidh agus bheachdan a tha fhathast gu math luachmhor.
-# text_en = Again, dealing with the history of the Highlands itself, I was greatly influenced by the work of Donald Gregory and I. F. Grant, investigations in which the scholar will obtain much information and thought that is still very valuable.
 1	A-rithist	a-rithist	ADV	Rg	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	Fi	_	4	punct	_	_
 3	a'	ag	PART	Sa	_	4	case	_	_
@@ -8576,7 +8427,6 @@
 # sent_id = p05_001b
 # speaker = [2]
 # text = tha cuimhne a'm glè mhath oir bha mi aig ceann ròp a' tomhas cho fad 's a bha na gèamannan a bha na daoine a' dèanamh
-# text_en = I remember very well for I was at the end of the weighing rope for as long as the people were doing the games
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	cuimhne	cuimhne	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
 3-4	a'm	_	_	_	_	_	_	_	_
@@ -8609,7 +8459,6 @@
 # sent_id = p05_002a
 # speaker = [1]
 # text = uill tha na gèamaichean air a bhith 'dol gu: [?] airson iomadach bliadhna an turas fo dheireadh aige 's ann ann an Hosta a bha iad
-# text_en = well the games have gone to [?] for many years the last time it was in Hosta they were
 1	uill	uill	INTJ	I	_	2	discourse	_	_
 2	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 3	na	an	DET	Tdpm	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -8644,7 +8493,6 @@
 # sent_id = p05_002b
 # speaker = [1]
 # text = an ann ann an sin a bha iad a’ chuid as mù dhen an tìde?
-# text_en = was it there they were the majority of the time?
 1	an	is	AUX	Wpdqa	Mood=Int|Polarity=Aff|Tense=Pres	4	cop	_	_
 2-3	ann	_	_	_	_	_	_	_	_
 2	an	an	ADP	Sp	_	1	fixed	_	_
@@ -8667,7 +8515,6 @@
 # sent_id = p05_003a
 # speaker = [2]
 # text = ò 's ann
-# text_en = oh yes
 1	ò	ò	INTJ	I	_	4	discourse	_	_
 2	's	is	AUX	Wp-i	Tense=Pres	4	cop	_	_
 3-4	ann	_	_	_	_	_	_	_	_
@@ -8677,7 +8524,6 @@
 # sent_id = p05_003b
 # speaker = [2]
 # text = 's ann air machair Hosta a chleachd iad a bhith gu math tric
-# text_en = it was on Hosta links they would use often
 1	's	is	AUX	Wp-i	Tense=Pres	5	cop	_	_
 2-3	ann	_	_	_	_	_	_	_	_
 2	an	an	ADP	Sp	_	1	fixed	_	_
@@ -8697,7 +8543,6 @@
 # sent_id = p05_003c
 # speaker = [2]
 # text = uill is cuimhneach leamsa o dheireadh a’ Chogaidh 's dòcha gu robh iad uair no dhà aig Solas ach chan eil cuimhne a'm idir cuine chaidh an stèidhicheadh an toiseach
-# text_en = well I remember from the end of the war maybe they were once or twice at Solas but I don't remember when they were established at first
 1	uill	uill	INTJ	I	_	3	discourse	_	_
 2	is	is	AUX	Wp-i	Tense=Pres	3	cop	_	_
 3	cuimhneach	cuimhneach	NOUN	Uf	_	0	root	_	_
@@ -8814,7 +8659,6 @@
 # sent_id = p05_004
 # speaker = [1]
 # text = tha duilleag inntinneach air do bheulaibh ann an sin nach eil?
-# text_en = there's an interesting page in front of you there isn't there?
 1	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	duilleag	duilleag	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
 3	inntinneach	inntinneach	ADJ	Aq-sfn	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
