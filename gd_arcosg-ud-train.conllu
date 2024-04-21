@@ -69180,7 +69180,7 @@
 12	air	air	ADP	Sp	_	14	case	_	_
 13	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
 14	Rocket	rocket	NOUN	Xfe	_	8	obl	_	OrigLang=en
-15	Range	range	NOUN	Xfe	_	14	flat:foreign	_	OrigLang=en|SpaceAfter=No
+15	Range	range	X	Xfe	_	14	flat:foreign	_	OrigLang=en|SpaceAfter=No
 16	,	,	PUNCT	Fi	_	17	punct	_	_
 17	bha	bi	VERB	V-s	Tense=Past	0	root	_	_
 18	dùil	dùil	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
@@ -70210,8 +70210,8 @@
 28	choisinn	coisinn	VERB	V-s	Tense=Past	26	acl:relcl	_	_
 29	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
 30	Eurovision	eurovision	NOUN	Xfe	_	28	obj	_	OrigLang=en
-31	Song	song	NOUN	Xfe	_	30	flat:foreign	_	OrigLang=en
-32	Contest	contest	NOUN	Xfe	_	30	flat:foreign	_	OrigLang=en
+31	Song	song	X	Xfe	_	30	flat:foreign	_	OrigLang=en
+32	Contest	contest	X	Xfe	_	30	flat:foreign	_	OrigLang=en
 33	do	do	ADP	Sp	_	34	case	_	_
 34	Sandaidh	Sandadh	PROPN	Nn-fd	Case=Dat|Gender=Fem	28	obl	_	_
 35	Nic	Nic	PART	Up	PartType=Pat	34	flat:name	_	_
