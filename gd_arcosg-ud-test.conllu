@@ -2566,7 +2566,7 @@
 3	Mhór	mór	ADJ	Aq-sfn	Case=Nom|Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
 4	,	,	PUNCT	Fi	_	6	punct	_	_
 5	a’	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	chailleach	cailleach	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No
+6	chailleach	cailleach	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No
 7	,	,	PUNCT	Fi	_	9	punct	_	_
 8	air	air	PART	Sa	_	9	case	_	_
 9	fàs	fàs	NOUN	Nv	VerbForm=Vnoun	1	xcomp:pred	_	_
@@ -2590,7 +2590,7 @@
 26	Eóghainn	Eóghainn	PROPN	Nn-mn	Case=Nom|Gender=Masc	25	nsubj	_	SpaceAfter=No
 27	,	,	PUNCT	Fi	_	26	punct	_	_
 28	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	gille	gille	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	25	appos	_	SpaceAfter=No
+29	gille	gille	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	26	appos	_	SpaceAfter=No
 30	,	,	PUNCT	Fi	_	32	punct	_	_
 31	ach	ach	ADP	Sp	_	32	case	_	_
 32	beagan	beagan	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	25	xcomp:pred	_	_
@@ -2933,7 +2933,7 @@
 10	d’	do	PART	Q--s	Tense=Past	11	mark:prt	_	_
 11	fhuair	faigh	VERB	V-s	Tense=Past	1	advcl	_	_
 12	Uilleam	Uilleam	PROPN	Nn-mn	Case=Nom|Gender=Masc	11	nsubj	_	_
-13	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	11	appos	_	_
+13	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
 14	fhéin	féin	PRON	Px	Reflex=Yes	13	nmod	_	_
 15	a	a	PART	Ug	PartType=Inf	16	mark:prt	_	_
 16	chur	cuir	NOUN	Nv	VerbForm=Inf	11	xcomp	_	_
@@ -4321,7 +4321,7 @@
 10	,	,	PUNCT	Fi	_	13	punct	_	_
 11	am	am	PART	Qq	PartType=Vb|PronType=Int	13	mark:prt	_	_
 12	bu	is	AUX	Ws	Tense=Past	13	cop	_	_
-13	Dhòmhnallach	dòmhnallach	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+13	Dhòmhnallach	dòmhnallach	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	9	acl:relcl	_	_
 14	no	no	CCONJ	Cc	_	15	cc	_	_
 15	Leathanach	leathanach	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
 16	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3	13	nsubj	_	SpaceAfter=No
@@ -6634,7 +6634,7 @@
 3	Èirinn	Èirinn	PROPN	Nt	_	2	nmod	_	_
 4	a	a	PROPN	Nt	_	3	flat	_	_
 5	Tuath	Tuath	PROPN	Nt	_	3	flat	_	_
-6	Mo	Mo	PROPN	Nn-fn	Case=Nom|Gender=Fem	1	appos	_	_
+6	Mo	Mo	PROPN	Nn-fn	Case=Nom|Gender=Fem	2	appos	_	_
 7	Mowlam	Mowlam	PROPN	Nn	_	6	flat:name	_	_
 8	air	air	PART	Sa	_	9	case	_	_
 9	co-dhùnadh	co-dhùn	NOUN	Nv	VerbForm=Vnoun	1	xcomp:pred	_	_
@@ -10770,7 +10770,7 @@
 3	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Gàidhlig	gàidhlig	NOUN	Ncsfg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	Fi	_	6	punct	_	_
-6	Alasdair	Alasdair	PROPN	Nn-mn	Case=Nom|Gender=Masc	1	appos	_	_
+6	Alasdair	Alasdair	PROPN	Nn-mn	Case=Nom|Gender=Masc	2	appos	_	_
 7	Moireasdan	Moireasdan	PROPN	Nn	_	6	flat:name	_	SpaceAfter=No
 8	,	,	PUNCT	Fi	_	10	punct	_	_
 9	ag	ag	PART	Sa	_	10	case	_	_

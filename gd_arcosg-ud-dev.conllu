@@ -1090,7 +1090,7 @@
 9	gur	is	AUX	Wpdia	Polarity=Aff|Tense=Pres	12	cop	_	_
 10	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	9	fixed	_	_
 11	a	a	DET	Dp3sf	Gender=Fem|Number=Sing|Person=3|Poss=Yes	12	nmod:poss	_	_
-12	h-uncle	uncle	X	Xfe	Foreign=Yes	4	ccomp	_	_
+12	h-uncle	uncle	NOUN	Xfe	_	4	ccomp	_	OrigLang=en
 13	[Name]	[Name]	PROPN	Nn-mn	Case=Nom|Gender=Masc	12	appos	_	Anonymised=Yes
 14	[Name]	[Name]	PROPN	Nn	_	13	flat:name	_	Anonymised=Yes
 15	[Name]	[Name]	PROPN	Nn	_	13	flat:name	_	Anonymised=Yes
@@ -4295,6 +4295,7 @@
 34	ùra	ùr	ADJ	Aq-pmn	Case=Nom|Gender=Masc|Number=Plur	33	amod	_	SpaceAfter=No
 35	.	.	PUNCT	Fe	_	4	punct	_	_
 
+# comment = node 9 is NOUN/nmod but maybe it should be ADP/nmod
 # sent_id = fp09_010
 # text = Gu mì-shealbhach, tha Oilthigh Dhùn Éideann, cleas iomadach acadamh eile 's an latha-an-diugh, a' fuiling fo dhroch bhuaidh an treud de bhurraidhean a tha, anns an fhichead bliadhna a chaidh seachad, air àite is ùghdarras fhaighinn dhaibh fhéin thairis air na mic-léinn.
 1	Gu	gu	PART	Ua	PartType=Ad	2	mark:prt	_	_
@@ -4305,7 +4306,7 @@
 6	Dhùn	Dùn	PROPN	Nt	_	5	nmod	_	_
 7	Éideann	Éideann	PROPN	Nt	_	6	flat	_	SpaceAfter=No
 8	,	,	PUNCT	Fi	_	9	punct	_	_
-9	cleas	cleas	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+9	cleas	cleas	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
 10	iomadach	iomadach	ADJ	Ar	_	11	amod	_	_
 11	acadamh	acadamh	NOUN	Ncpmg	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
 12	eile	eile	ADJ	Aq-pmg	Case=Gen|Gender=Masc|Number=Plur	11	amod	_	_
@@ -4705,7 +4706,7 @@
 20	-	-	PUNCT	Fb	_	23	punct	_	_
 21	gu	gu	PART	Ua	PartType=Ad	22	mark:prt	_	_
 22	sònraichte	sònraichte	ADV	Rg	_	23	advmod	_	_
-23	Kenneth	Kenneth	PROPN	Nn-mn	Case=Nom|Gender=Masc	13	appos	_	_
+23	Kenneth	Kenneth	PROPN	Nn-mn	Case=Nom|Gender=Masc	18	appos	_	_
 24	Nicholls	Nicholls	PROPN	Nn	_	23	flat:name	_	SpaceAfter=No
 25	,	,	PUNCT	Fi	_	26	punct	_	_
 26	Katherine	Katherine	PROPN	Nn-fn	Case=Nom|Gender=Fem	23	conj	_	_
@@ -5286,7 +5287,7 @@
 23	a’	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	bheinn-sheilg	beinn-sheilg	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	18	xcomp:pred	_	SpaceAfter=No
 25	,	,	PUNCT	Fi	_	26	punct	_	_
-26	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	18	appos	_	_
+26	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	14	appos	_	_
 27	fhèin	fèin	PRON	Px	Reflex=Yes	26	nmod	_	_
 28	agus	agus	CCONJ	Cc	_	29	cc	_	_
 29	uaislean	uaisl	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	26	conj	_	_
@@ -7867,7 +7868,7 @@
 4	Dùthchannan	dùthcha	NOUN	Ncpfg	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
 5	Cèin	cèin	ADJ	Aq-pfg	Case=Gen|Gender=Fem|Number=Plur	4	amod	_	_
 6	-	-	PUNCT	Fb	_	7	punct	_	_
-7	Robin	Robin	PROPN	Nn-mn	Case=Nom|Gender=Masc	1	appos	_	_
+7	Robin	Robin	PROPN	Nn-mn	Case=Nom|Gender=Masc	2	appos	_	_
 8	Cook	Cook	PROPN	Nn	_	7	flat:name	_	_
 9	-	-	PUNCT	Fb	_	1	punct	_	_
 10	gu	gu	PART	Qa	PartType=Cmpl	11	mark:prt	_	_
@@ -10578,7 +10579,7 @@
 7	an	an	ADP	Sp	_	8	case	_	_
 8	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	6	xcomp:pred	_	_
 9	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	là	là	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+10	là	là	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	6	obl:tmod	_	_
 11	ud	ud	DET	Dd	_	10	det	_	_
 12	eadar	eadar	ADP	Sp	_	13	case	_	_
 13	Gallaibh	Gallaibh	PROPN	Nt	_	3	obl	_	_

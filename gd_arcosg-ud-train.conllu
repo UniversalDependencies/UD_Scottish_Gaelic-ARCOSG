@@ -6211,7 +6211,7 @@
 9-10	aice	_	_	_	_	_	_	_	_
 9	aig	aig	ADP	Sp	_	10	case	_	_
 10	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3	8	nmod	_	_
-11	right	right	X	Xfe	Foreign=Yes	5	appos	_	_
+11	right	right	X	Xfe	Foreign=Yes	5	advcl	_	_
 12	round	round	X	Xfe	Foreign=Yes	11	flat:foreign	_	_
 13	her	her	X	Xfe	Foreign=Yes	11	flat:foreign	_	_
 
@@ -36136,7 +36136,7 @@
 13	thusa	thu	PRON	Pp2s--e	Form=Emp|Number=Sing|Person=2	10	obl	_	_
 14	rud	rud	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	_
 15	-	-	PUNCT	Fb	_	16	punct	_	_
-16	cuimhneachan	cuimhneachan	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+16	cuimhneachan	cuimhneachan	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_
 17	-	-	PUNCT	Fb	_	19	punct	_	_
 18	agus	agus	CCONJ	Cc	_	19	cc	_	_
 19	nì	dèan	VERB	V-f	Tense=Fut	10	conj	_	_
@@ -39761,8 +39761,8 @@
 26	còmhla	còmhla	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	21	conj	_	_
 27	bheag	beag	ADJ	Aq-sfn	Case=Nom|Gender=Fem|Number=Sing	26	amod	_	_
 28	a	a	PART	Q-r	PartType=Vb|PronType=Rel	29	nsubj	_	_
-29	bhiodh	bi	VERB	V-h	Mood=Cnd	26	csubj:cleft	_	_
-30	lid	lid	NOUN	Xfe	Foreign=Yes	29	appos	_	_
+29	bhiodh	bi	VERB	V-h	Mood=Cnd	26	acl:relcl	_	_
+30	lid	lid	NOUN	Xfe	Foreign=Yes	32	reparandum	_	_
 31	a	a	PART	Q-r	PartType=Vb|PronType=Rel	32	obj	_	_
 32	bhiodh	bi	VERB	V-h	Mood=Cnd	29	parataxis	_	_
 33	iad	iad	PRON	Pp3p	Number=Plur|Person=3	32	nsubj	_	_
@@ -49362,7 +49362,7 @@
 16	a	a	PROPN	Nt	_	15	flat	_	_
 17	Tuath	Tuath	PROPN	Nt	_	15	flat	_	SpaceAfter=No
 18	,	,	PUNCT	Fi	_	19	punct	_	_
-19	Mo	Mo	PROPN	Nn-fn	Case=Nom|Gender=Fem	6	appos	_	_
+19	Mo	Mo	PROPN	Nn-fn	Case=Nom|Gender=Fem	14	appos	_	_
 20	Mowlam	Mowlam	PROPN	Nn	_	19	flat:name	_	SpaceAfter=No
 21	,	,	PUNCT	Fi	_	26	punct	_	_
 22	as	as	ADP	Sp	_	26	case	_	_
@@ -64276,7 +64276,7 @@
 25	Breatann	Breatann	PROPN	Nt	_	20	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	Fi	_	28	punct	_	_
 27	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	t-Ard-Easbaig	ard-easbaig	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	19	appos	_	_
+28	t-Ard-Easbaig	ard-easbaig	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	20	appos	_	_
 29	Pablo	Pablo	PROPN	Nn-mn	Case=Nom|Gender=Masc	28	flat:name	_	_
 30	Puente	Puente	PROPN	Nn	_	28	flat:name	_	SpaceAfter=No
 31	,	,	PUNCT	Fi	_	36	punct	_	_
@@ -68929,7 +68929,7 @@
 10	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	neach-cathrach	neach-cathrach	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
 12	,	,	PUNCT	Fi	_	13	punct	_	_
-13	Mata	Mata	PROPN	Nn-mn	Case=Nom|Gender=Masc	9	appos	_	_
+13	Mata	Mata	PROPN	Nn-mn	Case=Nom|Gender=Masc	11	appos	_	_
 14	MacÌomhair	MacÌomhair	PROPN	Nn	_	13	flat:name	_	SpaceAfter=No
 15	,	,	PUNCT	Fi	_	17	punct	_	_
 16	ag	ag	PART	Sa	_	17	case	_	_
@@ -69179,8 +69179,8 @@
 11	toiseach	toiseach	ADV	Rt	_	10	fixed	_	_
 12	air	air	ADP	Sp	_	14	case	_	_
 13	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
-14	Rocket	rocket	NOUN	Xfe	_	8	obl	_	OrigLang=en
-15	Range	range	X	Xfe	_	14	flat:foreign	_	OrigLang=en|SpaceAfter=No
+14	Rocket	rocket	X	Xfe	Foreign=Yes	8	obl	_	OrigLang=en
+15	Range	range	X	Xfe	Foreign=Yes	14	flat:foreign	_	OrigLang=en|SpaceAfter=No
 16	,	,	PUNCT	Fi	_	17	punct	_	_
 17	bha	bi	VERB	V-s	Tense=Past	0	root	_	_
 18	dùil	dùil	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
@@ -70209,9 +70209,9 @@
 27	a	a	PART	Q-r	PartType=Vb|PronType=Rel	28	nsubj	_	_
 28	choisinn	coisinn	VERB	V-s	Tense=Past	26	acl:relcl	_	_
 29	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
-30	Eurovision	eurovision	NOUN	Xfe	_	28	obj	_	OrigLang=en
-31	Song	song	X	Xfe	_	30	flat:foreign	_	OrigLang=en
-32	Contest	contest	X	Xfe	_	30	flat:foreign	_	OrigLang=en
+30	Eurovision	eurovision	X	Xfe	Foreign=Yes	28	obj	_	OrigLang=en
+31	Song	song	X	Xfe	Foreign=Yes	30	flat:foreign	_	OrigLang=en
+32	Contest	contest	X	Xfe	Foreign=Yes	30	flat:foreign	_	OrigLang=en
 33	do	do	ADP	Sp	_	34	case	_	_
 34	Sandaidh	Sandadh	PROPN	Nn-fd	Case=Dat|Gender=Fem	28	obl	_	_
 35	Nic	Nic	PART	Up	PartType=Pat	34	flat:name	_	_
@@ -76555,7 +76555,7 @@
 3	buailteach	buailteach	ADJ	Ap	_	1	xcomp:pred	_	_
 4	's	is	AUX	Wp-i	Tense=Pres	5	cop	_	_
 5	docha	docha	NOUN	Uf	_	1	parataxis	_	_
-6	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	appos	_	_
+6	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 7	fhèin	fèin	PRON	Px	Reflex=Yes	6	nmod	_	_
 8	a	a	PART	Ug	PartType=Inf	9	mark:prt	_	_
 9	chall	caill	NOUN	Nv	VerbForm=Inf	6	xcomp:pred	_	_
