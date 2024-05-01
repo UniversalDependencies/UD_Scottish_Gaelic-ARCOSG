@@ -70219,7 +70219,7 @@
 37	Sheathanaich	Seathanaich	PROPN	Nn	_	34	flat:name	_	SpaceAfter=No
 38	,	,	PUNCT	Fi	_	40	punct	_	_
 39	“	“	PUNCT	Fq	_	40	punct	_	SpaceAfter=No
-40	Puppet	puppet	X	Xfe	Foreign=Yes	34	appos	_	Lang=en
+40	Puppet	puppet	X	Xfe	Foreign=Yes	26	appos	_	Lang=en
 41	on	on	X	Xfe	Foreign=Yes	40	flat:foreign	_	Lang=en
 42	a	a	X	Xfe	Foreign=Yes	40	flat:foreign	_	Lang=en
 43	String	string	X	Xfe	Foreign=Yes	40	flat:foreign	_	Lang=en|SpaceAfter=No
