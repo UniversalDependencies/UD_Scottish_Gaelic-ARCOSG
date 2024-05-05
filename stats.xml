@@ -15,23 +15,23 @@
   <fusions unique="230" /><!-- ann, aca, air, ga, aige, dhan, 'se, dha, agad, leatha, ris, 'na, 'ga, orra, againn -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">3417</tag><!-- eile, math, mòr, bi, sam, ùr, beag, mór, seann, fada -->
+    <tag name="ADJ">3421</tag><!-- eile, math, mòr, bi, sam, ùr, beag, mór, seann, fada -->
     <tag name="ADP">11710</tag><!-- an, air, aig, do, ri, gu, le, de, airson, a -->
     <tag name="ADV">4606</tag><!-- an, a-mach, suas, cho, a, dìreach, math, cuideachd, ann, a-steach -->
     <tag name="AUX">1319</tag><!-- is, rach -->
     <tag name="CCONJ">3406</tag><!-- agus, 's, ach, is, no, oir, neo, so, na, thoradh -->
     <tag name="DET">6539</tag><!-- an, a, sin, seo, uile, mo, do, gach, ud, sa -->
-    <tag name="INTJ">528</tag><!-- uill, ò, àidh, o, och, seadh, uh, ma-thà, eh, mhmm -->
-    <tag name="NOUN">18861</tag><!-- duine, rach, bi, cuir, dèan, bliadhna, toir, fear, abair, taobh -->
+    <tag name="INTJ">532</tag><!-- uill, ò, àidh, o, och, seadh, uh, ma-thà, eh, mhmm -->
+    <tag name="NOUN">18836</tag><!-- duine, rach, bi, cuir, dèan, bliadhna, toir, fear, abair, taobh -->
     <tag name="NUM">1048</tag><!-- aon, dà, deug, fichead, trì, ciad, ceud, ceithir, seachd, mìle -->
     <tag name="PART">8752</tag><!-- a, ag, gu, cha, nach, air, do, an, am, nas -->
     <tag name="PRON">9670</tag><!-- e, iad, i, mi, thu, a, sin, sinn, fèin, seo -->
-    <tag name="PROPN">4216</tag><!-- [Name], Alba, [Placename], Iain, Yugoslavia, Dòmhnall, MacLeish, Uibhist, Malpas, a -->
+    <tag name="PROPN">4201</tag><!-- [Name], Alba, [Placename], Iain, Yugoslavia, Dòmhnall, MacLeish, Uibhist, Malpas, a -->
     <tag name="PUNCT">5390</tag><!-- ,, ., ", ?, “, -, ', ;, ..., – -->
     <tag name="SCONJ">1081</tag><!-- mar, nuair, ma, ged, far, 's, agus, gus, mur, mus -->
     <tag name="SYM">5</tag><!-- £, a -->
     <tag name="VERB">9018</tag><!-- bi, rach, arsa, faigh, cuir, dèan, thig, abair, toir, feum -->
-    <tag name="X">392</tag><!-- [?], the, a, and, i, in, na, on, poverty, well -->
+    <tag name="X">424</tag><!-- [?], the, a, of, on, and, i, in, isles, na -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="46">
@@ -41,7 +41,7 @@
     <feat name="Case" value="Voc" upos="ADJ,NOUN,PROPN">125</feat><!-- [Name], Mhurchaidh, Aonghais, Iain, Raghnaill, dhuine, Dhòmhnaill, 'ille, Rìgh, ghràidh -->
     <feat name="Definite" value="Def" upos="DET">4964</feat><!-- an, na, a’, a', am, nan, 'n, nam, 'm, ‘n -->
     <feat name="Degree" value="Cmp,Sup" upos="ADJ,ADV">225</feat><!-- fhearr, fhaide, fheàrr, motha, mhotha, tràithe, lugha, àirde, luaithe, shine -->
-    <feat name="Foreign" value="Yes" upos="ADJ,ADV,CCONJ,DET,INTJ,NOUN,NUM,PROPN,VERB,X">766</feat><!-- so, the, Sir, tug-of-war, Shir, contract, okay, vet, well, Dad -->
+    <feat name="Foreign" value="Yes" upos="ADJ,ADV,CCONJ,DET,INTJ,NOUN,NUM,PROPN,VERB,X">625</feat><!-- so, the, Sir, tug-of-war, Shir, contract, okay, vet, well, Dad -->
     <feat name="Form" value="Emp" upos="ADP,NOUN,PRON,VERB">706</feat><!-- esan, mise, ise, thusa, iadsan, sinne, taobh-sa, sibhse, tusa, àsan -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON,PROPN">8335</feat><!-- i, na, an, a’, a, ise, bliadhna, a', eile, buille -->
     <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,PRON,PROPN">17438</feat><!-- e, an, a, na, a’, esan, am, duine, [Name], eile -->
@@ -51,10 +51,10 @@
     <feat name="Number" value="Dual" upos="ADJ,DET,NOUN">7</feat><!-- an, bhois, bhròig, bhuig, cuidhean -->
     <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,PRON">5614</feat><!-- iad, na, sinn, an, nan, sibh, daoine, eile, nam, iadsan -->
     <feat name="Number" value="Sing" upos="ADJ,DET,NOUN,PRON">23396</feat><!-- e, an, a, a’, i, mi, na, thu, a', am -->
-    <feat name="NumForm" value="Digit" upos="NUM">120</feat><!-- 1751, 1674, 2, 1692, 1702, 1651, 1660, 1686, 1689, 1690 -->
+    <feat name="NumForm" value="Digit" upos="NUM">119</feat><!-- 1751, 1674, 2, 1692, 1702, 1651, 1660, 1686, 1689, 1690 -->
     <feat name="NumForm" value="Roman" upos="NUM">1</feat><!-- II -->
     <feat name="NumForm" value="Word" upos="NUM">927</feat><!-- aon, dà, deug, trì, fhichead, fichead, ceithir, chiad, cheud, seachd -->
-    <feat name="NumType" value="Card" upos="NUM">920</feat><!-- aon, dà, deug, trì, fhichead, fichead, ceithir, seachd, dhà, mìle -->
+    <feat name="NumType" value="Card" upos="NUM">919</feat><!-- aon, dà, deug, trì, fhichead, fichead, ceithir, seachd, dhà, mìle -->
     <feat name="NumType" value="Ord" upos="NUM">108</feat><!-- chiad, cheud, dàrna, naodhamh, ochdamh, t-seachdamh, naoidheamh, treas, dara, ceathramh -->
     <feat name="PartType" value="Ad" upos="PART">365</feat><!-- gu -->
     <feat name="PartType" value="Cmpl" upos="PART">1038</feat><!-- gun, gu, nach, gum, g', 'g, gan, gur -->
@@ -84,50 +84,50 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="45">
-    <dep name="acl">84</dep>
-    <dep name="acl:relcl">1454</dep>
-    <dep name="advcl">999</dep>
-    <dep name="advmod">3665</dep>
+    <dep name="acl">100</dep>
+    <dep name="acl:relcl">1491</dep>
+    <dep name="advcl">1000</dep>
+    <dep name="advmod">3661</dep>
     <dep name="amod">2054</dep>
-    <dep name="appos">311</dep>
+    <dep name="appos">305</dep>
     <dep name="aux:pass">151</dep>
-    <dep name="case">12827</dep>
+    <dep name="case">12826</dep>
     <dep name="case:voc">75</dep>
     <dep name="cc">3347</dep>
-    <dep name="ccomp">1019</dep>
+    <dep name="ccomp">1010</dep>
     <dep name="compound">110</dep>
     <dep name="conj">3337</dep>
     <dep name="cop">1160</dep>
-    <dep name="csubj:cleft">471</dep>
-    <dep name="csubj:cop">95</dep>
+    <dep name="csubj:cleft">457</dep>
+    <dep name="csubj:cop">94</dep>
     <dep name="csubj:outer">5</dep>
     <dep name="dep">140</dep>
-    <dep name="det">5537</dep>
+    <dep name="det">5536</dep>
     <dep name="discourse">512</dep>
     <dep name="dislocated">62</dep>
-    <dep name="fixed">2850</dep>
-    <dep name="flat">445</dep>
-    <dep name="flat:foreign">194</dep>
-    <dep name="flat:name">710</dep>
+    <dep name="fixed">2853</dep>
+    <dep name="flat">537</dep>
+    <dep name="flat:foreign">101</dep>
+    <dep name="flat:name">711</dep>
     <dep name="mark">1043</dep>
     <dep name="mark:prt">4593</dep>
-    <dep name="nmod">5064</dep>
+    <dep name="nmod">5079</dep>
     <dep name="nmod:poss">873</dep>
-    <dep name="nsubj">8429</dep>
+    <dep name="nsubj">8407</dep>
     <dep name="nsubj:outer">3</dep>
     <dep name="nsubj:pass">127</dep>
     <dep name="nummod">743</dep>
-    <dep name="obj">3106</dep>
+    <dep name="obj">3095</dep>
     <dep name="obl">5673</dep>
     <dep name="obl:smod">59</dep>
-    <dep name="obl:tmod">164</dep>
+    <dep name="obl:tmod">165</dep>
     <dep name="orphan">2</dep>
-    <dep name="parataxis">914</dep>
+    <dep name="parataxis">910</dep>
     <dep name="punct">5390</dep>
-    <dep name="reparandum">145</dep>
+    <dep name="reparandum">146</dep>
     <dep name="root">4741</dep>
     <dep name="vocative">122</dep>
-    <dep name="xcomp">1325</dep>
-    <dep name="xcomp:pred">5828</dep>
+    <dep name="xcomp">1323</dep>
+    <dep name="xcomp:pred">5829</dep>
   </deps>
 </treebank>
