@@ -970,8 +970,8 @@
 # text = 's e retired nurse a bh' innte a-mach taobh a-mach à [Placename] am badeigin
 1	's	is	AUX	Wp-i	Tense=Pres	3	cop	_	_
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	fixed	_	_
-3	retired	retired	ADJ	Xfe	Foreign=Yes	0	root	_	_
-4	nurse	nurse	NOUN	Xfe	Foreign=Yes	3	flat:foreign	_	_
+3	retired	retired	ADJ	Xfe	_	0	root	_	OrigLang=en
+4	nurse	nurse	NOUN	Xfe	_	3	flat	_	OrigLang=en
 5	a	a	PART	Q-r	PartType=Vb|PronType=Rel	6	nsubj	_	_
 6	bh'	bi	VERB	V-s	Tense=Past	3	csubj:cleft	_	_
 7-8	innte	_	_	_	_	_	_	_	_
@@ -1126,7 +1126,7 @@
 16	dithis	dithis	NOUN	Ncsfg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
 17	anns	an	ADP	Sp	_	19	case	_	_
 18	a'	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
-19	chanoe	chanoe	X	Xfe	Foreign=Yes	13	xcomp:pred	_	_
+19	chanoe	chanoe	NOUN	Xfe	Foreign=Yes	13	xcomp:pred	_	_
 20	a	a	PART	Q-r	PartType=Vb|PronType=Rel	21	nsubj	_	_
 21	bh'	bi	VERB	V-s	Tense=Past	19	acl:relcl	_	_
 22-23	aice	_	_	_	_	_	_	_	_
@@ -1147,7 +1147,7 @@
 36	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	duine	duine	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
 38	eile	eile	ADJ	Aq-smn	Case=Nom|Gender=Masc|Number=Sing	37	amod	_	_
-39	supposed	supposed	X	Xfe	Foreign=Yes	35	xcomp:pred	_	_
+39	supposed	supposed	ADJ	Xfe	Foreign=Yes	35	xcomp:pred	_	_
 40	a	a	PART	Ug	PartType=Inf	41	mark:prt	_	_
 41	bhith	bi	NOUN	Nv	VerbForm=Inf	39	xcomp	_	_
 42	's	's	CCONJ	Cc	_	45	cc	_	_
@@ -1181,7 +1181,7 @@
 8-9	'sa	_	_	_	_	_	_	_	_
 8	anns	an	ADP	Sp	_	10	case	_	_
 9	an	an	ADP	Sp	_	8	fixed	_	_
-10	chanoe	chanoe	X	Xfe	Foreign=Yes	6	obl	_	_
+10	chanoe	chanoe	NOUN	Xfe	Foreign=Yes	6	obl	_	_
 11	nuair	nuair	SCONJ	Cs	_	13	mark	_	_
 12	a	a	PART	Q-r	PartType=Vb|PronType=Rel	13	mark:prt	_	_
 13	bha	bi	VERB	V-s	Tense=Past	2	advcl	_	_
@@ -1239,7 +1239,7 @@
 7	b'	is	AUX	Ws	Tense=Past	8	cop	_	_
 8	fheàirrde	math	ADJ	Aps	_	1	conj	_	_
 9	duine	duine	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
-10	[?]	[?]	X	Xx	_	8	xcomp	_	_
+10	[?]	[?]	X	Xx	_	8	dep	_	_
 
 # sent_id = c02_038b
 # speaker = [2]
@@ -1552,8 +1552,8 @@
 10	a	a	ADP	Sp	_	11	case	_	_
 11	bharrachd	barrachd	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
 12	air	air	ADP	Sp	_	13	case	_	_
-13	swimming	swimming	NOUN	Xfe	Foreign=Yes	11	nmod	_	_
-14	pool	pool	NOUN	Xfe	Foreign=Yes	13	flat:foreign	_	_
+13	swimming	swimming	NOUN	Xfe	_	11	nmod	_	OrigLang=en
+14	pool	pool	NOUN	Xfe	_	13	flat	_	OrigLang=en
 
 # sent_id = c04_018b
 # speaker = [1]
@@ -2131,8 +2131,8 @@
 6	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	5	fixed	_	_
 7	an	is	AUX	Wpdqa	Mood=Int|Polarity=Aff|Tense=Pres	9	cop	_	_
 8	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	7	fixed	_	_
-9	swimming	swimming	NOUN	Xfe	Foreign=Yes	0	root	_	_
-10	pool	pool	NOUN	Xfe	Foreign=Yes	9	flat:foreign	_	_
+9	swimming	swimming	NOUN	Xfe	_	0	root	_	OrigLang=en
+10	pool	pool	NOUN	Xfe	_	9	flat	_	OrigLang=en
 11	a-muigh	a-muigh	ADJ	Aq	_	9	amod	_	_
 12	a	a	PART	Q-r	PartType=Vb|PronType=Rel	13	nsubj	_	_
 13	th’	bi	VERB	V-p	Tense=Pres	9	csubj:cleft	_	_
@@ -2169,7 +2169,6 @@
 # sent_id = c04_064
 # speaker = [5]
 # text = 's dè cho teth ‘s a bhios e a-muigh?
-# text_en = and how hot will it be outside?
 1	's	's	CCONJ	Cc	_	4	cc	_	_
 2	dè	dè	PRON	Uq	PronType=Int	4	advmod	_	_
 3	cho	cho	ADV	Rg	_	2	fixed	_	_
@@ -2240,8 +2239,8 @@
 3	suas	suas	ADV	Rs	_	1	advmod	_	_
 4	gun	gun	ADP	Sp	_	6	case	_	_
 5	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
-6	English	english	NOUN	Xfe	Foreign=Yes	1	obl	_	_
-7	Room	room	NOUN	Xfe	Foreign=Yes	6	flat:foreign	_	_
+6	English	english	ADJ	Xfe	Foreign=Yes	1	obl	_	_
+7	Room	room	NOUN	Xfe	Foreign=Yes	6	flat	_	_
 8	far	far	SCONJ	Cs	_	10	mark	_	_
 9	a	a	PART	Qq	PartType=Vb|PronType=Int	10	mark:prt	_	_
 10	bheil	bi	VERB	V-p--d	Tense=Pres	6	advcl	_	_
@@ -2280,8 +2279,8 @@
 7	agus	agus	CCONJ	Cc	_	8	cc	_	_
 8	bha	bi	VERB	V-s	Tense=Past	2	conj	_	_
 9	na	an	DET	Tdp	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
-10	first	first	NOUN	Xfe	Foreign=Yes	8	nsubj	_	_
-11	years	years	NOUN	Xfe	Foreign=Yes	10	flat:foreign	_	_
+10	first	first	NOUN	Xfe	_	8	nsubj	_	OrigLang=en
+11	years	years	NOUN	Xfe	_	10	flat	_	OrigLang=en
 12-13	ann	_	_	_	_	_	_	_	_
 12	an	an	ADP	Sp	_	13	case	_	_
 13	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	8	xcomp:pred	_	_
@@ -2345,8 +2344,8 @@
 3	tha	bi	VERB	V-p	Tense=Pres	1	acl:relcl	_	_
 4	ann	an	ADP	Sp	_	6	case	_	_
 5	an	an	ADP	Sp	_	4	fixed	_	_
-6	holiday	holiday	NOUN	Xfe	Foreign=Yes	3	xcomp:pred	_	_
-7	houses	houses	NOUN	Xfe	Foreign=Yes	6	flat:foreign	_	_
+6	holiday	holiday	NOUN	Xfe	_	3	xcomp:pred	_	OrigLang=en
+7	houses	houses	NOUN	Xfe	_	6	flat	_	OrigLang=en
 8	dh’fheumadh	feum	VERB	V-h	Mood=Cnd	0	root	_	_
 9	iad	iad	PRON	Pp3p	Number=Plur|Person=3	8	nsubj	_	_
 10	cur	cuir	NOUN	Nv	VerbForm=Vnoun	1	xcomp	_	_
@@ -2453,14 +2452,14 @@
 6	a'	ag	PART	Sa	_	7	case	_	_
 7	sabaid	sabaid	NOUN	Nv	VerbForm=Vnoun	2	xcomp:pred	_	_
 8	airson	airson	ADP	Nf	_	12	case	_	_
-9	full	full	ADJ	Xfe	Foreign=Yes	12	obj	_	_
-10	rates	rates	NOUN	Xfe	Foreign=Yes	9	flat:foreign	_	_
+9	full	full	ADJ	Xfe	_	12	obj	_	OrigLang=en
+10	rates	rates	NOUN	Xfe	_	9	flat	_	OrigLang=en
 11	a	a	PART	Ug	PartType=Inf	12	mark:prt	_	_
 12	chur	cuir	NOUN	Nv	VerbForm=Inf	7	xcomp	_	_
 13	air	air	ADP	Sp	_	15	case	_	_
 14	na	an	DET	Tdp	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
-15	holiday	holiday	NOUN	Xfe	Foreign=Yes	12	obl	_	_
-16	houses	houses	NOUN	Xfe	Foreign=Yes	15	flat:foreign	_	_
+15	holiday	holiday	NOUN	Xfe	_	12	obl	_	OrigLang=en
+16	houses	houses	NOUN	Xfe	_	15	flat	_	OrigLang=en
 17	's	's	SCONJ	Cc	_	19	mark	_	_
 18	gun	gun	ADP	Sp	_	19	case	_	_
 19	duine	duine	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	15	conj	_	_
@@ -2823,12 +2822,12 @@
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
 3	a'	ag	PART	Sa	_	4	case	_	_
 4	ràdh	abair	NOUN	Nv	VerbForm=Vnoun	1	xcomp:pred	_	_
-5	the	the	X	Xfe	Foreign=Yes	4	ccomp	_	_
-6	people	people	X	Xfe	Foreign=Yes	5	flat:foreign	_	_
-7	over-capitalise	over-capitalise	X	Xfe	Foreign=Yes	5	flat:foreign	_	_
-8	on	on	X	Xfe	Foreign=Yes	5	flat:foreign	_	_
-9	their	their	X	Xfe	Foreign=Yes	5	flat:foreign	_	_
-10	houses	houses	X	Xfe	Foreign=Yes	5	flat:foreign	_	_
+5	the	the	X	Xfe	Foreign=Yes	4	ccomp	_	Lang=en
+6	people	people	X	Xfe	Foreign=Yes	5	flat:foreign	_	Lang=en
+7	over-capitalise	over-capitalise	X	Xfe	Foreign=Yes	5	flat:foreign	_	Lang=en
+8	on	on	X	Xfe	Foreign=Yes	5	flat:foreign	_	Lang=en
+9	their	their	X	Xfe	Foreign=Yes	5	flat:foreign	_	Lang=en
+10	houses	houses	X	Xfe	Foreign=Yes	5	flat:foreign	_	Lang=en
 
 # sent_id = c05_030
 # speaker = [2]
@@ -3299,8 +3298,8 @@
 23	mar	mar	SCONJ	Cs	_	25	mark	_	_
 24	gum	gu	PART	Qa	PartType=Cmpl	25	mark:prt	_	_
 25	biodh	bi	VERB	V-h--d	Mood=Cnd	16	advcl	_	_
-26	box	box	NOUN	Xfe	Foreign=Yes	25	nsubj	_	_
-27	bed	bed	NOUN	Xfe	Foreign=Yes	26	flat:foreign	_	_
+26	box	box	NOUN	Xfe	_	25	nsubj	_	OrigLang=en
+27	bed	bed	NOUN	Xfe	_	26	flat	_	OrigLang=en
 28	chan	cha	PART	Qn	PartType=Vb|Polarity=Neg	29	mark:prt	_	_
 29	eil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 30	sin	sin	PRON	Pd	_	29	nsubj	_	_
@@ -3623,8 +3622,8 @@
 # speaker = [5]
 # text = bidh half loft ann
 1	bidh	bi	VERB	V-f	Tense=Fut	0	root	_	_
-2	half	half	NOUN	Xfe	Foreign=Yes	1	nsubj	_	_
-3	loft	loft	NOUN	Xfe	Foreign=Yes	2	flat:foreign	_	_
+2	half	half	NOUN	Xfe	_	1	nsubj	_	OrigLang=en
+3	loft	loft	NOUN	Xfe	_	2	flat	_	OrigLang=en
 4-5	ann	_	_	_	_	_	_	_	_
 4	an	an	ADP	Sp	_	5	case	_	_
 5	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	xcomp:pred	_	_
@@ -3737,8 +3736,8 @@
 # speaker = [5]
 # text = bidh seating room aca aig ceann shìos an taighe
 1	bidh	bi	VERB	V-f	Tense=Fut	0	root	_	_
-2	seating	seating	NOUN	Xfe	Foreign=Yes	1	nsubj	_	_
-3	room	room	NOUN	Xfe	Foreign=Yes	2	flat:foreign	_	_
+2	seating	seating	NOUN	Xfe	_	1	nsubj	_	OrigLang=en
+3	room	room	NOUN	Xfe	_	2	flat	_	OrigLang=en
 4-5	aca	_	_	_	_	_	_	_	_
 4	aig	aig	ADP	Sp	_	5	case	_	_
 5	iad	iad	PRON	Pp3p	Number=Plur|Person=3	1	xcomp:pred	_	_
@@ -4094,10 +4093,10 @@
 1-2	'se	_	_	_	_	_	_	_	_
 1	is	is	AUX	Wp-i	Tense=Pres	2	cop	_	_
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	0	root	_	_
-3	boundary	boundary	NOUN	Xfe	Foreign=Yes	2	nsubj	_	_
-4	fence	fence	NOUN	Xfe	Foreign=Yes	3	flat:foreign	_	_
-5	perimeter	perimeter	NOUN	Xfe	Foreign=Yes	3	appos	_	_
-6	wall	wall	NOUN	Xfe	Foreign=Yes	5	flat:foreign	_	_
+3	boundary	boundary	NOUN	Xfe	_	2	nsubj	_	OrigLang=en
+4	fence	fence	NOUN	Xfe	_	3	flat	_	OrigLang=en
+5	perimeter	perimeter	NOUN	Xfe	_	3	appos	_	OrigLang=en
+6	wall	wall	NOUN	Xfe	_	5	flat	_	OrigLang=en
 
 # sent_id = c06_014
 # speaker = [5]
@@ -4147,8 +4146,8 @@
 # sent_id = c06_016
 # speaker = [4]
 # text = township development an e no rudeigin?
-1	township	township	NOUN	Xfe	Foreign=Yes	4	dislocated	_	_
-2	development	development	NOUN	Xfe	Foreign=Yes	1	flat:foreign	_	_
+1	township	township	NOUN	Xfe	_	4	dislocated	_	OrigLang=en
+2	development	development	NOUN	Xfe	_	1	flat	_	OrigLang=en
 3	an	is	AUX	Wpdqa	Mood=Int|Polarity=Aff|Tense=Pres	4	cop	_	_
 4	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	0	root	_	_
 5	no	no	CCONJ	Cc	_	6	cc	_	_
@@ -6212,7 +6211,7 @@
 9-10	aice	_	_	_	_	_	_	_	_
 9	aig	aig	ADP	Sp	_	10	case	_	_
 10	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3	8	nmod	_	_
-11	right	right	ADV	Xfe	Foreign=Yes	5	advmod	_	_
+11	right	right	X	Xfe	Foreign=Yes	5	advcl	_	_
 12	round	round	X	Xfe	Foreign=Yes	11	flat:foreign	_	_
 13	her	her	X	Xfe	Foreign=Yes	11	flat:foreign	_	_
 
@@ -6973,8 +6972,8 @@
 4	shuas	suas	ADV	Rs	_	7	advmod	_	_
 5	aig	aig	ADP	Sp	_	7	case	_	_
 6	a'	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
-7	Council	council	NOUN	Xfe	Foreign=Yes	2	xcomp:pred	_	_
-8	Meeting	meeting	NOUN	Xfe	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+7	Council	council	NOUN	Xfe	_	2	xcomp:pred	_	OrigLang=en
+8	Meeting	meeting	NOUN	Xfe	_	7	flat	_	OrigLang=en|SpaceAfter=No
 9	?	?	PUNCT	Fg	_	2	punct	_	_
 
 # sent_id = c07_087a
@@ -7563,8 +7562,8 @@
 9	a	a	PART	Ug	PartType=Inf	10	mark:prt	_	_
 10	dhèanamh	dèan	NOUN	Nv	VerbForm=Inf	8	xcomp	_	_
 11	eadar	eadar	ADP	Sp	_	12	case	_	_
-12	market	market	NOUN	Xfe	Foreign=Yes	10	obl	_	_
-13	gardens	gardens	NOUN	Xfe	Foreign=Yes	12	flat:foreign	_	_
+12	market	market	NOUN	Xfe	_	10	obl	_	OrigLang=en
+13	gardens	gardens	NOUN	Xfe	_	12	flat	_	OrigLang=en
 14	is	is	CCONJ	Cc	_	15	cc	_	_
 15	dè	dè	PRON	Uq	PronType=Int	12	conj	_	_
 16	na	na	PRON	Q-r	PronType=Rel	17	obj	_	_
@@ -7726,8 +7725,8 @@
 4	obair	obraich	NOUN	Nv	VerbForm=Vnoun	0	root	_	_
 5	air	air	ADP	Sp	_	7	case	_	_
 6	a'	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
-7	fish	fish	NOUN	Xfe	Foreign=Yes	4	obl	_	_
-8	farm	farm	NOUN	Xfe	Foreign=Yes	7	flat:foreign	_	_
+7	fish	fish	NOUN	Xfe	_	4	obl	_	OrigLang=en
+8	farm	farm	NOUN	Xfe	_	7	flat	_	OrigLang=en
 9	a	a	PART	Q-r	PartType=Vb|PronType=Rel	10	xcomp:pred	_	_
 10	tha	bi	VERB	V-p	Tense=Pres	4	csubj:cleft	_	_
 11	esan	e	PRON	Pp3sm-e	Form=Emp|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
@@ -7737,8 +7736,8 @@
 # sent_id = c08_013
 # speaker = [2]
 # text = fish farming àidh
-1	fish	fish	NOUN	Xfe	Foreign=Yes	0	root	_	_
-2	farming	farming	NOUN	Xfe	Foreign=Yes	1	flat:foreign	_	_
+1	fish	fish	NOUN	Xfe	_	0	root	_	OrigLang=en
+2	farming	farming	NOUN	Xfe	_	1	flat	_	OrigLang=en
 3	àidh	àidh	INTJ	I	_	1	discourse	_	_
 
 # sent_id = c08_014
@@ -10205,8 +10204,8 @@
 # speaker = [2]
 # text = na sewer rates
 1	na	an	DET	Tdp	Number=Plur	2	det	_	_
-2	sewer	sewer	NOUN	Xfe	Foreign=Yes	0	root	_	_
-3	rates	rates	NOUN	Xfe	Foreign=Yes	2	flat:foreign	_	_
+2	sewer	sewer	NOUN	Xfe	_	0	root	_	OrigLang=en
+3	rates	rates	NOUN	Xfe	_	2	flat	_	OrigLang=en
 
 # sent_id = c10_002
 # speaker = [1]
@@ -10214,7 +10213,7 @@
 1	co-dhiubh	co-dhiubh	SCONJ	Cs	_	2	mark	_	_
 2	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 3	thu	thu	PRON	Pp2s	Number=Sing|Person=2	2	nsubj	_	_
-4	join-adh	join	NOUN	Nv	VerbForm=Vnoun	2	xcomp:pred	_	_
+4	join-adh	join	NOUN	Nv	VerbForm=Vnoun	2	xcomp:pred	_	OrigLang=en
 5	gus	gus	SCONJ	Cs	_	7	mark	_	_
 6	nach	nach	PART	Qn	PartType=Vb|Polarity=Neg	7	mark:prt	_	_
 7	eil	bi	VERB	V-p--d	Tense=Pres	2	advcl	_	_
@@ -10294,8 +10293,8 @@
 3	an	an	ADP	Sp	_	4	case	_	_
 4	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	2	xcomp:pred	_	_
 5	ach	ach	PART	Sp	_	6	mark:prt	_	_
-6	outside	outside	NOUN	Xfe	Foreign=Yes	2	nsubj	_	_
-7	tank	tank	NOUN	Xfe	Foreign=Yes	6	flat:foreign	_	_
+6	outside	outside	NOUN	Xfe	_	2	nsubj	_	OrigLang=en
+7	tank	tank	NOUN	Xfe	_	6	flat	_	OrigLang=en
 
 # sent_id = c10_006d
 # speaker = [4]
@@ -10662,8 +10661,8 @@
 26	feumaidh	feum	VERB	V-f	Tense=Fut	1	conj	_	_
 27	iad	iad	PRON	Pp3p	Number=Plur|Person=3	26	nsubj	_	_
 28	a-neist	a-neist	ADV	Rt	_	26	advmod	_	_
-29	desalination	desalination	NOUN	Xfe	Foreign=Yes	33	obj	_	_
-30	plant	plant	NOUN	Xfe	Foreign=Yes	29	flat:foreign	_	_
+29	desalination	desalination	NOUN	Xfe	_	33	obj	_	OrigLang=en
+30	plant	plant	NOUN	Xfe	_	29	flat	_	OrigLang=en
 31	mhòr	mòr	ADJ	Aq-s	Number=Sing	29	amod	_	_
 32	a	a	PART	Ug	PartType=Inf	33	mark:prt	_	_
 33	chur	cuir	NOUN	Nv	VerbForm=Inf	26	xcomp	_	_
@@ -11170,8 +11169,8 @@
 10-11	ris	_	_	_	_	_	_	_	_
 10	ri	ri	ADP	Sp	_	11	case	_	_
 11	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	8	xcomp:pred	_	_
-12	full	full	ADV	Xfe	Foreign=Yes	8	advmod	_	_
-13	time	time	ADV	Xfe	Foreign=Yes	12	flat:foreign	_	_
+12	full	full	ADV	Xfe	_	8	advmod	_	OrigLang=en
+13	time	time	ADV	Xfe	_	12	flat	_	OrigLang=en
 14	a-neist	a-neist	ADV	Rt	_	15	advmod	_	_
 15	creachan	creach	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	1	parataxis	_	_
 16	iad	iad	PRON	Pp3p	Number=Plur|Person=3	15	nsubj	_	_
@@ -11267,8 +11266,8 @@
 8	iad	iad	PRON	Pp3p	Number=Plur|Person=3	6	obl	_	_
 9	ach	ach	ADP	Sp	_	11	case	_	_
 10	am	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
-11	packing	packing	NOUN	Xfe	Foreign=Yes	6	xcomp:pred	_	_
-12	plant	plant	NOUN	Xfe	Foreign=Yes	11	flat:foreign	_	_
+11	packing	packing	NOUN	Xfe	_	6	xcomp:pred	_	OrigLang=en
+12	plant	plant	NOUN	Xfe	_	11	flat	_	OrigLang=en
 13-14	ann	_	_	_	_	_	_	_	_
 13	an	an	ADP	Sp	_	14	case	_	_
 14	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	6	obl	_	_
@@ -12409,8 +12408,8 @@
 26	agus	agus	CCONJ	Cc	_	29	cc	_	_
 27	gun	is	AUX	Wpdia	Polarity=Aff|Tense=Pres	29	cop	_	_
 28	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	27	fixed	_	_
-29	lemon	lemon	NOUN	Xfe	Foreign=Yes	21	conj	_	_
-30	sole	sole	NOUN	Xfe	Foreign=Yes	29	flat:foreign	_	_
+29	lemon	lemon	NOUN	Xfe	_	21	conj	_	OrigLang=en
+30	sole	sole	NOUN	Xfe	_	29	flat	_	OrigLang=en
 31	a	a	PART	Q-r	PartType=Vb|PronType=Rel	32	obj	_	_
 32	gheibheadh	geibh	VERB	V-h	Mood=Cnd	29	csubj:cleft	_	_
 33	tu	thu	PRON	Pp2s	Number=Sing|Person=2	32	nsubj	_	_
@@ -12498,8 +12497,8 @@
 2	bheil	bi	VERB	V-p--d	Tense=Pres	0	root	_	_
 3	aig	aig	ADP	Sp	_	5	case	_	_
 4	a'	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
-5	fish	fish	NOUN	Xfe	Foreign=Yes	2	xcomp:pred	_	_
-6	market	market	NOUN	Xfe	Foreign=Yes	5	flat:foreign	_	_
+5	fish	fish	NOUN	Xfe	_	2	xcomp:pred	_	OrigLang=en
+6	market	market	NOUN	Xfe	_	5	flat	_	OrigLang=en
 7	sin	sin	DET	Dd	_	5	det	_	_
 8-9	ann	_	_	_	_	_	_	_	_
 8	an	an	ADP	Sp	_	9	case	_	_
@@ -12571,10 +12570,10 @@
 10	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	8	obj	_	_
 11	's	's	CCONJ	Cc	_	12	cc	_	_
 12	bha	bi	VERB	V-s	Tense=Past	2	conj	_	_
-13	one	one	NUM	Xfe	Foreign=Yes|NumForm=Word	17	nummod	_	_
-14	hundred	hundred	NUM	Xfe	Foreign=Yes|NumForm=Word	13	flat:foreign	_	_
-15	and	and	NUM	Xfe	Foreign=Yes|NumForm=Word	13	flat:foreign	_	_
-16	eighty	eighty	NUM	Xfe	Foreign=Yes|NumForm=Word	13	flat:foreign	_	_
+13	one	one	NUM	Xfe	NumForm=Word	17	nummod	_	OrigLang=en
+14	hundred	hundred	NUM	Xfe	NumForm=Word	13	flat	_	OrigLang=en
+15	and	and	NUM	Xfe	NumForm=Word	13	flat	_	OrigLang=en
+16	eighty	eighty	NUM	Xfe	NumForm=Word	13	flat	_	OrigLang=en
 17	lèabag	lèabag	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 18-19	ann	_	_	_	_	_	_	_	_
 18	an	an	ADP	Sp	_	19	case	_	_
@@ -12583,7 +12582,6 @@
 # sent_id = c10_157
 # speaker = [2]
 # text = obh obh
-# text_en = oh dear
 1	obh	obh	INTJ	I	_	0	root	_	_
 2	obh	obh	INTJ	I	_	1	discourse	_	_
 
@@ -12605,7 +12603,6 @@
 # sent_id = c10_159
 # speaker = [2]
 # text = dè cho domhainn 's a chuir iad e
-# text_en = how deep they put it
 1	dè	dè	ADV	Uq	_	3	advmod	_	_
 2	cho	cho	ADV	Rg	_	1	fixed	_	_
 3	domhainn	domhainn	ADJ	Ap	_	0	root	_	_
@@ -12649,8 +12646,8 @@
 10	fhada	fada	ADJ	Aq-smd	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	_
 11	ris	ri	ADP	Sp	_	13	case	_	_
 12	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
-13	lemon	lemon	NOUN	Xfe	Foreign=Yes	7	obl	_	_
-14	sole	sole	NOUN	Xfe	Foreign=Yes	13	flat:foreign	_	_
+13	lemon	lemon	NOUN	Xfe	_	7	obl	_	OrigLang=en
+14	sole	sole	NOUN	Xfe	_	13	flat	_	OrigLang=en
 15	a	a	PART	Q-r	PartType=Vb|PronType=Rel	16	nsubj	_	_
 16	bha	bi	VERB	V-s	Tense=Past	13	acl:relcl	_	_
 17	sineach	sineach	PRON	Pd	_	16	xcomp:pred	_	_
@@ -12706,8 +12703,8 @@
 26	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	t-uabhas	uabhas	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	24	obj	_	_
 28	de	de	ADP	Sp	_	29	case	_	_
-29	lemon	lemon	NOUN	Xfe	Foreign=Yes	27	nmod	_	_
-30	sole	sole	NOUN	Xfe	Foreign=Yes	29	flat:foreign	_	_
+29	lemon	lemon	NOUN	Xfe	_	27	nmod	_	OrigLang=en
+30	sole	sole	NOUN	Xfe	_	29	flat	_	OrigLang=en
 31	trawel	trawel	NOUN	Xfe	Foreign=Yes	24	obl	_	_
 32	bheag	beag	ADJ	Aq-s	Number=Sing	31	amod	_	_
 33	dìreach	dìreach	ADV	Rg	_	37	advmod	_	_
@@ -17171,12 +17168,12 @@
 # text = “Peavey 600 amp-head, Carlsboro combo amp - faodaidh tu an giotàr agad a chur troimhe ma tha thu dol ga chluich - agus micreofon Shure."
 1	“	“	PUNCT	Fq	_	2	punct	_	SpaceAfter=No
 2	Peavey	Peavey	PROPN	Nn	_	10	dislocated	_	_
-3	600	600	NUM	Mn	NumForm=Digit|NumType=Card	2	flat:foreign	_	_
-4	amp-head	amp-head	NOUN	Xfe	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+3	600	600	NUM	Mn	NumForm=Digit|NumType=Card	2	flat	_	_
+4	amp-head	amp-head	NOUN	Xfe	Foreign=Yes	2	flat	_	OrigLang=en|SpaceAfter=No
 5	,	,	PUNCT	Fi	_	6	punct	_	_
 6	Carlsboro	Carlsboro	PROPN	Nn	_	10	dislocated	_	_
-7	combo	combo	NOUN	Xfe	Foreign=Yes	6	flat:foreign	_	_
-8	amp	amp	NOUN	Xfe	Foreign=Yes	6	flat:foreign	_	_
+7	combo	combo	NOUN	Xfe	_	6	flat	_	_
+8	amp	amp	NOUN	Xfe	_	6	flat	_	_
 9	-	-	PUNCT	Fb	_	10	punct	_	_
 10	faodaidh	faod	VERB	V-f	Tense=Fut	0	root	_	_
 11	tu	thu	PRON	Pp2s	Number=Sing|Person=2	10	nsubj	_	_
@@ -17201,7 +17198,7 @@
 27	-	-	PUNCT	Fb	_	21	punct	_	_
 28	agus	agus	CCONJ	Cc	_	29	cc	_	_
 29	micreofon	micreofon	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_
-30	Shure	Sure	PROPN	Nn	_	29	flat:foreign	_	SpaceAfter=No
+30	Shure	Sure	PROPN	Nn	_	29	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	Fe	_	10	punct	_	SpaceAfter=No
 32	"	"	PUNCT	Fz	_	10	punct	_	_
 
@@ -26032,15 +26029,15 @@
 8	a	a	DET	Dp3sf	Gender=Fem|Number=Sing|Person=3|Poss=Yes	9	obj	_	_
 9	h-ainmeachadh	ainmich	NOUN	Nv	VerbForm=Inf	5	xcomp:pred	_	_
 10	mar	mar	ADP	Sp	_	11	case	_	_
-11	Eachtra	eachtra	NOUN	Xf	Foreign=Yes	9	obl	_	_
-12	an	an	NOUN	Xf	Foreign=Yes	11	flat:foreign	_	_
-13	Cheatharnaigh	cheatharnaigh	NOUN	Xf	Foreign=Yes	11	flat:foreign	_	_
-14	Chaoilriabhaigh	chaoilriabhaigh	NOUN	Xf	Foreign=Yes	11	flat:foreign	_	_
+11	Eachtra	eachtra	X	Xf	Foreign=Yes	9	obl	_	Lang=ghc
+12	an	an	X	Xf	Foreign=Yes	11	flat:foreign	_	Lang=ghc
+13	Cheatharnaigh	cheatharnaigh	X	Xf	Foreign=Yes	11	flat:foreign	_	Lang=ghc
+14	Chaoilriabhaigh	chaoilriabhaigh	X	Xf	Foreign=Yes	11	flat:foreign	_	Lang=ghc
 15	no	no	CCONJ	Cc	_	16	cc	_	_
-16	Eachtra	eachtra	NOUN	Xf	Foreign=Yes	14	conj	_	_
-17	Cheatharnaigh	cheatharnaigh	NOUN	Xf	Foreign=Yes	16	flat:foreign	_	_
-18	Uí	uí	NOUN	Xf	Foreign=Yes	16	flat:foreign	_	_
-19	Dhomhnaill	Domhnaill	PROPN	Nn	_	16	flat:foreign	_	_
+16	Eachtra	eachtra	X	Xf	Foreign=Yes	14	conj	_	Lang=ghc
+17	Cheatharnaigh	cheatharnaigh	X	Xf	Foreign=Yes	16	flat:foreign	_	Lang=ghc
+18	Uí	uí	X	Xf	Foreign=Yes	16	flat:foreign	_	Lang=ghc
+19	Dhomhnaill	Domhnaill	X	Nn	Foreign=Yes	16	flat:foreign	_	Lang=ghc
 
 # sent_id = fp01_028e
 # text = A-réir coltais, chaidh an sgeulachd seo a dhealbh an toiseach an Èirinn anns an t-siathamh ceud deug an uair a bha cuid de na h-uaislean Èireannach a tha air an ainmeachadh innte beò fhathast, no, faodaidh e bhith, goirid an déidh am bàis - urrachan móra mar a bha Aodh Dubh O Domhnaill, Seathan Mac an Iarla, agus O Conchobhair.
@@ -26519,8 +26516,8 @@
 19	clò	clò	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	_
 20	ann	an	ADP	Sp	_	22	case	_	_
 21	an	an	ADP	Sp	_	20	fixed	_	_
-22	Scottish	scottish	NOUN	Xfe	Foreign=Yes	1	obl	_	_
-23	Studies	studies	NOUN	Xfe	Foreign=Yes	22	flat:foreign	_	_
+22	Scottish	scottish	NOUN	Xfe	_	1	obl	_	OrigLang=en
+23	Studies	studies	NOUN	Xfe	_	22	flat:name	_	OrigLang=en
 24	ann	an	ADP	Sp	_	26	case	_	_
 25	an	an	ADP	Sp	_	24	fixed	_	_
 26	l970	l970	NUM	Mn	NumForm=Word|NumType=Card	1	obl	_	SpaceAfter=No
@@ -34426,10 +34423,10 @@
 11	Dòmhnall	Dòmhnall	PROPN	Nn-mn	Case=Nom|Gender=Masc	10	nsubj	_	_
 12	Og	og	ADJ	Aq-smn	Case=Nom|Gender=Masc|Number=Sing	11	amod	_	_
 13	'	'	PUNCT	Fq	_	14	punct	_	SpaceAfter=No
-14	tria	tria	NOUN	Xf	Foreign=Yes	10	obl	_	Lang=ghc
-15	san	san	NOUN	Xf	Foreign=Yes	14	flat:foreign	_	Lang=ghc
-16	nGaoidhilcc	ngaoidhilcc	NOUN	Xf	Foreign=Yes	14	flat:foreign	_	Lang=ghc
-17	nAlbanaigh	nalbanaigh	NOUN	Xf	Foreign=Yes	14	flat:foreign	_	Lang=ghc|SpaceAfter=No
+14	tria	tria	X	Xf	Foreign=Yes	10	obl	_	Lang=ghc
+15	san	san	X	Xf	Foreign=Yes	14	flat:foreign	_	Lang=ghc
+16	nGaoidhilcc	ngaoidhilcc	X	Xf	Foreign=Yes	14	flat:foreign	_	Lang=ghc
+17	nAlbanaigh	nalbanaigh	X	Xf	Foreign=Yes	14	flat:foreign	_	Lang=ghc|SpaceAfter=No
 18	'	'	PUNCT	Fz	_	20	punct	_	SpaceAfter=No
 19	,	,	PUNCT	Fi	_	20	punct	_	_
 20	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
@@ -36139,7 +36136,7 @@
 13	thusa	thu	PRON	Pp2s--e	Form=Emp|Number=Sing|Person=2	10	obl	_	_
 14	rud	rud	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	_
 15	-	-	PUNCT	Fb	_	16	punct	_	_
-16	cuimhneachan	cuimhneachan	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+16	cuimhneachan	cuimhneachan	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_
 17	-	-	PUNCT	Fb	_	19	punct	_	_
 18	agus	agus	CCONJ	Cc	_	19	cc	_	_
 19	nì	dèan	VERB	V-f	Tense=Fut	10	conj	_	_
@@ -39764,8 +39761,8 @@
 26	còmhla	còmhla	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	21	conj	_	_
 27	bheag	beag	ADJ	Aq-sfn	Case=Nom|Gender=Fem|Number=Sing	26	amod	_	_
 28	a	a	PART	Q-r	PartType=Vb|PronType=Rel	29	nsubj	_	_
-29	bhiodh	bi	VERB	V-h	Mood=Cnd	26	csubj:cleft	_	_
-30	lid	lid	NOUN	Xfe	Foreign=Yes	29	appos	_	_
+29	bhiodh	bi	VERB	V-h	Mood=Cnd	26	acl:relcl	_	_
+30	lid	lid	NOUN	Xfe	Foreign=Yes	32	reparandum	_	_
 31	a	a	PART	Q-r	PartType=Vb|PronType=Rel	32	obj	_	_
 32	bhiodh	bi	VERB	V-h	Mood=Cnd	29	parataxis	_	_
 33	iad	iad	PRON	Pp3p	Number=Plur|Person=3	32	nsubj	_	_
@@ -45277,7 +45274,7 @@
 1	Tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
 2	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	Automobile	automobile	NOUN	Xfe	Foreign=Yes	1	nsubj	_	_
-4	Association	association	NOUN	Xfe	Foreign=Yes	3	flat:foreign	_	_
+4	Association	association	NOUN	Xfe	Foreign=Yes	3	flat	_	_
 5	air	air	PART	Sa	_	6	case	_	_
 6	rabhadh	rabh	NOUN	Nv	VerbForm=Vnoun	1	xcomp:pred	_	_
 7	gun	gu	PART	Qa	PartType=Cmpl	8	mark:prt	_	_
@@ -46244,7 +46241,7 @@
 12	siubhail	siubhail	NOUN	Ncsmg	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
 13	-	-	PUNCT	Fb	_	14	punct	_	_
 14	First	first	NOUN	Xfe	Foreign=Yes	11	appos	_	_
-15	Choice	choice	NOUN	Xfe	Foreign=Yes	14	flat:foreign	_	_
+15	Choice	choice	NOUN	Xfe	Foreign=Yes	14	flat	_	_
 16	-	-	PUNCT	Fb	_	14	punct	_	_
 17	am	an	ADP	Sp	_	18	case	_	_
 18	beachd	beachd	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	1	xcomp:pred	_	_
@@ -46270,8 +46267,8 @@
 3	siubhail	siubhail	NOUN	Ncsmg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	eile	eile	ADJ	Aq-sfn	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
 5	-	-	PUNCT	Fb	_	6	punct	_	_
-6	Lunn	lunn	PROPN	Xfe	Foreign=Yes	2	appos	_	_
-7	Poly	poly	PROPN	Xfe	Foreign=Yes	6	flat:name	_	_
+6	Lunn	lunn	NOUN	Xfe	Foreign=Yes	2	appos	_	_
+7	Poly	poly	NOUN	Xfe	Foreign=Yes	6	flat	_	_
 8	-	-	PUNCT	Fb	_	1	punct	_	_
 9	mìle	mìle	NUM	Mc	NumForm=Word|NumType=Card	10	nummod	_	_
 10	dreuchd	dreuchd	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	obj	_	_
@@ -46684,7 +46681,6 @@
 11	neo-eisimeileach	neo-eisimeileach	ADJ	Aq-pmd	Case=Dat|Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
 12	.	.	PUNCT	Fe	_	1	punct	_	_
 
-# comment = coimisean will have an acl coming off it come the revolution
 # sent_id = ns01_059
 # text = Chaidh iarraidh gun d' rachadh Coimisean rannsachaidh a chur air bhonn a choimhead air drugaichean ann an saoghal spòrs.
 1	Chaidh	rach	AUX	V-s	Tense=Past	2	aux:pass	_	_
@@ -46906,7 +46902,7 @@
 12	ann	an	ADP	Sp	_	14	case	_	_
 13	a	a	ADP	Sp	_	12	fixed	_	_
 14	NHS	NHS	PROPN	Y	_	11	xcomp:pred	_	_
-15	Direct	direct	PROPN	Xfe	Foreign=Yes	14	flat:name	_	_
+15	Direct	direct	NOUN	Xfe	Foreign=Yes	14	flat	_	_
 16	-	-	PUNCT	Fb	_	17	punct	_	_
 17	loidhne	loidhne	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	14	appos	_	_
 18	cuideachaidh	cuideachadh	NOUN	Ncsmg	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
@@ -47447,8 +47443,8 @@
 14	,	,	PUNCT	Fi	_	17	punct	_	_
 15	's	's	SCONJ	Cc	_	17	mark	_	_
 16	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
-17	Last	last	PROPN	Xfe	Foreign=Yes	5	advcl	_	_
-18	Post	post	PROPN	Xfe	Foreign=Yes	17	flat:name	_	_
+17	Last	last	ADJ	Xfe	Foreign=Yes	5	advcl	_	_
+18	Post	post	NOUN	Xfe	Foreign=Yes	17	flat	_	_
 19-20	ga	_	_	_	_	_	_	_	_
 19	ag	ag	PART	Sa	_	21	case	_	_
 20	a	a	PRON	Dp3sm	Gender=Masc|Number=Sing|Person=3|Poss=Yes	21	obj	_	_
@@ -48196,8 +48192,8 @@
 # sent_id = ns03_002
 # text = Thèid Scheme Bellwin a chur an sàs, agus gheibh a’ chomhairle ochd fichead mìle de na cosgaisean bhon Riaghaltas gu cinnteach agus ceithir fichead 's a còig às a’ cheud de chosgaisean eile a thig orra os cionn sin.
 1	Thèid	rach	AUX	V-f	Tense=Fut	5	aux:pass	_	_
-2	Scheme	scheme	PROPN	Xfe	Foreign=Yes	5	nsubj:pass	_	_
-3	Bellwin	Bellwin	PROPN	Nn	_	2	flat:name	_	_
+2	Scheme	scheme	NOUN	Xfe	Foreign=Yes	5	nsubj:pass	_	_
+3	Bellwin	Bellwin	PROPN	Nn	_	2	flat	_	_
 4	a	a	PART	Ug	PartType=Inf	5	mark:prt	_	_
 5	chur	cuir	NOUN	Nv	VerbForm=Inf	0	root	_	_
 6	an	an	ADP	Sp	_	7	case	_	_
@@ -48355,8 +48351,8 @@
 6	ri	ri	ADP	Sp	_	7	case	_	_
 7	luchd	neach	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	_
 8	obrach	obair	NOUN	Ncsfg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
-9	British	british	PROPN	Xfe	Foreign=Yes	7	nmod	_	_
-10	Airways	airways	PROPN	Xfe	Foreign=Yes	9	flat:name	_	_
+9	British	british	ADJ	Xfe	Foreign=Yes	7	nmod	_	_
+10	Airways	airways	NOUN	Xfe	Foreign=Yes	9	flat	_	_
 11	a	a	PART	Q-r	PartType=Vb|PronType=Rel	12	nsubj	_	_
 12	tha	bi	VERB	V-p	Tense=Pres	7	acl:relcl	_	_
 13	ag	ag	PART	Sa	_	14	case	_	_
@@ -48929,10 +48925,10 @@
 19	an	an	ADP	Sp	_	20	case	_	_
 20	àite	àite	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	_
 21	a	an	DET	Tds-g	Case=Gen|Number=Sing	22	det	_	_
-22	Lord	lord	PROPN	Xfe	Foreign=Yes	20	nmod	_	_
-23	of	of	PROPN	Xfe	Foreign=Yes	22	flat:name	_	_
-24	the	the	PROPN	Xfe	Foreign=Yes	22	flat:name	_	_
-25	Isles	isles	PROPN	Xfe	Foreign=Yes	22	flat:name	_	_
+22	Lord	lord	X	Xfe	Foreign=Yes	20	nmod	_	_
+23	of	of	X	Xfe	Foreign=Yes	22	flat:foreign	_	_
+24	the	the	X	Xfe	Foreign=Yes	22	flat:foreign	_	_
+25	Isles	isles	X	Xfe	Foreign=Yes	22	flat:foreign	_	_
 26-27	as	_	_	_	_	_	_	_	_
 26	anns	an	ADP	Sp	_	28	case	_	_
 27	an	an	ADP	Sp	_	26	fixed	_	_
@@ -49366,7 +49362,7 @@
 16	a	a	PROPN	Nt	_	15	flat	_	_
 17	Tuath	Tuath	PROPN	Nt	_	15	flat	_	SpaceAfter=No
 18	,	,	PUNCT	Fi	_	19	punct	_	_
-19	Mo	Mo	PROPN	Nn-fn	Case=Nom|Gender=Fem	6	appos	_	_
+19	Mo	Mo	PROPN	Nn-fn	Case=Nom|Gender=Fem	14	appos	_	_
 20	Mowlam	Mowlam	PROPN	Nn	_	19	flat:name	_	SpaceAfter=No
 21	,	,	PUNCT	Fi	_	26	punct	_	_
 22	as	as	ADP	Sp	_	26	case	_	_
@@ -50320,10 +50316,10 @@
 # sent_id = ns04_026
 # text = Tha Friends of the Earth ag iarraidh òrdan laghail, agus iad a' cumail a-mach gun do bhrist ministearan an lagh an uair a thug iad cead dha na deuchainnean a dhol air adhairt.
 1	Tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
-2	Friends	friends	NOUN	Xfe	Foreign=Yes	1	nsubj	_	_
-3	of	of	NOUN	Xfe	Foreign=Yes	2	flat:foreign	_	_
-4	the	the	NOUN	Xfe	Foreign=Yes	2	flat:foreign	_	_
-5	Earth	earth	NOUN	Xfe	Foreign=Yes	2	flat:foreign	_	_
+2	Friends	friends	X	Xfe	Foreign=Yes	1	nsubj	_	OrigLang=en
+3	of	of	X	Xfe	Foreign=Yes	2	flat	_	OrigLang=en
+4	the	the	X	Xfe	Foreign=Yes	2	flat	_	OrigLang=en
+5	Earth	earth	X	Xfe	Foreign=Yes	2	flat	_	OrigLang=en
 6	ag	ag	PART	Sa	_	7	case	_	_
 7	iarraidh	iarr	NOUN	Nv	VerbForm=Vnoun	1	xcomp:pred	_	_
 8	òrdan	òrd	NOUN	Ncpmg	Case=Gen|Gender=Masc|Number=Plur	7	obj	_	_
@@ -51532,8 +51528,8 @@
 8	ionad	ionad	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	Fi	_	11	punct	_	_
 10	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
-11	KM	KM	NOUN	Y	_	3	appos	_	_
-12	Group	group	NOUN	Xfe	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+11	KM	KM	PROPN	Y	_	3	appos	_	_
+12	Group	group	PROPN	Xfe	Foreign=Yes	11	flat:name	_	SpaceAfter=No
 13	,	,	PUNCT	Fi	_	11	punct	_	_
 14	a'	ag	PART	Sa	_	15	case	_	_
 15	coireachadh	coirich	NOUN	Nv	VerbForm=Vnoun	1	xcomp:pred	_	_
@@ -55223,8 +55219,8 @@
 14	ri	ri	ADP	Sp	_	15	case	_	_
 15	luchag	luchag	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
 16	no	no	CCONJ	Cc	_	17	cc	_	_
-17	guinea	guinea	NOUN	Xfe	Foreign=Yes	15	conj	_	_
-18	pig	pig	NOUN	Xfe	Foreign=Yes	17	flat:foreign	_	_
+17	guinea	guinea	NOUN	Xfe	_	15	conj	_	OrigLang=en
+18	pig	pig	NOUN	Xfe	_	17	flat	_	OrigLang=en
 19	gu	gu	ADP	Sp	_	20	case	_	_
 20	rud	rud	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
 21	cho	cho	ADV	Rg	_	22	advmod	_	_
@@ -55390,8 +55386,8 @@
 18	mi	mi	PRON	Pp1s	Number=Sing|Person=1	17	nsubj	_	_
 19	'g	ag	PART	Sa	_	20	case	_	_
 20	ràdh	abair	NOUN	Nv	VerbForm=Vnoun	17	xcomp:pred	_	_
-21	guinea	guinea	NOUN	Xfe	Foreign=Yes	5	parataxis	_	_
-22	pig	pig	NOUN	Xfe	Foreign=Yes	21	flat:foreign	_	_
+21	guinea	guinea	NOUN	Xfe	_	5	parataxis	_	OrigLang=en
+22	pig	pig	NOUN	Xfe	_	21	flat	_	OrigLang=en
 23	no	no	CCONJ	Cc	_	24	cc	_	_
 24	rudan	rud	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	21	conj	_	_
 25	mar	mar	ADP	Sp	_	26	case	_	_
@@ -55408,7 +55404,7 @@
 6	feumach	feumach	ADJ	Ap	_	1	xcomp:pred	_	_
 7	air	air	ADP	Sp	_	8	case	_	_
 8	obair	obair	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
-9	cage	cage	X	Xfe	Foreign=Yes	10	obj	_	_
+9	cage	cage	NOUN	Xfe	_	10	obj	_	OrigLang=en
 10	ghlanadh	glan	NOUN	Nv	VerbForm=Vnoun	1	parataxis	_	_
 
 # sent_id = p01_026c
@@ -55749,9 +55745,9 @@
 7	fhìn	fèin	PRON	Px	Reflex=Yes	6	nmod	_	_
 8	agus	agus	CCONJ	Cc	_	9	cc	_	_
 9	tha	bi	VERB	V-p	Tense=Pres	2	conj	_	_
-10	ponies	ponies	NOUN	Xfe	Foreign=Yes	11	reparandum	_	_
-11	Shetland	shetland	NOUN	Xfe	Foreign=Yes	9	nsubj	_	_
-12	pony	pony	NOUN	Xfe	Foreign=Yes	11	flat:foreign	_	_
+10	ponies	ponies	NOUN	Xfe	_	11	reparandum	_	OrigLang=en
+11	Shetland	shetland	NOUN	Xfe	_	9	nsubj	_	OrigLang=en
+12	pony	pony	NOUN	Xfe	_	11	flat	_	OrigLang=en
 13	aig	aig	ADP	Sp	_	14	case	_	_
 14	aon	aon	PRON	Pn	_	9	xcomp:pred	_	_
 15-16	ac'	_	_	_	_	_	_	_	_
@@ -56151,9 +56147,9 @@
 7	Luain	luain	ADV	Rt	_	6	advmod	_	_
 8	aig	aig	ADP	Sp	_	10	case	_	_
 9	a'	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
-10	Bhridge	bhridge	NOUN	Xfe	Foreign=Yes	1	xcomp:pred	_	_
-11	Community	community	NOUN	Xfe	Foreign=Yes	10	flat:foreign	_	_
-12	Centre	centre	NOUN	Xfe	Foreign=Yes	10	flat:foreign	_	_
+10	Bhridge	bhridge	PROPN	Xfe	Foreign=Yes	1	xcomp:pred	_	_
+11	Community	community	PROPN	Xfe	Foreign=Yes	10	flat:name	_	_
+12	Centre	centre	PROPN	Xfe	Foreign=Yes	10	flat:name	_	_
 13	aig	aig	ADP	Sp	_	14	case	_	_
 14	leth-uair	leth-uair	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	_
 15	an	an	ADP	Sp	_	18	case	_	_
@@ -57471,13 +57467,13 @@
 # text = gheibh iad sponsor form 's tha a' phone number agaibh ann a shin
 1	gheibh	faigh	VERB	V-f	Tense=Fut	0	root	_	_
 2	iad	iad	PRON	Pp3p	Number=Plur|Person=3	1	nsubj	_	_
-3	sponsor	sponsor	NOUN	Xfe	Foreign=Yes	1	obj	_	_
-4	form	form	NOUN	Xfe	Foreign=Yes	3	flat:foreign	_	_
+3	sponsor	sponsor	NOUN	Xfe	_	1	obj	_	OrigLang=en
+4	form	form	NOUN	Xfe	_	3	flat	_	OrigLang=en
 5	's	's	CCONJ	Cc	_	6	cc	_	_
 6	tha	bi	VERB	V-p	Tense=Pres	1	conj	_	_
 7	a'	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
-8	phone	phone	NOUN	Xfe	Foreign=Yes	6	nsubj	_	_
-9	number	number	NOUN	Xfe	Foreign=Yes	8	flat:foreign	_	_
+8	phone	phone	NOUN	Xfe	_	6	nsubj	_	OrigLang=en
+9	number	number	NOUN	Xfe	_	8	flat	_	OrigLang=en
 10-11	agaibh	_	_	_	_	_	_	_	_
 10	aig	aig	ADP	Sp	_	11	case	_	_
 11	sibh	sibh	PRON	Pp2p	Number=Plur|Person=2	8	nmod	_	_
@@ -57561,13 +57557,13 @@
 4	do	do	ADP	Sp	_	5	case	_	_
 5	sibh	sibh	PRON	Pp2p	Number=Plur|Person=2	2	obl	_	_
 6	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
-7	number	number	NOUN	Xfe	Foreign=Yes	2	obj	_	_
+7	number	number	NOUN	Xfe	_	2	obj	_	OrigLang=en
 8	's	's	CCONJ	Cc	_	9	cc	_	_
 9	gheibh	faigh	VERB	V-f	Tense=Fut	2	conj	_	_
 10	sibh	sibh	PRON	Pp2p	Number=Plur|Person=2	9	nsubj	_	_
 11	na	an	DET	Tdp	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-12	sponsor	sponsor	NOUN	Xfe	Foreign=Yes	9	obj	_	_
-13	forms	forms	NOUN	Xfe	Foreign=Yes	12	flat:foreign	_	_
+12	sponsor	sponsor	NOUN	Xfe	_	9	obj	_	OrigLang=en
+13	forms	forms	NOUN	Xfe	_	12	flat	_	OrigLang=en
 14	ach	ach	CCONJ	Cc	_	15	cc	_	_
 15	feumaidh	feum	VERB	V-f	Tense=Fut	2	conj	_	_
 16	iad	iad	PRON	Pp3p	Number=Plur|Person=3	15	nsubj	_	_
@@ -60949,7 +60945,7 @@
 48	's	is	AUX	Wp-i	Tense=Pres	49	cop	_	_
 49	dòcha	dòcha	NOUN	Uf	_	40	advcl	_	_
 50	am	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	51	det	_	_
-51	Bomb	bomb	X	Xfe	Foreign=Yes	53	obj	_	_
+51	Bomb	bomb	NOUN	Xfe	Foreign=Yes	53	obj	_	_
 52	a	a	PART	Ug	PartType=Inf	53	mark:prt	_	_
 53	thilgeil	tilg	NOUN	Nv	VerbForm=Inf	49	xcomp	_	_
 54	air	air	ADP	Sp	_	55	case	_	_
@@ -61400,7 +61396,7 @@
 36	Gearmailtich	gearmailteach	NOUN	Ncpmd	Case=Dat|Gender=Masc|Number=Plur	33	obl	_	_
 37	fhèin	fèin	PRON	Px	Reflex=Yes	36	nmod	_	_
 38	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	39	det	_	_
-39	resistance	resistance	X	Xfe	Foreign=Yes	41	obj	_	_
+39	resistance	resistance	NOUN	Xfe	Foreign=Yes	41	obj	_	_
 40	a	a	PART	Ug	PartType=Inf	41	mark:prt	_	_
 41	chlaoidheadh	claoidh	NOUN	Nv	VerbForm=Inf	33	xcomp	_	_
 42	agus	agus	CCONJ	Cc	_	43	cc	_	_
@@ -61672,7 +61668,7 @@
 58	gum	gu	PART	Qa	PartType=Cmpl	59	mark:prt	_	_
 59	faodadh	faod	VERB	V-h--d	Mood=Cnd	46	conj	_	_
 60	sinn	sinn	PRON	Pp1p	Number=Plur|Person=1	59	nsubj	_	_
-61	sanctions	sanctions	X	Xfe	Foreign=Yes	59	obl	_	_
+61	sanctions	sanctions	NOUN	Xfe	Foreign=Yes	59	obl	_	OrigLang=en
 62	eile	eile	ADJ	Aq-p	Number=Plur	59	obl	_	_
 63	a	a	PART	Ug	PartType=Inf	64	mark:prt	_	_
 64	chleachdadh	cleachd	NOUN	Nv	VerbForm=Inf	59	xcomp	_	_
@@ -64224,11 +64220,11 @@
 7	Ruairidh	Ruaireadh	PROPN	Nn-md	Case=Dat|Gender=Masc	5	nmod	_	_
 8	Wright	Wright	PROPN	Nn	_	7	flat:name	_	_
 9	(	(	PUNCT	Fb	_	10	punct	_	SpaceAfter=No
-10	Feet	feet	NOUN	Xfe	Foreign=Yes	5	appos	_	_
-11	of	of	NOUN	Xfe	Foreign=Yes	10	flat:foreign	_	_
-12	Clay	clay	NOUN	Xfe	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+10	Feet	feet	X	Xfe	Foreign=Yes	5	appos	_	_
+11	of	of	X	Xfe	Foreign=Yes	10	flat:foreign	_	_
+12	Clay	clay	X	Xfe	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
 13	,	,	PUNCT	Fi	_	14	punct	_	_
-14	HarperCollins	harpercollins	NOUN	Xfe	Foreign=Yes	10	parataxis	_	SpaceAfter=No
+14	HarperCollins	harpercollins	PROPN	Xfe	Foreign=Yes	10	parataxis	_	SpaceAfter=No
 15	)	)	PUNCT	Fb	_	10	punct	_	_
 16	nochdadh	nochd	NOUN	Nv	VerbForm=Vnoun	17	xcomp	_	_
 17	tha	bi	VERB	V-p	Tense=Pres	0	root	_	_
@@ -64280,7 +64276,7 @@
 25	Breatann	Breatann	PROPN	Nt	_	20	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	Fi	_	28	punct	_	_
 27	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	t-Ard-Easbaig	ard-easbaig	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	19	appos	_	_
+28	t-Ard-Easbaig	ard-easbaig	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	20	appos	_	_
 29	Pablo	Pablo	PROPN	Nn-mn	Case=Nom|Gender=Masc	28	flat:name	_	_
 30	Puente	Puente	PROPN	Nn	_	28	flat:name	_	SpaceAfter=No
 31	,	,	PUNCT	Fi	_	36	punct	_	_
@@ -65172,8 +65168,8 @@
 50	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
 51	h-eaglaise	eaglaise	NOUN	Ncsfg	Case=Gen|Gender=Fem|Number=Sing	49	nmod	_	SpaceAfter=No
 52	,	,	PUNCT	Fi	_	53	punct	_	_
-53	canon	canon	NOUN	Xfe	Foreign=Yes	49	appos	_	_
-54	law	law	NOUN	Xfe	Foreign=Yes	53	flat:foreign	_	SpaceAfter=No
+53	canon	canon	X	Xfe	Foreign=Yes	49	appos	_	Lang=en
+54	law	law	X	Xfe	Foreign=Yes	53	flat:foreign	_	Lang=en|SpaceAfter=No
 55	.	.	PUNCT	Fe	_	13	punct	_	_
 
 # sent_id = pw01_024
@@ -66803,8 +66799,8 @@
 46	,	,	PUNCT	Fi	_	49	punct	_	_
 47	no	no	CCONJ	Cc	_	49	cc	_	_
 48	“	“	PUNCT	Fq	_	49	punct	_	SpaceAfter=No
-49	extended	extended	NOUN	Xfe	Foreign=Yes	42	conj	_	_
-50	family	family	NOUN	Xfe	Foreign=Yes	49	flat:foreign	_	SpaceAfter=No
+49	extended	extended	X	Xfe	Foreign=Yes	42	conj	_	Lang=en
+50	family	family	X	Xfe	Foreign=Yes	49	flat:foreign	_	Lang=en|SpaceAfter=No
 51	"	"	PUNCT	Fz	_	49	punct	_	SpaceAfter=No
 52	,	,	PUNCT	Fi	_	49	punct	_	_
 53	mar	mar	SCONJ	Cs	_	54	mark	_	_
@@ -67333,8 +67329,8 @@
 9	air	air	ADP	Sp	_	12	case	_	_
 10	son	airson	ADP	Nf	_	9	fixed	_	_
 11	“	“	PUNCT	Fq	_	12	punct	_	SpaceAfter=No
-12	role	role	NOUN	Xfe	Foreign=Yes	2	obl	_	_
-13	model	model	NOUN	Xfe	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+12	role	role	X	Xfe	Foreign=Yes	2	obl	_	Lang=en
+13	model	model	X	Xfe	Foreign=Yes	12	flat:foreign	_	Lang=en|SpaceAfter=No
 14	"	"	PUNCT	Fz	_	22	punct	_	_
 15	ach	ach	CCONJ	Cc	_	22	cc	_	_
 16	an	an	SCONJ	Cs	_	19	mark	_	_
@@ -68210,8 +68206,8 @@
 21	a’	ag	PART	Sa	_	22	case	_	_
 22	toirt	toir	NOUN	Nv	VerbForm=Vnoun	17	xcomp:pred	_	_
 23	“	“	PUNCT	Fq	_	24	punct	_	SpaceAfter=No
-24	One	one	NOUN	Xfe	Foreign=Yes	22	obj	_	_
-25	Nation	nation	NOUN	Xfe	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+24	One	one	X	Xfe	Foreign=Yes	22	obj	_	Lang=en
+25	Nation	nation	X	Xfe	Foreign=Yes	24	flat:foreign	_	Lang=en|SpaceAfter=No
 26	”	”	PUNCT	Fz	_	24	punct	_	_
 27-28	orra	_	_	_	_	_	_	_	_
 27	air	air	ADP	Sp	_	28	case	_	_
@@ -68933,7 +68929,7 @@
 10	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	neach-cathrach	neach-cathrach	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
 12	,	,	PUNCT	Fi	_	13	punct	_	_
-13	Mata	Mata	PROPN	Nn-mn	Case=Nom|Gender=Masc	9	appos	_	_
+13	Mata	Mata	PROPN	Nn-mn	Case=Nom|Gender=Masc	11	appos	_	_
 14	MacÌomhair	MacÌomhair	PROPN	Nn	_	13	flat:name	_	SpaceAfter=No
 15	,	,	PUNCT	Fi	_	17	punct	_	_
 16	ag	ag	PART	Sa	_	17	case	_	_
@@ -69183,8 +69179,8 @@
 11	toiseach	toiseach	ADV	Rt	_	10	fixed	_	_
 12	air	air	ADP	Sp	_	14	case	_	_
 13	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
-14	Rocket	rocket	NOUN	Xfe	Foreign=Yes	8	obl	_	_
-15	Range	range	NOUN	Xfe	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+14	Rocket	rocket	X	Xfe	Foreign=Yes	8	obl	_	OrigLang=en
+15	Range	range	X	Xfe	Foreign=Yes	14	flat:foreign	_	OrigLang=en|SpaceAfter=No
 16	,	,	PUNCT	Fi	_	17	punct	_	_
 17	bha	bi	VERB	V-s	Tense=Past	0	root	_	_
 18	dùil	dùil	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
@@ -69233,9 +69229,9 @@
 # text = Chladhaich am Ministry of Works taigh-cuibhle air machaire a’ Cheathramh Mheadhonaich – eisimpleir cho math dhe sheòrsa 's a chunnaic mi riamh.
 1	Chladhaich	cladhaich	VERB	V-s	Tense=Past	0	root	_	_
 2	am	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
-3	Ministry	ministry	NOUN	Xfe	Foreign=Yes	1	nsubj	_	_
-4	of	of	NOUN	Xfe	Foreign=Yes	3	flat:foreign	_	_
-5	Works	works	NOUN	Xfe	Foreign=Yes	3	flat:foreign	_	_
+3	Ministry	ministry	NOUN	Xfe	_	1	nsubj	_	OrigLang=en
+4	of	of	NOUN	Xfe	_	3	flat	_	OrigLang=en
+5	Works	works	NOUN	Xfe	_	3	flat	_	OrigLang=en
 6	taigh-cuibhle	taigh-cuibhle	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
 7	air	air	ADP	Sp	_	8	case	_	_
 8	machaire	machaire	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	_
@@ -70213,9 +70209,9 @@
 27	a	a	PART	Q-r	PartType=Vb|PronType=Rel	28	nsubj	_	_
 28	choisinn	coisinn	VERB	V-s	Tense=Past	26	acl:relcl	_	_
 29	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
-30	Eurovision	eurovision	NOUN	Xfe	Foreign=Yes	28	obj	_	_
-31	Song	song	NOUN	Xfe	Foreign=Yes	30	flat:foreign	_	_
-32	Contest	contest	NOUN	Xfe	Foreign=Yes	30	flat:foreign	_	_
+30	Eurovision	eurovision	X	Xfe	Foreign=Yes	28	obj	_	OrigLang=en
+31	Song	song	X	Xfe	Foreign=Yes	30	flat:foreign	_	OrigLang=en
+32	Contest	contest	X	Xfe	Foreign=Yes	30	flat:foreign	_	OrigLang=en
 33	do	do	ADP	Sp	_	34	case	_	_
 34	Sandaidh	Sandadh	PROPN	Nn-fd	Case=Dat|Gender=Fem	28	obl	_	_
 35	Nic	Nic	PART	Up	PartType=Pat	34	flat:name	_	_
@@ -70223,10 +70219,10 @@
 37	Sheathanaich	Seathanaich	PROPN	Nn	_	34	flat:name	_	SpaceAfter=No
 38	,	,	PUNCT	Fi	_	40	punct	_	_
 39	“	“	PUNCT	Fq	_	40	punct	_	SpaceAfter=No
-40	Puppet	puppet	NOUN	Xfe	Foreign=Yes	34	appos	_	_
-41	on	on	NOUN	Xfe	Foreign=Yes	40	flat:foreign	_	_
-42	a	a	NOUN	Xfe	Foreign=Yes	40	flat:foreign	_	_
-43	String	string	NOUN	Xfe	Foreign=Yes	40	flat:foreign	_	SpaceAfter=No
+40	Puppet	puppet	X	Xfe	Foreign=Yes	26	appos	_	Lang=en
+41	on	on	X	Xfe	Foreign=Yes	40	flat:foreign	_	Lang=en
+42	a	a	X	Xfe	Foreign=Yes	40	flat:foreign	_	Lang=en
+43	String	string	X	Xfe	Foreign=Yes	40	flat:foreign	_	Lang=en|SpaceAfter=No
 44	"	"	PUNCT	Fz	_	40	punct	_	SpaceAfter=No
 45	.	.	PUNCT	Fe	_	1	punct	_	_
 
@@ -71168,8 +71164,8 @@
 10-11	sa	_	_	_	_	_	_	_	_
 10	anns	an	ADP	Sp	_	12	case	_	_
 11	an	an	ADP	Sp	_	10	fixed	_	_
-12	Chottier	chottier	NOUN	Xfe	Foreign=Yes	7	obl	_	_
-13	Theatre	theatre	NOUN	Xfe	Foreign=Yes	12	flat:foreign	_	_
+12	Chottier	chottier	NOUN	Xfe	_	7	obl	_	OrigLang=en
+13	Theatre	theatre	NOUN	Xfe	_	12	flat	_	OrigLang=en
 14	an	an	ADP	Sp	_	15	case	_	_
 15	Glaschu	Glaschu	PROPN	Nt	_	12	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	Fe	_	1	punct	_	_
@@ -76559,7 +76555,7 @@
 3	buailteach	buailteach	ADJ	Ap	_	1	xcomp:pred	_	_
 4	's	is	AUX	Wp-i	Tense=Pres	5	cop	_	_
 5	docha	docha	NOUN	Uf	_	1	parataxis	_	_
-6	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	1	appos	_	_
+6	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 7	fhèin	fèin	PRON	Px	Reflex=Yes	6	nmod	_	_
 8	a	a	PART	Ug	PartType=Inf	9	mark:prt	_	_
 9	chall	caill	NOUN	Nv	VerbForm=Inf	6	xcomp:pred	_	_
@@ -77911,7 +77907,7 @@
 27	còmhnaidh	còmhnaidh	ADV	Rt	_	26	fixed	_	_
 28	a	a	PART	Ug	PartType=Inf	29	mark:prt	_	_
 29	bhith	bi	NOUN	Nv	VerbForm=Inf	32	reparandum	_	_
-30	aire	aire	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	29	dep	_	_
+30	aire	aire	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	29	xcomp:pred	_	_
 31	a	a	PART	Ug	PartType=Inf	32	mark:prt	_	_
 32	bhith	bi	NOUN	Nv	VerbForm=Inf	24	xcomp:pred	_	_
 33	air	air	ADP	Sp	_	34	case	_	_
