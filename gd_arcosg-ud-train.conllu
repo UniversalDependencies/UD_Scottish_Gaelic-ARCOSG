@@ -2319,7 +2319,7 @@
 1	chan	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	fheumadh	feum	VERB	V-h--d	Mood=Cnd	0	root	_	_
 3	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
-4	ach	ach	PART	Sp	_	5	mark:prt	_	_
+4	ach	ach	PART	Sp	_	6	mark:prt	_	_
 5	am	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
 6	meter	meter	NOUN	Xfe	Foreign=Yes	2	obj	_	_
 
@@ -4719,7 +4719,7 @@
 7	iad	iad	PRON	Pp3p	Number=Plur|Person=3	6	nsubj	_	_
 8	sin	sin	DET	Dd	_	7	det	_	_
 9	a'	ag	PART	Sa	_	10	case	_	_
-10	falbh	falbh	NOUN	Nv	VerbForm=Vnoun	8	xcomp:pred	_	_
+10	falbh	falbh	NOUN	Nv	VerbForm=Vnoun	6	xcomp:pred	_	_
 11	fhathast	fhathast	ADV	Rt	_	10	advmod	_	_
 12	dìreach	dìreach	ADV	Rg	_	10	advmod	_	_
 
@@ -13990,7 +13990,7 @@
 7	sin	sin	PRON	Pd	_	6	nsubj	_	_
 8	air	air	PART	Sa	_	9	case	_	_
 9	tighinn	thig	NOUN	Nv	VerbForm=Vnoun	6	xcomp:pred	_	_
-10	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	t-airgead	airgead	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	_
 12	sin	sin	DET	Dd	_	11	det	_	_
 
@@ -55851,7 +55851,7 @@
 55	an	an	PRON	Dp3p	Number=Plur|Person=3|Poss=Yes	56	obj	_	_
 56	feedaigeadh	feedaig	NOUN	Nv	VerbForm=Inf	45	conj	_	_
 
-# comment = a h-uile h-uile: this specific example is not in the ARCOSG guidelines
+# comment = a h-uile h-uile: this specific example is not in the ARCOSG guidelines. 2024-10-26: changed node 81 (second h-uile) to DET Dq and made it a separate det of node 82 to get past the L3 Syntax leaf-det-clf check
 # sent_id = p01_033h
 # speaker = [4]
 # text = tha sin gu math cosgail tron a' gheamhraidh gu h-àraid agus cuideachd bidh bidh campan trì tursan sa bhliadhna a's na h-Eileanan an Iar agus ann an [Placename] agus bidh iad a' chlann nighean 's na balaich leis le eich air feadh na h-eilean bidh iad a' coinneachadh shìos ann an Griais 'son seachdain agus tha iad a' faighinn leasan a h-uile latha em ciamar mar a bhios iad a' coimhead as dèidh na beathaichean acasan a h-uile h-uile càil a bhios [?] fios ac' mu dheidhinn na beathaichean
@@ -55937,7 +55937,7 @@
 78	iadsan	iad	PRON	Pp3p--e	Form=Emp|Number=Plur|Person=3	76	nmod	_	_
 79	a	a	DET	Dq	_	82	det	_	_
 80	h-uile	uile	DET	Dq	_	79	fixed	_	_
-81	h-uile	uile	ADJ	Ar	_	79	compound	_	_
+81	h-uile	uile	DET	Dq	_	82	det	_	_
 82	càil	càil	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	72	obj	_	_
 83	a	a	PART	Q-r	PartType=Vb|PronType=Rel	84	obj	_	_
 84	bhios	bi	VERB	V-f--r	Tense=Fut	82	acl:relcl	_	_
