@@ -92,6 +92,11 @@ We wish to thank all of the contributors to ARCOSG and fellow Celtic language UD
 
 # Changelog
 
+* 2024-11-15 v2.15
+  * Added PronType, VerbForm and Mood features systematically.
+* 2024-05-15 v2.14
+  * Restricted the use of flat:foreign to where there are extended phrases rather than just two-word expressions.
+  * Fixed some appositions.
 * 2023-11-15 v2.13
   * Particles and numbers now lemmatised.
   * NumType and NumForm features added.
