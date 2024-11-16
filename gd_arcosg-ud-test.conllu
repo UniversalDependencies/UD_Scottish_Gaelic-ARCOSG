@@ -60,9 +60,9 @@
 1	bha	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	a'	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	chuid	cuid	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
-4	a	a	PART	Q-r	PartType=Vb|PronType=Rel	6	nsubj	_	_
+4	a	a	PART	Q-r	PartType=Vb|PronType=Rel	6	mark:prt	_	_
 5	b'	is	AUX	Ws	Tense=Past	6	cop	_	_
-6	fhearr	math	ADJ	Apc	Degree=Cmp,Sup	3	acl:relcl	_	_
+6	fhearr	math	ADJ	Apc	Degree=Cmp,Sup	3	amod	_	_
 7	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	dà	dà	NUM	Mc	NumForm=Word|NumType=Card	9	nummod	_	_
 9	tharbh	tarbh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	12	obj	_	_
@@ -2729,11 +2729,12 @@
 33	Mhór	Mór	PROPN	Nt	_	32	flat	_	SpaceAfter=No
 34	.	.	PUNCT	Fe	_	3	punct	_	_
 
+# comment = Not entirely sure what the right deprel is for node 3. 
 # sent_id = f03_034
 # text = Sean a’ bhliadhna thàinig e dha 'n sgoil an seo, agus cha robh Màiri Anna ceart as a chionn, 's i cho sàmhach, fad-as 'na dòigh aig an àm a chaidh e dh’fhuireach thuca an toiseach.
 1	Sean	sean	PRON	Pd	PronType=Dem	4	obl:tmod	_	_
 2	a’	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	bhliadhna	bliadhna	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+3	bhliadhna	bliadhna	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	_
 4	thàinig	thig	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 5	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 6	dha	do	ADP	Sp	_	8	case	_	_
@@ -2862,7 +2863,7 @@
 
 # sent_id = f03_038
 # text = Ge b'e dé bu choireach, bha Uilleam trom air an deoch aig an àm.
-1	Ge	ge	PRON	Uq	PronType=Int	5	nsubj	_	_
+1	Ge	ge	PRON	Uq	PronType=Int	5	obl	_	_
 2	b'e	b'e	PRON	Uq	PronType=Int	1	fixed	_	_
 3	dé	dé	PRON	Uq	PronType=Int	1	fixed	_	_
 4	bu	is	AUX	Ws	Tense=Past	5	cop	_	_
@@ -4922,7 +4923,7 @@
 4	bhròinein	bròinein	NOUN	Ncsmv	Case=Voc|Gender=Masc|Number=Sing	12	vocative	_	_
 5	bhochd	bochd	ADJ	Aq-smv	Case=Voc|Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
 6	"	"	PUNCT	Fz	_	7	punct	_	_
-7	ars'	arsa	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	4	dep	_	_
+7	ars'	arsa	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
 8	ise	i	PRON	Pp3sf-e	Form=Emp|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	Fi	_	12	punct	_	_
 10	"	"	PUNCT	Fq	_	12	punct	_	SpaceAfter=No
@@ -5207,7 +5208,7 @@
 26	ri	ri	ADP	Sp	_	28	case	_	_
 27	am	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	fear	fear	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	24	obl	_	_
-29	a	a	PART	Q-r	PartType=Vb|PronType=Rel	31	nsubj	_	_
+29	a	a	PART	Q-r	PartType=Vb|PronType=Rel	31	mark:prt	_	_
 30	b'	is	AUX	Ws	Tense=Past	31	cop	_	_
 31	òige	òg	ADJ	Apc	Degree=Cmp,Sup	28	amod	_	_
 32	dhe	de	ADP	Sp	_	34	case	_	_
@@ -5810,6 +5811,7 @@
 30	.	.	PUNCT	Fe	_	1	punct	_	_
 
 # comment = what is going on with node 3?
+# comment = Node 21 is a bit odd too but I think it's fine and not an error.
 # sent_id = n01_035
 # text = Cha robh ach, thug e a aghaidh air an doras agus chunnaic e an fhuil a's an dol seachad e agus chuir e fhèin a leithid eile ann.
 1	Cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	2	mark:prt	_	_

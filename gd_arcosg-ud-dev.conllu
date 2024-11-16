@@ -261,7 +261,7 @@
 # speaker = [1]
 # text = carson nach gabh thu gearr thu am pie agad fhèin?
 1	carson	carson	PRON	Uq	PronType=Int	0	root	_	_
-2	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	3	obl	_	_
+2	nach	nach	PART	Qnr	PartType=Vb|Polarity=Neg|PronType=Rel	3	mark:prt	_	_
 3	gabh	gabh	VERB	V-f--d	Mood=Ind|Tense=Fut|VerbForm=Fin	5	reparandum	_	_
 4	thu	thu	PRON	Pp2s	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 5	gearr	gearr	VERB	V-f--d	Mood=Ind|Tense=Fut|VerbForm=Fin	1	acl:relcl	_	_
@@ -1606,7 +1606,7 @@
 20-21	ann	_	_	_	_	_	_	_	_
 20	an	an	ADP	Sp	_	21	case	_	_
 21	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	xcomp:pred	_	_
-22	a	a	PART	Q-r	PartType=Vb|PronType=Rel	24	obl	_	_
+22	a	a	PART	Q-r	PartType=Vb|PronType=Rel	24	mark:prt	_	_
 23	b’	is	AUX	Ws	Tense=Past	24	cop	_	_
 24	fhearr	math	ADJ	Apc	Degree=Cmp,Sup	18	acl:relcl	_	_
 25	a	a	PART	Ug	PartType=Inf	26	mark:prt	_	_
@@ -2375,10 +2375,11 @@
 11	bith	bi	ADJ	Aq	_	10	fixed	_	SpaceAfter=No
 12	.	.	PUNCT	Fe	_	3	punct	_	_
 
+# comment = node 2 must be an adjective, surely?
 # sent_id = f08_004
 # text = Dh’fhàs maoil an duine dearg, is fliuch, is bha cuislean ri bòcadh le cabhaig fala.
 1	Dh’fhàs	fàs	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-2	maoil	maoil	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+2	maoil	maoil	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	xcomp	_	_
 3	an	an	DET	Tdsmg	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	duine	duine	NOUN	Ncsmg	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
 5	dearg	dearg	ADJ	Ap	_	1	xcomp:pred	_	SpaceAfter=No
@@ -5467,7 +5468,7 @@
 15	"	"	PUNCT	Fq	_	17	punct	_	SpaceAfter=No
 16	a	a	PART	Uv	PartType=Voc	17	case:voc	_	_
 17	Rìgh	rìgh	NOUN	Ncsmv	Case=Voc|Gender=Masc|Number=Sing	3	vocative	_	_
-18	Èireann	Èireann	PROPN	Nt	_	17	nsubj	_	SpaceAfter=No
+18	Èireann	Èireann	PROPN	Nt	_	17	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	Fi	_	21	punct	_	_
 20	's	is	AUX	Wp-i	Tense=Pres	21	cop	_	_
 21	fhada	fada	ADV	Rt	_	3	parataxis	_	_
@@ -5777,7 +5778,7 @@
 11	“	“	PUNCT	Fq	_	13	punct	_	SpaceAfter=No
 12	a	a	PART	Uv	PartType=Voc	13	case:voc	_	_
 13	Rìgh	rìgh	NOUN	Ncsmv	Case=Voc|Gender=Masc|Number=Sing	3	vocative	_	_
-14	Èirinn	Èirinn	PROPN	Nt	_	13	nsubj	_	SpaceAfter=No
+14	Èirinn	Èirinn	PROPN	Nt	_	13	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	Fe	_	3	punct	_	_
 
 # sent_id = n02_016
@@ -6690,9 +6691,9 @@
 5	air	air	ADP	Sp	_	7	case	_	_
 6	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	fhear	fear	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	_
-8	a	a	PART	Q-r	PartType=Vb|PronType=Rel	10	nsubj	_	_
+8	a	a	PART	Q-r	PartType=Vb|PronType=Rel	10	mark:prt	_	_
 9	b'	is	AUX	Ws	Tense=Past	10	cop	_	_
-10	fhaisge	faisg	ADJ	Apc	Degree=Cmp,Sup	7	acl:relcl	_	_
+10	fhaisge	faisg	ADJ	Apc	Degree=Cmp,Sup	7	amod	_	_
 11-12	dha	_	_	_	_	_	_	_	SpaceAfter=No
 11	do	do	ADP	Sp	_	12	case	_	_
 12	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
@@ -9780,7 +9781,7 @@
 26	air	air	ADP	Sp	_	27	case	_	_
 27	dòigh	dòigh	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	24	xcomp:pred	_	_
 28	gheibh	faigh	VERB	V-f	Mood=Ind|Tense=Fut|VerbForm=Fin	6	conj	_	_
-29	thu	thu	PRON	Pp2s	Number=Sing|Person=2|PronType=Prs	31	nsubj	_	_
+29	thu	thu	PRON	Pp2s	Number=Sing|Person=2|PronType=Prs	28	nsubj	_	_
 30	do	do	DET	Dp2s	Number=Sing|Person=2|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
 31	chàineadh	càineadh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	28	obj	_	_
 
