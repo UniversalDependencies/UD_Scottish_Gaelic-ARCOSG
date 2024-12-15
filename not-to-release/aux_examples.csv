@@ -1,7 +1,7 @@
 sentence,src,AuxType,CleftType,root,copular_subject,experiencer,complement
 's e thusa fhaoileag bhòidheach,An Ciaòra,eq,,thusa,fhaoileag bhòidheach,,
 'S e sin Steòrnabhagh an Leòdhas,An Ciaòra,eq,,sin,Steòrnabhagh an Leòdhas,,
-'S fhada leam gun tig an samhradh,An Ciaòra,pred,,fhada,leam,gun tig an samhradh
+'S fhada leam gun tig an samhradh,An Ciaòra,pred,,fhada,,leam,gun tig an samhradh
 bu mhiann leam bhith nad chòir-sa,An cluinn thu mi, mo nighean donn,pred,,mhiann,,leam,bhith nad chòir-sa
 Chan urrainn mi snàmh gu cuideachd mo ghràidh,An t-eilean mu thuath,,mi,snàmh gu cuideachd mo ghràidh
 'S ann ort a bhios i cuimhneachadh,A ribhinn òig bheil chuimhn' agad,Cleft,Obl,tu,a bhios i cuimhneachadh,,
