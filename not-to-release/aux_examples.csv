@@ -1,5 +1,17 @@
-sentence,src,AuxType,CleftType,root,clausal_subject,experiencer,complement
+sentence,src,AuxType,CleftType,root,copular_subject,experiencer,complement
 's e thusa fhaoileag bhòidheach,An Ciaòra,eq,,thusa,fhaoileag bhòidheach,,
 'S e sin Steòrnabhagh an Leòdhas,An Ciaòra,eq,,sin,Steòrnabhagh an Leòdhas,,
-'S fhada leam gun tig an samhradh,An Ciaòra,pred,,fhada,,leam,gun tig and samhradh
+'S fhada leam gun tig an samhradh,An Ciaòra,pred,,fhada,leam,gun tig an samhradh
 bu mhiann leam bhith nad chòir-sa,An cluinn thu mi, mo nighean donn,pred,,mhiann,,leam,bhith nad chòir-sa
+Chan urrainn mi snàmh gu cuideachd mo ghràidh,An t-eilean mu thuath,,mi,snàmh gu cuideachd mo ghràidh
+'S ann ort a bhios i cuimhneachadh,A ribhinn òig bheil chuimhn' agad,Cleft,Obl,tu,a bhios i cuimhneachadh,,
+"A' Bhirlinn Rioghail, 's i a th' ann",Birlinn Ghoraidh Chròbhian,Cleft,Nom,A' Bhirlinn Rìoghail,a th' ann,,
+'S e dh'fhàg m' inntinn trom fo leòn,,,,,,
+'S ann a chionn nach eil i beò,Eilean Fraoich,Cleft,Obl,a chionn,nach eil i beò,,
+'S tric mi sealltainn on chnoc as àirde,Fear a' Bhàta,pred,,tric,mi sealltainn on chnoc as àirde,,
+'S tric na deòiribh a' ruith om shùilean,Fear a' Bhàta,pred,,tric,na deòiribh a' ruith om shùilean,,
+'S tric mi faighneachd de luchd nam bàta,Fear a' Bhàta,pred,,tric,mi faighneachd de luchd nam bàta,,
+'S ann tha gach aon aca rium ag ràdhtainn,Fear a' Bhàta,cleft,Verb,tha gach aon aca rium ag ràdhtainn,,
+'S ann a smuainich mi fanadh,Gleann Gallaidh,cleft,Verb,a smuainich mi fanadh,,
+'S mòr a b' annsa leam fanadh,Gleann Gallaidh,pred,,mòr,a b' annsa leam fanadh,,
+b' annsa leam fanadh,Gleann Gallaidh,pred,,annsa,,leam,fanadh
