@@ -203,6 +203,13 @@ def check_heads_for_upos(sentence) -> int:
     return errors
 
 def check_reported_speech(sentence) -> int:
+    """
+    See https://universaldependencies.org/u/dep/ccomp.html
+
+    Reported speech is ccomp of the verb of saying except where that interrupts speech, in which
+    case parataxis is used.
+    In that case the speech verb attaches to the root of the reported speech.
+    """
     errors = 0
     return errors
     
@@ -293,14 +300,41 @@ def suggest_relative_deprel(deprels) -> str:
         return "nsubj"
     return "obj"
 
+def check_csubj(sentence) -> int:
+    """
+    Checks that the heads of the cop relation do not have nodes linked to them that should be linked by csubj:cleft or csubj:cop.
+    Candidate relations are acl, ccomp and xcomp.
+
+    Returns an integer with the count of errors.
+    """
+    errors = 0
+    ids = {}
+    deprels = {}
+    csubj_candidates = ["xcomp", "acl", "ccomp"]
+    cop_heads = [t.head for t, _ in ud_words(sentence, lambda t: t.deprel == "cop")]
+    allowed_deprels = ["csubj:cleft", "csubj:cop", "nsubj"]
+    for token, _ in ud_words(sentence, lambda t: t.head in cop_heads and t.deprel in csubj_candidates or t.deprel in allowed_deprels):
+        if token.head in ids:
+            ids[token.head].append(token.id)
+            deprels[token.head].append(token.deprel)
+        else:
+            ids[token.head] = [token.id]
+            deprels[token.head] = [token.deprel]
+    for key in deprels:
+        stub = f"E {sentence.id} {key}"
+        if "csubj:cop" not in deprels[key] and "csubj:cleft" not in deprels[key] and "nsubj" not in deprels[key]:
+            print(f"{stub} head of cop should have a csubj:* among {list(zip(ids[key], deprels[key]))}")
+            errors +=1
+    return errors
+
 def check_bi(sentence) -> int:
     """
-    Checks that the verb _bi_ has a node linked to it by xcomp:pred if there are any suitable nodes.
-    These are obl, xcomp, obl:smod and advmod.
+    Checks that the verb _bi_ does not have a node linked to it that should be linked by xcomp:pred.
+    Candidate relations are obl, xcomp, obl:smod and advmod.
     Note that in the last case there are adverbs that won't be suitable if they are adverbs of time.
     We also use OblType in the MISC column for phrases like "mar eisimpleir" = 'for example'.
 
-    Returns an integer errors.
+    Returns an integer with the count of errors.
     """
     errors = 0
     ids = {}
@@ -444,6 +478,7 @@ def validate_corpus(corpus):
         total_errors += check_target_deprels(tree)
         total_errors += check_target_upos(tree)
         total_errors += check_bi(tree)
+        total_errors += check_csubj(tree)
         total_errors += check_reported_speech(tree)
         total_errors += check_passive(tree)
         total_errors += check_relatives(tree)
