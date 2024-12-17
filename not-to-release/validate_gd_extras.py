@@ -300,6 +300,20 @@ def suggest_relative_deprel(deprels) -> str:
         return "nsubj"
     return "obj"
 
+def check_cleft(sentence) -> int:
+    """
+    Checks that CleftType has been correctly assigned to the head of a cleft.
+    Returns an integer with the count of errors.
+    """
+    errors = 0
+    cop_heads = [t.head for t, _ in ud_words(sentence, lambda t: t.deprel == "cop")]
+    cleft_heads = [t.head for t, _ in ud_words(sentence, lambda t: t.deprel in ["csubj:cleft", "csubj:outer"])]
+    for token, _ in ud_words(sentence, lambda t: t.id in cop_heads and t.feats.get("CleftType") is not None):
+        if token.id not in cleft_heads:
+            errors += 1
+            print(f"{sentence.id} {token.id} is not a cleft and should not have CleftType")
+    return errors
+    
 def check_csubj(sentence) -> int:
     """
     Checks that the heads of the cop relation do not have nodes linked to them that should be linked by csubj:cleft or csubj:cop.
@@ -337,34 +351,52 @@ def check_bi(sentence) -> int:
     Returns an integer with the count of errors.
     """
     errors = 0
-    ids = {}
-    deprels = {}
-    upos = {}
-    bi_pred_candidates = ["advmod", "obl", "xcomp", "obl:smod"]
+    candidate_ids = {}
+    candidate_deprels = {}
+    candidate_upos = {}
     bi_ids = [t.id for t,_ in ud_words(sentence, lambda t: t.lemma == "bi")]
-    allowed_deprels = ["xcomp:pred"]
 
-    for token, _ in ud_words(sentence,\
-                             lambda t: t.head in bi_ids and\
-                             t.deprel in bi_pred_candidates or t.deprel in allowed_deprels):
-        if token.head in ids:
-            ids[token.head].append(token.id)
-            deprels[token.head].append(token.deprel)
-            upos[token.head].append(token.upos)
-        elif "AdvType" not in token.feats and "OblType" not in token.misc:
-            ids[token.head] = [token.id]
-            deprels[token.head] = [token.deprel]
-            upos[token.head] = [token.upos]
-    for key in deprels:
+    for token, _ in ud_words(sentence, lambda t: t.head in bi_ids and possible_predicate(t)):
+        if token.head in candidate_ids:
+            candidate_ids[token.head].append(token.id)
+            candidate_deprels[token.head].append(token.deprel)
+            candidate_upos[token.head].append(token.upos)
+        else:
+            candidate_ids[token.head] = [token.id]
+            candidate_deprels[token.head] = [token.deprel]
+            candidate_upos[token.head] = [token.upos]
+
+    for key in candidate_deprels:
         stub = f"E {sentence.id} {key}"
-        if "xcomp:pred" not in deprels[key] and "ccomp" not in deprels[key]:
-            print(f"{stub} bi should have an xcomp:pred among {list(zip(ids[key], deprels[key]))}")
+        if "xcomp:pred" not in candidate_deprels[key]:
+            print(f"{stub} bi should have an xcomp:pred among {list(zip(candidate_ids[key], candidate_deprels[key]))}")
             errors += 1
-        if "obj" in deprels[key] and "PART" not in upos[key]:
+        if "obj" in candidate_deprels[key] and "PART" not in candidate_upos[key]:
             # check what Irish does about obj of bi.
             errors += 1
             print(f"E {stub} bi should not have obj")
     return errors
+
+def possible_predicate(token) -> bool:
+    """
+    Given a token, check whether it could be a predicate of the verb _bi_.
+    There are special rules for advmod and obl.
+    If the advmod or obl indicates time or manner then it is not a predicate.
+    Returns a boolean.
+    """
+    possible_deprels = ["xcomp", "obl:smod", "xcomp:pred"]
+    if token.deprel in possible_deprels:
+        return True
+    elif token.deprel == "advmod":
+        if token.feats.get("AdvType") is not None:
+            return "Loc" in token.feats["AdvType"]
+        return False
+    elif token.deprel == "obl":
+        if token.misc.get("OblType") is not None:
+            return "Loc" in token.misc["OblType"]
+        return True
+    else:
+        return False
 
 def check_passive(sentence) -> int:
     """
@@ -478,6 +510,7 @@ def validate_corpus(corpus):
         total_errors += check_target_deprels(tree)
         total_errors += check_target_upos(tree)
         total_errors += check_bi(tree)
+        total_errors += check_cleft(tree)
         total_errors += check_csubj(tree)
         total_errors += check_reported_speech(tree)
         total_errors += check_passive(tree)
