@@ -3363,7 +3363,7 @@
 38	Is	is	AUX	Wp-i	ExtPos=AUX|Tense=Pres	41	cop	_	_
 39	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	fixed	_	_
 40	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
-41	dàn	dàn	NOUN	Ncsmn	Case=Nom|CleftType=Nom|Gender=Masc|Number=Sing	36	parataxis	_	_
+41	dàn	dàn	NOUN	Ncsmn	Case=Nom|CleftType=Nom|Gender=Masc|Number=Sing	36	ccomp	_	_
 42	a	a	PART	Q-r	PartType=Vb|PronType=Rel	43	obj	_	_
 43	rinn	dèan	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	41	csubj:cleft	_	_
 44	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3|PronType=Prs	43	nsubj	_	_
@@ -3612,7 +3612,7 @@
 39	‘	'	PUNCT	Fq	_	42	punct	_	SpaceAfter=No
 40	Nam	nam	PART	Q-s	_	42	mark:prt	_	_
 41	b'	is	AUX	Ws	Tense=Past	42	cop	_	_
-42	fhiosrach	fiosrach	ADJ	Ap	_	37	parataxis	_	_
+42	fhiosrach	fiosrach	ADJ	Ap	_	37	ccomp	_	_
 43	Ban-righ'nn	ban-righ'nn	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	42	nsubj	_	_
 44	Anna	Anna	PROPN	Nn-fn	Case=Nom|Gender=Fem	43	flat:name	_	SpaceAfter=No
 45	.	.	PUNCT	Fe	_	42	punct	_	SpaceAfter=No
@@ -3644,10 +3644,10 @@
 21	Clan	clan	X	Xfe	Foreign=Yes	20	flat:foreign	_	_
 22	Gillean	Gillean	X	Nn	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
 23	;	;	PUNCT	Fi	_	16	punct	_	_
-24	<English_text>	<english_text>	X	Xf	Foreign=Yes	16	parataxis	_	_
+24	<English_text>	<english_text>	X	Xf	Foreign=Yes	27	parataxis	_	_
 25	Gidheadh	gidheadh	ADV	Rg	AdvType=Man	27	advcl	_	SpaceAfter=No
 26	,	,	PUNCT	Fi	_	27	punct	_	_
-27	faodar	faod	VERB	V-f0	Mood=Ind|Person=0|Tense=Fut|VerbForm=Fin	16	parataxis	_	_
+27	faodar	faod	VERB	V-f0	Mood=Ind|Person=0|Tense=Fut|VerbForm=Fin	16	ccomp	_	_
 28	a	a	PART	Ug	PartType=Inf	29	mark:prt	_	_
 29	bhith	bi	NOUN	Nv	VerbForm=Inf	27	xcomp	_	_
 30	cinnteach	cinnteach	ADJ	Ap	_	29	xcomp:pred	_	_
@@ -4391,7 +4391,7 @@
 23	ràdh	abair	NOUN	Nv	VerbForm=Vnoun	20	xcomp:pred	_	SpaceAfter=No
 24	;	;	PUNCT	Fi	_	25	punct	_	_
 25	Chan	chan	PART	Qn	PartType=Vb|Polarity=Neg	26	mark:prt	_	_
-26	eil	bi	VERB	V-p--d	Mood=Ind|Tense=Pres|VerbForm=Fin	23	parataxis	_	_
+26	eil	bi	VERB	V-p--d	Mood=Ind|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
 27	aon	aon	NUM	Mc	NumForm=Word|NumType=Card	28	nummod	_	_
 28	teagamh	teagamh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
 29	nach	is	AUX	Wpdin	ExtPos=AUX|Polarity=Neg|Tense=Pres	31	cop	_	_
@@ -4430,7 +4430,7 @@
 21	ag	ag	PART	Sa	_	22	case	_	_
 22	ràdh	abair	NOUN	Nv	VerbForm=Vnoun	19	xcomp:pred	_	SpaceAfter=No
 23	;	;	PUNCT	Fi	_	24	punct	_	_
-24	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	22	parataxis	_	_
+24	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
 25	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
 26	soilleir	soilleir	ADJ	Ap	_	24	xcomp:pred	_	_
 27	gum	gu	PART	Qa	PartType=Cmpl	30	mark:prt	_	_
@@ -4577,7 +4577,7 @@
 21	ràdh	abair	NOUN	Nv	VerbForm=Vnoun	18	xcomp:pred	_	SpaceAfter=No
 22	;	;	PUNCT	Fi	_	24	punct	_	_
 23	Cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	24	mark:prt	_	_
-24	robh	bi	VERB	V-s--d	Mood=Ind|Tense=Past|VerbForm=Fin	21	parataxis	_	_
+24	robh	bi	VERB	V-s--d	Mood=Ind|Tense=Past|VerbForm=Fin	21	ccomp	_	_
 25	aige	aige	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	xcomp:pred	_	_
 26	ach	ach	PART	Sp	_	29	mark:prt	_	_
 27	fíor	fíor	ADJ	Ar	_	29	amod	_	_
@@ -4614,7 +4614,7 @@
 21	ag	ag	PART	Sa	_	22	case	_	_
 22	ràdh	abair	NOUN	Nv	VerbForm=Vnoun	19	xcomp:pred	_	SpaceAfter=No
 23	;	;	PUNCT	Fi	_	24	punct	_	_
-24	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	22	parataxis	_	_
+24	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
 25	sinne	sinn	PRON	Pp1p--e	Form=Emp|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
 26	a'	ag	PART	Sa	_	27	case	_	_
 27	dìoghladh	dìoghl	NOUN	Nv	VerbForm=Vnoun	24	xcomp:pred	_	_
@@ -5216,7 +5216,7 @@
 32	dhe	de	ADP	Sp	_	34	case	_	_
 33	na	an	DET	Tdpm	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
 34	gillean	gille	NOUN	Ncpmd	Case=Dat|Gender=Masc|Number=Plur	28	nmod	_	_
-35	thuirt	abair	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	24	parataxis	_	_
+35	thuirt	abair	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
 36	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
 37-38	ris	_	_	_	_	_	_	_	_
 37	ri	ri	ADP	Sp	_	38	case	_	_
@@ -5233,7 +5233,7 @@
 48	,	,	PUNCT	Fi	_	46	punct	_	_
 49	"	"	PUNCT	Fq	_	51	punct	_	SpaceAfter=No
 50	nach	nach	PART	Qn	PartType=Cmpl|Polarity=Neg	51	mark:prt	_	_
-51	rachadh	rach	VERB	V-h	Mood=Ind|VerbForm=Fin	24	parataxis	_	_
+51	rachadh	rach	VERB	V-h	Mood=Ind|VerbForm=Fin	24	ccomp	_	_
 52	tusa	thu	PRON	Pp2s--e	Form=Emp|Number=Sing|Person=2|PronType=Prs	51	nsubj	_	_
 53	suas	suas	ADV	Rs	AdvType=Loc	51	advmod	_	SpaceAfter=No
 54	"	"	PUNCT	Fz	_	56	punct	_	SpaceAfter=No
@@ -5263,7 +5263,7 @@
 78	"	"	PUNCT	Fz	_	79	punct	_	_
 79	ars'	arsa	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	24	parataxis	_	_
 80	ise	i	PRON	Pp3sf-e	Form=Emp|Gender=Fem|Number=Sing|Person=3|PronType=Prs	79	nsubj	_	SpaceAfter=No
-81	.	.	PUNCT	Fe	_	24	punct	_	_
+81	.	.	PUNCT	Fe	_	4	punct	_	_
 
 # sent_id = n01_020
 # text = Agus cha bhi agad ri ràdh", ars' ise, "ach gun tàna tu a-nuas, gun do chuir mi fhèin a-nuas" ars' ise, "a dh'iarraidh na Cìr Buidhe thu."
@@ -5536,7 +5536,7 @@
 21	eile	eile	ADJ	Aq-smd	Case=Dat|Gender=Masc|Number=Sing	20	amod	_	_
 22	"	"	PUNCT	Fq	_	24	punct	_	SpaceAfter=No
 23	's	is	AUX	Wp-i	Tense=Pres	24	cop	_	_
-24	fhearr	fhearr	NOUN	Uf	_	15	parataxis	_	_
+24	fhearr	fhearr	NOUN	Uf	_	15	ccomp	_	_
 25-26	dhut	_	_	_	_	_	_	_	_
 25	do	do	ADP	Sp	_	26	case	_	_
 26	thu	thu	PRON	Pp2s	Number=Sing|Person=2|PronType=Prs	27	obl	_	_
@@ -6101,7 +6101,7 @@
 20	nighinn	nighinn	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
 21	"	"	PUNCT	Fq	_	23	punct	_	SpaceAfter=No
 22	's	is	AUX	Wp-i	Tense=Pres	23	cop	_	_
-23	fhearr	fhearr	NOUN	Uf	_	16	parataxis	_	_
+23	fhearr	fhearr	NOUN	Uf	_	16	ccomp	_	_
 24-25	dhutsa	_	_	_	_	_	_	_	SpaceAfter=No
 24	do	do	ADP	Sp	_	25	case	_	_
 25	thusa	thu	PRON	Pp2s--e	Form=Emp|Number=Sing|Person=2|PronType=Prs	23	nmod	_	_
@@ -7993,7 +7993,7 @@
 4	ag	ag	PART	Sa	_	5	case	_	_
 5	ràdh	abair	NOUN	Nv	VerbForm=Vnoun	2	xcomp:pred	_	_
 6	cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	7	mark:prt	_	_
-7	bhi	bi	VERB	V-f--d	Mood=Ind|Tense=Fut|VerbForm=Fin	5	parataxis	_	_
+7	bhi	bi	VERB	V-f--d	Mood=Ind|Tense=Fut|VerbForm=Fin	5	ccomp	_	_
 8	seach	seach	SCONJ	Cs	_	12	mark	_	_
 9	gur	is	AUX	Wpdia	ExtPos=AUX|Polarity=Aff|Tense=Pres	12	cop	_	_
 10	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	fixed	_	_

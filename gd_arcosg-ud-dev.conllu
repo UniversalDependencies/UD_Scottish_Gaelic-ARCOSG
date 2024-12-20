@@ -424,7 +424,7 @@
 2	thuirt	abair	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
 3	[?]	[?]	X	Xx	_	2	nsubj	_	_
 4	nach	nach	PART	Qn	PartType=Cmpl|Polarity=Neg	5	mark:prt	_	_
-5	[?]	[?]	X	Xx	_	2	parataxis	_	_
+5	[?]	[?]	X	Xx	_	2	dep	_	_
 6	sibh	sibh	PRON	Pp2p	Number=Plur|Person=2|PronType=Prs	5	nsubj	_	_
 
 # sent_id = c03_036b
@@ -9836,7 +9836,7 @@
 8	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 9	ag	ag	PART	Sa	_	10	case	_	_
 10	ràdh	abair	NOUN	Nv	VerbForm=Vnoun	7	xcomp:pred	_	_
-11	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+11	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
 12	m'	mo	DET	Dp1s	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
 13	obair-sa	obair-sa	NOUN	Ncsfde	Case=Dat|Form=Emp|Gender=Fem|Number=Sing	11	nsubj	_	_
 14	seachad	seachad	ADV	Rg	AdvType=Man	11	xcomp:pred	_	_
@@ -11575,7 +11575,7 @@
 11	Teicneòlach	teicneòlach	ADJ	Aq-pmg	Case=Gen|Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
 12	,	,	PUNCT	Fi	_	14	punct	_	_
 13	“	“	PUNCT	Fq	_	14	punct	_	SpaceAfter=No
-14	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+14	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
 15	a	a	DET	Dq	ExtPos=DET|PronType=Art	17	det	_	_
 16	h-uile	uile	DET	Dq	PronType=Art	15	fixed	_	_
 17	dùil	dùil	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_

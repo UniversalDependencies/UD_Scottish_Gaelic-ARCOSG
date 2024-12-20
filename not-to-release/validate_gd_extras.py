@@ -210,7 +210,42 @@ def check_reported_speech(sentence) -> int:
     case parataxis is used.
     In that case the speech verb attaches to the root of the reported speech.
     """
+    speech_lemmata = ["abair", "aidich", "bruidhinn", "cabadaich", "can", "èigh", "faighnich", "freagair", "inns"]
     errors = 0
+    q = -1
+    z = -1
+    n_open_quotes = 0
+    n_close_quotes = 0
+    speech_blocks = []
+    parataxes = []
+    root_id = 0
+    lemmata = { t.id: t.lemma for t, _ in ud_words(sentence)}
+    for i, token in enumerate(sentence):
+        if token.deprel == "parataxis":
+            parataxes.append((token.id, token.lemma, token.head))
+        if token.deprel == "root":
+            root_id = int(token.id)
+        if token.xpos == "Fq":
+            n_open_quotes = n_open_quotes + 1
+            q = token.id
+        if token.xpos == "Fz" or i == len(sentence) - 1 and q != -1:
+            n_close_quotes = n_close_quotes + 1
+            z = token.id
+            speech_blocks.append((q, z))
+            q = z = -1
+    if (n_open_quotes > 1 or n_close_quotes > 1) and len(parataxes) > 0:
+        root_in_quote = False
+        for speech_block in speech_blocks:
+            if int(speech_block[0]) < root_id < int(speech_block[1]):
+                root_in_quote = True
+        if int(speech_blocks[0][0]) < 2 and not root_in_quote:
+            errors += 1
+            print(f"{sentence.id} ERROR root should be inside quote")
+    if len(speech_blocks) == 0 or int(speech_blocks[0][0]) > 2:
+        for parataxis in parataxes:
+            if lemmata[parataxis[2]] in speech_lemmata and parataxis[1] != "arsa":
+                errors += 1
+                print(f"E {sentence.id} {parataxis[0]} deprel should be ccomp")
     return errors
     
 
