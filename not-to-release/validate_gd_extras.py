@@ -210,7 +210,7 @@ def check_reported_speech(sentence) -> int:
     case parataxis is used.
     In that case the speech verb attaches to the root of the reported speech.
     """
-    speech_lemmata = ["abair", "aidich", "bruidhinn", "cabadaich", "can", "èigh", "faighnich", "freagair", "inns"]
+    speech_lemmata = ["abair", "aidich", "bruidhinn", "cabadaich", "can", "èigh", "faighnich", "foighneach", "freagair", "inns"]
     errors = 0
     q = -1
     z = -1
@@ -251,7 +251,12 @@ def check_reported_speech(sentence) -> int:
 
 def check_target_deprels(sentence) -> int:
     """
-    Checks that, for example, cc connects a conjunction to a node that is linked to its parent by conj.
+    Currently checks two deprels:
+    that cc connects a conjunction to a node that is linked to its parent by conj.
+    that case has a target that has an allowed deprel to its parent.
+    There is an additional check for 'case' that the target of case is not a clefted expression.
+
+    Returns an integer number of errors
     """
     errors = 0
     target_ids = {}
@@ -261,7 +266,8 @@ def check_target_deprels(sentence) -> int:
                  "acl", "acl:relcl", "conj", "csubj:cop"]
     }
     for token, _ in ud_words(sentence, lambda t: t.deprel in targets):
-        target_ids[int(token.head)] = token.deprel
+        if token.feats.get("CleftType") is not None:
+            target_ids[int(token.head)] = token.deprel
 
     for token, _ in ud_words(sentence, lambda t: int(t.id) in target_ids):
         actual = token.deprel

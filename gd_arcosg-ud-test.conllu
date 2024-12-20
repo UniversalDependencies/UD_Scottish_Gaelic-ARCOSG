@@ -10238,7 +10238,7 @@
 8	air	air	ADP	Sp	_	10	case	_	_
 9	ar	ar	DET	Dp1p	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	obj	_	_
 10	faiceall	faiceall	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	7	xcomp:pred	_	_
-11	nach	nach	PART	Qnr	PartType=Cmpl|Polarity=Neg|PronType=Rel	12	mark:prt	_	_
+11	nach	nach	PART	Qnr	PartType=Cmpl|Polarity=Neg|PronType=Rel	12	obj	_	_
 12	mùch	mùch	VERB	V-f--d	Mood=Ind|Tense=Fut|VerbForm=Fin	10	acl:relcl	_	_
 13	sinn	sinn	PRON	Pp1p	Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
 14	na	na	PRON	Q-r	PronType=Rel	12	obj	_	_

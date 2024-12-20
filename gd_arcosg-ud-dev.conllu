@@ -4907,7 +4907,7 @@
 44	MhicThòmhais	MacThòmhais	PROPN	Nn	_	43	nmod	_	SpaceAfter=No
 45	.	.	PUNCT	Fe	_	3	punct	_	_
 
-# comment = Node 13 is an interesting case for the documentation. Does case or mark take precedence. I think by sense it's case. CRB 2020-08-17
+# comment = 2024-12-20: node 11 retagged to NOUN/Ncsmn (issue #44)
 # sent_id = fp09_024
 # text = Tha na h-obraichean ud a' toirt fianais dhuinn air mar a bha féin-mhisneachd ann a-measg nan Gàidheal anns na 1970an a tha 's mathaid air traoghadh beagan ré an dà dheicheid a chaidh seachad.
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4920,10 +4920,10 @@
 8-9	dhuinn	_	_	_	_	_	_	_	_
 8	do	do	ADP	Sp	_	9	case	_	_
 9	sinn	sinn	PRON	Pp1p	Number=Plur|Person=1|PronType=Prs	6	obl	_	_
-10	air	air	ADP	Sp	_	13	case	_	_
-11	mar	mar	SCONJ	Cs	_	13	mark	_	_
-12	a	a	PART	Q-r	PartType=Vb|PronType=Rel	13	mark:prt	_	_
-13	bha	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
+10	air	air	ADP	Sp	_	11	case	_	_
+11	mar	mar	NOUN	Ncsmn	_	7	nmod	_	_
+12	a	a	PART	Q-r	PartType=Vb|PronType=Rel	13	advmod	_	_
+13	bha	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
 14	féin-mhisneachd	féin-mhisneachd	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
 15-16	ann	_	_	_	_	_	_	_	_
 15	an	an	ADP	Sp	_	16	case	_	_
@@ -5160,11 +5160,11 @@
 16	a-mhàin	a-mhàin	ADV	Rg	AdvType=Man	19	advmod	_	_
 17	ann	an	ADP	Sp	ExtPos=ADP	19	case	_	_
 18	am	an	ADP	Sp	_	17	fixed	_	_
-19	Breatainn	Breatainn	PROPN	Nt	NounType=Top	3	advcl	_	_
+19	Breatainn	Breatainn	PROPN	Nt	CleftType=Obl|NounType=Top	3	advcl	_	_
 20	ach	ach	ADP	Sp	_	23	case	_	_
 21	air	air	ADP	Sp	_	23	case	_	_
 22	an	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	Roinn-Eòrpa	roinn-eòrpa	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	19	conj	_	_
+23	Roinn-Eòrpa	roinn-eòrpa	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	19	csubj:cleft	_	_
 24	air	air	ADP	Sp	_	25	case	_	_
 25	fad	fad	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	Fi	_	29	punct	_	_
@@ -6463,7 +6463,7 @@
 20	,	,	PUNCT	Fi	_	23	punct	_	_
 21	"	"	PUNCT	Fq	_	23	punct	_	SpaceAfter=No
 22	O	o	INTJ	I	_	23	discourse	_	_
-23	cà	cà	PRON	Uq	PronType=Int	16	parataxis	_	_
+23	cà	cà	PRON	Uq	PronType=Int	16	ccomp	_	_
 24	robh	bi	VERB	V-s--d	Mood=Ind|Tense=Past|VerbForm=Fin	23	acl:relcl	_	_
 25	sibh	sibh	PRON	Pp2p	Number=Plur|Person=2|PronType=Prs	24	nsubj	_	_
 26	a	a	PART	Uv	PartType=Voc	27	case:voc	_	_
@@ -6473,7 +6473,7 @@
 30	o	bho	ADP	Sp	ExtPos=ADP	33	case	_	_
 31	chionn	cionn	ADP	Nf	_	30	fixed	_	_
 32	trì	trì	NUM	Mc	NumForm=Word|NumType=Card	33	nummod	_	_
-33	ràithean	ràith	NOUN	Ncpfg	Case=Gen|Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No
+33	ràithean	ràith	NOUN	Ncpfg	Case=Gen|Gender=Fem|Number=Plur	24	obl	_	OblType=Tim|SpaceAfter=No
 34	?	?	PUNCT	Fg	_	24	punct	_	SpaceAfter=No
 35	"	"	PUNCT	Fz	_	24	punct	_	_
 
@@ -11869,11 +11869,11 @@
 6-7	leatha	_	_	_	_	_	_	_	_
 6	le	le	ADP	Sp	_	7	case	_	_
 7	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	nmod	_	_
-8	gu	gu	ADP	Sp	_	12	case	_	_
-9	fad	fad	SCONJ	Cs	_	12	mark	_	_
+8	gu	gu	ADP	Sp	_	9	case	_	_
+9	fad	fad	NOUN	Ncsmn	_	1	nmod	_	_
 10	's	's	CCONJ	Cc	_	12	cc	_	_
-11	a	a	PART	Qq	PartType=Vb|PronType=Int	12	mark:prt	_	_
-12	bheil	bi	VERB	V-p--d	Mood=Ind|Tense=Pres|VerbForm=Fin	1	conj	_	_
+11	a	a	PART	Qq	PartType=Vb|PronType=Int	12	advmod	_	_
+12	bheil	bi	VERB	V-p--d	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
 13	Spasitch	Spasitch	PROPN	Nn	_	12	nsubj	_	_
 
 # sent_id = s08_003a
@@ -12038,6 +12038,7 @@
 10	a’	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	bhucas	bucas	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	_
 
+# comment = 2024-12-20: node 11 retagged to NOUN/Ncsmn as per #44
 # sent_id = s08_016
 # speaker = [1]
 # text = air ais a-rithist gu Johnson 'ga feuchainn a-nall gu far a bheil Bett agus tha Bett thaobh thall taobh thall a’ bhucais 'na aonar ach tha Stanoykavitch a' ruith a-mach
@@ -12051,10 +12052,10 @@
 7	a	a	PRON	Dp3sf	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	obj	_	_
 8	feuchainn	feuch	NOUN	Nv	VerbForm=Inf	5	xcomp	_	_
 9	a-nall	a-nall	ADV	Rs	AdvType=Loc	8	advmod	_	_
-10	gu	gu	ADP	Sp	_	13	case	_	_
-11	far	far	SCONJ	Cs	_	13	mark	_	_
-12	a	a	PART	Qq	PartType=Vb|PronType=Int	13	mark:prt	_	_
-13	bheil	bi	VERB	V-p--d	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+10	gu	gu	ADP	Sp	_	11	case	_	_
+11	far	far	SCONJ	Cs	_	8	obl	_	_
+12	a	a	PART	Qq	PartType=Vb|PronType=Int	13	advmod	_	_
+13	bheil	bi	VERB	V-p--d	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
 14	Bett	Bett	PROPN	Nn	_	13	nsubj	_	_
 15	agus	agus	CCONJ	Cc	_	16	cc	_	_
 16	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
@@ -12602,11 +12603,11 @@
 6	thall	tall	ADJ	Aq	_	5	amod	_	_
 7	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	pàirce	pàirce	NOUN	Ncsfg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
-9	gu	gu	ADP	Sp	_	13	case	_	_
-10	fad	fad	SCONJ	Cs	ExtPos=SCONJ	13	mark	_	_
-11	's	's	CCONJ	Cc	_	10	fixed	_	_
-12	a	a	PART	Qq	PartType=Vb|PronType=Int	13	mark:prt	_	_
-13	bheil	bi	VERB	V-p--d	Mood=Ind|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+9	gu	gu	ADP	Sp	_	10	case	_	_
+10	fad	fad	NOUN	Ncsmn	_	5	conj	_	_
+11	's	's	CCONJ	Cc	_	13	cc	_	_
+12	a	a	PART	Q-r	PronType=Rel	13	xcomp:pred	_	_
+13	bheil	bi	VERB	V-p--d	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 14	Stanoykavitch	Stanoykavitch	PROPN	Nn	_	13	nsubj	_	_
 
 # sent_id = s08_044
@@ -13077,6 +13078,7 @@
 3	le	le	ADP	Sp	_	4	case	_	_
 4	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	xcomp:pred	_	_
 
+# comment = 2024-12-20: node 6 retagged to NOUN/Ncsmn as per #44
 # sent_id = s08_069
 # speaker = [1]
 # text = MacLeish tè àrd an-àird gu fad 's a bheil Nichol
@@ -13084,11 +13086,11 @@
 2	tè	tè	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	parataxis	_	_
 3	àrd	àrd	ADJ	Aq-sfn	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
 4	an-àird	an-àird	ADV	Rs	AdvType=Loc	2	advmod	_	_
-5	gu	gu	ADP	Sp	_	9	case	_	_
-6	fad	fad	SCONJ	Cs	ExtPos=SCONJ	9	mark	_	_
-7	's	's	CCONJ	Cc	_	6	fixed	_	_
-8	a	a	PART	Qq	PartType=Vb|PronType=Int	9	mark:prt	_	_
-9	bheil	bi	VERB	V-p--d	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+5	gu	gu	ADP	Sp	_	6	case	_	_
+6	fad	fad	NOUN	Ncsmn	_	2	nmod	_	_
+7	's	's	CCONJ	Cc	_	9	cc	_	_
+8	a	a	PART	Q-r	PronType=Rel	9	xcomp:pred	_	_
+9	bheil	bi	VERB	V-p--d	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
 10	Nichol	Nichol	PROPN	Nn	_	9	nsubj	_	_
 
 # sent_id = s08_070
