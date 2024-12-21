@@ -4824,7 +4824,7 @@
 38	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	cuideachadh	cuideachadh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	25	advcl	_	_
 40	a	a	PART	Q-r	PartType=Vb|PronType=Rel	41	obj	_	_
-41	fhuair	faigh	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	39	acl:relcl	_	_
+41	fhuair	faigh	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	39	csubj:cleft	_	_
 42	mi	mi	PRON	Pp1s	Number=Sing|Person=1|PronType=Prs	41	nsubj	_	_
 43	anns	an	ADP	Sp	_	45	case	_	_
 44	na	an	DET	Tdpf	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	_	_
@@ -4880,7 +4880,7 @@
 17	am	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	feum	feum	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
 19	a	a	PART	Q-r	PartType=Vb|PronType=Rel	20	obj	_	_
-20	fhuair	faigh	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+20	fhuair	faigh	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
 21	mi	mi	PRON	Pp1s	Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
 22	cuideachd	cuideachd	ADV	Rg	AdvType=Man	20	advmod	_	_
 23	anns	an	ADP	Sp	_	26	case	_	_
@@ -6802,7 +6802,7 @@
 11	luchd	neach	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	_
 12	carthannais	carthannais	NOUN	Ncsfg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
 13	a	a	PART	Q-r	PartType=Vb|PronType=Rel	14	nsubj	_	_
-14	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+14	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
 15	glaiste	gla	ADJ	Av	_	14	xcomp:pred	_	_
 16	aig	aig	ADP	Sp	_	18	case	_	_
 17	a’	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -7167,7 +7167,7 @@
 15	a’	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	chùis	cùis	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	18	obj	_	_
 17	a	a	DET	Dp3sm	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	obj	_	_
-18	thogail	tog	NOUN	Nv	VerbForm=Inf	14	acl:relcl	_	_
+18	thogail	tog	NOUN	Nv	VerbForm=Inf	14	xcomp	_	_
 19	aig	aig	ADP	Sp	_	20	case	_	_
 20	Holyrood	Holyrood	PROPN	Nt	NounType=Top	18	obl	_	SpaceAfter=No
 21	.	.	PUNCT	Fe	_	2	punct	_	_
@@ -7933,7 +7933,7 @@
 28	glè	glè	ADV	Rg	AdvType=Man	29	advmod	_	_
 29	bheag	beag	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	25	nmod	_	_
 30	a	a	PART	Q-r	PartType=Vb|PronType=Rel	31	nsubj	_	_
-31	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+31	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	29	csubj:cleft	_	_
 32	airson	airson	ADP	Nf	_	33	case	_	_
 33	falbh	falbh	NOUN	Nv	VerbForm=Vnoun	31	xcomp:pred	_	SpaceAfter=No
 34	.	.	PUNCT	Fe	_	1	punct	_	_
@@ -8381,7 +8381,7 @@
 9	do	do	ADP	Sp	_	10	case	_	_
 10	thu	thu	PRON	Pp2s	Number=Sing|Person=2|PronType=Prs	8	nmod	_	_
 11	a	a	PART	Q-r	PartType=Vb|PronType=Rel	12	xcomp:pred	_	_
-12	bha	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+12	bha	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	5	csubj:cop	_	_
 13	na	an	DET	Tdpm	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	gèamaichean	gèama	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
 15	fo	fo	ADJ	Aq	ExtPos=ADJ	14	amod	_	_
@@ -8776,7 +8776,7 @@
 13	aig	aig	ADP	Sp	_	14	case	_	_
 14	thu	thu	PRON	Pp2s	Number=Sing|Person=2|PronType=Prs	12	nmod	_	_
 15	a	a	PART	Q-r	PartType=Vb|PronType=Rel	16	nsubj	_	_
-16	bh'	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+16	bh'	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	5	csubj:cleft	_	_
 17-18	aca	_	_	_	_	_	_	_	_
 17	aig	aig	ADP	Sp	_	18	case	_	_
 18	iad	iad	PRON	Pp3p	Number=Plur|Person=3|PronType=Prs	16	xcomp:pred	_	_
@@ -12053,7 +12053,7 @@
 8	feuchainn	feuch	NOUN	Nv	VerbForm=Inf	5	xcomp	_	_
 9	a-nall	a-nall	ADV	Rs	AdvType=Loc	8	advmod	_	_
 10	gu	gu	ADP	Sp	_	11	case	_	_
-11	far	far	SCONJ	Cs	_	8	obl	_	_
+11	far	far	NOUN	Ncsmn	_	8	obl	_	_
 12	a	a	PART	Qq	PartType=Vb|PronType=Int	13	advmod	_	_
 13	bheil	bi	VERB	V-p--d	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
 14	Bett	Bett	PROPN	Nn	_	13	nsubj	_	_
@@ -12740,12 +12740,12 @@
 16	bhall	ball	NOUN	Ncsmg	Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
 17	na	na	ADP	Um	_	19	case	_	_
 18	's	is	AUX	Wp-i	Tense=Pres	19	cop	_	_
-19	àbhaist	àbhaist	NOUN	Uf	_	13	acl:relcl	_	_
+19	àbhaist	àbhaist	NOUN	Uf	_	13	advcl:relcl	_	_
 20-21	dha	_	_	_	_	_	_	_	_
 20	do	do	ADP	Sp	_	21	case	_	_
 21	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nmod	_	_
 22	a	a	PART	Ug	PartType=Inf	23	mark:prt	_	_
-23	bhith	bi	NOUN	Nv	VerbForm=Inf	19	acl:relcl	_	_
+23	bhith	bi	NOUN	Nv	VerbForm=Inf	13	advcl:relcl	_	_
 24	am	an	ADP	Sp	_	25	case	_	_
 25	meadhan	meadhan	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	23	xcomp:pred	_	_
 26	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
@@ -12775,7 +12775,7 @@
 9	nas	nas	PART	Uc	PartType=Comp	10	mark:prt	_	_
 10	fhearr	math	ADJ	Apc	Degree=Cmp,Sup	5	amod	_	_
 11	na	na	ADP	Um	_	12	case	_	_
-12	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+12	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl:relcl	_	_
 13	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 14	air	air	PART	Sa	_	16	case	_	_
 15	a	a	PART	Ug	PartType=Inf	16	mark:prt	_	_
@@ -13041,7 +13041,7 @@
 3	mi	mi	PRON	Pp1s	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 4	buileach	buileach	ADV	Rg	AdvType=Man	5	advmod	_	_
 5	cinnteach	cinnteach	ADJ	Ap	_	2	xcomp:pred	_	_
-6	carson	carson	PRON	Uq	PronType=Int	5	acl	_	_
+6	carson	carson	PRON	Uq	PronType=Int	5	ccomp	_	_
 
 # sent_id = s08_067
 # speaker = [1]
@@ -13174,7 +13174,7 @@
 24	a-steach	a-steach	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	23	compound	_	_
 25	eile	eile	ADJ	Aq-smn	Case=Nom|Gender=Masc|Number=Sing	23	amod	_	_
 26	a	a	PART	Q-r	PartType=Vb|PronType=Rel	27	nsubj	_	_
-27	bhios	bi	VERB	V-f--r	Mood=Ind|Tense=Fut|VerbForm=Fin	23	acl:relcl	_	_
+27	bhios	bi	VERB	V-f--r	Mood=Ind|Tense=Fut|VerbForm=Fin	23	csubj:cleft	_	_
 28-29	ann	_	_	_	_	_	_	_	_
 28	an	an	ADP	Sp	_	29	case	_	_
 29	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	xcomp:pred	_	_
@@ -13253,7 +13253,7 @@
 12	gu	gu	ADP	Sp	_	13	case	_	_
 13	Johnston	Johnston	PROPN	Nn	_	1	conj	_	_
 14	a	a	PART	Q-r	PartType=Vb|PronType=Rel	15	obl	_	_
-15	chaidh	rach	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+15	chaidh	rach	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	13	csubj:cleft	_	_
 16	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 17	agus	agus	CCONJ	Cc	_	1	conj	_	_
 

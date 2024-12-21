@@ -182,6 +182,9 @@ def check_heads_for_upos(sentence) -> int:
     errors = 0
     head_ids = {}
     heads = {
+        "acl": ["NOUN"],
+        "acl:relcl": ["NOUN", "NUM", "PART", "PRON", "PROPN"],
+        "advcl:relcl": ["ADJ", "ADV", "VERB"],
         "obl": ["VERB", "ADJ", "ADV"],
         "obl:smod": ["VERB", "ADJ", "ADV"],
         "obl:tmod": ["VERB", "ADJ", "ADV"],
@@ -358,14 +361,14 @@ def check_cleft(sentence) -> int:
 def check_csubj(sentence) -> int:
     """
     Checks that the heads of the cop relation do not have nodes linked to them that should be linked by csubj:cleft or csubj:cop.
-    Candidate relations are acl, ccomp and xcomp.
+    Candidate relations are acl, acl:relcl, ccomp and xcomp.
 
     Returns an integer with the count of errors.
     """
     errors = 0
     ids = {}
     deprels = {}
-    csubj_candidates = ["xcomp", "acl", "ccomp"]
+    csubj_candidates = ["xcomp", "acl", "ccomp", "acl:relcl"]
     cop_heads = [t.head for t, _ in ud_words(sentence, lambda t: t.deprel == "cop")]
     allowed_deprels = ["csubj:cleft", "csubj:cop", "nsubj"]
     for token, _ in ud_words(sentence, lambda t: t.head in cop_heads and t.deprel in csubj_candidates or t.deprel in allowed_deprels):
