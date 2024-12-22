@@ -1,4 +1,8 @@
-"""Checks for Scottish Gaelic-specific things that aren't covered by the standard UD validation tools."""
+"""
+Checks for things that aren't covered by the standard UD validation tools.
+
+Some of these are specific to Scottish Gaelic and others are generic.
+"""
 import sys
 import pyconll
 
@@ -11,21 +15,21 @@ def read_fixed():
     allowed = {}
     with open("fixed.gd") as fixed:
         for phrase in fixed:
-            tokens = phrase.split()
-            if len(tokens) > 3:
-                if tokens[3] in allowed:
-                    allowed[tokens[3]].append(tokens[2])
+            words = phrase.split()
+            if len(words) > 3:
+                if words[3] in allowed:
+                    allowed[words[3]].append(words[2])
                 else:
-                    allowed[tokens[3]] = [tokens[2]]
-            if len(tokens) > 2:
-                if tokens[2] in allowed:
-                    allowed[tokens[2]].append(tokens[1])
+                    allowed[words[3]] = [words[2]]
+            if len(words) > 2:
+                if words[2] in allowed:
+                    allowed[words[2]].append(words[1])
                 else:
-                    allowed[tokens[2]] = [tokens[1]]
-            if tokens[1] in allowed:
-                allowed[tokens[1]].append(tokens[0])
+                    allowed[words[2]] = [words[1]]
+            if words[1] in allowed:
+                allowed[words[1]].append(words[0])
             else:
-                allowed[tokens[1]] = [tokens[0]]
+                allowed[words[1]] = [words[0]]
     return allowed
 
 def check_fixed(sentence):
@@ -36,15 +40,15 @@ def check_fixed(sentence):
     """
     errors = 0
     allowed = read_fixed()
-    for token, prev_token in ud_words(sentence, lambda t: t.deprel == "fixed"):
-        norm_token_form = token.form.lower().replace("‘", "'").replace("’", "'")
-        norm_prev_token_form = prev_token.form.lower().replace("‘", "'").replace("’", "'")
-        if norm_token_form not in allowed:
+    for word, prev_word in ud_words(sentence, lambda t: t.deprel == "fixed"):
+        norm_word_form = word.form.lower().replace("‘", "'").replace("’", "'")
+        norm_prev_word_form = prev_word.form.lower().replace("‘", "'").replace("’", "'")
+        if norm_word_form not in allowed:
             errors +=1
-            print(f"E {sentence.id} {token.id} '{token.form}' not in fixed list")
-        elif norm_prev_token_form not in allowed[norm_token_form]:
+            print(f"E {sentence.id} {word.id} '{word.form}' not in fixed list")
+        elif norm_prev_word_form not in allowed[norm_word_form]:
             errors +=1
-            print(f"E {sentence.id} {token.id} '{prev_token.form} {token.form}' not in fixed list")
+            print(f"E {sentence.id} {word.id} '{prev_word.form} {word.form}' not in fixed list")
     return errors
 
 def check_feats(sentence) -> int:
@@ -56,17 +60,18 @@ def check_feats(sentence) -> int:
     Returns an integer with the number of errors found.
     """
     errors = 0
-    for token, prev_token in ud_words(sentence, lambda t: t.deprel == "fixed"):
-        if prev_token.deprel != "fixed":
-            if "ExtPos" not in prev_token.feats:
+    allowed_advtypes = ["Conj", "Man", "Loc", "Tim"]
+    for word, prev_word in ud_words(sentence, lambda t: t.deprel == "fixed"):
+        if prev_word.deprel != "fixed":
+            if "ExtPos" not in prev_word.feats:
                 errors += 1
-                print(f"E {sentence.id} {prev_token.id} head of fixed should have ExtPos feature")
-    for token in sentence:
-        if "AdvType" in token.feats:
-            for advtype in token.feats["AdvType"]:
-                if advtype not in ["Conj", "Man", "Loc", "Tim"]:
+                print(f"E {sentence.id} {prev_word.id} head of fixed should have ExtPos feature")
+    for word in sentence:
+        if "AdvType" in word.feats:
+            for advtype in word.feats["AdvType"]:
+                if advtype not in allowed_advtypes:
                     errors += 1
-                    print(f"E {sentence.id} {token.id} Unrecognised AdvType {advtype}")                
+                    print(f"E {sentence.id} {word.id} Unrecognised AdvType {advtype}")
     return errors
 
 def check_misc(sentence) -> int:
@@ -76,16 +81,17 @@ def check_misc(sentence) -> int:
     Returns an integer with the number of errors found.
     """
     errors = 0
-    for token, _ in ud_words(sentence, lambda t: t.lemma in ["[Name]", "[Placename]"]):
-        if "Anonymised" not in token.misc:
+    allowed_flattypes = ["Borrow", "Date", "Top", "Num", "Redup", "Name", "Foreign", "Time"]
+    for word, _ in ud_words(sentence, lambda t: t.lemma in ["[Name]", "[Placename]"]):
+        if "Anonymised" not in word.misc:
             errors += 1
-            print(f"E {sentence.id} {token.id} Anonymised=Yes missing from MISC column")
-    for token in sentence:
-        if "FlatType" in token.misc:
-            for flattype in token.misc["FlatType"]:
-                if flattype not in ["Borrow", "Date", "Top", "Num", "Redup", "Name", "Foreign", "Time"]:
+            print(f"E {sentence.id} {word.id} Anonymised=Yes missing from MISC column")
+    for word in sentence:
+        if "FlatType" in word.misc:
+            for flattype in word.misc["FlatType"]:
+                if flattype not in allowed_flattypes:
                     errors += 1
-                    print(f"E {sentence.id} {token.id} Unrecognised FlatType {flattype}")                
+                    print(f"E {sentence.id} {word.id} Unrecognised FlatType {flattype}")
     return errors
 
 def check_others(sentence) -> int:
@@ -100,27 +106,27 @@ def check_others(sentence) -> int:
     * that the flat deprel is typed in the MISC column
     """
     errors = 0
-    for token, prev_token in ud_words(sentence, lambda t: t.form in ["ais"] and t.upos != "NOUN"):
+    for word, prev_word in ud_words(sentence, lambda t: t.form in ["ais"] and t.upos != "NOUN"):
         errors +=1
-        print(f"E {sentence.id} {token.id} UPOS for 'ais' should be NOUN")
+        print(f"E {sentence.id} {word.id} UPOS for 'ais' should be NOUN")
 
-    for token, prev_token in ud_words(sentence, lambda t: t.xpos == t.upos and t.feats == {}):
+    for word, prev_word in ud_words(sentence, lambda t: t.xpos == t.upos and t.feats == {}):
         errors +=1
-        print(f"E {sentence.id} {token.id} XPOS {token.xpos} should not match UPOS if feats is empty")
+        print(f"E {sentence.id} {word.id} XPOS {word.xpos} should not match UPOS if feats is empty")
 
-    for token, prev_token in ud_words(sentence):
-        if token.xpos == "Px" and token.deprel not in ["nmod", "fixed", "obl"]:
+    for word, prev_word in ud_words(sentence):
+        if word.xpos == "Px" and word.deprel not in ["nmod", "fixed", "obl"]:
             errors += 1
-            print(f"E {sentence.id} {token.id} {token.form} should be nmod or obl (or fixed)")
-        if token.xpos == "Up" and token.deprel != "flat:name" and prev_token is not None and prev_token.xpos == "Nn":
+            print(f"E {sentence.id} {word.id} {word.form} should be nmod or obl (or fixed)")
+        if word.xpos == "Up" and word.deprel != "flat:name" and prev_word is not None and prev_word.xpos == "Nn":
             errors += 1
-            print(f"E {sentence.id} {token.id} Patronymic should be flat:name")
-        if token.deprel.startswith("mark") and token.upos not in ["PART", "SCONJ"]:
+            print(f"E {sentence.id} {word.id} Patronymic should be flat:name")
+        if word.deprel.startswith("mark") and word.upos not in ["PART", "SCONJ"]:
             errors += 1
-            print(f"E {sentence.id} {token.id} mark should only be for PART or SCONJ")
-        if token.deprel == "flat" and "FlatType" not in token.misc:
+            print(f"E {sentence.id} {word.id} mark should only be for PART or SCONJ")
+        if word.deprel == "flat" and "FlatType" not in word.misc:
             errors += 1
-            print(f"?E {sentence.id} {token.id} should be flat:name or flat:foreign, or FlatType should be specified")
+            print(f"?E {sentence.id} {word.id} should be flat:name or flat:foreign, or FlatType should be specified")
     return errors
 
 def check_ranges(sentence) -> (int, int):
@@ -128,7 +134,8 @@ def check_ranges(sentence) -> (int, int):
     Checks that deprels that can only go in one direction go in that direction and
     does some sense checks on the length.
 
-    Numbers are difficult so there are special cases built in for _ceud_ 'hundred', _fichead_ 'twenty' and symbols.
+    Numbers are difficult so there are special cases built in for _ceud_ 'hundred',
+    _fichead_ 'twenty' and symbols.
 
     Returns a tuple of the errors found and warnings found.
     """
@@ -138,39 +145,39 @@ def check_ranges(sentence) -> (int, int):
     errors = 0
     warnings = 0
     head_upos = {}
-    for token in sentence:
-        head_upos[token.id] = token.upos
-    for token, prev_token in ud_words(sentence):
-        deprel_range = abs(int(token.id) - int(token.head))
-        if token.deprel in leftward_only and int(token.head) > int(token.id):
+    for word in sentence:
+        head_upos[word.id] = word.upos
+    for word, prev_word in ud_words(sentence):
+        deprel_range = abs(int(word.id) - int(word.head))
+        if word.deprel in leftward_only and int(word.head) > int(word.id):
             warnings += 1
-            print(f"W {sentence.id} {token.id} {token.deprel} goes wrong way (usually) for gd")
-        if token.deprel in rightward_only and\
-           int(token.head) < int(token.id) and\
-           prev_token.xpos != "Uo" and\
-               token.form not in ["ceud", "fichead"] and\
-               head_upos[token.head] != "SYM":
+            print(f"W {sentence.id} {word.id} {word.deprel} goes wrong way (usually) for gd")
+        if word.deprel in rightward_only and\
+           int(word.head) < int(word.id) and\
+           prev_word.xpos != "Uo" and\
+               word.form not in ["ceud", "fichead"] and\
+               head_upos[word.head] != "SYM":
             errors += 1
-            print(f"E {sentence.id} {token.id} {token.deprel} goes wrong way for gd")
+            print(f"E {sentence.id} {word.id} {word.deprel} goes wrong way for gd")
 
-        if token.deprel in short_range and\
-           deprel_range > short_range[token.deprel] and\
-           (prev_token is not None and token.deprel != prev_token.deprel):
-            if deprel_range < short_range[token.deprel] + 3:
+        if word.deprel in short_range and\
+           deprel_range > short_range[word.deprel] and\
+           (prev_word is not None and word.deprel != prev_word.deprel):
+            if deprel_range < short_range[word.deprel] + 3:
                 warnings += 1
                 code = "W"
             else:
                 errors += 1
                 code = "E"
-            print(f"{code} {sentence.id} {token.id} Too long a range ({deprel_range}) for {token.deprel}")
-        if token.deprel in ["nsubj", "obj"] and\
-           token.upos not in ["NOUN", "PART", "PRON", "PROPN", "NUM", "SYM", "X"] and\
-           int(token.head) < int(token.id):
-            if "ExtPos" in token.feats:
+            print(f"{code} {sentence.id} {word.id} Too long a range ({deprel_range}) for {word.deprel}")
+        if word.deprel in ["nsubj", "obj"] and\
+           word.upos not in ["NOUN", "PART", "PRON", "PROPN", "NUM", "SYM", "X"] and\
+           int(word.head) < int(word.id):
+            if "ExtPos" in word.feats:
                 pass
             else:
                 errors +=1
-                print(f"E {sentence.id} {token.id} nsubj and (rightward) obj should only be for NOUN, PART, PRON, PROPN, NUM, SYM or X")
+                print(f"E {sentence.id} {word.id} nsubj and (rightward) obj should only be for NOUN, PART, PRON, PROPN, NUM, SYM or X")
     return errors, warnings
 
 def check_heads_for_upos(sentence) -> int:
@@ -191,18 +198,18 @@ def check_heads_for_upos(sentence) -> int:
         "nmod": ["NOUN", "NUM", "PRON", "PROPN", "SYM", "X"],
         "appos": ["NOUN", "NUM", "PRON", "PROPN", "SYM", "X"]
     }
-    for token, _ in ud_words(sentence, lambda t: t.deprel in heads):
-        head_ids[int(token.head)] = (token.deprel, token.id)
+    for word, _ in ud_words(sentence, lambda t: t.deprel in heads):
+        head_ids[int(word.head)] = (word.deprel, word.id)
 
-    for token, _ in ud_words(sentence, lambda t: int(t.id) in head_ids and "VerbForm" not in t.feats):
-        actual = token.upos
-        correct = heads[head_ids[int(token.id)][0]]
+    for word, _ in ud_words(sentence, lambda t: int(t.id) in head_ids and "VerbForm" not in t.feats):
+        actual = word.upos
+        correct = heads[head_ids[int(word.id)][0]]
         if actual not in correct:
             errors +=1
-            print(f"E {sentence.id} {token.id} {head_ids[int(token.id)][1]} head of {head_ids[int(token.id)]} must be one of ({', '.join(correct)}) not {actual}")
-        if token.form == "ais":
+            print(f"E {sentence.id} {word.id} {head_ids[int(word.id)][1]} head of {head_ids[int(word.id)]} must be one of ({', '.join(correct)}) not {actual}")
+        if word.form == "ais":
             errors +=1
-            print(f"E {sentence.id} {token.id} 'ais' should not be a head")
+            print(f"E {sentence.id} {word.id} 'ais' should not be a head")
     return errors
 
 def check_reported_speech(sentence) -> int:
@@ -213,7 +220,8 @@ def check_reported_speech(sentence) -> int:
     case parataxis is used.
     In that case the speech verb attaches to the root of the reported speech.
     """
-    speech_lemmata = ["abair", "aidich", "bruidhinn", "cabadaich", "can", "èigh", "faighnich", "foighneach", "freagair", "inns"]
+    speech_lemmata = ["abair", "aidich", "bruidhinn", "cabadaich", "can", "èigh", "faighnich",
+                      "foighneach", "freagair", "inns"]
     errors = 0
     q = -1
     z = -1
@@ -223,17 +231,17 @@ def check_reported_speech(sentence) -> int:
     parataxes = []
     root_id = 0
     lemmata = { t.id: t.lemma for t, _ in ud_words(sentence)}
-    for i, token in enumerate(sentence):
-        if token.deprel == "parataxis":
-            parataxes.append((token.id, token.lemma, token.head))
-        if token.deprel == "root":
-            root_id = int(token.id)
-        if token.xpos == "Fq":
+    for i, word in enumerate(sentence):
+        if word.deprel == "parataxis":
+            parataxes.append((word.id, word.lemma, word.head))
+        if word.deprel == "root":
+            root_id = int(word.id)
+        if word.xpos == "Fq":
             n_open_quotes = n_open_quotes + 1
-            q = token.id
-        if token.xpos == "Fz" or i == len(sentence) - 1 and q != -1:
+            q = word.id
+        if word.xpos == "Fz" or i == len(sentence) - 1 and q != -1:
             n_close_quotes = n_close_quotes + 1
-            z = token.id
+            z = word.id
             speech_blocks.append((q, z))
             q = z = -1
     if (n_open_quotes > 1 or n_close_quotes > 1) and len(parataxes) > 0:
@@ -250,7 +258,6 @@ def check_reported_speech(sentence) -> int:
                 errors += 1
                 print(f"E {sentence.id} {parataxis[0]} deprel should be ccomp")
     return errors
-    
 
 def check_target_deprels(sentence) -> int:
     """
@@ -268,17 +275,17 @@ def check_target_deprels(sentence) -> int:
         "case": ["dep", "obl", "advmod", "nmod", "nummod", "xcomp", "xcomp:pred", "ccomp",\
                  "acl", "acl:relcl", "conj", "csubj:cop"]
     }
-    for token, _ in ud_words(sentence, lambda t: t.deprel in targets):
-        if token.feats.get("CleftType") is not None:
-            target_ids[int(token.head)] = token.deprel
+    for word, _ in ud_words(sentence, lambda t: t.deprel in targets):
+        if word.feats.get("CleftType") is not None:
+            target_ids[int(word.head)] = word.deprel
 
-    for token, _ in ud_words(sentence, lambda t: int(t.id) in target_ids):
-        actual = token.deprel
-        correct = [*targets[target_ids[int(token.id)]], "root", "parataxis", "reparandum",\
+    for word, _ in ud_words(sentence, lambda t: int(t.id) in target_ids):
+        actual = word.deprel
+        correct = [*targets[target_ids[int(word.id)]], "root", "parataxis", "reparandum",\
                    "appos", "orphan"]
         if actual not in correct:
             errors +=1
-            print(f"E {sentence.id} {token.id} target of {target_ids[int(token.id)]} must be one of ({', '.join(correct)}) not {actual}")
+            print(f"E {sentence.id} {word.id} target of {target_ids[int(word.id)]} must be one of ({', '.join(correct)}) not {actual}")
     return errors
 
 def check_target_upos(sentence) -> int:
@@ -291,45 +298,45 @@ def check_target_upos(sentence) -> int:
         "flat:name": ["ADJ", "DET", "NUM", "PART", "PROPN"],
         "nmod": ["NOUN", "NUM", "PART", "PRON", "PROPN", "X"]
     }
-    for token, _ in ud_words(sentence,\
+    for word, _ in ud_words(sentence,\
                              lambda t: t.deprel in targets and t.upos not in targets[t.deprel]):
         errors += 1
-        print(f"E {sentence.id} {token.id} UPOS for {token.deprel} must be one of ({', '.join(targets[token.deprel])}) not {token.upos}")
+        print(f"E {sentence.id} {word.id} UPOS for {word.deprel} must be one of ({', '.join(targets[word.deprel])}) not {word.upos}")
     return errors
 
 def ud_words(ud_sentence, condition = lambda x: True):
     """
     Returns the 'words' and their predecessors in the UD sense by rejecting multiword tokens.
     """
-    prev_token = None
-    for word_token in [s for s in ud_sentence if not s.is_multiword()]:
+    prev_word = None
+    for word in [s for s in ud_sentence if not s.is_multiword()]:
         # the condition may only apply to UD words
-        if condition(word_token):
-            yield word_token, prev_token
-        prev_token = word_token
+        if condition(word):
+            yield word, prev_word
+        prev_word = word
 
 def check_relatives(sentence) -> int:
     """Checks the possibilities for relative particles"""
     errors = 0
     heads = {}
-    for token, prev_token in ud_words(sentence,\
+    for word, prev_word in ud_words(sentence,\
                                       lambda t: t.xpos in ["Q-r", "Qnr"] and\
                                       t.deprel == "mark:prt"):
-        message_stub = f"E {sentence.id} {token.id} deprel for '{token.form}'"
-        if prev_token is not None:
-            if prev_token.upos == "ADP":
+        message_stub = f"E {sentence.id} {word.id} deprel for '{word.form}'"
+        if prev_word is not None:
+            if prev_word.upos == "ADP":
                 errors += 1
                 print(f"E {message_stub} should be obl, nmod or xcomp:pred")
-            elif prev_token.lemma in ["carson", "ciamar", "cuin'"]:
+            elif prev_word.lemma in ["carson", "ciamar", "cuin'"]:
                 errors += 1
                 print(f"E {message_stub} should be advmod or xcomp:pred")
-            elif prev_token.upos not in ["CCONJ", "SCONJ"]:
-                heads[token.head] = []
+            elif prev_word.upos not in ["CCONJ", "SCONJ"]:
+                heads[word.head] = []
                 errors += 1
                 print(f"E {message_stub} should usually be nsubj or obj")
-    for token,_ in ud_words(sentence, lambda t: t.head in heads):
-        heads[token.head].append(token.deprel)
-    if heads != {}:
+    for word,_ in ud_words(sentence, lambda t: t.head in heads):
+        heads[word.head].append(word.deprel)
+    if heads:
         for head in heads:
             print(f"{sentence.id} {head} {heads[head]} suggestion: {suggest_relative_deprel(heads[head])}")
     return errors
@@ -352,15 +359,16 @@ def check_cleft(sentence) -> int:
     errors = 0
     cop_heads = [t.head for t, _ in ud_words(sentence, lambda t: t.deprel == "cop")]
     cleft_heads = [t.head for t, _ in ud_words(sentence, lambda t: t.deprel in ["csubj:cleft", "csubj:outer"])]
-    for token, _ in ud_words(sentence, lambda t: t.id in cop_heads and t.feats.get("CleftType") is not None):
-        if token.id not in cleft_heads:
+    for word, _ in ud_words(sentence, lambda t: t.id in cop_heads and t.feats.get("CleftType") is not None):
+        if word.id not in cleft_heads:
             errors += 1
-            print(f"{sentence.id} {token.id} is not a cleft and should not have CleftType")
+            print(f"{sentence.id} {word.id} is not a cleft and should not have CleftType")
     return errors
-    
+
 def check_csubj(sentence) -> int:
     """
-    Checks that the heads of the cop relation do not have nodes linked to them that should be linked by csubj:cleft or csubj:cop.
+    Checks that the heads of the cop relation do not have nodes linked to them that should be linked
+    by csubj:cleft or csubj:cop.
     Candidate relations are acl, acl:relcl, ccomp and xcomp.
 
     Returns an integer with the count of errors.
@@ -371,13 +379,13 @@ def check_csubj(sentence) -> int:
     csubj_candidates = ["xcomp", "acl", "ccomp", "acl:relcl"]
     cop_heads = [t.head for t, _ in ud_words(sentence, lambda t: t.deprel == "cop")]
     allowed_deprels = ["csubj:cleft", "csubj:cop", "nsubj"]
-    for token, _ in ud_words(sentence, lambda t: t.head in cop_heads and t.deprel in csubj_candidates or t.deprel in allowed_deprels):
-        if token.head in ids:
-            ids[token.head].append(token.id)
-            deprels[token.head].append(token.deprel)
+    for word, _ in ud_words(sentence, lambda t: t.head in cop_heads and t.deprel in csubj_candidates or t.deprel in allowed_deprels):
+        if word.head in ids:
+            ids[word.head].append(word.id)
+            deprels[word.head].append(word.deprel)
         else:
-            ids[token.head] = [token.id]
-            deprels[token.head] = [token.deprel]
+            ids[word.head] = [word.id]
+            deprels[word.head] = [word.deprel]
     for key in deprels:
         stub = f"E {sentence.id} {key}"
         if "csubj:cop" not in deprels[key] and "csubj:cleft" not in deprels[key] and "nsubj" not in deprels[key]:
@@ -400,20 +408,21 @@ def check_bi(sentence) -> int:
     candidate_upos = {}
     bi_ids = [t.id for t,_ in ud_words(sentence, lambda t: t.lemma == "bi")]
 
-    for token, _ in ud_words(sentence, lambda t: t.head in bi_ids and possible_predicate(t)):
-        if token.head in candidate_ids:
-            candidate_ids[token.head].append(token.id)
-            candidate_deprels[token.head].append(token.deprel)
-            candidate_upos[token.head].append(token.upos)
+    for word, _ in ud_words(sentence, lambda t: t.head in bi_ids and possible_predicate(t)):
+        if word.head in candidate_ids:
+            candidate_ids[word.head].append(word.id)
+            candidate_deprels[word.head].append(word.deprel)
+            candidate_upos[word.head].append(word.upos)
         else:
-            candidate_ids[token.head] = [token.id]
-            candidate_deprels[token.head] = [token.deprel]
-            candidate_upos[token.head] = [token.upos]
+            candidate_ids[word.head] = [word.id]
+            candidate_deprels[word.head] = [word.deprel]
+            candidate_upos[word.head] = [word.upos]
 
     for key in candidate_deprels:
         stub = f"E {sentence.id} {key}"
         if "xcomp:pred" not in candidate_deprels[key]:
-            print(f"{stub} bi should have an xcomp:pred among {list(zip(candidate_ids[key], candidate_deprels[key]))}")
+            id_deprel_pairs = list(zip(candidate_ids[key], candidate_deprels[key]))
+            print(f"{stub} bi should have an xcomp:pred among {id_deprel_pairs}")
             errors += 1
         if "obj" in candidate_deprels[key] and "PART" not in candidate_upos[key]:
             # check what Irish does about obj of bi.
@@ -421,26 +430,25 @@ def check_bi(sentence) -> int:
             print(f"E {stub} bi should not have obj")
     return errors
 
-def possible_predicate(token) -> bool:
+def possible_predicate(word) -> bool:
     """
-    Given a token, check whether it could be a predicate of the verb _bi_.
+    Given a word, check whether it could be a predicate of the verb _bi_.
     There are special rules for advmod and obl.
     If the advmod or obl indicates time or manner then it is not a predicate.
     Returns a boolean.
     """
     possible_deprels = ["xcomp", "obl:smod", "xcomp:pred"]
-    if token.deprel in possible_deprels:
+    if word.deprel in possible_deprels:
         return True
-    elif token.deprel == "advmod":
-        if token.feats.get("AdvType") is not None:
-            return "Loc" in token.feats["AdvType"]
+    if word.deprel == "advmod":
+        if word.feats.get("AdvType") is not None:
+            return "Loc" in word.feats["AdvType"]
         return False
-    elif token.deprel == "obl":
-        if token.misc.get("OblType") is not None:
-            return "Loc" in token.misc["OblType"]
+    if word.deprel == "obl":
+        if word.misc.get("OblType") is not None:
+            return "Loc" in word.misc["OblType"]
         return True
-    else:
-        return False
+    return False
 
 def check_passive(sentence) -> int:
     """
@@ -462,12 +470,12 @@ def check_passive(sentence) -> int:
                                          lambda t: t.lemma == "rach" and t.upos != "NOUN")]
     adps = {}
     for t, _ in ud_words(sentence, lambda t: t.deprel == "case"):
-      adps[t.head] = t.lemma
-    for token, _ in ud_words(sentence, lambda t: t.head in rach_ids):
-        if token.head in ids:
-            ids[token.head].append(token.id)
+        adps[t.head] = t.lemma
+    for word, _ in ud_words(sentence, lambda t: t.head in rach_ids):
+        if word.head in ids:
+            ids[word.head].append(word.id)
         else:
-            ids[token.head] = [token.id]
+            ids[word.head] = [word.id]
     for key in ids:
         indexed_deprels = [(i, sentence[i].deprel) for i in ids[key]]
         deprels = [d[1] for d in indexed_deprels]
@@ -476,11 +484,12 @@ def check_passive(sentence) -> int:
             if "obl" in deprels:
                 for deprel in indexed_deprels:
                     if deprel[1] == "obl" and adps[deprel[0]] == "aig":
-                            rach_aig = True
+                        rach_aig = True
             if not rach_aig:
-                for token in ids[key]:
-                    if sentence[token].deprel == "xcomp":
-                        message_stub = f"E {sentence.id} {sentence[token].id} '{sentence[token].form}'"
+                for word_id in ids[key]:
+                    word = sentence[word_id]
+                    if word.deprel == "xcomp":
+                        message_stub = f"E {sentence.id} {word.id} '{word.form}'"
                         print(f"{message_stub} should be the head")
                         errors +=1
     return errors
@@ -488,7 +497,8 @@ def check_passive(sentence) -> int:
 def check_clauses(sentence) -> (int, int):
     """
     Checks that mark and mark:prt and ccomp, advcl and acl:relcl work together properly.
-    For example, if the head of a clause or complement is marked with both a mark and a mark:prt, mark takes precedence.
+    For example, if the head of a clause or complement is marked with both mark and mark:prt,
+    mark takes precedence.
 
     Returns an (int, int) tuple of the number of errors and number of warnings found.
     """
@@ -502,17 +512,17 @@ def check_clauses(sentence) -> (int, int):
     deprels_to_check = ["ccomp", "advcl", "acl:relcl"]
 
     clause_ids = [t.id for t in sentence if t.deprel in deprels_to_check]
-    for token, _ in ud_words(sentence, lambda t: t.head in clause_ids):
-        if token.head in ids:
-            ids[token.head].append(token.id)
-            deprels[token.head].append(token.deprel)
-            forms[token.head].append(token.form)
-            feats[token.head].append(token.feats)
+    for word, _ in ud_words(sentence, lambda t: t.head in clause_ids):
+        if word.head in ids:
+            ids[word.head].append(word.id)
+            deprels[word.head].append(word.deprel)
+            forms[word.head].append(word.form)
+            feats[word.head].append(word.feats)
         else:
-            ids[token.head] = [token.id]
-            forms[token.head] = [token.form]
-            deprels[token.head] = [token.deprel]
-            feats[token.head] = [token.feats]
+            ids[word.head] = [word.id]
+            forms[word.head] = [word.form]
+            deprels[word.head] = [word.deprel]
+            feats[word.head] = [word.feats]
     for key in deprels:
         if 'mark' in deprels[key]:
             if sentence[key].deprel != "advcl":
@@ -566,6 +576,6 @@ def validate_corpus(corpus):
     if total_errors == 0:
         print("*** PASSED ***")
     else:
-        print("*** FAILED *** with %s error%s" % (total_errors, "s" if total_errors > 1 else ""))
+        print(f"*** FAILED *** with {total_errors} error{'s' if total_errors != 1 else ''} and {total_warnings} warning{'s' if total_warnings != 1 else ''}")
 
 validate_corpus(pyconll.load_from_file(sys.argv[1]))
