@@ -26,7 +26,23 @@ with open(sys.argv[2],'w') as clean:
         cleft_heads = [t.head for t, _ in ud_words(sentence, lambda t: t.deprel in ["csubj:cleft", "csubj:outer"])]
         case_heads = { t.head: t.form for t, _ in ud_words(sentence, lambda t: t.deprel == "case") }
         for word, prev_word in ud_words(sentence, lambda t: t):
+            if word.xpos == "Q-s":
+                """
+                https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/34
+                """
+                word.deprel = "mark"
+            if prev_word is not None:
+                """
+                https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/36
+                """
+                if word.deprel == "fixed" and prev_word.deprel != "fixed":
+                    if "ExtPos" not in prev_word.feats:
+                        prev_word.feats["ExtPos"] = [prev_word.upos]
+
             if word.id in cop_heads and word.id in cleft_heads:
+                """
+                https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/39
+                """
                 if word.upos == "ADJ":
                     word.feats["CleftType"] = ["Adj"]
                 elif word.upos == "ADV":
@@ -42,28 +58,28 @@ with open(sys.argv[2],'w') as clean:
                     word.feats["CleftType"] = ["Verb"]
                 else:
                     print(f"{sentence.id} {word.id} {word.form} {word.upos}")
-            if word.id in cop_heads and word.id not in cleft_heads:
-                word.feats.pop("CleftType", None)
             if word.upos == "ADV":
+                """
+                https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/38
+                """
                 if word.xpos not in advtype_mapping:
                     print(sentence.id, word.id, word.form, word.upos, word.xpos)
                 else:
                     word.feats["AdvType"] = [advtype_mapping[word.xpos]]
+            if word.id in cop_heads and word.id not in cleft_heads:
+                """
+                https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/39
+                """
+                word.feats.pop("CleftType", None)
             if word.xpos == "Nt":
+                """
+                https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/40
+                """
                 word.upos = "PROPN"
                 word.feats["NounType"] = ["Top"]
                 if word.deprel == "flat":
                     word.deprel = "flat:name"
                     word.misc["FlatType"] = ["Top"]
-            if word.xpos == "Q-s":
-                """
-                https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/34
-                """
-                word.deprel = "mark"
-            if prev_word is not None:
-                if word.deprel == "fixed" and prev_word.deprel != "fixed":
-                    if "ExtPos" not in prev_word.feats:
-                        prev_word.feats["ExtPos"] = [prev_word.upos]
 
         clean.write(sentence.conll())
         clean.write('\n\n')
