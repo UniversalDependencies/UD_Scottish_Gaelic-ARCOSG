@@ -55,6 +55,7 @@
 16	co-dhiubh	co-dhiubh	ADV	Rg	AdvType=Man	7	advmod	_	_
 
 # comment = 2024-12-07: changed nodes 4 and 5 to be PART/Uc as they are comparative
+# comment = not sure the correct treatment is the one below but it does avoid a double-object construction
 # sent_id = c01_001ab
 # speaker = [1]
 # text = bha a' chuid a b' fhearr an dà tharbh air an cumail ann an geata
@@ -66,10 +67,10 @@
 6	fhearr	math	ADJ	Apc	Degree=Cmp,Sup	3	amod	_	_
 7	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	dà	dà	NUM	Mc	NumForm=Word|NumType=Card	9	nummod	_	_
-9	tharbh	tarbh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	12	obj	_	_
+9	tharbh	tarbh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	advcl:relcl	_	_
 10	air	air	PART	Sa	_	12	case	_	_
 11	an	an	DET	Dp3p	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	obj	_	_
-12	cumail	cùm	NOUN	Nv	VerbForm=Inf	1	xcomp:pred	_	_
+12	cumail	cùm	NOUN	Nv	VerbForm=Inf	9	xcomp:pred	_	_
 13	ann	an	ADP	Sp	ExtPos=ADP	15	case	_	_
 14	an	an	ADP	Sp	_	13	fixed	_	_
 15	geata	geata	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	_
@@ -9035,7 +9036,7 @@
 25	nach	nach	PART	Qnr	PartType=Cmpl|Polarity=Neg|PronType=Rel	26	obj	_	_
 26	leig	leig	VERB	V-f--d	Mood=Ind|Tense=Fut|VerbForm=Fin	24	acl:relcl	_	_
 27	mise	mi	PRON	Pp1s--e	Form=Emp|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
-28	leas	leas	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	26	obj	_	_
+28	leas	leas	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	24	parataxis	_	_
 29	a	a	PART	Ug	PartType=Inf	30	mark:prt	_	_
 30	dhèanamh	dèan	NOUN	Nv	VerbForm=Inf	26	xcomp	_	_
 31	ann	ann	ADV	Rs	AdvType=Loc|ExtPos=ADV	30	advmod	_	_
@@ -10227,7 +10228,6 @@
 36	Gàidhlig	gàidhlig	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	SpaceAfter=No
 37	.	.	PUNCT	Fe	_	1	punct	_	_
 
-# comment = 2024-12-22: node 11 retagged to Qnr
 # sent_id = pw02_018
 # text = Ach bu chòir dhuinn a bhith air ar faiceall nach mùch sinn na tha air fhàgail nàdarrach againn.
 1	Ach	ach	CCONJ	Cc	_	3	cc	_	_
@@ -10241,8 +10241,8 @@
 8	air	air	ADP	Sp	_	10	case	_	_
 9	ar	ar	DET	Dp1p	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	obj	_	_
 10	faiceall	faiceall	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	7	xcomp:pred	_	_
-11	nach	nach	PART	Qnr	PartType=Cmpl|Polarity=Neg|PronType=Rel	10	obj	_	_
-12	mùch	mùch	VERB	V-f--d	Mood=Ind|Tense=Fut|VerbForm=Fin	10	acl:relcl	_	_
+11	nach	nach	PART	Qn	PartType=Cmpl|Polarity=Neg	12	mark:prt	_	_
+12	mùch	mùch	VERB	V-f--d	Mood=Ind|Tense=Fut|VerbForm=Fin	10	acl	_	_
 13	sinn	sinn	PRON	Pp1p	Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
 14	na	na	PRON	Q-r	PronType=Rel	12	obj	_	_
 15	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_

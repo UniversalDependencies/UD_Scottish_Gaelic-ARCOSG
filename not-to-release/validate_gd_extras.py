@@ -3,8 +3,9 @@ Checks for things that aren't covered by the standard UD validation tools.
 
 Some of these are specific to Scottish Gaelic and others are generic.
 """
-import sys
+from collections import Counter
 import pyconll
+import sys
 
 def read_fixed():
     """
@@ -288,9 +289,26 @@ def check_target_deprels(sentence) -> int:
             print(f"E {sentence.id} {word.id} target of {target_ids[int(word.id)]} must be one of ({', '.join(correct)}) not {actual}")
     return errors
 
+def check_multiples(sentence) -> int:
+    """
+    Checks for multiple nsubjs or objs
+    Returns an integer number of errors.
+    """
+    errors = 0
+    counts = Counter()
+    for word, _ in ud_words(sentence, lambda t: t.deprel in ["nsubj", "obj"]):
+        key = (word.head, word.deprel)
+        counts[key] += 1
+    for key in counts:
+        if counts[key] > 1:
+            errors += 1
+            print(f"E {sentence.id} Count for {key[1]} on node {key[0]} is {counts[key]} not 0 or 1")
+    return errors
+        
 def check_target_upos(sentence) -> int:
     """
     Checks that, for example, the part of speech of a node linked by amod is ADJ
+    Returns an integer number of errors.
     """
     errors = 0
     targets = {
@@ -567,6 +585,7 @@ def validate_corpus(corpus):
         total_errors += check_cleft(tree)
         total_errors += check_csubj(tree)
         total_errors += check_reported_speech(tree)
+        total_errors += check_multiples(tree)
         total_errors += check_passive(tree)
         total_errors += check_relatives(tree)
         errors, warnings = check_clauses(tree)

@@ -4889,7 +4889,7 @@
 26	carraighean-cuimhne	carraighean-cuimhne	NOUN	Ncpmd	Case=Dat|Gender=Masc|Number=Plur	20	obl	_	_
 27	as	is	AUX	Wpr	PronType=Rel|Tense=Pres	28	cop	_	_
 28	àirde	àrd	ADJ	Apc	Degree=Cmp,Sup	26	amod	_	_
-29	cliù	cliù	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	20	obj	_	_
+29	cliù	cliù	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	26	nmod	_	_
 30	ann	an	ADP	Sp	ExtPos=ADP	32	case	_	_
 31	an	an	ADP	Sp	_	30	fixed	_	_
 32	litreachas	litreachas	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	_
@@ -8320,10 +8320,10 @@
 12	bith	bi	ADJ	Aq	_	11	fixed	_	_
 13	a	a	PART	Q-r	PartType=Vb|PronType=Rel	14	nsubj	_	_
 14	chunnaic	faic	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
-15	ionnsaigh	ionnsaigh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	18	obj	_	_
+15	ionnsaigh	ionnsaigh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	14	advcl:relcl	_	_
 16-17	ga	_	_	_	_	_	_	_	_
 16	ag	ag	PART	Sa	_	18	case	_	_
-17	a	a	PRON	Dp3sm	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	obj	_	_
+17	a	a	PRON	Dp3sm	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	xcomp:pred	_	_
 18	thoirt	toir	NOUN	Nv	VerbForm=Inf	14	xcomp	_	_
 19	air	air	ADP	Sp	_	20	case	_	_
 20	boireannach	boireannach	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	_
@@ -9205,6 +9205,7 @@
 18	seo	seo	ADV	Rs	AdvType=Loc	16	fixed	_	_
 
 # comment = nodes 28 and 29 are a gloss so they're flat:foreign and X
+# comment = treatment of pàigh: Maighstir MacAmhlaidh is obl and £4/11 is obj
 # sent_id = p05_017
 # speaker = [2]
 # text = na duaisean a bha iad a' cur a-mach 'se seachd not air fhichead agus phàigh iad Maighstir MacAmhlaidh a bha ann an Taigh-òsda Fadhail an Iar Westford Inn ceithir nòtaichean 's aona tastan deug
@@ -9226,7 +9227,7 @@
 15	agus	agus	CCONJ	Cc	_	16	cc	_	_
 16	phàigh	pàigh	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
 17	iad	iad	PRON	Pp3p	Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
-18	Maighstir	maighstir	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	16	obj	_	_
+18	Maighstir	maighstir	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	16	obl	_	_
 19	MacAmhlaidh	MacAmhlaidh	PROPN	Nn	_	18	flat:name	_	_
 20	a	a	PART	Q-r	PartType=Vb|PronType=Rel	21	nsubj	_	_
 21	bha	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
