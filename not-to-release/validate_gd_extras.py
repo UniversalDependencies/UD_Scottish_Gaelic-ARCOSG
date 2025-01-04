@@ -116,9 +116,6 @@ def check_others(sentence) -> int:
         print(f"E {sentence.id} {word.id} XPOS {word.xpos} should not match UPOS if feats is empty")
 
     for word, prev_word in ud_words(sentence):
-        if word.xpos == "Px" and word.deprel not in ["nmod", "fixed", "obl"]:
-            errors += 1
-            print(f"E {sentence.id} {word.id} {word.form} should be nmod or obl (or fixed)")
         if word.xpos == "Up" and word.deprel != "flat:name" and prev_word is not None and prev_word.xpos == "Nn":
             errors += 1
             print(f"E {sentence.id} {word.id} Patronymic should be flat:name")
@@ -128,6 +125,30 @@ def check_others(sentence) -> int:
         if word.deprel == "flat" and "FlatType" not in word.misc:
             errors += 1
             print(f"?E {sentence.id} {word.id} should be flat:name or flat:foreign, or FlatType should be specified")
+    return errors
+
+def check_unmarked(sentence) -> int:
+    """
+    https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/45
+
+    Words linked to their heads by nmod or obl should be marked with a case deprel
+    or have Case=Dat or Case=Gen.
+    """
+    errors = 0
+    deprels_to_check = ["nmod", "obl", "obl:smod", "obl:tmod", "nmod:unmarked", "obl:unmarked"]
+    case_heads = [w.head for w, _ in ud_words(sentence, lambda w: w.deprel == "case")]
+    obl_nmod_tails = {w.id: (w.deprel, w.feats) for w, _ in ud_words(sentence, lambda w:  w.deprel in deprels_to_check)}
+    for tail in obl_nmod_tails:
+        if obl_nmod_tails[tail][0] in ["obl:smod", "obl:tmod"]:
+            errors += 1
+            print(f"E {sentence.id} {tail} {obl_nmod_tails[tail][0]}: this deprel is obsolete")
+        if tail not in case_heads:
+            if obl_nmod_tails[tail][1].get("Case", None) is None and obl_nmod_tails[tail][0] not in ["nmod:unmarked", "obl:unmarked"]:
+                errors += 1
+                print(f"E {sentence.id} {tail} UNMARKED and no Case in FEATS {obl_nmod_tails[tail]}")
+        elif obl_nmod_tails[tail][0] in ["nmod:unmarked", "obl:unmarked"]:
+            errors += 1
+            print(f"E {sentence.id} {tail} MARKED nmod/obl should not be tagged unmarked")
     return errors
 
 def check_ranges(sentence) -> (int, int):
@@ -208,9 +229,6 @@ def check_heads_for_upos(sentence) -> int:
         if actual not in correct:
             errors +=1
             print(f"E {sentence.id} {word.id} {head_ids[int(word.id)][1]} head of {head_ids[int(word.id)]} must be one of ({', '.join(correct)}) not {actual}")
-        if word.form == "ais":
-            errors +=1
-            print(f"E {sentence.id} {word.id} 'ais' should not be a head")
     return errors
 
 def check_reported_speech(sentence) -> int:
@@ -314,7 +332,8 @@ def check_target_upos(sentence) -> int:
     targets = {
         "amod": ["ADJ"],
         "flat:name": ["ADJ", "DET", "NUM", "PART", "PROPN"],
-        "nmod": ["NOUN", "NUM", "PART", "PRON", "PROPN", "X"]
+        "nmod": ["NOUN", "NUM", "PART", "PRON", "PROPN", "X"],
+        "obl": ["NOUN", "NUM", "PART", "PRON", "PROPN", "X"]
     }
     for word, _ in ud_words(sentence,\
                              lambda t: t.deprel in targets and t.upos not in targets[t.deprel]):
@@ -588,6 +607,7 @@ def validate_corpus(corpus):
         total_errors += check_multiples(tree)
         total_errors += check_passive(tree)
         total_errors += check_relatives(tree)
+        total_errors += check_unmarked(tree)
         errors, warnings = check_clauses(tree)
         total_errors += errors
         total_warnings += warnings
