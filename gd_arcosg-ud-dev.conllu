@@ -3518,7 +3518,7 @@
 29	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obl	_	_
 30	.	.	PUNCT	Fe	_	2	punct	_	_
 
-# comment = 2024-12-28: retagged node 2 to ADJ/Aq-pmn from NOUN/Nf
+# revision = 2024-12-28: retagged node 2 to ADJ/Aq-pmn from NOUN/Nf
 # sent_id = f08_058
 # text = Facail uile 's a thigeadh a-mach.
 1	Facail	facal	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
@@ -3559,9 +3559,10 @@
 26	sin	sin	PRON	Pd	PronType=Dem	24	conj	_	SpaceAfter=No
 27	?	?	PUNCT	Fg	_	8	punct	_	_
 
+# revision = 2025-01-05: retagged node 1 from ADJ/Ar to DET/Dq. Issue #50.
 # sent_id = f08_059b
 # text = H-uile tè de m' aois ann an taigh ceart, is mise fhathast gun bhùrn, gun sholas an seo?
-1	H-uile	h-uile	ADJ	Ar	_	2	amod	_	_
+1	H-uile	h-uile	DET	Dq	PronType=Art	2	det	_	_
 2	tè	tè	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 3	de	de	ADP	Sp	_	5	case	_	_
 4	m'	mo	DET	Dp1s	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
@@ -6437,11 +6438,12 @@
 8	.	.	PUNCT	Fe	_	1	punct	_	_
 
 # comment = and here the missing xcomp:pred is the "an" that would go in between nodes 23 and 24 given enhanced dependencies
+# revision = 2025-01-05: retagged nodes 2 and 3 to DET/Dq from ADJ/Ar. Issue #50.
 # sent_id = n02_038a
 # text = Agus a chuile duine choinneachadh a’ Rìgh rachadh e air a’ ghlùin dha 's dh’fhoighneachadh e dheth, "O cà robh sibh a Rìgh Èireann, o chionn trì ràithean?"
 1	Agus	agus	CCONJ	Cc	_	8	cc	_	_
-2	a	a	ADJ	Ar	ExtPos=ADJ	4	amod	_	_
-3	chuile	cuile	ADJ	Ar	_	2	fixed	_	_
+2	a	a	DET	Dq	ExtPos=DET|PronType=Art	4	det	_	_
+3	chuile	cuile	DET	Dq	PronType=Art	2	fixed	_	_
 4	duine	duine	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	8	dislocated	_	_
 5	choinneachadh	coinneach	VERB	V-h	Mood=Ind|VerbForm=Fin	4	acl:relcl	_	_
 6	a’	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -6519,7 +6521,8 @@
 15	àite	àite	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 16	.	.	PUNCT	Fe	_	7	punct	_	_
 
-# comment = aren't nodes 32 and 33 Dq? Also what's going on with nodes 11 to 13?
+# comment = What's going on with nodes 11 to 13?
+# revision = 2025-01-05: retagged nodes 32 and 33 from ADJ/Ar to DET/Dq. Issue #50.
 # sent_id = n02_040
 # text = Ach an ceann na h-ùine as a dheoghaidh sin gu dé ach rinn cogadh bristeadh-a-mach aig a' Turcach agus e 'dol a chur fodha na Crìosdachd uile, agus dh’fheumadh a chuile rìoghachd a dhol ri a aghaidh feuch an tillte e.
 1	Ach	ach	CCONJ	Cc	_	13	cc	_	_
@@ -6554,8 +6557,8 @@
 29	,	,	PUNCT	Fi	_	31	punct	_	_
 30	agus	agus	CCONJ	Cc	_	31	cc	_	_
 31	dh’fheumadh	feum	VERB	V-h--d	Mood=Ind|VerbForm=Fin	20	conj	_	_
-32	a	a	ADJ	Ar	_	34	amod	_	_
-33	chuile	cuile	ADJ	Ar	_	34	amod	_	_
+32	a	a	DET	Dq	ExtPos=DET|PronType=Art	34	det	_	_
+33	chuile	cuile	DET	Dq	PronType=Art	32	fixed	_	_
 34	rìoghachd	rìoghachd	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	_
 35	a	a	PART	Ug	PartType=Inf	36	mark:prt	_	_
 36	dhol	rach	NOUN	Nv	VerbForm=Inf	31	xcomp	_	_
@@ -6686,7 +6689,7 @@
 15	uile	uile	ADJ	Aq-sfn	Case=Nom|Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
 16	.	.	PUNCT	Fe	_	14	punct	_	_
 
-# comment = 2024-12-07: edited nodes 8 and 9 to be Uc for consistency.
+# revision = 2024-12-07: edited nodes 8 and 9 to be Uc for consistency.
 # sent_id = n02_046
 # text = Chuir e seo fios air an fhear a b' fhaisge dha.
 1	Chuir	cuir	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -10362,10 +10365,11 @@
 23	bhùth	bùth	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
 24	.	.	PUNCT	Fe	_	6	punct	_	_
 
+# revision = 2025-01-05: retagged nodes 1 and 2 from ADJ/Ar to DET/Dq. Issue #50.
 # sent_id = pw06_013
 # text = A h-uile oidhche bha cèilidh ann no bha còmhlan-ciùil a' cluich aig an taigh-òsta, “Taigh Josie" far am biomaid a' coinneachadh agus abair thusa ceòl agus crac agus beagan de dh’òl cuideachd.
-1	A	a	ADJ	Ar	_	3	amod	_	_
-2	h-uile	uile	ADJ	Ar	_	3	amod	_	_
+1	A	a	DET	Dq	ExtPos=DET|PronType=Art	3	det	_	_
+2	h-uile	uile	DET	Dq	PronType=Art	1	fixed	_	_
 3	oidhche	oidhche	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	4	obl:unmarked	_	_
 4	bha	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 5	cèilidh	cèilidh	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
