@@ -3568,7 +3568,6 @@
 114	1751	1751	NUM	Mn	NumForm=Digit|NumType=Card	105	conj	_	SpaceAfter=No
 115	.	.	PUNCT	Fe	_	114	punct	_	_
 
-# comment = node 42 is ccomp according to being reported speech
 # sent_id = fp03_005
 # text = A thaobh an òrain a rinneadh an 1702, chan urrainn nach e seo an t-òran do Shir lain MacGill-Eain a tha a' tòiseachadh; B' i Anna a’ bhan-righinn oir tha an dara rann ag ràdh, ‘Nam b' fhiosrach Ban-righ'nn Anna.'
 1	A	a	ADP	Sp	_	2	case	_	_

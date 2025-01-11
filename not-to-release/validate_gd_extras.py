@@ -242,7 +242,7 @@ def check_heads_for_upos(sentence) -> int:
             print(f"E {sentence.id} {word.id} {head_ids[int(word.id)][1]} head of {head_ids[int(word.id)]} must be one of ({', '.join(correct)}) not {actual}")
     return errors
 
-def check_reported_speech(sentence) -> int:
+def check_reported_speech(sentence, speech_lemmata) -> int:
     """
     See https://universaldependencies.org/u/dep/ccomp.html
 
@@ -250,8 +250,6 @@ def check_reported_speech(sentence) -> int:
     case parataxis is used.
     In that case the speech verb attaches to the root of the reported speech.
     """
-    speech_lemmata = ["abair", "aidich", "bruidhinn", "cabadaich", "can", "èigh", "faighnich",
-                      "foighneach", "freagair", "inns"]
     errors = 0
     q = -1
     z = -1
@@ -352,8 +350,9 @@ def check_target_upos(sentence) -> int:
     for word, _ in ud_words(sentence,\
                              lambda w: w.deprel in targets and w.upos not in targets[w.deprel]):
         if "Promoted" not in word.misc:
-            errors += 1
-            print(f"E {sentence.id} {word.id} UPOS for {word.deprel} must be one of ({', '.join(targets[word.deprel])}) not {word.upos}")
+            if word.feats.get("ExtPos") & set(targets[word.deprel]) is None:
+                errors += 1
+                print(f"E {sentence.id} {word.id} UPOS for {word.deprel} must be one of ({', '.join(targets[word.deprel])}) not {word.upos}")
     return errors
 
 def ud_words(ud_sentence, condition = lambda x: True):
@@ -487,16 +486,17 @@ def possible_predicate(word) -> bool:
     Given a word, check whether it could be a predicate of the verb _bi_.
     There are special rules for advmod and obl.
     If the advmod or obl indicates time or manner then it is not a predicate.
+
     Returns a boolean.
     """
-    possible_deprels = ["xcomp", "obl:smod", "xcomp:pred"]
+    possible_deprels = ["xcomp", "xcomp:pred"]
     if word.deprel in possible_deprels:
         return True
     if word.deprel == "advmod":
         if word.feats.get("AdvType") is not None:
             return "Loc" in word.feats["AdvType"]
         return False
-    if word.deprel == "obl":
+    if word.deprel in ["obl", "obl:unmarked"]:
         if word.misc.get("OblType") is not None:
             return "Loc" in word.misc["OblType"]
         return True
@@ -514,7 +514,7 @@ def check_passive(sentence) -> int:
     coded in.
     Example n02_026 in test.
 
-    Returns an integer errors
+    Returns an integer of the number of errors.
     """
     errors = 0
     ids = {}
@@ -546,7 +546,7 @@ def check_passive(sentence) -> int:
                         errors +=1
     return errors
 
-def check_clauses(sentence) -> (int, int):
+def check_clause_types(sentence, speech_lemmata) -> (int, int):
     """
     Checks that mark and mark:prt and ccomp, advcl and acl:relcl work together properly.
     For example, if the head of a clause or complement is marked with both mark and mark:prt,
@@ -563,8 +563,10 @@ def check_clauses(sentence) -> (int, int):
     feats = {}
     deprels_to_check = ["ccomp", "advcl", "acl:relcl"]
 
-    clause_ids = [t.id for t in sentence if t.deprel in deprels_to_check]
-    for word, _ in ud_words(sentence, lambda t: t.head in clause_ids):
+    clause_ids = [w.id for w in sentence if w.deprel in deprels_to_check]
+    clause_heads = [w.head for w in sentence if w.deprel in deprels_to_check]
+    head_lemma = {w.id: w.lemma for w in sentence if w.id in clause_heads}
+    for word, _ in ud_words(sentence, lambda w: w.head in clause_ids):
         if word.head in ids:
             ids[word.head].append(word.id)
             deprels[word.head].append(word.deprel)
@@ -577,7 +579,7 @@ def check_clauses(sentence) -> (int, int):
             feats[word.head] = [word.feats]
     for key in deprels:
         if 'mark' in deprels[key]:
-            if sentence[key].deprel != "advcl":
+            if sentence[key].deprel != "advcl" and head_lemma[sentence[key].head] not in speech_lemmata:
                 warnings += 1
                 print(f"W {sentence.id} {key} deprel should be advcl")
         elif 'mark:prt' in deprels[key]:
@@ -594,7 +596,12 @@ def check_clauses(sentence) -> (int, int):
     return errors, warnings
 
 def validate_corpus(corpus):
-    """Prints a number of errors and a number of warnings."""
+    """
+    Prints a number of errors and a number of warnings.
+    """
+    speech_lemmata = ["abair", "aidich", "bruidhinn", "cabadaich", "can", "èigh", "faighnich",
+                      "foighneach", "freagair", "inns"]
+
     total_errors = 0
     total_warnings = 0
 
@@ -618,12 +625,12 @@ def validate_corpus(corpus):
         total_errors += check_bi(tree)
         total_errors += check_cleft(tree)
         total_errors += check_csubj(tree)
-        total_errors += check_reported_speech(tree)
+        total_errors += check_reported_speech(tree, speech_lemmata)
         total_errors += check_multiples(tree)
         total_errors += check_passive(tree)
         total_errors += check_relatives(tree)
         total_errors += check_unmarked(tree)
-        errors, warnings = check_clauses(tree)
+        errors, warnings = check_clause_types(tree, speech_lemmata)
         total_errors += errors
         total_warnings += warnings
 
