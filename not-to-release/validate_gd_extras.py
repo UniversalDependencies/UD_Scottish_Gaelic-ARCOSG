@@ -133,17 +133,22 @@ def check_unmarked(sentence) -> int:
 
     Words linked to their heads by nmod or obl should be marked with a case deprel
     or have Case=Dat or Case=Gen.
+
+    https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/51
+    Added check for Promoted in the MISC column to waive the error when a sentence is incomplete.
+
     """
     errors = 0
     deprels_to_check = ["nmod", "obl", "obl:smod", "obl:tmod", "nmod:unmarked", "obl:unmarked"]
     case_heads = [w.head for w, _ in ud_words(sentence, lambda w: w.deprel == "case")]
-    obl_nmod_tails = {w.id: (w.deprel, w.feats) for w, _ in ud_words(sentence, lambda w: w.deprel in deprels_to_check)}
+    obl_nmod_tails = {w.id: (w.deprel, w.feats, w.misc) for w, _ in ud_words(sentence, lambda w: w.deprel in deprels_to_check)}
     for tail in obl_nmod_tails:
         deprel = obl_nmod_tails[tail][0]
+        misc = obl_nmod_tails[tail][2]
         if deprel in ["obl:smod", "obl:tmod"]:
             errors += 1
             print(f"E {sentence.id} {tail} {deprel}: this deprel is obsolete")
-        if tail not in case_heads:
+        if tail not in case_heads and "Promoted" not in misc:
             case_set = obl_nmod_tails[tail][1].get("Case", None)
             if deprel not in ["nmod:unmarked", "obl:unmarked"]:
                 if case_set is None:
@@ -291,7 +296,7 @@ def check_target_deprels(sentence) -> int:
     that case has a target that has an allowed deprel to its parent.
     There is an additional check for 'case' that the target of case is not a clefted expression.
 
-    Returns an integer number of errors
+    Returns an integer number of errors.
     """
     errors = 0
     target_ids = {}
@@ -333,6 +338,9 @@ def check_target_upos(sentence) -> int:
     """
     Checks that, for example, the part of speech of a node linked by amod is ADJ
     Returns an integer number of errors.
+
+    https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/51
+    Added check for Promoted in the MISC column to waive the error when a sentence is incomplete.
     """
     errors = 0
     targets = {
@@ -342,9 +350,10 @@ def check_target_upos(sentence) -> int:
         "obl": ["NOUN", "NUM", "PART", "PRON", "PROPN", "X"]
     }
     for word, _ in ud_words(sentence,\
-                             lambda t: t.deprel in targets and t.upos not in targets[t.deprel]):
-        errors += 1
-        print(f"E {sentence.id} {word.id} UPOS for {word.deprel} must be one of ({', '.join(targets[word.deprel])}) not {word.upos}")
+                             lambda w: w.deprel in targets and w.upos not in targets[w.deprel]):
+        if "Promoted" not in word.misc:
+            errors += 1
+            print(f"E {sentence.id} {word.id} UPOS for {word.deprel} must be one of ({', '.join(targets[word.deprel])}) not {word.upos}")
     return errors
 
 def ud_words(ud_sentence, condition = lambda x: True):

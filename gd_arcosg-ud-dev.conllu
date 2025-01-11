@@ -7967,7 +7967,7 @@
 19	dèidh	dèidh	ADP	Nf	_	18	fixed	_	_
 20	ionnsaigh	ionnsaigh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	22	obj	_	_
 21	a	a	PART	Ug	PartType=Inf	22	mark:prt	_	_
-22	thoirt	toir	NOUN	Nv	VerbForm=Inf	9	xcomp	_	_
+22	thoirt	toir	NOUN	Nv	VerbForm=Inf	9	advcl	_	_
 23-24	air	_	_	_	_	_	_	_	_
 23	air	air	ADP	Sp	_	24	case	_	_
 24	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obl	_	_
@@ -9070,7 +9070,7 @@
 45	's	is	AUX	Wp-i	Tense=Pres	46	cop	_	_
 46	dòcha	dòcha	NOUN	Uf	_	43	parataxis	_	_
 47	beagan	beagan	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	46	nsubj	_	_
-48	ris	ri	ADP	Sp	_	43	obl	_	_
+48	ris	ri	ADP	Sp	_	43	obl	_	Promoted=Yes
 
 # sent_id = p05_010a
 # speaker = [1]
@@ -9943,7 +9943,7 @@
 # text = Air Diardaoin, an 16mh Sultain, dh’fhalbh 35 duine à Leòdhas airson turas a Chonamàra, a cheann a deas na h-Èireann.
 1	Air	air	ADP	Sp	_	2	case	_	_
 2	Diardaoin	diardaoin	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
-3	,	,	PUNCT	Fi	_	6	punct	_	_
+3	,	,	PUNCT	Fi	_	2	punct	_	_
 4	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	flat	_	FlatType=Date
 5	16mh	16mh	NUM	Mo	NumForm=Digit|NumType=Ord	2	flat	_	FlatType=Date
 6	Sultain	sultain	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	FlatType=Date|SpaceAfter=No
@@ -13151,7 +13151,7 @@
 28	dh’Alba	Alba	PROPN	Nt	NounType=Top	26	nmod	_	_
 29	dìreach	dìreach	ADV	Rg	AdvType=Man	31	advmod	_	_
 30	timcheall	timcheall	ADJ	Ap	_	31	amod	_	_
-31	air	air	ADP	Sp	_	26	nmod	_	_
+31	air	air	ADP	Sp	_	26	nmod	_	Promoted=Yes
 
 # sent_id = s08_072
 # speaker = [1]

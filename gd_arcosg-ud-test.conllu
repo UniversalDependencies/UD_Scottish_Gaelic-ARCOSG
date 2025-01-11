@@ -562,7 +562,7 @@
 3	dol	rach	NOUN	Nv	VerbForm=Vnoun	1	xcomp:pred	_	_
 4-5	dhan	_	_	_	_	_	_	_	_
 4	do	do	ADP	Sp	_	5	case	_	_
-5	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	3	obl	_	_
+5	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	3	obl	_	Promoted=Yes
 
 # sent_id = c01_037
 # speaker = [1]
@@ -6345,7 +6345,7 @@
 22	a	a	DET	Dp3sm	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
 23	chas	cas	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	25	obj	_	_
 24	a	a	PART	Ug	PartType=Inf	25	mark:prt	_	_
-25	ghoirteachadh	goirtich	NOUN	Nv	VerbForm=Inf	10	xcomp	_	_
+25	ghoirteachadh	goirtich	NOUN	Nv	VerbForm=Inf	10	advcl	_	_
 
 # sent_id = ns05_003b
 # text = Bha Stephen Dix à Livingstone a' coiseachd air Beinn Liathach còmhla ris a bhean an uair a chuir e car na ghlùin.
@@ -9565,7 +9565,7 @@
 24	mheasgachadh	measgachadh	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
 25	de	de	ADP	Sp	_	26	case	_	_
 26	cheòl	ceòl	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
-27	,	,	PUNCT	Fi	_	24	punct	_	_
+27	,	,	PUNCT	Fi	_	26	punct	_	_
 28	de	de	ADP	Sp	_	29	case	_	_
 29	sheinn	seinn	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
 30	,	,	PUNCT	Fi	_	29	punct	_	_
@@ -9578,7 +9578,7 @@
 37	de	de	ADP	Sp	_	38	case	_	_
 38	dheasbaireachd	deasbaireachd	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	26	conj	_	_
 39	agus	agus	CCONJ	Cc	_	40	cc	_	_
-40	eile	eile	ADP	Nf	_	36	conj	_	_
+40	eile	eile	ADP	Nf	_	26	conj	_	_
 41	fad	fad	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	24	nmod:unmarked	_	_
 42	naoi	naoi	NUM	Mc	NumForm=Word|NumType=Card	43	nummod	_	_
 43	latha	latha	NOUN	Ncsmg	Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	_
@@ -9901,7 +9901,7 @@
 21	a’	ag	PART	Sa	_	22	case	_	_
 22	tighinn	thig	NOUN	Nv	VerbForm=Vnoun	4	xcomp	_	_
 23	còmhladh	còmhladh	ADV	Rg	AdvType=Man	22	advmod	_	SpaceAfter=No
-24	,	,	PUNCT	Fi	_	22	punct	_	_
+24	,	,	PUNCT	Fi	_	25	punct	_	_
 25	cuid	cuid	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	23	advcl	_	_
 26	a’	ag	PART	Sa	_	27	case	_	_
 27	moladh	mol	NOUN	Nv	VerbForm=Vnoun	25	xcomp:pred	_	_
@@ -12853,10 +12853,10 @@
 3	ag	ag	PART	Sa	_	5	case	_	_
 4	a	a	PRON	Dp3sf	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	obj	_	_
 5	toirt	toir	NOUN	Nv	VerbForm=Inf	1	xcomp:pred	_	_
-6	gu	gu	ADP	Sp	_	5	obl	_	_
+6	gu	gu	ADP	Sp	_	5	obl	_	Promoted=Yes
 
 # sent_id = s06_069
-# speaker = [1]
+# speaker = [1]x
 # text = fhuair e air ais i ge-tà
 1	fhuair	faigh	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
