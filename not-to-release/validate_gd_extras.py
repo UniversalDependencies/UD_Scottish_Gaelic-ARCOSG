@@ -137,16 +137,22 @@ def check_unmarked(sentence) -> int:
     errors = 0
     deprels_to_check = ["nmod", "obl", "obl:smod", "obl:tmod", "nmod:unmarked", "obl:unmarked"]
     case_heads = [w.head for w, _ in ud_words(sentence, lambda w: w.deprel == "case")]
-    obl_nmod_tails = {w.id: (w.deprel, w.feats) for w, _ in ud_words(sentence, lambda w:  w.deprel in deprels_to_check)}
+    obl_nmod_tails = {w.id: (w.deprel, w.feats) for w, _ in ud_words(sentence, lambda w: w.deprel in deprels_to_check)}
     for tail in obl_nmod_tails:
-        if obl_nmod_tails[tail][0] in ["obl:smod", "obl:tmod"]:
+        deprel = obl_nmod_tails[tail][0]
+        if deprel in ["obl:smod", "obl:tmod"]:
             errors += 1
-            print(f"E {sentence.id} {tail} {obl_nmod_tails[tail][0]}: this deprel is obsolete")
+            print(f"E {sentence.id} {tail} {deprel}: this deprel is obsolete")
         if tail not in case_heads:
-            if obl_nmod_tails[tail][1].get("Case", None) is None and obl_nmod_tails[tail][0] not in ["nmod:unmarked", "obl:unmarked"]:
-                errors += 1
-                print(f"E {sentence.id} {tail} UNMARKED and no Case in FEATS {obl_nmod_tails[tail]}")
-        elif obl_nmod_tails[tail][0] in ["nmod:unmarked", "obl:unmarked"]:
+            case_set = obl_nmod_tails[tail][1].get("Case", None)
+            if deprel not in ["nmod:unmarked", "obl:unmarked"]:
+                if case_set is None:
+                    errors += 1
+                    print(f"E {sentence.id} {tail} UNMARKED and no Case in FEATS {obl_nmod_tails[tail]}")
+                elif "Nom" in case_set:
+                    errors += 1
+                    print(f"E {sentence.id} {tail} UNMARKED and Case=Nom")
+        elif deprel in ["nmod:unmarked", "obl:unmarked"]:
             errors += 1
             print(f"E {sentence.id} {tail} MARKED nmod/obl should not be tagged unmarked")
     return errors
