@@ -350,7 +350,8 @@ def check_target_upos(sentence) -> int:
     for word, _ in ud_words(sentence,\
                              lambda w: w.deprel in targets and w.upos not in targets[w.deprel]):
         if "Promoted" not in word.misc:
-            if word.feats.get("ExtPos") & set(targets[word.deprel]) is None:
+            extpos = word.feats.get("ExtPos")
+            if extpos is None or (extpos & set(targets[word.deprel]) is None):
                 errors += 1
                 print(f"E {sentence.id} {word.id} UPOS for {word.deprel} must be one of ({', '.join(targets[word.deprel])}) not {word.upos}")
     return errors

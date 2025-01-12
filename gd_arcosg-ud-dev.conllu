@@ -2353,7 +2353,7 @@
 6	is	is	CCONJ	Cc	_	7	cc	_	_
 7	pùdar	pùdar	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
 8	mar	mar	ADP	Sp	_	9	case	_	_
-9	cheò	ceò	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	cheò	ceò	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 10	,	,	PUNCT	Fi	_	11	punct	_	_
 11	rud	rud	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
 12	beag	beag	ADJ	Aq-smn	Case=Nom|Gender=Masc|Number=Sing	11	amod	_	_
@@ -4894,7 +4894,7 @@
 29	cliù	cliù	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	26	nmod:unmarked	_	_
 30	ann	an	ADP	Sp	ExtPos=ADP	32	case	_	_
 31	an	an	ADP	Sp	_	30	fixed	_	_
-32	litreachas	litreachas	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	_
+32	litreachas	litreachas	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	29	nmod	_	_
 33	nan	an	DET	Tdpmg	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
 34	Gàidheal	gàidheal	NOUN	Ncpmg	Case=Gen|Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
 35	;	;	PUNCT	Fi	_	36	punct	_	_
@@ -4965,7 +4965,7 @@
 9	-	-	PUNCT	Fb	_	11	punct	_	_
 10	na	an	DET	Tdpm	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	h-eachdraichean	eachdraiche	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	8	appos	_	)=null
-12	shuas	suas	ADV	Rs	AdvType=Loc	6	advmod	_	SpaceAfter=No
+12	shuas	suas	ADV	Rs	AdvType=Loc	11	advmod	_	SpaceAfter=No
 13	,	,	PUNCT	Fi	_	12	punct	_	_
 14	mar	mar	ADP	Sp	_	15	case	_	_
 15	eisimpleir	eisimpleir	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
@@ -5283,7 +5283,7 @@
 13	bha	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
 14	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 15	a'	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	latha	latha	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	13	xcomp:pred	_	_
+16	latha	latha	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	13	obl:unmarked	_	OblType=Tim
 17	a	a	PART	Q-r	PartType=Vb|PronType=Rel	18	nsubj	_	_
 18	bh'	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
 19	ann	ann	ADV	Rs	AdvType=Loc|ExtPos=ADV	18	advmod	_	_
@@ -8636,7 +8636,7 @@
 33	ceithir	ceithir	NUM	Mc	NumForm=Word|NumType=Card	34	nummod	_	_
 34	fichead	fichead	NUM	Mc	NumForm=Word|NumType=Card	31	conj	_	_
 35	's	's	CCONJ	Cc	_	37	cc	_	_
-36	a	a	PART	Uo	PartType=Num	38	mark:prt	_	_
+36	a	a	PART	Uo	PartType=Num	37	mark:prt	_	_
 37	deich	deich	NUM	Mc	NumForm=Word|NumType=Card	31	conj	_	_
 38	sin	sin	PRON	Pd	PronType=Dem	31	parataxis	_	_
 39-40	agad	_	_	_	_	_	_	_	_
@@ -8670,7 +8670,7 @@
 66	fhaisg	faisg	ADJ	Ap	_	60	xcomp:pred	_	_
 67	air	air	ADP	Sp	_	69	case	_	_
 68	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	69	det	_	_
-69	àm	àm	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	60	obl	_	_
+69	àm	àm	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	66	obl	_	_
 70	sin	sin	DET	Dd	PronType=Art	69	det	_	_
 
 # sent_id = p05_004
@@ -8775,12 +8775,12 @@
 4	fhichead	fichead	NUM	Mc	NumForm=Word|NumType=Card	5	nummod	_	_
 5	nòt	nòt	NOUN	Ncsmn	Case=Nom|CleftType=Nom|Gender=Masc|Number=Sing	0	root	_	_
 6	's	's	CCONJ	Cc	_	8	cc	_	_
-7	trì	trì	NUM	Mc	NumForm=Word|NumType=Card	9	nummod	_	_
+7	trì	trì	NUM	Mc	NumForm=Word|NumType=Card	8	nummod	_	_
 8	deug	deug	NUM	Mc	NumForm=Word|NumType=Card	5	conj	_	_
 9	fifty	fifty	NUM	Xfe	Foreign=Yes|NumForm=Word|NumType=Card	11	nummod	_	_
 10	three	three	NUM	Xfe	Foreign=Yes|NumForm=Word|NumType=Card	11	nummod	_	_
 11	pounds	pounds	NOUN	Xfe	Foreign=Yes	5	appos	_	_
-12	sin	sin	PRON	Pd	PronType=Dem	5	parataxis	_	_
+12	sin	sin	PRON	Pd	PronType=Dem	8	parataxis	_	_
 13-14	agad	_	_	_	_	_	_	_	_
 13	aig	aig	ADP	Sp	_	14	case	_	_
 14	thu	thu	PRON	Pp2s	Number=Sing|Person=2|PronType=Prs	12	nmod	_	_
@@ -8885,8 +8885,8 @@
 30	Cheann	Ceann	PROPN	Nt	Case=Gen|NounType=Top	29	nmod	_	_
 31	a'	a'	PROPN	Nt	NounType=Top	30	flat:name	_	FlatType=Top
 32	Bhàigh	Bàigh	PROPN	Nt	NounType=Top	30	flat:name	_	FlatType=Top
-33	fear	fear	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	29	appos	_	_
-34	Mr.	Mr.	NOUN	Y	Abbr=Yes	33	appos	_	_
+33	fear	fear	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	34	nmod:unmarked	_	_
+34	Mr.	Mr.	NOUN	Y	Abbr=Yes	29	appos	_	_
 35	Rose	Rose	PROPN	Nn	_	34	flat:name	_	_
 
 # sent_id = p05_007b
@@ -8905,8 +8905,8 @@
 10	Ceann	Ceann	PROPN	Nt	NounType=Top	7	xcomp:pred	_	_
 11	a'	a'	PROPN	Nt	NounType=Top	10	flat:name	_	FlatType=Top
 12	Bhàigh	Bàigh	PROPN	Nt	NounType=Top	10	flat:name	_	FlatType=Top
-13	Lovat	Lovat	PROPN	Nn	_	5	appos	_	_
-14	Scouts	scouts	NOUN	Xfe	_	13	flat	_	FlatType=Borrow
+13	Lovat	Lovat	PROPN	Nn	_	10	flat:name	_	_
+14	Scouts	scouts	PROPN	Nn	_	10	flat:name	_	FlatType=Borrow
 15	troimh	troimh	ADP	Sp	_	16	case	_	_
 16	Sergeant	sergeant	NOUN	Xfe	Foreign=Yes	7	obl	_	_
 17	MacDugall	MacDugall	PROPN	Nn	_	16	flat:name	_	_
@@ -10243,7 +10243,7 @@
 37	mu	mu	ADP	Sp	_	39	case	_	_
 38	fhichead	fichead	NUM	Mc	NumForm=Word|NumType=Card	39	nummod	_	_
 39	mìle	mìle	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	35	nmod	_	_
-40	air	air	ADV	Rs	AdvType=Loc|ExtPos=ADV	35	advmod	_	_
+40	air	air	ADV	Rs	AdvType=Loc|ExtPos=ADV	39	advmod	_	_
 41	falbh	falbh	ADV	Rs	AdvType=Loc	40	fixed	_	_
 42	à	à	ADP	Sp	_	43	case	_	_
 43	Conamàra	Conamàra	PROPN	Nt	NounType=Top	39	nmod	_	SpaceAfter=No

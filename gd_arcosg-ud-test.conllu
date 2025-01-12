@@ -2564,7 +2564,7 @@
 # text = Bha Oighrig Mhór, a’ chailleach, air fàs lapach 's cha b' urrainn dhi ceangal no togail a dhèanamh; agus cha robh Eóghainn, an gille, ach beagan is deich fhathast, ged a bha e dìcheallach gu leòr.
 1	Bha	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	Oighrig	Oighrig	PROPN	Nn-fn	Case=Nom|Gender=Fem	1	nsubj	_	_
-3	Mhór	mór	ADJ	Aq-sfn	Case=Nom|Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+3	Mhór	mór	ADJ	Aq-sfn	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	Fi	_	6	punct	_	_
 5	a’	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	chailleach	cailleach	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No
@@ -3807,7 +3807,7 @@
 9	Có	có	PRON	Uq	PronType=Int	1	parataxis	_	_
 10	'	'	PUNCT	Fq	_	12	punct	_	SpaceAfter=No
 11	aon	aon	NUM	Mc	NumForm=Word|NumType=Card	12	nummod	_	_
-12	mhac	mac	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_
+12	mhac	mac	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 13	Sir	sir	PROPN	Xfe	Foreign=Yes	12	nmod:unmarked	_	_
 14	Lachun	Lachun	PROPN	Nn-mn	Case=Nom|Gender=Masc	13	flat:name	_	SpaceAfter=No
 15	'	'	PUNCT	Fz	_	12	punct	_	SpaceAfter=No
@@ -7932,7 +7932,7 @@
 7	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	cloinne	clann	NOUN	Ncsfg	Case=Gen|Gender=Fem|Number=Sing	5	conj	_	_
 9	Peadar	Peadar	PROPN	Nn-mn	Case=Nom|Gender=Masc	3	appos	_	_
-10	Peacock	Peacock	PROPN	Nn	_	8	flat:name	_	_
+10	Peacock	Peacock	PROPN	Nn	_	9	flat:name	_	_
 11	deich	deich	NUM	Mc	NumForm=Word|NumType=Card	14	nummod	_	_
 12	thar	thar	ADP	Sp	_	13	case	_	_
 13	fhichead	fichead	NUM	Mc	NumForm=Word|NumType=Card	11	nmod	_	_
@@ -8272,7 +8272,7 @@
 21	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	deireadh	deireadh	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	_
 23	na	an	DET	Tdpm	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
-24	daoine	duine	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	18	appos	_	_
+24	daoine	duine	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	18	conj	_	_
 25	beaga	beag	ADJ	Aq-pmn	Case=Nom|Gender=Masc|Number=Plur	24	amod	_	_
 26	aig	aig	ADP	Sp	_	28	case	_	_
 27	an	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
@@ -10045,7 +10045,7 @@
 21	NicAsgaill	NicAsgaill	PROPN	Nn	_	20	flat:name	_	SpaceAfter=No
 22	.	.	PUNCT	Fe	_	7	punct	_	_
 
-# comment = node 38 changed to Nv
+# revision = node 38 changed to Nv
 # sent_id = pw02_013
 # text = Chaidh àite sònraichte a thaghadh, am Birgidale Complex, far am bi buidheann de sheann daoine a’ cruinneachadh aig àm dìnneireach, agus a dh’aona-ghnothaich, air son gum biodh diofar aoisean an làthair, chaidh cuireadh gu bun-sgoil ionadail cuideachd.
 1	Chaidh	rach	AUX	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
@@ -10060,7 +10060,7 @@
 10	,	,	PUNCT	Fi	_	13	punct	_	_
 11	far	far	SCONJ	Cs	_	13	mark	_	_
 12	am	am	PART	Qq	PartType=Vb|PronType=Int	13	mark:prt	_	_
-13	bi	bi	VERB	V-f--d	Mood=Ind|Tense=Fut|VerbForm=Fin	2	advcl	_	_
+13	bi	bi	VERB	V-f--d	Mood=Ind|Tense=Fut|VerbForm=Fin	8	advcl	_	_
 14	buidheann	buidheann	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 15	de	de	ADP	Sp	_	17	case	_	_
 16	sheann	seann	ADJ	Ar	_	17	amod	_	_
@@ -11489,10 +11489,10 @@
 5	air	air	ADP	Sp	_	6	case	_	_
 6	ais	ais	NOUN	Nf	_	4	obl	_	_
 7-8	dhan	_	_	_	_	_	_	_	_
-7	do	do	ADP	Sp	_	9	case	_	_
+7	do	do	ADP	Sp	_	10	case	_	_
 8	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
-9	fhear-glèidhidh	fear-glèidhidh	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
-10	Etgovitch	Etgovitch	PROPN	Nn	_	9	appos	_	_
+9	fhear-glèidhidh	fear-glèidhidh	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	10	nmod:unmarked	_	_
+10	Etgovitch	Etgovitch	PROPN	Nn	_	4	obl	_	_
 
 # sent_id = s06_007
 # speaker = [1]
