@@ -552,7 +552,7 @@
 3	thall	thall	ADV	Rs	AdvType=Loc	5	advmod	_	_
 4	aig	aig	ADP	Sp	_	5	case	_	_
 5	[Name]	[Name]	PROPN	Nn	_	1	xcomp:pred	_	Anonymised=Yes
-6	Beag	beag	ADJ	Aq-smd	Case=Dat|Gender=Masc|Number=Sing	5	flat:name	_	_
+6	Beag	beag	ADJ	Aq-smd	Case=Dat|Gender=Masc|Number=Sing	5	amod	_	_
 
 # sent_id = c01_036b
 # speaker = [3]
@@ -3341,7 +3341,7 @@
 18	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	_
 19	MacGill-Eain	MacGill-Eain	PROPN	Nn	_	18	nsubj	_	_
 20	Mac	Mac	PART	Up	PartType=Pat	19	flat:name	_	_
-21	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	flat:name	_	_
+21	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Ceàrdaich	Ceàrdaich	PROPN	Nn	_	19	flat:name	_	SpaceAfter=No
 23	,	,	PUNCT	Fi	_	26	punct	_	_
 24-25	'na	_	_	_	_	_	_	_	_
@@ -3402,7 +3402,7 @@
 # text = Tha Mac na Ceàrdaich cinnteach gum b' i.
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	Mac	Mac	PART	Up	PartType=Pat	1	nsubj	_	_
-3	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	flat:name	_	_
+3	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Ceàrdaich	Ceàrdaich	PROPN	Nn	_	2	flat:name	_	_
 5	cinnteach	cinnteach	ADJ	Ap	_	1	xcomp:pred	_	_
 6	gum	gu	PART	Qa	PartType=Cmpl	8	mark:prt	_	_
@@ -3415,7 +3415,7 @@
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	Pàdraig	Pàdraig	PROPN	Nn-mn	Case=Nom|Gender=Masc	1	nsubj	_	_
 3	Mac	Mac	PART	Up	PartType=Pat	2	flat:name	_	_
-4	an	an	DET	Tdsmg	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	flat:name	_	_
+4	an	an	DET	Tdsmg	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Tuairneir	Tuairneir	PROPN	Nn	_	2	flat:name	_	_
 6	de	de	ADP	Sp	_	9	case	_	_
 7	'n	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -3429,13 +3429,13 @@
 15	nach	nach	PART	Qn	PartType=Cmpl|Polarity=Neg	16	mark:prt	_	_
 16	robh	bi	VERB	V-s--d	Mood=Ind|Tense=Past|VerbForm=Fin	14	ccomp	_	_
 17	Mac	Mac	PART	Up	PartType=Pat	16	nsubj	_	_
-18	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	flat:name	_	_
+18	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Ceàrdaich	Ceàrdaich	PROPN	Nn	_	17	flat:name	_	_
 20	ag	ag	PART	Sa	_	21	case	_	_
 21	aithris	aithris	NOUN	Nv	VerbForm=Vnoun	16	xcomp:pred	_	_
 22	air	air	ADP	Sp	_	23	case	_	_
 23	Mac	Mac	PART	Up	PartType=Pat	21	obl	_	_
-24	an	an	DET	Tsdmg	Case=Gen|Definite=Def|Gender=Masc|Number=Dual|PronType=Art	23	flat:name	_	_
+24	an	an	DET	Tsdmg	Case=Gen|Definite=Def|Gender=Masc|Number=Dual|PronType=Art	25	det	_	_
 25	Tuairneir	Tuairneir	PROPN	Nn	_	23	flat:name	_	_
 26	a-mhàin	a-mhàin	ADV	Rg	AdvType=Man	21	advmod	_	_
 27	oir	oir	CCONJ	Cc	_	28	cc	_	_
@@ -3455,7 +3455,7 @@
 3	,	,	PUNCT	Fi	_	4	punct	_	_
 4	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	Mac	Mac	PART	Up	PartType=Pat	4	nsubj	_	_
-6	an	an	DET	Tsdmg	Case=Gen|Definite=Def|Gender=Masc|Number=Dual|PronType=Art	5	flat:name	_	_
+6	an	an	DET	Tsdmg	Case=Gen|Definite=Def|Gender=Masc|Number=Dual|PronType=Art	7	det	_	_
 7	Tuairneir	Tuairneir	PROPN	Nn	_	5	flat:name	_	_
 8	a'	ag	PART	Sa	_	9	case	_	_
 9	tòiseachadh	tòisich	NOUN	Nv	VerbForm=Vnoun	4	xcomp:pred	_	_
@@ -3533,11 +3533,11 @@
 79	ma	ma	SCONJ	Cs	_	80	mark	_	_
 80	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	101	advcl	_	_
 81	Mac	Mac	PART	Up	PartType=Pat	80	nsubj	_	_
-82	an	an	DET	Tsdmg	Case=Gen|Definite=Def|Gender=Masc|Number=Dual|PronType=Art	81	flat:name	_	_
+82	an	an	DET	Tsdmg	Case=Gen|Definite=Def|Gender=Masc|Number=Dual|PronType=Art	83	det	_	_
 83	Tuairneir	Tuairneir	PROPN	Nn	_	81	flat:name	_	_
 84	agus	agus	CCONJ	Cc	_	85	cc	_	_
 85	Mac	Mac	PART	Up	PartType=Pat	81	conj	_	_
-86	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	85	flat:name	_	_
+86	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	87	det	_	_
 87	Ceàrdaich	Ceàrdaich	PROPN	Nn	_	85	flat:name	_	_
 88	ceart	ceart	ADJ	Ap	_	80	xcomp:pred	_	_
 89	ann	an	ADP	Sp	_	91	case	_	_
@@ -3632,7 +3632,7 @@
 10	,	,	PUNCT	Fi	_	11	punct	_	_
 11	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	Mac	Mac	PART	Up	PartType=Pat	11	nsubj	_	_
-13	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	flat:name	_	_
+13	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Ceàrdaich	Ceàrdaich	PROPN	Nn	_	12	flat:name	_	_
 15	ag	ag	PART	Sa	_	16	case	_	_
 16	ràdh	abair	NOUN	Nv	VerbForm=Vnoun	11	xcomp:pred	_	_
@@ -3910,7 +3910,7 @@
 5	'	'	PUNCT	Fz	_	4	punct	_	_
 6	aig	aig	ADP	Sp	_	7	case	_	_
 7	Mac	Mac	PART	Up	PartType=Pat	4	nmod	_	_
-8	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	flat:name	_	_
+8	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Ceàrdaich	Ceàrdaich	PROPN	Nn	_	7	flat:name	_	_
 10	mar	mar	ADP	Sp	_	11	case	_	_
 11	seo	seo	PRON	Pd	PronType=Dem	1	xcomp:pred	_	SpaceAfter=No
@@ -3921,7 +3921,7 @@
 16	nach	nach	PART	Qn	PartType=Cmpl|Polarity=Neg	17	mark:prt	_	_
 17	eil	bi	VERB	V-p--d	Mood=Ind|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
 18	Mac	Mac	PART	Up	PartType=Pat	17	nsubj	_	_
-19	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	flat:name	_	_
+19	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	Ceàrdaich	Ceàrdaich	PROPN	Nn	_	18	flat:name	_	_
 21	ceart	ceart	ADJ	Ap	_	17	xcomp:pred	_	_
 22	anns	an	ADP	Sp	_	24	case	_	_
@@ -4338,7 +4338,7 @@
 7	nach	nach	PART	Qn	PartType=Cmpl|Polarity=Neg	8	obl:unmarked	_	_
 8	tug	toir	VERB	V-s--d	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl	_	_
 9	Mac	Mac	PART	Up	PartType=Pat	8	nsubj	_	_
-10	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	flat:name	_	_
+10	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Ceàrdaich	Ceàrdaich	PROPN	Nn	Case=Gen	9	flat:name	_	_
 12	an	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	aire	aire	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
@@ -4604,7 +4604,7 @@
 11	air	air	ADP	Sp	_	12	case	_	_
 12	Diorbhail	Diorbhail	PROPN	Nn-fd	Case=Dat|Gender=Fem	10	obl	_	_
 13	Nic	Nic	PART	Up	PartType=Pat	12	flat:name	_	_
-14	a'	an	DET	Tdsmg	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	flat:name	_	_
+14	a'	an	DET	Tdsmg	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Bhriuthainn	Briuthainn	PROPN	Nn	_	12	flat:name	_	SpaceAfter=No
 16	,	,	PUNCT	Fi	_	19	punct	_	_
 17	mu	mu	ADP	Sp	_	19	case	_	_
@@ -7026,10 +7026,10 @@
 # text = Chaidh an t-Athair Urramach Daibhidh Brown a dhìteadh air dà chasaid drabastachd agus dà chasaid gun bhris e an t-sìth.
 1	Chaidh	rach	AUX	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
 2	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	t-Athair	athair	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
-4	Urramach	urramach	ADJ	Aq-smn	Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_
-5	Daibhidh	Daibhidh	PROPN	Nn-mn	Case=Nom|Gender=Masc	3	flat:name	_	_
-6	Brown	Brown	PROPN	Nn	_	3	flat:name	_	_
+3	t-Athair	athair	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	5	nmod:unmarked	_	_
+4	Urramach	urramach	ADJ	Aq-smn	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+5	Daibhidh	Daibhidh	PROPN	Nn-mn	Case=Nom|Gender=Masc	8	nsubj:pass	_	_
+6	Brown	Brown	PROPN	Nn	_	5	flat:name	_	_
 7	a	a	PART	Ug	PartType=Inf	8	mark:prt	_	_
 8	dhìteadh	dìt	NOUN	Nv	VerbForm=Inf	0	root	_	_
 9	air	air	ADP	Sp	_	11	case	_	_
@@ -7122,7 +7122,7 @@
 5	h-Alba	Alba	PROPN	Nt	Case=Gen|NounType=Top	2	nmod	_	_
 6	Sam	Sam	PROPN	Nn-mn	Case=Nom|Gender=Masc	2	appos	_	_
 7	Mac	Mac	PART	Up	PartType=Pat	6	flat:name	_	_
-8	a'	an	DET	Tdsmg	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	flat:name	_	_
+8	a'	an	DET	Tdsmg	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Bhreatannaich	Breatannach	PROPN	Nn	_	6	flat:name	_	_
 10	ag	ag	PART	Sa	_	11	case	_	_
 11	ràdha	abair	NOUN	Nv	VerbForm=Vnoun	1	xcomp:pred	_	_

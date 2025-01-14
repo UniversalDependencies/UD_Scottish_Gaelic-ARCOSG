@@ -127,6 +127,17 @@ def check_others(sentence) -> int:
             print(f"?E {sentence.id} {word.id} should be flat:name or flat:foreign, or FlatType should be specified")
     return errors
 
+def check_toponyms(sentence) -> int:
+    """
+    https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/52
+    """
+    errors = 0
+    surfaces = ["an", "a'", "na" ,"nan", "nam", "ear", "tuath", "deas", "iar"]
+    for word, _ in ud_words(sentence, lambda w: w.deprel == "flat:name"):
+        if word.form.tolower() in surfaces:
+            print(f"E {sentence.id} {word.id} deprel should reflect the grammar")
+    return errors
+
 def check_unmarked(sentence) -> int:
     """
     https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/45
@@ -287,7 +298,7 @@ def check_reported_speech(sentence, speech_lemmata) -> int:
                 print(f"E {sentence.id} {parataxis[0]} deprel should be ccomp")
     return errors
 
-def check_target_deprels(sentence) -> int:
+def check_leaf_deprel(sentence) -> int:
     """
     Currently checks two deprels:
     that cc connects a conjunction to a node that is linked to its parent by conj.
@@ -337,15 +348,21 @@ def check_target_upos(sentence) -> int:
     Checks that, for example, the part of speech of a node linked by amod is ADJ
     Returns an integer number of errors.
 
+    https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/45
+    Added more checks for nmod:unmarked, obl:unmarked and removed ADJ and DET from 
+
     https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/51
     Added check for Promoted in the MISC column to waive the error when a sentence is incomplete.
     """
     errors = 0
     targets = {
         "amod": ["ADJ"],
-        "flat:name": ["ADJ", "DET", "NUM", "PART", "PROPN"],
+        "flat:name": ["NUM", "PART", "PROPN"],
         "nmod": ["NOUN", "NUM", "PART", "PRON", "PROPN", "X"],
-        "obl": ["NOUN", "NUM", "PART", "PRON", "PROPN", "X"]
+        "nmod:poss": ["DET", "PRON"],
+        "nmod:unmarked": ["NOUN", "NUM", "PART", "PRON", "PROPN", "X"],
+        "obl": ["NOUN", "NUM", "PART", "PRON", "PROPN", "X"],
+        "obl:unmarked": ["NOUN", "NUM", "PART", "PRON", "PROPN", "X"]
     }
     for word, _ in ud_words(sentence,\
                              lambda w: w.deprel in targets and w.upos not in targets[w.deprel]):
@@ -368,7 +385,12 @@ def ud_words(ud_sentence, condition = lambda x: True):
         prev_word = word
 
 def check_relatives(sentence) -> int:
-    """Checks the possibilities for relative particles"""
+    """
+    Checks the deprel for relative particles.
+
+    Where they are acting pronominally they should have the deprel that reflects its use
+    in the sentence, say `nsubj` when it is acting as a subject.
+    """
     errors = 0
     heads = {}
     for word, prev_word in ud_words(sentence,\
@@ -378,7 +400,7 @@ def check_relatives(sentence) -> int:
         if prev_word is not None:
             if prev_word.upos == "ADP":
                 errors += 1
-                print(f"E {message_stub} should be obl, nmod or xcomp:pred")
+                print(f"E {message_stub} should be obl:unmarked, nmod:unmarked or xcomp:pred")
             elif prev_word.lemma in ["carson", "ciamar", "cuin'"]:
                 errors += 1
                 print(f"E {message_stub} should be advmod or xcomp:pred")
@@ -621,7 +643,7 @@ def validate_corpus(corpus):
         total_errors += errors
         total_warnings += warnings
         total_errors += check_heads_for_upos(tree)
-        total_errors += check_target_deprels(tree)
+        total_errors += check_leaf_deprel(tree)
         total_errors += check_target_upos(tree)
         total_errors += check_bi(tree)
         total_errors += check_cleft(tree)
