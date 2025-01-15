@@ -71,6 +71,10 @@ with open(sys.argv[2],'w') as clean:
                 https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/39
                 """
                 word.feats.pop("CleftType", None)
+            if (word.xpos.startswith("Nn") or word.xpos in ["Mr", "Up", "Xfe", "Y"]) and word.deprel == "flat:name":
+                word.misc["FlatType"] = ["Name"]
+            if word.deprel == "flat:foreign":
+                word.misc["FlatType"] = ["Foreign"]
             if word.xpos == "Nt":
                 """
                 https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/40

@@ -441,7 +441,7 @@
 1	dè	dè	PRON	Uq	PronType=Int	0	root	_	_
 2	thuirt	abair	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
 3	Mrs	Mrs	NOUN	Y	Abbr=Yes	2	nsubj	_	_
-4	[Name]	[Name]	PROPN	Nn	_	3	flat:name	_	Anonymised=Yes
+4	[Name]	[Name]	PROPN	Nn	_	3	flat:name	_	Anonymised=Yes|FlatType=Name
 5-6	riut	_	_	_	_	_	_	_	_
 5	ri	ri	ADP	Sp	_	6	case	_	_
 6	thu	thu	PRON	Pp2s	Number=Sing|Person=2|PronType=Prs	2	obl	_	_
@@ -849,7 +849,7 @@
 # text = dh’fhàg Mr [Name] na sheets aig an taigh
 1	dh’fhàg	fàg	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	Mr	Mr	NOUN	Y	Abbr=Yes	1	nsubj	_	_
-3	[Name]	[Name]	PROPN	Nn	_	2	flat:name	_	Anonymised=Yes
+3	[Name]	[Name]	PROPN	Nn	_	2	flat:name	_	Anonymised=Yes|FlatType=Name
 4	na	an	DET	Tdp	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	sheets	sheets	X	Xfe	Foreign=Yes	1	obj	_	_
 6	aig	aig	ADP	Sp	_	8	case	_	_
@@ -1087,14 +1087,14 @@
 5	gur	is	AUX	Wpdia	ExtPos=AUX|Polarity=Aff|Tense=Pres	7	cop	_	_
 6	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	fixed	_	_
 7	[Name]	[Name]	PROPN	Nn-fn	Case=Nom|Gender=Fem	12	reparandum	_	Anonymised=Yes
-8	[Name]	[Name]	PROPN	Nn	_	7	flat:name	_	Anonymised=Yes
+8	[Name]	[Name]	PROPN	Nn	_	7	flat:name	_	Anonymised=Yes|FlatType=Name
 9	gur	is	AUX	Wpdia	ExtPos=AUX|Polarity=Aff|Tense=Pres	12	cop	_	_
 10	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	fixed	_	_
 11	a	a	DET	Dp3sf	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
 12	h-uncle	uncle	NOUN	Xfe	_	4	ccomp	_	OrigLang=en
 13	[Name]	[Name]	PROPN	Nn-mn	Case=Nom|Gender=Masc	12	appos	_	Anonymised=Yes
-14	[Name]	[Name]	PROPN	Nn	_	13	flat:name	_	Anonymised=Yes
-15	[Name]	[Name]	PROPN	Nn	_	13	flat:name	_	Anonymised=Yes
+14	[Name]	[Name]	PROPN	Nn	_	13	flat:name	_	Anonymised=Yes|FlatType=Name
+15	[Name]	[Name]	PROPN	Nn	_	13	flat:name	_	Anonymised=Yes|FlatType=Name
 
 # sent_id = c03_086b
 # speaker = [1]
@@ -1225,7 +1225,7 @@
 8	uncle	uncle	NOUN	Xfe	Foreign=Yes	1	ccomp	_	_
 9	do	do	ADP	Sp	_	10	case	_	_
 10	[Name]	[Name]	PROPN	Nn-fd	Case=Dat|Gender=Fem	1	obl	_	Anonymised=Yes
-11	[Name]	[Name]	PROPN	Nn	_	10	flat:name	_	Anonymised=Yes
+11	[Name]	[Name]	PROPN	Nn	_	10	flat:name	_	Anonymised=Yes|FlatType=Name
 
 # sent_id = c03_094b
 # speaker = [1]
@@ -1233,7 +1233,7 @@
 1	an	is	AUX	Wpdqa	ExtPos=AUX|Mood=Int|Polarity=Aff|Tense=Pres	3	cop	_	_
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	fixed	_	_
 3	[Name]	[Name]	PROPN	Nn	CleftType=Nom	0	root	_	Anonymised=Yes
-4	[Name]	[Name]	PROPN	Nn	_	3	flat:name	_	Anonymised=Yes
+4	[Name]	[Name]	PROPN	Nn	_	3	flat:name	_	Anonymised=Yes|FlatType=Name
 5	a	a	PART	Q-r	PartType=Vb|PronType=Rel	6	nsubj	_	_
 6	th’	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	3	csubj:cleft	_	_
 7-8	aice	_	_	_	_	_	_	_	SpaceAfter=No
@@ -1498,7 +1498,7 @@
 6	riamh	riamh	ADV	Rt	AdvType=Tim	3	advmod	_	_
 7	le	le	ADP	Sp	_	8	case	_	_
 8	Joan	Joan	PROPN	Nn-fd	Case=Dat|Gender=Fem	5	nmod	_	_
-9	Aitken	Aitken	PROPN	Nn	_	8	flat:name	_	_
+9	Aitken	Aitken	PROPN	Nn	_	8	flat:name	_	FlatType=Name
 10	[Name]	[Name]	PROPN	Nn-fv	Case=Voc|Gender=Fem	3	vocative	_	Anonymised=Yes|SpaceAfter=No
 11	?	?	PUNCT	Fg	_	3	punct	_	_
 
@@ -1523,8 +1523,8 @@
 1	leugh	leugh	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	mi	mi	PRON	Pp1s	Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
 3	The	the	PROPN	Xfe	Foreign=Yes	2	obj	_	_
-4	Kitchen	kitchen	PROPN	Xfe	Foreign=Yes	3	flat:name	_	_
-5	Warrior	warrior	PROPN	Xfe	Foreign=Yes	3	flat:name	_	_
+4	Kitchen	kitchen	PROPN	Xfe	Foreign=Yes	3	flat:name	_	FlatType=Name
+5	Warrior	warrior	PROPN	Xfe	Foreign=Yes	3	flat:name	_	FlatType=Name
 
 # sent_id = c03_116
 # speaker = [3]
@@ -1533,7 +1533,7 @@
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	fixed	_	_
 3	sin	sin	PRON	Pd	PronType=Dem	0	root	_	_
 4	Joan	Joan	PROPN	Nn-fn	Case=Nom|Gender=Fem	3	nsubj	_	_
-5	Aitken	Aitken	PROPN	Nn	_	4	flat:name	_	SpaceAfter=No
+5	Aitken	Aitken	PROPN	Nn	_	4	flat:name	_	FlatType=Name|SpaceAfter=No
 6	?	?	PUNCT	Fg	_	3	punct	_	_
 
 # sent_id = c03_117
@@ -1591,7 +1591,7 @@
 4	dà	dà	NUM	Pn	NumForm=Word|NumType=Card	2	obj	_	_
 5	le	le	ADP	Sp	_	6	case	_	_
 6	Joan	Joan	PROPN	Nn-fd	Case=Dat|Gender=Fem	4	nmod	_	_
-7	Aitken	Aitken	PROPN	Nn	_	6	flat:name	_	_
+7	Aitken	Aitken	PROPN	Nn	_	6	flat:name	_	FlatType=Name
 8	ach	ach	CCONJ	Cc	_	9	cc	_	_
 9	thuirt	abair	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
 10	[Name]	[Name]	PROPN	Nn-fn	Case=Nom|Gender=Fem	9	nsubj	_	Anonymised=Yes
@@ -1629,7 +1629,7 @@
 39	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	xcomp:pred	_	_
 40	le	le	ADP	Sp	_	41	case	_	_
 41	Alan	Alan	PROPN	Nn-md	Case=Dat|Gender=Masc	36	obl	_	_
-42	Alderburg	Alderburg	PROPN	Nn	_	41	flat:name	_	_
+42	Alderburg	Alderburg	PROPN	Nn	_	41	flat:name	_	FlatType=Name
 
 # sent_id = c03_123
 # speaker = [4]
@@ -1651,9 +1651,9 @@
 # speaker = [4]
 # text = it’s the Giant Baby
 1	it’s	it's	X	Xfe	Foreign=Yes	0	root	_	Lang=en
-2	the	the	X	Xfe	Foreign=Yes	1	flat:foreign	_	Lang=en
-3	Giant	giant	X	Xfe	Foreign=Yes	1	flat:foreign	_	Lang=en
-4	Baby	baby	X	Xfe	Foreign=Yes	1	flat:foreign	_	Lang=en
+2	the	the	X	Xfe	Foreign=Yes	1	flat:foreign	_	FlatType=Foreign|Lang=en
+3	Giant	giant	X	Xfe	Foreign=Yes	1	flat:foreign	_	FlatType=Foreign|Lang=en
+4	Baby	baby	X	Xfe	Foreign=Yes	1	flat:foreign	_	FlatType=Foreign|Lang=en
 
 # sent_id = c03_126
 # speaker = [3]
@@ -1701,7 +1701,7 @@
 14	a	a	PART	Q-r	PartType=Vb|PronType=Rel	15	nsubj	_	_
 15	sgrìobh	sgrìobh	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
 16	Byker	byker	PROPN	Xfe	_	15	obj	_	_
-17	Grove	grove	PROPN	Xfe	_	16	flat:name	_	_
+17	Grove	grove	PROPN	Xfe	_	16	flat:name	_	FlatType=Name
 
 # sent_id = c03_128c
 # speaker = [3]
@@ -1854,7 +1854,7 @@
 19	bho	bho	SCONJ	Cs	_	20	mark	_	_
 20	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	_
 21	[Name]	[Name]	PROPN	Nn-mn	Case=Nom|Gender=Masc	20	nsubj	_	Anonymised=Yes
-22	[Name]	[Name]	PROPN	Nn	_	21	flat:name	_	Anonymised=Yes
+22	[Name]	[Name]	PROPN	Nn	_	21	flat:name	_	Anonymised=Yes|FlatType=Name
 23	a’	ag	PART	Sa	_	24	case	_	_
 24	tighinn	thig	NOUN	Nv	VerbForm=Vnoun	20	xcomp:pred	_	_
 25-26	thugainn	_	_	_	_	_	_	_	_
@@ -1946,8 +1946,8 @@
 # speaker = [4]
 # text = no I know
 1	no	no	X	Xfe	Foreign=Yes	0	root	_	_
-2	I	i	X	Xfe	Foreign=Yes	1	flat:foreign	_	_
-3	know	know	X	Xfe	Foreign=Yes	1	flat:foreign	_	_
+2	I	i	X	Xfe	Foreign=Yes	1	flat:foreign	_	FlatType=Foreign
+3	know	know	X	Xfe	Foreign=Yes	1	flat:foreign	_	FlatType=Foreign
 
 # sent_id = c03_141b
 # speaker = [4]
@@ -1992,8 +1992,8 @@
 # speaker = [2]
 # text = I’ll do it
 1	I’ll	i'll	X	Xfe	Foreign=Yes	0	root	_	_
-2	do	do	X	Xfe	Foreign=Yes	1	flat:foreign	_	_
-3	it	it	X	Xfe	Foreign=Yes	1	flat:foreign	_	_
+2	do	do	X	Xfe	Foreign=Yes	1	flat:foreign	_	FlatType=Foreign
+3	it	it	X	Xfe	Foreign=Yes	1	flat:foreign	_	FlatType=Foreign
 
 # sent_id = c03_144
 # speaker = [3]
@@ -2141,7 +2141,7 @@
 2	do	do	PART	Q--s	Tense=Past	3	mark:prt	_	_
 3	rùisg	rùisg	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	[Name]	[Name]	PROPN	Nn-fn	Case=Nom|Gender=Fem	3	nsubj	_	Anonymised=Yes
-5	[Name]	[Name]	PROPN	Nn-fg	Case=Gen|Gender=Fem	4	flat:name	_	Anonymised=Yes
+5	[Name]	[Name]	PROPN	Nn-fg	Case=Gen|Gender=Fem	4	flat:name	_	Anonymised=Yes|FlatType=Name
 6-7	dhut	_	_	_	_	_	_	_	_
 6	do	do	ADP	Sp	_	7	case	_	_
 7	thu	thu	PRON	Pp2s	Number=Sing|Person=2|PronType=Prs	3	obl	_	_
@@ -3990,7 +3990,7 @@
 50	seo	seo	DET	Dd	PronType=Art	49	det	_	_
 51	de	de	ADP	Sp	_	52	case	_	_
 52	Shruth	Sruth	PROPN	Nt	NounType=Top	49	nmod	_	_
-53	na	na	PROPN	Nt	NounType=Top	52	flat:name	_	FlatType=Top
+53	na	na	DET	Tdsfg	_	54	det	_	_
 54	Maoile	Maoile	PROPN	Nt	NounType=Top	52	flat:name	_	FlatType=Top|SpaceAfter=No
 55	.	.	PUNCT	Fe	_	6	punct	_	_
 
@@ -4104,7 +4104,7 @@
 19	àm	àm	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	_
 20	Athaiseag	athaiseag	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	19	nmod:unmarked	_	_
 21	Theàrlaich	Teàrlach	PROPN	Nn-mg	Case=Gen|Gender=Masc	20	nmod	_	_
-22	II	ii	NUM	Mr	NumForm=Roman|NumType=Ord	21	flat:name	_	_
+22	II	ii	NUM	Mr	NumForm=Roman|NumType=Ord	21	flat:name	_	FlatType=Name
 23	air	air	ADP	Sp	_	24	case	_	_
 24	adhart	adhart	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	Fi	_	27	punct	_	_
@@ -4506,11 +4506,11 @@
 14	á	as	ADP	Sp	_	15	case	_	_
 15	obair	obair	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
 16	Dhòmhnaill	Dòmhnaill	PROPN	Nn-mg	Case=Gen|Gender=Masc	15	nmod	_	_
-17	Ghriogaraich	Griogaraich	PROPN	Nn	_	16	flat:name	_	_
+17	Ghriogaraich	Griogaraich	PROPN	Nn	_	16	flat:name	_	FlatType=Name
 18	agus	agus	CCONJ	Cc	_	19	cc	_	_
 19	I.	I.	PROPN	Y	Abbr=Yes	16	conj	_	_
-20	F.	F.	PROPN	Y	Abbr=Yes	19	flat:name	_	_
-21	Grant	Grant	PROPN	Nn	_	19	flat:name	_	SpaceAfter=No
+20	F.	F.	PROPN	Y	Abbr=Yes	19	flat:name	_	FlatType=Name
+21	Grant	Grant	PROPN	Nn	_	19	flat:name	_	FlatType=Name|SpaceAfter=No
 22	,	,	PUNCT	Fi	_	23	punct	_	_
 23	sgrùdaidhean	sgrùdadh	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	15	appos	_	_
 24	anns	an	ADP	Sp	_	26	case	_	_
@@ -4541,7 +4541,7 @@
 6	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	briathran	briathr	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
 8	Chaluim	Calum	PROPN	Nn-mg	Case=Gen|Gender=Masc	7	nmod	_	_
-9	MhicPhàrlain	MacPhàrlain	PROPN	Nn	_	8	flat:name	_	_
+9	MhicPhàrlain	MacPhàrlain	PROPN	Nn	_	8	flat:name	_	FlatType=Name
 10	a	a	ADP	Sp	_	11	case	_	_
 11	cheart	ceart	ADV	Rg	AdvType=Man	13	advmod	_	_
 12	cho	cho	ADV	Rg	AdvType=Man	13	advmod	_	_
@@ -4628,19 +4628,19 @@
 18	a	a	PART	Q-r	PartType=Vb|PronType=Rel	19	obj	_	_
 19	sgrìobh	sgrìobh	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
 20	David	David	PROPN	Nn-mn	Case=Nom|Gender=Masc	19	nsubj	_	_
-21	Stevenson	Stevenson	PROPN	Nn	_	20	flat:name	_	SpaceAfter=No
+21	Stevenson	Stevenson	PROPN	Nn	_	20	flat:name	_	FlatType=Name|SpaceAfter=No
 22	,	,	PUNCT	Fi	_	23	punct	_	_
 23	R.	R.	PROPN	Y	Abbr=Yes	20	conj	_	_
-24	A.	A.	PROPN	Y	Abbr=Yes	23	flat:name	_	_
-25	Dodgshon	Dodgshon	PROPN	Nn	_	23	flat:name	_	SpaceAfter=No
+24	A.	A.	PROPN	Y	Abbr=Yes	23	flat:name	_	FlatType=Name
+25	Dodgshon	Dodgshon	PROPN	Nn	_	23	flat:name	_	FlatType=Name|SpaceAfter=No
 26	,	,	PUNCT	Fi	_	27	punct	_	_
 27	Francis	Francis	PROPN	Nn-mn	Case=Nom|Gender=Masc	20	conj	_	_
-28	J.	J.	PROPN	Y	Abbr=Yes	27	flat:name	_	_
-29	Shaw	Shaw	PROPN	Nn	_	27	flat:name	_	_
+28	J.	J.	PROPN	Y	Abbr=Yes	27	flat:name	_	FlatType=Name
+29	Shaw	Shaw	PROPN	Nn	_	27	flat:name	_	FlatType=Name
 30	agus	agus	CCONJ	Cc	_	31	cc	_	_
 31	Allan	Allan	PROPN	Nn-mn	Case=Nom|Gender=Masc	20	conj	_	_
-32	I.	I.	PROPN	Y	Abbr=Yes	31	flat:name	_	_
-33	Macinnes	Macinnes	PROPN	Nn	_	31	flat:name	_	SpaceAfter=No
+32	I.	I.	PROPN	Y	Abbr=Yes	31	flat:name	_	FlatType=Name
+33	Macinnes	Macinnes	PROPN	Nn	_	31	flat:name	_	FlatType=Name|SpaceAfter=No
 34	.	.	PUNCT	Fe	_	4	punct	_	_
 
 # sent_id = fp09_018
@@ -4713,13 +4713,13 @@
 21	gu	gu	PART	Ua	PartType=Ad	22	mark:prt	_	_
 22	sònraichte	sònraichte	ADV	Rg	AdvType=Man	23	advmod	_	_
 23	Kenneth	Kenneth	PROPN	Nn-mn	Case=Nom|Gender=Masc	18	appos	_	_
-24	Nicholls	Nicholls	PROPN	Nn	_	23	flat:name	_	SpaceAfter=No
+24	Nicholls	Nicholls	PROPN	Nn	_	23	flat:name	_	FlatType=Name|SpaceAfter=No
 25	,	,	PUNCT	Fi	_	26	punct	_	_
 26	Katherine	Katherine	PROPN	Nn-fn	Case=Nom|Gender=Fem	23	conj	_	_
-27	Simms	Simms	PROPN	Nn	_	26	flat:name	_	SpaceAfter=No
+27	Simms	Simms	PROPN	Nn	_	26	flat:name	_	FlatType=Name|SpaceAfter=No
 28	,	,	PUNCT	Fi	_	29	punct	_	_
 29	Raymond	Raymond	PROPN	Nn-mn	Case=Nom|Gender=Masc	23	conj	_	_
-30	Gillespie	Gillespie	PROPN	Nn	_	29	flat:name	_	_
+30	Gillespie	Gillespie	PROPN	Nn	_	29	flat:name	_	FlatType=Name
 31	agus	agus	CCONJ	Cc	_	39	cc	_	SpaceAfter=No
 32	,	,	PUNCT	Fi	_	35	punct	_	_
 33	ann	an	ADP	Sp	ExtPos=ADP	35	case	_	_
@@ -4729,8 +4729,8 @@
 37	litreachais	litreachas	NOUN	Ncsmg	Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
 38	,	,	PUNCT	Fi	_	39	punct	_	_
 39	Breandán	Breandán	PROPN	Nn-mn	Case=Nom|Gender=Masc	23	conj	_	_
-40	Ó	Ó	PART	Up	PartType=Pat	39	flat:name	_	_
-41	Buachalla	Buachalla	PROPN	Nn	_	40	flat:name	_	_
+40	Ó	Ó	PART	Up	PartType=Pat	39	flat:name	_	FlatType=Name
+41	Buachalla	Buachalla	PROPN	Nn	_	40	flat:name	_	FlatType=Name
 42	-	-	PUNCT	Fb	_	39	punct	_	_
 43	agus	agus	CCONJ	Cc	_	45	cc	_	_
 44	an	an	DET	Dp3p	Number=Plur|Person=3|Poss=Yes|PronType=Prs	45	nmod:poss	_	_
@@ -4771,11 +4771,11 @@
 27	a	a	PART	Q-r	PartType=Vb|PronType=Rel	28	obj	_	_
 28	chuir	cuir	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	21	acl:relcl	_	_
 29	Colm	Colm	PROPN	Nn-mn	Case=Nom|Gender=Masc	28	nsubj	_	_
-30	Ó	Ó	PROPN	Nn	_	29	flat:name	_	_
-31	Baoill	Baoill	PROPN	Nn	_	29	flat:name	_	_
+30	Ó	Ó	PROPN	Nn	_	29	flat:name	_	FlatType=Name
+31	Baoill	Baoill	PROPN	Nn	_	29	flat:name	_	FlatType=Name
 32	agus	agus	CCONJ	Cc	_	33	cc	_	_
 33	Dòmhnall	Dòmhnall	PROPN	Nn-mn	Case=Nom|Gender=Masc	29	conj	_	_
-34	MacAmhlaigh	MacAmhlaigh	PROPN	Nn	_	33	flat:name	_	_
+34	MacAmhlaigh	MacAmhlaigh	PROPN	Nn	_	33	flat:name	_	FlatType=Name
 35	a-mach	a-mach	ADV	Rg	AdvType=Man	28	advmod	_	_
 36	ann	an	ADP	Sp	ExtPos=ADP	38	case	_	_
 37	an	an	ADP	Sp	_	36	fixed	_	_
@@ -4853,12 +4853,12 @@
 13	a	a	PART	Q-r	PartType=Vb|PronType=Rel	14	obj	_	_
 14	rinn	dèan	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
 15	J.	J.	PROPN	Y	Abbr=Yes	14	nsubj	_	_
-16	A.	A.	PROPN	Y	Abbr=Yes	15	flat:name	_	_
-17	MacLean	MacLean	PROPN	Nn	_	15	flat:name	_	_
+16	A.	A.	PROPN	Y	Abbr=Yes	15	flat:name	_	FlatType=Name
+17	MacLean	MacLean	PROPN	Nn	_	15	flat:name	_	FlatType=Name
 18	agus	agus	CCONJ	Cc	_	19	cc	_	_
 19	Allison	Allison	PROPN	Nn-fn	Case=Nom|Gender=Fem	15	conj	_	_
-20	Ann	Ann	PROPN	Nn-fn	Case=Nom|Gender=Fem	19	flat:name	_	_
-21	Whyte	Wyte	PROPN	Nn	_	19	flat:name	_	SpaceAfter=No
+20	Ann	Ann	PROPN	Nn-fn	Case=Nom|Gender=Fem	19	flat:name	_	FlatType=Name
+21	Whyte	Wyte	PROPN	Nn	_	19	flat:name	_	FlatType=Name|SpaceAfter=No
 22	.	.	PUNCT	Fe	_	1	punct	_	_
 
 # sent_id = fp09_023
@@ -4871,7 +4871,7 @@
 6	a	a	PART	Q-r	PartType=Vb|PronType=Rel	7	obj	_	_
 7	sgrìobh	sgrìobh	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
 8	Helen	Helen	PROPN	Nn-fn	Case=Nom|Gender=Fem	7	nsubj	_	_
-9	O'Sullivan	O'Sullivan	PROPN	Nn	_	8	flat:name	_	_
+9	O'Sullivan	O'Sullivan	PROPN	Nn	_	8	flat:name	_	FlatType=Name
 10	gu	gu	PART	Ua	PartType=Ad	11	mark:prt	_	_
 11	math	math	ADV	Rg	AdvType=Man	7	advmod	_	_
 12	tàbhachdach	tàbhachdach	ADJ	Ap	_	3	xcomp:pred	_	SpaceAfter=No
@@ -4900,7 +4900,7 @@
 35	;	;	PUNCT	Fi	_	36	punct	_	_
 36	tràchdas	tràchdas	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	26	appos	_	_
 37	Iain	Iain	PROPN	Nn-mg	Case=Gen|Gender=Masc	36	nmod	_	_
-38	MhicAonghais	MacAonghais	PROPN	Nn	_	37	flat:name	_	SpaceAfter=No
+38	MhicAonghais	MacAonghais	PROPN	Nn	_	37	flat:name	_	FlatType=Name|SpaceAfter=No
 39	,	,	PUNCT	Fi	_	41	punct	_	_
 40	agus	agus	CCONJ	Cc	_	41	cc	_	_
 41	Introduction	introduction	NOUN	Xfe	Foreign=Yes	36	conj	_	Lang=en
@@ -4976,16 +4976,16 @@
 20	eisimpleir	eisimpleir	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	15	parataxis	_	SpaceAfter=No
 21	,	,	PUNCT	Fi	_	22	punct	_	_
 22	Victor	Victor	PROPN	Nn-mn	Case=Nom|Gender=Masc	15	appos	_	_
-23	Durcacz	Durcacz	PROPN	Nn	_	22	flat:name	_	SpaceAfter=No
+23	Durcacz	Durcacz	PROPN	Nn	_	22	flat:name	_	FlatType=Name|SpaceAfter=No
 24	,	,	PUNCT	Fi	_	25	punct	_	_
 25	Charles	Charles	PROPN	Nn-mn	Case=Nom|Gender=Masc	22	conj	_	_
-26	W.	W.	PROPN	Y	Abbr=Yes	25	flat:name	_	_
-27	J.	J.	PROPN	Y	Abbr=Yes	25	flat:name	_	_
-28	Withers	Withers	PROPN	Nn	_	25	flat:name	_	SpaceAfter=No
+26	W.	W.	PROPN	Y	Abbr=Yes	25	flat:name	_	FlatType=Name
+27	J.	J.	PROPN	Y	Abbr=Yes	25	flat:name	_	FlatType=Name
+28	Withers	Withers	PROPN	Nn	_	25	flat:name	_	FlatType=Name|SpaceAfter=No
 29	,	,	PUNCT	Fi	_	31	punct	_	_
 30	agus	agus	CCONJ	Cc	_	31	cc	_	_
 31	Malcolm	Malcolm	PROPN	Nn-mn	Case=Nom|Gender=Masc	22	conj	_	_
-32	Chapman	Chapman	PROPN	Nn	_	31	flat:name	_	SpaceAfter=No
+32	Chapman	Chapman	PROPN	Nn	_	31	flat:name	_	FlatType=Name|SpaceAfter=No
 33	,	,	PUNCT	Fi	_	6	punct	_	_
 34	air	air	ADP	Sp	_	38	case	_	_
 35	barrachd	barrachd	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	38	obj	_	_
@@ -6152,7 +6152,7 @@
 4	toir	toir	VERB	V-f--d	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	sinn	sinn	PRON	Pp1p	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 6	Conall	Conall	PROPN	Nn-mn	Case=Nom|Gender=Masc	4	obj	_	_
-7	Gulban	Gulban	PROPN	Nn	_	6	flat:name	_	_
+7	Gulban	Gulban	PROPN	Nn	_	6	flat:name	_	FlatType=Name
 8	air	air	ADP	Sp	_	10	case	_	_
 9	a’	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	ghille	gille	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
@@ -7050,8 +7050,8 @@
 36	Pàrlamaid	pàrlamaid	NOUN	Ncsfg	Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
 37	,	,	PUNCT	Fi	_	38	punct	_	_
 38	Sir	sir	PROPN	Xfe	Foreign=Yes	34	appos	_	_
-39	Daibhidh	Daibhidh	PROPN	Nn-mn	Case=Nom|Gender=Masc	38	flat:name	_	_
-40	Steel	Steel	PROPN	Nn	_	38	flat:name	_	SpaceAfter=No
+39	Daibhidh	Daibhidh	PROPN	Nn-mn	Case=Nom|Gender=Masc	38	flat:name	_	FlatType=Name
+40	Steel	Steel	PROPN	Nn	_	38	flat:name	_	FlatType=Name|SpaceAfter=No
 41	.	.	PUNCT	Fe	_	1	punct	_	_
 
 # sent_id = ns06_011
@@ -7123,7 +7123,7 @@
 # text = Thubhairt Annabel Goldie, as leth nan Toraidhean, gum bu choir a’ chùis a bhith air a dhol fa chomhair na Pàrlamaid Albannaich mus deach co-dhùnadh a dhèanamh.
 1	Thubhairt	tubhairt	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	Annabel	Annabel	PROPN	Nn-fn	Case=Nom|Gender=Fem	1	nsubj	_	_
-3	Goldie	Goldie	PROPN	Nn	_	2	flat:name	_	SpaceAfter=No
+3	Goldie	Goldie	PROPN	Nn	_	2	flat:name	_	FlatType=Name|SpaceAfter=No
 4	,	,	PUNCT	Fi	_	6	punct	_	_
 5	as	as	ADP	Sp	_	6	case	_	_
 6	leth	leth	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	_
@@ -7158,7 +7158,7 @@
 1	Agus	agus	CCONJ	Cc	_	2	cc	_	_
 2	thubhairt	tubhairt	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	Coinneach	Coinneach	PROPN	Nn-mn	Case=Nom|Gender=Masc	2	nsubj	_	_
-4	MacAsgaill	MacAsgaill	PROPN	Nn	_	3	flat:name	_	SpaceAfter=No
+4	MacAsgaill	MacAsgaill	PROPN	Nn	_	3	flat:name	_	FlatType=Name|SpaceAfter=No
 5	,	,	PUNCT	Fi	_	8	punct	_	_
 6	bho	bho	ADP	Sp	_	8	case	_	_
 7	na	an	DET	Tdpm	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
@@ -7311,7 +7311,7 @@
 # text = Chaidh Amanda Lynne - aois dà fhichead sa trì - as àicheadh gun tug i ionnsaidh air a’ chaileag ann am bun-sgoil ann am Fìobha.
 1	Chaidh	rach	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	Amanda	Amanda	PROPN	Nn-fn	Case=Nom|Gender=Fem	1	nsubj	_	_
-3	Lynne	Lynne	PROPN	Nn	_	2	flat:name	_	_
+3	Lynne	Lynne	PROPN	Nn	_	2	flat:name	_	FlatType=Name
 4	-	-	PUNCT	Fb	_	5	punct	_	_
 5	aois	aois	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	2	nmod:unmarked	_	_
 6	dà	dà	NUM	Mc	NumForm=Word|NumType=Card	7	nummod	_	_
@@ -7489,7 +7489,7 @@
 5	h-Alba	Alba	PROPN	Nt	Case=Gen|NounType=Top	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	Fi	_	7	punct	_	_
 7	Dòmhnall	Dòmhnall	PROPN	Nn-mn	Case=Nom|Gender=Masc	3	appos	_	_
-8	Dewar	Dewar	PROPN	Nn	_	7	flat:name	_	_
+8	Dewar	Dewar	PROPN	Nn	_	7	flat:name	_	FlatType=Name
 9	-	-	PUNCT	Fb	_	11	punct	_	_
 10	a	a	PART	Q-r	PartType=Vb|PronType=Rel	11	nsubj	_	_
 11	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
@@ -7570,7 +7570,7 @@
 # text = Fhuaireadh Claire Rogers - a bha trì-bliadhn'-deug - agus a caraid - Daniel Gibbs - a bha deich - nan crochadh ann an seòmar-cadail na h-ighne aig a dachaigh ann an Croxley Green a Hertfordshire.
 1	Fhuaireadh	fuair	VERB	V-s0	Mood=Ind|Person=0|Tense=Past|VerbForm=Fin	0	root	_	_
 2	Claire	Claire	PROPN	Nn-fn	Case=Nom|Gender=Fem	1	nsubj	_	_
-3	Rogers	Rogers	PROPN	Nn	_	2	flat:name	_	_
+3	Rogers	Rogers	PROPN	Nn	_	2	flat:name	_	FlatType=Name
 4	-	-	PUNCT	Fb	_	6	punct	_	_
 5	a	a	PART	Q-r	PartType=Vb|PronType=Rel	6	nsubj	_	_
 6	bha	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
@@ -7585,7 +7585,7 @@
 15	caraid	caraid	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
 16	-	-	PUNCT	Fb	_	17	punct	_	_
 17	Daniel	Daniel	PROPN	Nn-mn	Case=Nom|Gender=Masc	15	appos	_	_
-18	Gibbs	Gibbs	PROPN	Nn	_	17	flat:name	_	_
+18	Gibbs	Gibbs	PROPN	Nn	_	17	flat:name	_	FlatType=Name
 19	-	-	PUNCT	Fb	_	21	punct	_	_
 20	a	a	PART	Q-r	PartType=Vb|PronType=Rel	21	nsubj	_	_
 21	bha	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
@@ -7643,9 +7643,9 @@
 2	innse	inns	NOUN	Nv	VerbForm=Vnoun	0	root	_	_
 3	do	do	ADP	Sp	_	4	case	_	_
 4	Chaledonian	Caledonian	PROPN	Nn	_	2	obl	_	_
-5	Mac	Mac	PROPN	Nn	_	4	flat:name	_	_
-6	a'	an	PROPN	Nn	_	4	flat:name	_	_
-7	Bhruthainn	Bruthainn	PROPN	Nn	_	4	flat:name	_	_
+5	Mac	Mac	PROPN	Nn	_	4	flat:name	_	FlatType=Name
+6	a'	an	DET	Tdsmg	_	7	det	_	_
+7	Bhruthainn	Bruthainn	PROPN	Nn	_	4	flat:name	_	FlatType=Name
 8	le	le	ADP	Sp	_	9	case	_	_
 9	riochdairean	riochdair	NOUN	Ncpmd	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
 10	Chomhairle	comhairle	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	9	nmod:unmarked	_	_
@@ -7779,7 +7779,7 @@
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	a’	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Bhan-phrionnsa	ban-phrionnsa	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
-4	Diana	Diana	PROPN	Nn-fn	Case=Nom|Gender=Fem	3	flat:name	_	_
+4	Diana	Diana	PROPN	Nn-fn	Case=Nom|Gender=Fem	3	flat:name	_	FlatType=Name
 5	air	air	PART	Sa	_	8	case	_	_
 6	slaic	slaic	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	8	obj	_	_
 7	a	a	PART	Ug	PartType=Inf	8	mark:prt	_	_
@@ -7881,7 +7881,7 @@
 5	Cèin	cèin	ADJ	Aq-pfg	Case=Gen|Gender=Fem|Number=Plur	4	amod	_	_
 6	-	-	PUNCT	Fb	_	7	punct	_	_
 7	Robin	Robin	PROPN	Nn-mn	Case=Nom|Gender=Masc	2	appos	_	_
-8	Cook	Cook	PROPN	Nn	_	7	flat:name	_	_
+8	Cook	Cook	PROPN	Nn	_	7	flat:name	_	FlatType=Name
 9	-	-	PUNCT	Fb	_	1	punct	_	_
 10	gu	gu	PART	Qa	PartType=Cmpl	11	mark:prt	_	_
 11	robh	bi	VERB	V-s--d	Mood=Ind|Tense=Past|VerbForm=Fin	1	ccomp	_	_
@@ -7979,7 +7979,7 @@
 # text = Chaidh Seumas Longridge a ghortachadh mun aodann 's mun bhodhaig
 1	Chaidh	rach	AUX	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
 2	Seumas	Seumas	PROPN	Nn-mn	Case=Nom|Gender=Masc	5	nsubj:pass	_	_
-3	Longridge	Longridge	PROPN	Nn	_	2	flat:name	_	_
+3	Longridge	Longridge	PROPN	Nn	_	2	flat:name	_	FlatType=Name
 4	a	a	PART	Ug	PartType=Inf	5	mark:prt	_	_
 5	ghortachadh	gortaich	NOUN	Nv	VerbForm=Inf	0	root	_	_
 6-7	mun	_	_	_	_	_	_	_	_
@@ -8227,8 +8227,8 @@
 13	Poilis	poilis	NOUN	Ncsmg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
 14	a’	an	DET	Tdsmg	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Chinn	Cinn	PROPN	Nt	Case=Gen|NounType=Top	12	nmod	_	_
-16	a	a	PROPN	Nt	NounType=Top	15	flat:name	_	FlatType=Top
-17	Tuath	Tuath	PROPN	Nt	NounType=Top	15	flat:name	_	FlatType=Top
+16	a	a	ADJ	Aq	ExtPos=ADJ	15	amod	_	_
+17	Tuath	Tuath	ADJ	Aq	_	16	fixed	_	_
 18	an-diugh	an-diugh	ADV	Rt	AdvType=Tim	6	advmod	_	_
 19	-	-	PUNCT	Fb	_	21	punct	_	_
 20	's	's	SCONJ	Cc	_	21	mark	_	_
@@ -8265,7 +8265,7 @@
 # text = Bhuinnig Graham Power a’ cheud chuairt - nuair a dh’aontaich tribunal cosnaidh gu robh casaid ann an aghaidh a’ Bhùird.
 1	Bhuinnig	buinnig	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	Graham	Graham	PROPN	Nn-mn	Case=Nom|Gender=Masc	1	nsubj	_	_
-3	Power	Power	PROPN	Nn	_	2	flat:name	_	_
+3	Power	Power	PROPN	Nn	_	2	flat:name	_	FlatType=Name
 4	a’	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	cheud	ciad	NUM	Mo	NumForm=Word|NumType=Ord	6	nummod	_	_
 6	chuairt	cuairt	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	obj	_	_
@@ -8347,7 +8347,7 @@
 8	faisg	faisg	ADJ	Ap	_	1	xcomp:pred	_	_
 9	air	air	ADP	Sp	_	10	case	_	_
 10	Pàirc'	Pàirce	PROPN	Nt	NounType=Top	8	obl	_	_
-11	a'	a'	PROPN	Nt	NounType=Top	10	flat:name	_	FlatType=Top
+11	a'	a'	DET	Tdsmg	_	10	det	_	_
 12	Bhught	Bught	PROPN	Nt	NounType=Top	10	flat:name	_	FlatType=Top|SpaceAfter=No
 13	.	.	PUNCT	Fe	_	1	punct	_	_
 
@@ -8883,11 +8883,11 @@
 28	Highlanders	highlanders	NOUN	Xfe	_	27	flat	_	FlatType=Borrow|OrigLang=en
 29	tidsear	tidsear	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
 30	Cheann	Ceann	PROPN	Nt	Case=Gen|NounType=Top	29	nmod	_	_
-31	a'	a'	PROPN	Nt	NounType=Top	30	flat:name	_	FlatType=Top
+31	a'	a'	DET	Tdsmg	_	32	det	_	_
 32	Bhàigh	Bàigh	PROPN	Nt	NounType=Top	30	flat:name	_	FlatType=Top
 33	fear	fear	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	34	nmod:unmarked	_	_
 34	Mr.	Mr.	NOUN	Y	Abbr=Yes	29	appos	_	_
-35	Rose	Rose	PROPN	Nn	_	34	flat:name	_	_
+35	Rose	Rose	PROPN	Nn	_	34	flat:name	_	FlatType=Name
 
 # sent_id = p05_007b
 # speaker = [2]
@@ -8903,16 +8903,16 @@
 8	ann	an	ADP	Sp	ExtPos=ADP	10	case	_	_
 9	an	an	ADP	Sp	_	8	fixed	_	_
 10	Ceann	Ceann	PROPN	Nt	NounType=Top	7	xcomp:pred	_	_
-11	a'	a'	PROPN	Nt	NounType=Top	10	flat:name	_	FlatType=Top
+11	a'	a'	DET	Tdsmg	_	12	det	_	_
 12	Bhàigh	Bàigh	PROPN	Nt	NounType=Top	10	flat:name	_	FlatType=Top
-13	Lovat	Lovat	PROPN	Nn	_	10	flat:name	_	_
-14	Scouts	scouts	PROPN	Nn	_	10	flat:name	_	FlatType=Borrow
+13	Lovat	Lovat	PROPN	Nn	_	10	flat:name	_	FlatType=Name
+14	Scouts	scouts	PROPN	Nn	_	10	flat:name	_	FlatType=Name
 15	troimh	troimh	ADP	Sp	_	16	case	_	_
 16	Sergeant	sergeant	NOUN	Xfe	Foreign=Yes	7	obl	_	_
-17	MacDugall	MacDugall	PROPN	Nn	_	16	flat:name	_	_
+17	MacDugall	MacDugall	PROPN	Nn	_	16	flat:name	_	FlatType=Name
 18	Captain	captain	NOUN	Xfe	Foreign=Yes	5	appos	_	_
-19	MacDonald	MacDonald	PROPN	Nn	_	18	flat:name	_	_
-20	Balranald	Balranald	PROPN	Nt	NounType=Top	18	flat:name	_	_
+19	MacDonald	MacDonald	PROPN	Nn	_	18	flat:name	_	FlatType=Name
+20	Balranald	Balranald	PROPN	Nt	NounType=Top	18	flat:name	_	FlatType=Name
 
 # sent_id = p05_007c
 # speaker = [2]
@@ -8975,7 +8975,7 @@
 # text = luchd-teagaisg Cheann a' Bhàigh thug e dhaibh thug iad dhaibh dà not agus na Lovat Scouts not agus an Captain Dòmhnallach dà not agus mar sin air adhart agus nach eil sin annasach Mister J. A. MacKintosh traveller ten and six
 1	luchd-teagaisg	neach-teagaisg	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	5	dislocated	_	_
 2	Cheann	Ceann	PROPN	Nt	Case=Gen|NounType=Top	1	nmod	_	_
-3	a'	a'	PROPN	Nt	NounType=Top	2	flat:name	_	FlatType=Top
+3	a'	a'	DET	Tdsmg	_	4	det	_	_
 4	Bhàigh	Bàigh	PROPN	Nt	NounType=Top	2	flat:name	_	FlatType=Top
 5	thug	toir	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	9	reparandum	_	_
 6	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
@@ -8992,12 +8992,12 @@
 15	agus	agus	CCONJ	Cc	_	17	cc	_	_
 16	na	an	DET	Tdp	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	Lovat	Lovat	PROPN	Nn	_	9	conj	_	_
-18	Scouts	scouts	PROPN	Xfe	_	17	flat:name	_	_
+18	Scouts	scouts	PROPN	Xfe	_	17	flat:name	_	FlatType=Name
 19	not	not	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	17	obj	_	_
 20	agus	agus	CCONJ	Cc	_	22	cc	_	_
 21	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
 22	Captain	captain	PROPN	Xfe	Foreign=Yes	17	conj	_	_
-23	Dòmhnallach	Dòmhnallach	PROPN	Nn	_	22	flat:name	_	_
+23	Dòmhnallach	Dòmhnallach	PROPN	Nn	_	22	flat:name	_	FlatType=Name
 24	dà	dà	NUM	Mc	NumForm=Word|NumType=Card	25	nummod	_	_
 25	not	not	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	22	obj	_	_
 26	agus	agus	CCONJ	Cc	_	28	cc	_	_
@@ -9011,13 +9011,13 @@
 34	sin	sin	PRON	Pd	PronType=Dem	33	nsubj	_	_
 35	annasach	annasach	ADJ	Ap	_	33	xcomp:pred	_	_
 36	Mister	mister	NOUN	Xfe	_	9	conj	_	_
-37	J.	J.	PROPN	Y	Abbr=Yes	36	flat:name	_	_
-38	A.	A.	PROPN	Y	Abbr=Yes	36	flat:name	_	_
-39	MacKintosh	MacKintosh	PROPN	Nn	_	36	flat:name	_	_
+37	J.	J.	PROPN	Y	Abbr=Yes	36	flat:name	_	FlatType=Name
+38	A.	A.	PROPN	Y	Abbr=Yes	36	flat:name	_	FlatType=Name
+39	MacKintosh	MacKintosh	PROPN	Nn	_	36	flat:name	_	FlatType=Name
 40	traveller	traveller	NOUN	Xfe	_	36	nmod:unmarked	_	OrigLang=en
 41	ten	ten	X	Xfe	Foreign=Yes	36	obj	_	_
-42	and	and	X	Xfe	Foreign=Yes	41	flat:foreign	_	_
-43	six	six	X	Xfe	Foreign=Yes	41	flat:foreign	_	_
+42	and	and	X	Xfe	Foreign=Yes	41	flat:foreign	_	FlatType=Foreign
+43	six	six	X	Xfe	Foreign=Yes	41	flat:foreign	_	FlatType=Foreign
 
 # sent_id = p05_009
 # speaker = [2]
@@ -9170,15 +9170,15 @@
 2	o	bho	ADP	Sp	_	4	case	_	_
 3	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
 4	tea	tea	X	Xfe	Foreign=Yes	1	nmod	_	_
-5	stall	stall	X	Xfe	Foreign=Yes	4	flat:foreign	_	_
-6	on	on	X	Xfe	Foreign=Yes	4	flat:foreign	_	_
-7	sports	sports	X	Xfe	Foreign=Yes	4	flat:foreign	_	_
-8	day	day	X	Xfe	Foreign=Yes	4	flat:foreign	_	_
+5	stall	stall	X	Xfe	Foreign=Yes	4	flat:foreign	_	FlatType=Foreign
+6	on	on	X	Xfe	Foreign=Yes	4	flat:foreign	_	FlatType=Foreign
+7	sports	sports	X	Xfe	Foreign=Yes	4	flat:foreign	_	FlatType=Foreign
+8	day	day	X	Xfe	Foreign=Yes	4	flat:foreign	_	FlatType=Foreign
 9	three	three	X	Xfe	Foreign=Yes	1	nsubj	_	_
-10	pound	pound	X	Xfe	Foreign=Yes	9	flat:foreign	_	_
-11	four	four	X	Xfe	Foreign=Yes	9	flat:foreign	_	_
-12	and	and	X	Xfe	Foreign=Yes	9	flat:foreign	_	_
-13	thruppence	thruppence	X	Xfe	Foreign=Yes	9	flat:foreign	_	_
+10	pound	pound	X	Xfe	Foreign=Yes	9	flat:foreign	_	FlatType=Foreign
+11	four	four	X	Xfe	Foreign=Yes	9	flat:foreign	_	FlatType=Foreign
+12	and	and	X	Xfe	Foreign=Yes	9	flat:foreign	_	FlatType=Foreign
+13	thruppence	thruppence	X	Xfe	Foreign=Yes	9	flat:foreign	_	FlatType=Foreign
 
 # sent_id = p05_015b
 # speaker = [2]
@@ -9235,17 +9235,17 @@
 16	phàigh	pàigh	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
 17	iad	iad	PRON	Pp3p	Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
 18	Maighstir	maighstir	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	16	obl:unmarked	_	_
-19	MacAmhlaidh	MacAmhlaidh	PROPN	Nn	_	18	flat:name	_	_
+19	MacAmhlaidh	MacAmhlaidh	PROPN	Nn	_	18	flat:name	_	FlatType=Name
 20	a	a	PART	Q-r	PartType=Vb|PronType=Rel	21	nsubj	_	_
 21	bha	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
 22	ann	an	ADP	Sp	ExtPos=ADP	24	case	_	_
 23	an	an	ADP	Sp	_	22	fixed	_	_
 24	Taigh-òsda	taigh-òsda	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	21	xcomp:pred	_	_
 25	Fadhail	Fadhail	PROPN	Nt	NounType=Top	24	nmod:unmarked	_	_
-26	an	an	PROPN	Nt	NounType=Top	25	flat:name	_	FlatType=Top
-27	Iar	Iar	PROPN	Nt	NounType=Top	25	flat:name	_	FlatType=Top
+26	an	an	ADJ	Aq	ExtPos=ADJ	25	amod	_	_
+27	Iar	Iar	ADJ	Aq	_	26	fixed	_	_
 28	Westford	Westford	PROPN	Nt	Foreign=Yes|NounType=Top	24	appos	_	OrigLang=en
-29	Inn	inn	PROPN	Xfe	Foreign=Yes	28	flat:name	_	OrigLang=en
+29	Inn	inn	PROPN	Xfe	Foreign=Yes	28	flat:name	_	FlatType=Name|OrigLang=en
 30	ceithir	ceithir	NUM	Mc	NumForm=Word|NumType=Card	31	nummod	_	_
 31	nòtaichean	nòt	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	16	obj	_	_
 32	's	's	CCONJ	Cc	_	34	cc	_	_
@@ -9840,7 +9840,7 @@
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	fixed	_	_
 3	esan	e	PRON	Pp3sm-e	Form=Emp|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 4	Dòmhnall	Dòmhnall	PROPN	Nn-mn	Case=Nom|Gender=Masc	3	nsubj	_	_
-5	Caimbeul	Caimbeul	PROPN	Nn	_	4	flat:name	_	_
+5	Caimbeul	Caimbeul	PROPN	Nn	_	4	flat:name	_	FlatType=Name
 6	is	is	CCONJ	Cc	_	7	cc	_	_
 7	bha	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
 8	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -10181,8 +10181,8 @@
 10	Hearadh	Hearadh	PROPN	Nt	NounType=Top	7	nmod	_	_
 11	agus	agus	CCONJ	Cc	_	12	cc	_	_
 12	Uibhist	Uibhist	PROPN	Nt	NounType=Top	10	conj	_	_
-13	a	a	PROPN	Nt	NounType=Top	12	flat:name	_	FlatType=Top
-14	Deas	Deas	PROPN	Nt	NounType=Top	12	flat:name	_	FlatType=Top
+13	a	a	ADJ	Aq	ExtPos=ADJ	12	amod	_	_
+14	Deas	Deas	ADJ	Aq	_	13	fixed	_	_
 15	gu	gu	PART	Ua	PartType=Ad	16	mark:prt	_	_
 16	math	math	ADV	Rg	AdvType=Man	17	advmod	_	_
 17	creagach	creagach	ADJ	Ap	_	1	xcomp:pred	_	_
@@ -10229,8 +10229,8 @@
 23	Ionad	ionad	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	21	conj	_	_
 24	Dualchas	dualchas	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	23	nmod:unmarked	_	_
 25	Dan	Dan	PROPN	Nn-mg	Case=Gen|Gender=Masc	24	nmod	_	_
-26	O	O	PART	Up	PartType=Pat	25	flat:name	_	_
-27	Hara	Hara	PROPN	Nn	_	25	flat:name	_	SpaceAfter=No
+26	O	O	PART	Up	PartType=Pat	25	flat:name	_	FlatType=Name
+27	Hara	Hara	PROPN	Nn	_	25	flat:name	_	FlatType=Name|SpaceAfter=No
 28	,	,	PUNCT	Fi	_	30	punct	_	_
 29	agus	agus	CCONJ	Cc	_	30	cc	_	_
 30	baile-ciùird	baile-ciùird	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	21	conj	_	_
@@ -10912,11 +10912,11 @@
 22	–	–	PUNCT	Fb	_	23	punct	_	_
 23	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 24	Uibhist	Uibhist	PROPN	Nt	NounType=Top	23	nsubj	_	_
-25	a	a	PROPN	Nt	NounType=Top	24	flat:name	_	FlatType=Top
-26	Deas	Deas	PROPN	Nt	NounType=Top	24	flat:name	_	FlatType=Top
+25	a	a	ADJ	Aq	ExtPos=ADJ	24	amod	_	_
+26	Deas	Deas	ADJ	Aq	_	25	fixed	_	_
 27	agus	agus	CCONJ	Cc	_	28	cc	_	_
 28	Beinn	Beinn	PROPN	Nt	NounType=Top	24	conj	_	_
-29	na	na	PROPN	Nt	NounType=Top	28	flat:name	_	FlatType=Top
+29	na	na	DET	Tdsfg	_	30	det	_	_
 30	Fadhla	Fadhla	PROPN	Nt	NounType=Top	28	flat:name	_	FlatType=Top
 31	air	air	PART	Sa	_	33	case	_	_
 32	a	a	PART	Ug	PartType=Inf	33	mark:prt	_	_
@@ -10938,8 +10938,8 @@
 48	chabhsair	cabhsair	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	53	obj	_	_
 49	a’	an	DET	Tdsmg	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
 50	Chinn	Cinn	PROPN	Nt	Case=Gen|NounType=Top	48	nmod	_	_
-51	a	a	PROPN	Nt	NounType=Top	50	flat:name	_	FlatType=Top
-52	Tuath	Tuath	PROPN	Nt	NounType=Top	50	flat:name	_	FlatType=Top
+51	a	a	ADJ	Aq	ExtPos=ADJ	50	amod	_	_
+52	Tuath	Tuath	ADJ	Aq	_	51	fixed	_	_
 53	fosgladh	fosgail	NOUN	Nv	VerbForm=Vnoun	57	xcomp	_	_
 54	ann	an	ADP	Sp	ExtPos=ADP	56	case	_	_
 55	an	an	ADP	Sp	_	54	fixed	_	_
@@ -10999,7 +10999,7 @@
 # sent_id = pw09_005
 # text = Thuirt CalMac nach biodh e comasach aiseag a thadhladh ann am Beàrnaraigh a chur air adhart eadar ceann a deas na Hearadh agus Uibhist a Tuath.
 1	Thuirt	abair	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-2	CalMac	CalMac	NOUN	Y	Abbr=Yes	1	nsubj	_	_
+2	CalMac	CalMac	PROPN	Y	Abbr=Yes	1	nsubj	_	_
 3	nach	nach	PART	Qn	PartType=Cmpl|Polarity=Neg	4	mark:prt	_	_
 4	biodh	bi	VERB	V-h--d	Mood=Ind|VerbForm=Fin	1	ccomp	_	_
 5	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
@@ -11022,8 +11022,8 @@
 22	Hearadh	Hearadh	PROPN	Nt	Case=Gen|NounType=Top	18	nmod	_	_
 23	agus	agus	CCONJ	Cc	_	24	cc	_	_
 24	Uibhist	Uibhist	PROPN	Nt	NounType=Top	18	conj	_	_
-25	a	a	PROPN	Nt	NounType=Top	24	flat:name	_	FlatType=Top
-26	Tuath	Tuath	PROPN	Nt	NounType=Top	24	flat:name	_	FlatType=Top|SpaceAfter=No
+25	a	a	ADJ	Aq	ExtPos=ADJ	24	amod	_	_
+26	Tuath	Tuath	ADJ	Aq	_	25	fixed	_	SpaceAfter=No
 27	.	.	PUNCT	Fe	_	1	punct	_	_
 
 # sent_id = pw09_006
@@ -11089,7 +11089,7 @@
 30	mhotha	motha	ADJ	Apc	Degree=Cmp,Sup	24	amod	_	_
 31	eadar	eadar	ADP	Sp	_	32	case	_	_
 32	Bàgh	Bàgh	PROPN	Nt	NounType=Top	27	nmod	_	_
-33	a’	a'	PROPN	Nt	NounType=Top	32	flat:name	_	FlatType=Top
+33	a’	a'	DET	Tdsmg	_	34	det	_	_
 34	Chaisteil	Caisteil	PROPN	Nt	NounType=Top	32	flat:name	_	FlatType=Top
 35	agus	agus	CCONJ	Cc	_	36	cc	_	_
 36	Bhatarsaigh	Batarsaigh	PROPN	Nt	NounType=Top	32	conj	_	SpaceAfter=No
@@ -11104,7 +11104,7 @@
 5	biodh	bi	VERB	V-h--d	Mood=Ind|VerbForm=Fin	3	ccomp	_	_
 6	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 7	comasach	comasach	ADJ	Ap	_	5	xcomp:pred	_	_
-8	grant	grant	X	Xfe	Foreign=Yes	9	obj	_	_
+8	grant	grant	NOUN	Xfe	Foreign=Yes	9	obj	_	_
 9	fhaotainn	faod	NOUN	Nv	VerbForm=Vnoun	5	xcomp	_	_
 10	bho	bho	ADP	Sp	_	11	case	_	_
 11	Ministreachd	ministreachd	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
@@ -11240,8 +11240,8 @@
 20	a-nall	a-nall	ADV	Rs	AdvType=Loc	18	conj	_	_
 21	á	as	ADP	Sp	_	22	case	_	_
 22	Uibhist	Uibhist	PROPN	Nt	NounType=Top	16	nmod	_	_
-23	a	a	PROPN	Nt	NounType=Top	22	flat:name	_	FlatType=Top
-24	Tuath	Tuath	PROPN	Nt	NounType=Top	22	flat:name	_	FlatType=Top|SpaceAfter=No
+23	a	a	ADJ	Aq	ExtPos=ADJ	22	amod	_	_
+24	Tuath	Tuath	ADJ	Aq	_	23	fixed	_	SpaceAfter=No
 25	.	.	PUNCT	Fe	_	1	punct	_	_
 
 # sent_id = pw09_016
@@ -11277,7 +11277,7 @@
 19	làn	làn	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
 20	.	.	PUNCT	Fe	_	3	punct	_	_
 
-# comment = Retagged node 9 as Loch Bhrùsda is the new boat and not where the new boat is.
+# revision = Retagged node 9 as Loch Bhrùsda is the new boat and not where the new boat is; 2025-01-15: node 27 retagged to DET as per #52
 # sent_id = pw09_018
 # text = Fhuair iad ceadhachan agus bàt’ aisig ùr, an Loch Bhrùsda, a bheireadh leatha càraichean agus a bha a’ ruith eadar Ròghadal agus Beinn a’ Chaolais agus a’ tadhal ann am Beàrnaraigh.
 1	Fhuair	faigh	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -11290,7 +11290,7 @@
 8	,	,	PUNCT	Fi	_	5	punct	_	_
 9	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
 10	Loch	Loch	PROPN	Nt	NounType=Top	5	appos	_	_
-11	Bhrùsda	Brùsda	PROPN	Nt	NounType=Top	10	flat:name	_	SpaceAfter=No
+11	Bhrùsda	Brùsda	PROPN	Nt	NounType=Top	10	flat:name	_	FlatType=Name|SpaceAfter=No
 12	,	,	PUNCT	Fi	_	14	punct	_	_
 13	a	a	PART	Q-r	PartType=Vb|PronType=Rel	14	nsubj	_	_
 14	bheireadh	beir	VERB	V-h	Mood=Ind|VerbForm=Fin	5	acl:relcl	_	_
@@ -11307,7 +11307,7 @@
 24	Ròghadal	Ròghadal	PROPN	Nt	NounType=Top	22	obl	_	_
 25	agus	agus	CCONJ	Cc	_	26	cc	_	_
 26	Beinn	Beinn	PROPN	Nt	NounType=Top	24	conj	_	_
-27	a’	a'	PROPN	Nt	NounType=Top	26	flat:name	_	FlatType=Top
+27	a’	a'	DET	Tdsmg	_	28	det	_	_
 28	Chaolais	Caolais	PROPN	Nt	NounType=Top	26	flat:name	_	FlatType=Top
 29	agus	agus	CCONJ	Cc	_	31	cc	_	_
 30	a’	ag	PART	Sa	_	31	case	_	_
@@ -11328,7 +11328,7 @@
 7	dh’fhosgail	fosgail	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	am	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Prionnsa	prionnsa	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
-10	Teàrlach	Teàrlach	PROPN	Nn-mn	Case=Nom|Gender=Masc	9	flat:name	_	_
+10	Teàrlach	Teàrlach	PROPN	Nn-mn	Case=Nom|Gender=Masc	9	flat:name	_	FlatType=Name
 11	cabhsair	cabhsair	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
 12	Bheàrnaraigh	Beàrnaraigh	PROPN	Nt	Case=Gen|NounType=Top	11	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	Fe	_	7	punct	_	_
@@ -11360,7 +11360,7 @@
 7	thàinig	thig	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	_
 8	£	£	SYM	Xy	_	7	nsubj	_	SpaceAfter=No
 9	3.3	3.3	NUM	Mn	NumForm=Digit|NumType=Card	8	nummod	_	_
-10	m	m	NOUN	Y	_	8	nummod	_	_
+10	m	m	NOUN	Y	Abbr=Yes	8	nummod	_	_
 11-12	bhon	_	_	_	_	_	_	_	_
 11	bho	bho	ADP	Sp	_	13	case	_	_
 12	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
@@ -11414,7 +11414,7 @@
 8	,	,	PUNCT	Fi	_	2	punct	_	_
 9	thuirt	abair	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 10	Joe	Joe	PROPN	Nn-mn	Case=Nom|Gender=Masc	9	nsubj	_	_
-11	MacDhùghaill	MacDhùghaill	PROPN	Nn	_	10	flat:name	_	SpaceAfter=No
+11	MacDhùghaill	MacDhùghaill	PROPN	Nn	_	10	flat:name	_	FlatType=Name|SpaceAfter=No
 12	,	,	PUNCT	Fi	_	13	punct	_	_
 13	neach-cathrach	neach-cathrach	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
 14	Comhairle	comhairle	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	13	nmod:unmarked	_	_
@@ -11471,8 +11471,8 @@
 5	ann	an	ADP	Sp	ExtPos=ADP	7	case	_	_
 6	an	an	ADP	Sp	_	5	fixed	_	_
 7	Uibhist	Uibhist	PROPN	Nt	NounType=Top	4	nmod	_	_
-8	a	a	PROPN	Nt	NounType=Top	7	flat:name	_	FlatType=Top
-9	Deas	Deas	PROPN	Nt	NounType=Top	7	flat:name	_	FlatType=Top
+8	a	a	ADJ	Aq	ExtPos=ADJ	7	amod	_	_
+9	Deas	Deas	ADJ	Aq	_	8	fixed	_	_
 10	ri	ri	ADP	Sp	_	12	case	_	_
 11	na	an	DET	Tdpm	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	Hann	Hann	PROPN	Nt	NounType=Top	1	obl	_	_
@@ -11505,6 +11505,7 @@
 19	2000	2000	NUM	Mn	NumForm=Digit|NumType=Card	13	obl	_	SpaceAfter=No
 20	.	.	PUNCT	Fe	_	1	punct	_	_
 
+# revision = 2025-01-15: node 8 retagged to DET as per #52.
 # sent_id = pw09_030
 # text = An sin togar ceadhachan ùra aig Ceann a’ Ghàrraidh ann an Èirisgeigh agus aig Àird Mhidhinis ann am Barraigh.
 1	An	an	ADV	Rt	AdvType=Tim|ExtPos=ADV	3	advmod	_	_
@@ -11514,7 +11515,7 @@
 5	ùra	ùr	ADJ	Aq-pmn	Case=Nom|Gender=Masc|Number=Plur	3	advmod	_	_
 6	aig	aig	ADP	Sp	_	7	case	_	_
 7	Ceann	Ceann	PROPN	Nt	NounType=Top	3	obl	_	_
-8	a’	a'	PROPN	Nt	NounType=Top	7	flat:name	_	FlatType=Top
+8	a’	a'	DET	Tdsmg	_	9	det	_	_
 9	Ghàrraidh	Gàrraidh	PROPN	Nt	NounType=Top	7	flat:name	_	FlatType=Top
 10	ann	an	ADP	Sp	ExtPos=ADP	12	case	_	_
 11	an	an	ADP	Sp	_	10	fixed	_	_
@@ -11531,12 +11532,12 @@
 # sent_id = pw09_031
 # text = Tha CalMac an dùil an Loch Bhrùsda a chur air an t-slighe sin, oir tha a leithid de thathaich eadar na Hearadh agus Uibhist a Tuath agus gum feum iad bàta nas motha ann an Caol na Hearadh.
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	CalMac	CalMac	NOUN	Y	Abbr=Yes	1	nsubj	_	_
+2	CalMac	CalMac	PROPN	Y	Abbr=Yes	1	nsubj	_	_
 3	an	an	ADP	Sp	_	4	case	_	_
 4	dùil	dùil	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	1	xcomp:pred	_	_
 5	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Loch	Loch	PROPN	Nn	_	9	obj	_	_
-7	Bhrùsda	Brùsda	PROPN	Nn	_	6	flat:name	_	_
+7	Bhrùsda	Brùsda	PROPN	Nn	_	6	flat:name	_	FlatType=Name
 8	a	a	PART	Ug	PartType=Inf	9	mark:prt	_	_
 9	chur	cuir	NOUN	Nv	VerbForm=Inf	4	xcomp	_	_
 10	air	air	ADP	Sp	_	12	case	_	_
@@ -11555,8 +11556,8 @@
 23	Hearadh	Hearadh	PROPN	Nt	NounType=Top	20	nmod	_	_
 24	agus	agus	CCONJ	Cc	_	25	cc	_	_
 25	Uibhist	Uibhist	PROPN	Nt	NounType=Top	23	conj	_	_
-26	a	a	PROPN	Nt	NounType=Top	25	flat:name	_	FlatType=Top
-27	Tuath	Tuath	PROPN	Nt	NounType=Top	25	flat:name	_	FlatType=Top
+26	a	a	ADJ	Aq	ExtPos=ADJ	25	amod	_	_
+27	Tuath	Tuath	ADJ	Aq	_	26	fixed	_	_
 28	agus	agus	CCONJ	Cc	_	30	cc	_	_
 29	gum	gu	PART	Qa	PartType=Cmpl	30	mark:prt	_	_
 30	feum	feum	VERB	V-f--d	Mood=Ind|Tense=Fut|VerbForm=Fin	1	conj	_	_
@@ -11567,7 +11568,7 @@
 35	ann	an	ADP	Sp	ExtPos=ADP	37	case	_	_
 36	an	an	ADP	Sp	_	35	fixed	_	_
 37	Caol	Caol	PROPN	Nt	NounType=Top	32	nmod	_	_
-38	na	na	PROPN	Nt	NounType=Top	37	flat:name	_	FlatType=Top
+38	na	na	DET	Tdsfg	_	39	det	_	_
 39	Hearadh	Hearadh	PROPN	Nt	NounType=Top	37	flat:name	_	FlatType=Top|SpaceAfter=No
 40	.	.	PUNCT	Fe	_	1	punct	_	_
 
@@ -11575,7 +11576,7 @@
 # text = Thuirt Murchadh Moireach, a tha os cionn nan Seirbheisean Teicneòlach, “Tha a h-uile dùil againn, an uair bhios cabhsair Èirisgeigh deiseil, gum bi sinne air thoiseach air càch san Roinn Eòrpa a thoireadh còmhdhail.
 1	Thuirt	abair	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	Murchadh	Murchadh	PROPN	Nn-mn	Case=Nom|Gender=Masc	1	nsubj	_	_
-3	Moireach	Moireach	PROPN	Nn	_	2	flat:name	_	SpaceAfter=No
+3	Moireach	Moireach	PROPN	Nn	_	2	flat:name	_	FlatType=Name|SpaceAfter=No
 4	,	,	PUNCT	Fi	_	6	punct	_	_
 5	a	a	PART	Q-r	PartType=Vb|PronType=Rel	6	nsubj	_	_
 6	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
@@ -11719,8 +11720,8 @@
 6	anns	an	ADP	Sp	ExtPos=ADP	8	case	_	_
 7	na	an	ADP	Sp	_	6	fixed	_	_
 8	h-Eileanan	Eileanan	PROPN	Nt	NounType=Top	4	nmod	_	_
-9	an	an	PROPN	Nt	NounType=Top	8	flat:name	_	FlatType=Top
-10	Iar	Iar	PROPN	Nt	NounType=Top	8	flat:name	_	FlatType=Top
+9	an	an	ADJ	Aq	ExtPos=ADJ	8	amod	_	_
+10	Iar	Iar	ADJ	Aq	_	9	fixed	_	_
 11	agus	agus	CCONJ	Cc	_	12	cc	_	_
 12	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	1	conj	_	_
 13	iad	iad	PRON	Pp3p	Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
@@ -11747,6 +11748,7 @@
 34	carbadan	carbad	NOUN	Ncpmg	Case=Gen|Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	Fe	_	1	punct	_	_
 
+# revision = 2025-01-15: retagged node 28 to DET as per #52.
 # sent_id = pw09_037
 # text = Tha e nis comasach do neach am Buta Leòdhasach fhàgail sa mhadainn trì latha san t-seachdain air còmhdhail phoblach agus a bhith ann am Bàgh a’ Chaisteil aig àrd fheasgair.
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11778,7 +11780,7 @@
 25	ann	an	ADP	Sp	ExtPos=ADP	27	case	_	_
 26	am	an	ADP	Sp	_	25	fixed	_	_
 27	Bàgh	Bàgh	PROPN	Nt	NounType=Top	24	xcomp:pred	_	_
-28	a’	a'	PROPN	Nt	NounType=Top	27	flat:name	_	FlatType=Top
+28	a’	a'	DET	Tdsmg	_	29	det	_	_
 29	Chaisteil	Caisteil	PROPN	Nt	NounType=Top	27	flat:name	_	FlatType=Top
 30	aig	aig	ADP	Sp	_	32	case	_	_
 31	àrd	àrd	ADJ	Ar	_	32	amod	_	_
@@ -11820,7 +11822,7 @@
 # text = Thog Seumas MacMhathain an dealbh an toiseach 150 bliadhna air ais.
 1	Thog	tog	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	Seumas	Seumas	PROPN	Nn-mn	Case=Nom|Gender=Masc	1	nsubj	_	_
-3	MacMhathain	MacMhathain	PROPN	Nn	_	2	flat:name	_	_
+3	MacMhathain	MacMhathain	PROPN	Nn	_	2	flat:name	_	FlatType=Name
 4	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	dealbh	dealbh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
 6	an	an	ADV	Rt	AdvType=Tim|ExtPos=ADV	1	advmod	_	_
@@ -13022,7 +13024,7 @@
 # speaker = [1]
 # text = Morris Johnston le seachd mionaidean deug air a dhol agus tha an rèitire a' toirt facal rabhaidh do Ghorem ann an siud
 1	Morris	Morris	PROPN	Nn-mn	Case=Nom|Gender=Masc	0	root	_	_
-2	Johnston	Johnston	PROPN	Nn	_	1	flat:name	_	_
+2	Johnston	Johnston	PROPN	Nn	_	1	flat:name	_	FlatType=Name
 3	le	le	ADP	Sp	_	5	case	_	_
 4	seachd	seachd	NUM	Mc	NumForm=Word|NumType=Card	5	nummod	_	_
 5	mionaidean	mionaid	NOUN	Ncpfd	Case=Dat|Gender=Fem|Number=Plur	1	nmod	_	_

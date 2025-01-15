@@ -88,7 +88,14 @@ def check_misc(sentence) -> int:
             errors += 1
             print(f"E {sentence.id} {word.id} Anonymised=Yes missing from MISC column")
     for word in sentence:
+        if word.deprel in ["flat", "flat:name", "flat:foreign"]:
+            if "FlatType" not in word.misc:
+                errors += 1
+                print(f"E {sentence.id} {word.id} FlatType required for flat:* deprel")                
         if "FlatType" in word.misc:
+            if word.deprel not in ["flat", "flat:name", "flat:foreign"]:
+                errors += 1
+                print(f"E {sentence.id} {word.id} FlatType not allowed for non-flat deprel")
             for flattype in word.misc["FlatType"]:
                 if flattype not in allowed_flattypes:
                     errors += 1
@@ -119,10 +126,13 @@ def check_others(sentence) -> int:
         if word.xpos == "Up" and word.deprel != "flat:name" and prev_word is not None and prev_word.xpos == "Nn":
             errors += 1
             print(f"E {sentence.id} {word.id} Patronymic should be flat:name")
-        if word.deprel.startswith("mark") and word.upos not in ["PART", "SCONJ"]:
+        if word.deprel is None:
+            errors += 1
+            print(f"E {sentence.id} {word.id} deprel must not be None")
+        elif word.deprel.startswith("mark") and word.upos not in ["PART", "SCONJ"]:
             errors += 1
             print(f"E {sentence.id} {word.id} mark should only be for PART or SCONJ")
-        if word.deprel == "flat" and "FlatType" not in word.misc:
+        elif word.deprel == "flat" and "FlatType" not in word.misc:
             errors += 1
             print(f"?E {sentence.id} {word.id} should be flat:name or flat:foreign, or FlatType should be specified")
     return errors
@@ -130,11 +140,17 @@ def check_others(sentence) -> int:
 def check_toponyms(sentence) -> int:
     """
     https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/52
+
+    Checks that surfaces indicating determiners or adjectives are tagged grammatically
+    rather than with flat:name.
+
+    Returns an integer number of errors.
     """
     errors = 0
-    surfaces = ["an", "a'", "na" ,"nan", "nam", "ear", "tuath", "deas", "iar"]
+    surfaces = ["am", "an", "a'", "na" ,"nan", "nam", "ear", "tuath", "deas", "iar", "meadhonach"]
     for word, _ in ud_words(sentence, lambda w: w.deprel == "flat:name"):
-        if word.form.tolower() in surfaces:
+        if word.form.lower() in surfaces or word.lemma.lower() in surfaces:
+            errors += 1
             print(f"E {sentence.id} {word.id} deprel should reflect the grammar")
     return errors
 
@@ -239,8 +255,8 @@ def check_heads_for_upos(sentence) -> int:
         "obl": ["VERB", "ADJ", "ADV"],
         "obl:smod": ["VERB", "ADJ", "ADV"],
         "obl:tmod": ["VERB", "ADJ", "ADV"],
-        "nmod": ["NOUN", "NUM", "PRON", "PROPN", "SYM", "X"],
-        "appos": ["NOUN", "NUM", "PRON", "PROPN", "SYM", "X"]
+        "nmod": ["NOUN", "NUM", "PART", "PRON", "PROPN", "SYM", "X"],
+        "appos": ["NOUN", "NUM", "PART", "PRON", "PROPN", "SYM", "X"]
     }
     for word, _ in ud_words(sentence, lambda t: t.deprel in heads):
         head_ids[int(word.head)] = (word.deprel, word.id)
@@ -652,6 +668,7 @@ def validate_corpus(corpus):
         total_errors += check_multiples(tree)
         total_errors += check_passive(tree)
         total_errors += check_relatives(tree)
+        total_errors += check_toponyms(tree)
         total_errors += check_unmarked(tree)
         errors, warnings = check_clause_types(tree, speech_lemmata)
         total_errors += errors
