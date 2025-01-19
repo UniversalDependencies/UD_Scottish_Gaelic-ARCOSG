@@ -7049,8 +7049,8 @@
 35	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	Pàrlamaid	pàrlamaid	NOUN	Ncsfg	Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
 37	,	,	PUNCT	Fi	_	38	punct	_	_
-38	Sir	sir	PROPN	Xfe	Foreign=Yes	34	appos	_	_
-39	Daibhidh	Daibhidh	PROPN	Nn-mn	Case=Nom|Gender=Masc	38	flat:name	_	FlatType=Name
+38	Sir	sir	NOUN	Xfe	Foreign=Yes	39	nmod:unmarked	_	_
+39	Daibhidh	Daibhidh	PROPN	Nn-mn	Case=Nom|Gender=Masc	34	appos	_	_
 40	Steel	Steel	PROPN	Nn	_	38	flat:name	_	FlatType=Name|SpaceAfter=No
 41	.	.	PUNCT	Fe	_	1	punct	_	_
 
@@ -7778,8 +7778,8 @@
 # text = Tha a’ Bhan-phrionnsa Diana air slaic a thoirt air pàipearan-naidheachd Bhreatainn - 's i 'cumail a-mach gu robh i air Breatainn fhàgail fad ron a-seo mur a b' e gu robh clann aice.
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	a’	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	Bhan-phrionnsa	ban-phrionnsa	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
-4	Diana	Diana	PROPN	Nn-fn	Case=Nom|Gender=Fem	3	flat:name	_	FlatType=Name
+3	Bhan-phrionnsa	ban-phrionnsa	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	4	nmod:unmarked	_	_
+4	Diana	Diana	PROPN	Nn-fn	Case=Nom|Gender=Fem	1	nsubj	_	_
 5	air	air	PART	Sa	_	8	case	_	_
 6	slaic	slaic	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	8	obj	_	_
 7	a	a	PART	Ug	PartType=Inf	8	mark:prt	_	_
@@ -11327,8 +11327,8 @@
 6	1999	1999	NUM	Mn	NumForm=Digit|NumType=Card	4	flat	_	FlatType=Date
 7	dh’fhosgail	fosgail	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	am	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Prionnsa	prionnsa	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
-10	Teàrlach	Teàrlach	PROPN	Nn-mn	Case=Nom|Gender=Masc	9	flat:name	_	FlatType=Name
+9	Prionnsa	prionnsa	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	10	nmod:unmarked	_	_
+10	Teàrlach	Teàrlach	PROPN	Nn-mn	Case=Nom|Gender=Masc	7	nsubj	_	_
 11	cabhsair	cabhsair	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
 12	Bheàrnaraigh	Beàrnaraigh	PROPN	Nt	Case=Gen|NounType=Top	11	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	Fe	_	7	punct	_	_

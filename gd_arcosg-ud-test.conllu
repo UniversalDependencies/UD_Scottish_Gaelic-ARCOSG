@@ -2693,6 +2693,7 @@
 22	fhiosda	fiosda	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
 23	.	.	PUNCT	Fe	_	1	punct	_	_
 
+# revision = 2025-01-19: adjectives in placenames retagged as ADJ/Aq
 # sent_id = f03_033
 # text = Co-dhiù, fhuair iad an t-eathar, 's i 'na spealgan, air an Rubha Gharbh agus na cuirp shuas a tuath air an Tràigh Ghil, faisg air a' Chaolas Mhór.
 1	Co-dhiù	co-dhiù	ADV	Rg	AdvType=Man	3	advmod	_	SpaceAfter=No
@@ -2712,7 +2713,7 @@
 14	air	air	ADP	Sp	_	16	case	_	_
 15	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Rubha	Rubha	PROPN	Nt	NounType=Top	3	obl	_	_
-17	Gharbh	Garbh	PROPN	Nt	NounType=Top	16	flat:name	_	FlatType=Top
+17	Gharbh	Garbh	ADJ	Aq	_	16	amod	_	_
 18	agus	agus	SCONJ	Cc	_	20	mark	_	_
 19	na	an	DET	Tdpm	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 20	cuirp	cuirp	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	16	advcl	_	_
@@ -2722,13 +2723,13 @@
 24	air	air	ADP	Sp	_	26	case	_	_
 25	an	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	Tràigh	Tràigh	PROPN	Nt	NounType=Top	20	xcomp:pred	_	_
-27	Ghil	Gil	PROPN	Nt	NounType=Top	26	flat:name	_	FlatType=Top|SpaceAfter=No
+27	Ghil	Gil	ADJ	Aq	_	26	amod	_	SpaceAfter=No
 28	,	,	PUNCT	Fi	_	29	punct	_	_
 29	faisg	faisg	ADJ	Ap	_	26	conj	_	_
 30	air	air	ADP	Sp	_	32	case	_	_
 31	a'	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	Chaolas	Caolas	PROPN	Nt	NounType=Top	29	obl	_	_
-33	Mhór	Mór	PROPN	Nt	NounType=Top	32	flat:name	_	FlatType=Top|SpaceAfter=No
+33	Mhór	Mór	ADJ	Aq	_	32	amod	_	SpaceAfter=No
 34	.	.	PUNCT	Fe	_	3	punct	_	_
 
 # sent_id = f03_034
@@ -3322,11 +3323,11 @@
 
 # sent_id = fp03_001
 # text = A réir an Ollaimh MacBhàtair, rugadh i mu 1660 agus chaochail i mu 1730, ach tha MacGill-Eain Mac na Ceàrdaich, 'na leabhar Na Bàird Ghàidhealach eadar 1715 agus 1765, ag ràdh; Is e an dàn a rinn i an 1751 'Òran do Shir Eachann MacGill-Eain', a chaochail anns an Ròimh an 1751.
-1	A	a	ADP	Sp	ExtPos=ADP	4	case	_	_
+1	A	a	ADP	Sp	ExtPos=ADP	5	case	_	_
 2	réir	réir	ADP	Nf	_	1	fixed	_	_
 3	an	an	DET	Tdsmg	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	Ollaimh	ollaimh	NOUN	Ncsmg	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
-5	MacBhàtair	MacBhàtair	PROPN	Nn	_	4	flat:name	_	FlatType=Name|SpaceAfter=No
+4	Ollaimh	ollaimh	NOUN	Ncsmg	Case=Gen|Gender=Masc|Number=Sing	5	nmod:unmarked	_	_
+5	MacBhàtair	MacBhàtair	PROPN	Nn	_	7	obl	_	SpaceAfter=No
 6	,	,	PUNCT	Fi	_	7	punct	_	_
 7	rugadh	rug	VERB	V-s0	Mood=Ind|Person=0|Tense=Past|VerbForm=Fin	0	root	_	_
 8	i	i	PRON	Pp3sf	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -3371,10 +3372,10 @@
 46	1751	1751	NUM	Mn	NumForm=Digit|NumType=Card	43	obl	_	_
 47	'	'	PUNCT	Fq	_	48	punct	_	SpaceAfter=No
 48	Òran	òran	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	41	appos	_	_
-49	do	do	ADP	Sp	_	50	case	_	_
-50	Shir	shir	NOUN	Xfe	Foreign=Yes	48	nmod	_	_
-51	Eachann	Eachann	PROPN	Nn-md	Case=Dat|Gender=Masc	50	flat:name	_	FlatType=Name
-52	MacGill-Eain	MacGill-Eain	PROPN	Nn	_	50	flat:name	_	FlatType=Name|SpaceAfter=No
+49	do	do	ADP	Sp	_	51	case	_	_
+50	Shir	shir	NOUN	Xfe	Foreign=Yes	51	nmod:unmarked	_	_
+51	Eachann	Eachann	PROPN	Nn-md	Case=Dat|Gender=Masc	48	nmod	_	_
+52	MacGill-Eain	MacGill-Eain	PROPN	Nn	_	51	flat:name	_	FlatType=Name|SpaceAfter=No
 53	'	'	PUNCT	Fz	_	56	punct	_	SpaceAfter=No
 54	,	,	PUNCT	Fi	_	56	punct	_	_
 55	a	a	PART	Q-r	PartType=Vb|PronType=Rel	56	nsubj	_	_
@@ -3587,10 +3588,10 @@
 14	seo	seo	DET	Dd	PronType=Art	13	det	_	_
 15	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	t-òran	òran	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
-17	do	do	ADP	Sp	_	18	case	_	_
-18	Shir	shir	NOUN	Xfe	Foreign=Yes	16	nmod	_	_
-19	lain	Iain	PROPN	Nn-md	Case=Dat|Gender=Masc|Typo=Yes	18	flat:name	_	CorrectForm=Iain|FlatType=Name
-20	MacGill-Eain	MacGill-Eain	PROPN	Nn	_	18	flat:name	_	FlatType=Name
+17	do	do	ADP	Sp	_	19	case	_	_
+18	Shir	shir	NOUN	Xfe	Foreign=Yes	19	nmod:unmarked	_	_
+19	lain	Iain	PROPN	Nn-md	Case=Dat|Gender=Masc|Typo=Yes	16	obl	_	CorrectForm=Iain
+20	MacGill-Eain	MacGill-Eain	PROPN	Nn	_	19	flat:name	_	FlatType=Name
 21	a	a	PART	Q-r	PartType=Vb|PronType=Rel	22	nsubj	_	_
 22	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
 23	a'	ag	PART	Sa	_	24	case	_	_
@@ -3613,8 +3614,8 @@
 40	Nam	nam	PART	Q-s	_	42	mark	_	_
 41	b'	is	AUX	Ws	Tense=Past	42	cop	_	_
 42	fhiosrach	fiosrach	ADJ	Ap	_	37	ccomp	_	_
-43	Ban-righ'nn	ban-righ'nn	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	42	nsubj	_	_
-44	Anna	Anna	PROPN	Nn-fn	Case=Nom|Gender=Fem	43	flat:name	_	FlatType=Name|SpaceAfter=No
+43	Ban-righ'nn	ban-righ'nn	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	44	nmod:unmarked	_	_
+44	Anna	Anna	PROPN	Nn-fn	Case=Nom|Gender=Fem	42	nsubj	_	SpaceAfter=No
 45	.	.	PUNCT	Fe	_	42	punct	_	SpaceAfter=No
 46	'	'	PUNCT	Fz	_	42	punct	_	_
 
@@ -3809,8 +3810,8 @@
 10	'	'	PUNCT	Fq	_	12	punct	_	SpaceAfter=No
 11	aon	aon	NUM	Mc	NumForm=Word|NumType=Card	12	nummod	_	_
 12	mhac	mac	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
-13	Sir	sir	PROPN	Xfe	Foreign=Yes	12	nmod:unmarked	_	_
-14	Lachun	Lachun	PROPN	Nn-mn	Case=Nom|Gender=Masc	13	flat:name	_	FlatType=Name|SpaceAfter=No
+13	Sir	sir	NOUN	Xfe	Foreign=Yes	14	nmod:unmarked	_	_
+14	Lachun	Lachun	PROPN	Nn-mn	Case=Nom|Gender=Masc	12	nmod:unmarked	_	SpaceAfter=No
 15	'	'	PUNCT	Fz	_	12	punct	_	SpaceAfter=No
 16	?	?	PUNCT	Fg	_	1	punct	_	_
 
@@ -3884,7 +3885,7 @@
 24	Ailean	Ailean	PROPN	Nn-mn	Case=Nom|Gender=Masc	13	conj	_	SpaceAfter=No
 25	,	,	PUNCT	Fi	_	24	punct	_	_
 26	athair	athair	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	24	appos	_	_
-27	Shir	shir	NOUN	Xfe	Case=Gen|Foreign=Yes	26	nmod	_	_
+27	Shir	shir	NOUN	Xfe	Case=Gen|Foreign=Yes	28	nmod:unmarked	_	_
 28	lain	Iain	PROPN	Nn-mg	Case=Gen|Gender=Masc|Typo=Yes	26	nmod	_	CorrectForm=Iain|SpaceAfter=No
 29	.	.	PUNCT	Fe	_	1	punct	_	_
 
@@ -3933,13 +3934,13 @@
 
 # sent_id = fp03_014
 # text = B' e Sir lain an 'cuilean leòghainn', aon mhac Shir Ailein.
-1	B'	is	AUX	Ws	ExtPos=AUX|Tense=Past	3	cop	_	_
+1	B'	is	AUX	Ws	ExtPos=AUX|Tense=Past	4	cop	_	_
 2	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	fixed	_	_
-3	Sir	sir	PROPN	Xfe	Foreign=Yes	0	root	_	_
-4	lain	Iain	PROPN	Nn-mn	Case=Nom|Gender=Masc|Typo=Yes	3	flat:name	_	CorrectForm=Iain|FlatType=Name
+3	Sir	sir	NOUN	Xfe	Foreign=Yes	4	nmod:unmarked	_	_
+4	lain	Iain	PROPN	Nn-mn	Case=Nom|Gender=Masc|Typo=Yes	0	root	_	CorrectForm=Iain
 5	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	'	'	PUNCT	Fq	_	7	punct	_	SpaceAfter=No
-7	cuilean	cuilean	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+7	cuilean	cuilean	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 8	leòghainn	leòghainn	NOUN	Ncsmg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
 9	'	'	PUNCT	Fz	_	7	punct	_	SpaceAfter=No
 10	,	,	PUNCT	Fi	_	12	punct	_	_
@@ -3947,7 +3948,7 @@
 12	mhac	mac	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
 13	Shir	shir	NOUN	Xfe	Case=Gen|Foreign=Yes	14	nmod:unmarked	_	_
 14	Ailein	Ailean	PROPN	Nn-mg	Case=Gen|Gender=Masc	12	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	Fe	_	3	punct	_	_
+15	.	.	PUNCT	Fe	_	4	punct	_	_
 
 # sent_id = fp03_015
 # text = Bha Iain 'na cheann-cinnidh eadar 1674 agus 1714, agus gu dearbh is iomadh latha bha e 'bhuainn le cluain nan Duibhneach'.
@@ -4075,8 +4076,8 @@
 21	ràdh	abair	NOUN	Nv	VerbForm=Inf	17	csubj:cop	_	_
 22	gun	gu	PART	Qa	PartType=Cmpl	23	mark:prt	_	_
 23	robh	bi	VERB	V-s--d	Mood=Ind|Tense=Past|VerbForm=Fin	21	ccomp	_	_
-24	Sir	sir	PROPN	Xfe	Foreign=Yes	23	nsubj	_	_
-25	lain	Iain	PROPN	Nn-mn	Case=Nom|Gender=Masc|Typo=Yes	24	flat:name	_	CorrectForm=Iain|FlatType=Name
+24	Sir	sir	NOUN	Xfe	Foreign=Yes	25	nmod:unmarked	_	_
+25	lain	Iain	PROPN	Nn-mn	Case=Nom|Gender=Masc|Typo=Yes	23	nsubj	_	CorrectForm=Iain
 26-27	'na	_	_	_	_	_	_	_	_
 26	an	an	ADP	Sp	_	28	case	_	_
 27	a	a	PRON	Dp3sm	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
@@ -4102,8 +4103,8 @@
 1	An	an	ADP	Sp	_	2	case	_	_
 2	1688	1688	NUM	Mn	NumForm=Digit|NumType=Card	3	obl	_	_
 3	theich	teich	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-4	Rìgh	rìgh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-5	Seumas	Seumas	PROPN	Nn-mn	Case=Nom|Gender=Masc	4	flat:name	_	FlatType=Name
+4	Rìgh	rìgh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	5	nmod:unmarked	_	_
+5	Seumas	Seumas	PROPN	Nn-mn	Case=Nom|Gender=Masc	3	nsubj	_	_
 6	do	do	ADP	Sp	_	8	case	_	_
 7	'n	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Fhraing	Fraing	PROPN	Nt	NounType=Top	3	obl	_	SpaceAfter=No
@@ -4112,8 +4113,8 @@
 # sent_id = fp03_021
 # text = Chaidh Sir lain as a dhéidh, ach thill e a Mhuile an 1689, dh’éirich Clann Ghill-Eain leis, agus bha iad air deas làimh an airm Sheumasaich aig Cath Raon Ruairi (Coille-chnagaidh).
 1	Chaidh	rach	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-2	Sir	sir	PROPN	Xfe	Foreign=Yes	1	nsubj	_	_
-3	lain	Iain	PROPN	Nn-mn	Case=Nom|Gender=Masc|Typo=Yes	2	flat:name	_	CorrectForm=Iain|FlatType=Name
+2	Sir	sir	NOUN	Xfe	Foreign=Yes	3	nmod:unmarked	_	_
+3	lain	Iain	PROPN	Nn-mn	Case=Nom|Gender=Masc|Typo=Yes	1	nsubj	_	CorrectForm=Iain
 4	as	as	ADP	Sp	_	6	case	_	_
 5	a	a	DET	Dp3sm	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
 6	dhéidh	déidh	NOUN	Nf	_	1	obl	_	SpaceAfter=No
@@ -4169,9 +4170,9 @@
 14	agus	agus	CCONJ	Cc	_	16	cc	_	_
 15	b'	is	AUX	Ws	Tense=Past	16	cop	_	_
 16	fheudar	fheudar	NOUN	Uf	_	2	conj	_	_
-17	do	do	ADP	Sp	_	18	case	_	_
-18	Shir	shir	NOUN	Xfe	Foreign=Yes	16	nmod	_	_
-19	lain	Iain	PROPN	Nn-md	Case=Dat|Gender=Masc|Typo=Yes	18	flat:name	_	CorrectForm=Iain|FlatType=Name
+17	do	do	ADP	Sp	_	19	case	_	_
+18	Shir	shir	NOUN	Xfe	Foreign=Yes	19	nmod:unmarked	_	_
+19	lain	Iain	PROPN	Nn-md	Case=Dat|Gender=Masc|Typo=Yes	16	nmod	_	CorrectForm=Iain
 20	tilleadh	till	NOUN	Nv	VerbForm=Vnoun	16	csubj:cop	_	_
 21	a	a	ADP	Sp	_	22	case	_	_
 22	Mhuile	Muile	PROPN	Nt	NounType=Top	20	obl	_	SpaceAfter=No
@@ -4205,8 +4206,8 @@
 # sent_id = fp03_024
 # text = Ghabh Sir lain dìon an Càrn-Burg, ach anns a’ mhìos Mhàrt 1692 ghéill e do 'n Riaghaltas agus thill e do 'n Fhraing beagan ùine an déidh dha Càrn-Burg fhàgail.
 1	Ghabh	gabh	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-2	Sir	sir	PROPN	Xfe	Foreign=Yes	1	nsubj	_	_
-3	lain	Iain	PROPN	Nn-mn	Case=Nom|Gender=Masc|Typo=Yes	2	flat:name	_	CorrectForm=Iain|FlatType=Name
+2	Sir	sir	NOUN	Xfe	Foreign=Yes	3	nmod:unmarked	_	_
+3	lain	Iain	PROPN	Nn-mn	Case=Nom|Gender=Masc|Typo=Yes	1	nsubj	_	CorrectForm=Iain
 4	dìon	dìon	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
 5	an	an	ADP	Sp	_	6	case	_	_
 6	Càrn-Burg	Càrn-Burg	PROPN	Nt	NounType=Top	1	obl	_	SpaceAfter=No
@@ -4422,7 +4423,7 @@
 13	ag	ag	PART	Sa	_	14	case	_	_
 14	caoidh	caoidh	NOUN	Nv	VerbForm=Vnoun	12	xcomp:pred	_	_
 15	bàs	bàs	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	14	obj	_	_
-16	Shir	shir	NOUN	Xfe	Case=Gen|Foreign=Yes	17	nmod	_	_
+16	Shir	shir	NOUN	Xfe	Case=Gen|Foreign=Yes	17	nmod:unmarked	_	_
 17	lain	Iain	PROPN	Nn-mg	Case=Gen|Gender=Masc|Typo=Yes	15	nmod	_	CorrectForm=Iain|SpaceAfter=No
 18	,	,	PUNCT	Fi	_	19	punct	_	_
 19	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6444,7 +6445,7 @@
 5	ospadal	ospadal	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
 6	à	à	ADP	Sp	_	7	case	_	_
 7	Raig	Raig	PROPN	Nt	NounType=Top	3	obl	_	_
-8	Mhor	Mor	PROPN	Nt	NounType=Top	7	flat:name	_	FlatType=Top
+8	Mhor	Mor	ADJ	Aq	_	7	amod	_	_
 9	le	le	ADP	Sp	_	10	case	_	_
 10	heileacoptair	heileacoptair	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
 11	feachd	feachd	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	_
@@ -7148,7 +7149,7 @@
 31	Gàidhlig	gàidhlig	NOUN	Ncsfg	Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
 32	nan	an	DET	Tdpmg	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
 33	Eilean	Eilean	PROPN	Nt	Case=Gen|NounType=Top	30	nmod	_	_
-34	Siar	Siar	PROPN	Nt	NounType=Top	33	flat:name	_	FlatType=Top
+34	Siar	Siar	ADJ	Aq	_	33	amod	_	_
 35	as	is	AUX	Wpr	PronType=Rel|Tense=Pres	36	cop	_	_
 36	ùr	ùr	ADJ	Ap	_	28	ccomp	_	_
 37	am	am	ADV	Rt	AdvType=Tim|ExtPos=ADV	28	advmod	_	_
@@ -7278,7 +7279,7 @@
 2	Ball-Pàrlamaid	ball-pàrlamaid	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 3	nan	an	DET	Tdpmg	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	Eilean	Eilean	PROPN	Nt	Case=Gen|NounType=Top	2	nmod	_	_
-5	Siar	Siar	PROPN	Nt	NounType=Top	4	flat:name	_	FlatType=Top
+5	Siar	Siar	ADJ	Aq	_	4	amod	_	_
 6	Calum	Calum	PROPN	Nn-mn	Case=Nom|Gender=Masc	2	appos	_	_
 7	Dòmhnallach	Dòmhnallach	PROPN	Nn	_	6	flat:name	_	FlatType=Name
 8	air	air	ADP	Sp	_	9	case	_	_
@@ -7610,9 +7611,9 @@
 # text = Thèid an Seanalair Momir Talic air beulaibh tribunal eucoir cogaidh nan Dùthchannan Aonaichte anns an Hague.
 1	Thèid	rach	VERB	V-f	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
 2	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Seanalair	seanalair	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
-4	Momir	Momir	PROPN	Nn-mn	Case=Nom|Gender=Masc	3	flat:name	_	FlatType=Name
-5	Talic	Talic	PROPN	Nn	_	3	flat:name	_	FlatType=Name
+3	Seanalair	seanalair	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	4	nmod:unmarked	_	_
+4	Momir	Momir	PROPN	Nn-mn	Case=Nom|Gender=Masc	1	nsubj	_	_
+5	Talic	Talic	PROPN	Nn	_	4	flat:name	_	FlatType=Name
 6	air	air	ADP	Sp	ExtPos=ADP	8	case	_	_
 7	beulaibh	beulaibh	ADP	Nf	_	6	fixed	_	_
 8	tribunal	tribunal	NOUN	Xfe	Foreign=Yes	1	obl	_	_
@@ -7633,11 +7634,11 @@
 3	Pàrlamaid	pàrlamaid	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	obj	_	_
 4	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	h-Alba	Alba	PROPN	Nt	Case=Gen|NounType=Top	3	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	Fi	_	7	punct	_	_
-7	Sir	sir	PROPN	Xfe	Foreign=Yes	2	appos	_	_
-8	Daibhidh	Daibhidh	PROPN	Nn-mn	Case=Nom|Gender=Masc	7	flat:name	_	FlatType=Name
-9	Steele	Steele	PROPN	Nn	_	7	flat:name	_	FlatType=Name|SpaceAfter=No
-10	,	,	PUNCT	Fi	_	7	punct	_	_
+6	,	,	PUNCT	Fi	_	8	punct	_	_
+7	Sir	sir	NOUN	Xfe	Foreign=Yes	8	nmod:unmarked	_	_
+8	Daibhidh	Daibhidh	PROPN	Nn-mn	Case=Nom|Gender=Masc	2	appos	_	_
+9	Steele	Steele	PROPN	Nn	_	8	flat:name	_	FlatType=Name|SpaceAfter=No
+10	,	,	PUNCT	Fi	_	12	punct	_	_
 11	gu	gu	PART	Qa	PartType=Cmpl	12	mark:prt	_	_
 12	faic	faic	VERB	V-f--d	Mood=Ind|Tense=Fut|VerbForm=Fin	1	ccomp	_	_
 13	daoine	duine	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
@@ -7665,8 +7666,8 @@
 # sent_id = ns07_030
 # text = Thuirt Sir Daibhidh nach robh cumhachdan air a bhith aig a’ Phàrlamaid fhathast airson i fhèin fhoillseachadh ceart.
 1	Thuirt	abair	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-2	Sir	sir	PROPN	Xfe	Foreign=Yes	1	nsubj	_	_
-3	Daibhidh	Daibhidh	PROPN	Nn-mn	Case=Nom|Gender=Masc	2	flat:name	_	FlatType=Name
+2	Sir	sir	NOUN	Xfe	Foreign=Yes	3	nmod:unmarked	_	_
+3	Daibhidh	Daibhidh	PROPN	Nn-mn	Case=Nom|Gender=Masc	1	nsubj	_	_
 4	nach	nach	PART	Qn	PartType=Cmpl|Polarity=Neg	5	mark:prt	_	_
 5	robh	bi	VERB	V-s--d	Mood=Ind|Tense=Past|VerbForm=Fin	1	ccomp	_	_
 6	cumhachdan	cumhachd	NOUN	Ncpfn	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
@@ -10606,9 +10607,9 @@
 10	Oifigeir	oifigeir	NOUN	Ncsmg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
 11	Riaghailt	riaghailt	NOUN	Ncsfg	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	Fi	_	13	punct	_	_
-13	Sir	sir	PROPN	Xfe	Foreign=Yes	10	appos	_	_
-14	Daibhidh	Daibhidh	PROPN	Nn-mn	Case=Nom|Gender=Masc	13	flat:name	_	FlatType=Name
-15	Steel	Steel	PROPN	Nn	_	13	flat:name	_	FlatType=Name|SpaceAfter=No
+13	Sir	sir	NOUN	Xfe	Foreign=Yes	14	nmod:unmarked	_	_
+14	Daibhidh	Daibhidh	PROPN	Nn-mn	Case=Nom|Gender=Masc	10	appos	_	_
+15	Steel	Steel	PROPN	Nn	_	14	flat:name	_	FlatType=Name|SpaceAfter=No
 16	,	,	PUNCT	Fi	_	18	punct	_	_
 17	a	a	PART	Q-r	PartType=Vb|PronType=Rel	18	nsubj	_	_
 18	ghabh	gabh	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	4	csubj:cleft	_	_

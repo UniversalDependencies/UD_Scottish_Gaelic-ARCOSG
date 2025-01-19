@@ -137,7 +137,7 @@ def check_others(sentence) -> int:
             print(f"?E {sentence.id} {word.id} should be flat:name or flat:foreign, or FlatType should be specified")
     return errors
 
-def check_toponyms(sentence) -> int:
+def check_proper_names(sentence) -> (int, int):
     """
     https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/52
 
@@ -147,12 +147,28 @@ def check_toponyms(sentence) -> int:
     Returns an integer number of errors.
     """
     errors = 0
+    warnings = 0
     surfaces = ["am", "an", "a'", "na" ,"nan", "nam", "ear", "tuath", "deas", "iar", "meadhonach"]
+    part_surfaces = ["mac", "nic", "'ic"]
     for word, _ in ud_words(sentence, lambda w: w.deprel == "flat:name"):
         if word.form.lower() in surfaces or word.lemma.lower() in surfaces:
             errors += 1
             print(f"E {sentence.id} {word.id} deprel should reflect the grammar")
-    return errors
+    for word, prev_word in ud_words(sentence, lambda w: w.upos == "PROPN"):
+        if word.form.lower() in part_surfaces:
+            errors += 1
+            print(f"E {sentence.id} {word.id} UPOS should be PART")
+        if prev_word is not None:
+            if prev_word.upos == "DET" and word.deprel == "flat:name":
+                warnings +=1
+                print(f"W {sentence.id} {word.id} consider nmod")
+        case_set = word.feats.get("Case", None)
+        if case_set is not None:
+            if "Gen" in case_set and word.deprel == "flat:name":
+                warnings +=1
+                print(f"W {sentence.id} {word.id} consider nmod")
+
+    return errors, warnings
 
 def check_unmarked(sentence) -> int:
     """
@@ -549,8 +565,7 @@ def check_passive(sentence) -> int:
     Exceptions are made for where somebody goes to do something, which is similar to the deprecated
     pattern but not, of course, a passive.
 
-    There is a further pattern rach + aig... + infinitive which is not deprecated but I haven't
-    coded in.
+    There is a further pattern rach + aig... + infinitive which is not deprecated.
     Example n02_026 in test.
 
     Returns an integer of the number of errors.
@@ -560,8 +575,15 @@ def check_passive(sentence) -> int:
     rach_ids = [t.id for t, _ in ud_words(sentence,\
                                          lambda t: t.lemma == "rach" and t.upos != "NOUN")]
     adps = {}
-    for t, _ in ud_words(sentence, lambda t: t.deprel == "case"):
-        adps[t.head] = t.lemma
+    correct_passives = [w.head for w, _ in ud_words(sentence, lambda w: w.deprel == "aux:pass")]
+    obl_heads = [w.head for w, _ in ud_words(sentence, lambda w: w.deprel == "obl")]
+    for word, _ in ud_words(sentence, lambda w: w.deprel == "case"):
+        adps[word.head] = word.lemma
+        if word.lemma == "le" and correct_passives != []:
+            for obl_head in set(obl_heads):
+                if obl_head in correct_passives:
+                    print(f"{word.head} {obl_heads} {word.lemma}")
+                    print(f"? {sentence.id} {word.head} {obl_head} check for obl:agent")                    
     for word, _ in ud_words(sentence, lambda t: t.head in rach_ids):
         if word.head in ids:
             ids[word.head].append(word.id)
@@ -664,18 +686,23 @@ def validate_corpus(corpus):
         total_errors += check_bi(tree)
         total_errors += check_cleft(tree)
         total_errors += check_csubj(tree)
-        total_errors += check_reported_speech(tree, speech_lemmata)
         total_errors += check_multiples(tree)
         total_errors += check_passive(tree)
+        errors,warnings = check_proper_names(tree)
+        total_errors += errors
+        total_warnings += warnings
         total_errors += check_relatives(tree)
-        total_errors += check_toponyms(tree)
+        total_errors += check_reported_speech(tree, speech_lemmata)
         total_errors += check_unmarked(tree)
         errors, warnings = check_clause_types(tree, speech_lemmata)
         total_errors += errors
         total_warnings += warnings
 
     if total_errors == 0:
-        print("*** PASSED ***")
+        if total_warnings == 0:
+            print("*** PASSED ***")
+        else:
+            print(f"*** PASSED *** with {total_warnings} warnings")
     else:
         print(f"*** FAILED *** with {total_errors} error{'s' if total_errors != 1 else ''} and {total_warnings} warning{'s' if total_warnings != 1 else ''}")
 
