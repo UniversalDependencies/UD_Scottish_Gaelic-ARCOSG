@@ -576,14 +576,12 @@ def check_passive(sentence) -> int:
                                          lambda t: t.lemma == "rach" and t.upos != "NOUN")]
     adps = {}
     correct_passives = [w.head for w, _ in ud_words(sentence, lambda w: w.deprel == "aux:pass")]
-    obl_heads = [w.head for w, _ in ud_words(sentence, lambda w: w.deprel == "obl")]
-    for word, _ in ud_words(sentence, lambda w: w.deprel == "case"):
-        adps[word.head] = word.lemma
-        if word.lemma == "le" and correct_passives != []:
-            for obl_head in set(obl_heads):
-                if obl_head in correct_passives:
-                    print(f"{word.head} {obl_heads} {word.lemma}")
-                    print(f"? {sentence.id} {word.head} {obl_head} check for obl:agent")                    
+    obls = {w.id: w.head for w, _ in ud_words(sentence, lambda w: w.deprel == "obl")}
+
+    adps = {w.head: w.lemma for w, _ in ud_words(sentence, lambda w: w.deprel == "case")}
+    for adp in adps:
+        if adps[adp] == "le" and adp in obls and obls[adp] in correct_passives:
+            print(f"? {sentence.id} {adp} consider obl:agent")
     for word, _ in ud_words(sentence, lambda t: t.head in rach_ids):
         if word.head in ids:
             ids[word.head].append(word.id)

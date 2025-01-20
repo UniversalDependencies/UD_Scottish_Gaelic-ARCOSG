@@ -6447,7 +6447,7 @@
 7	Raig	Raig	PROPN	Nt	NounType=Top	3	obl	_	_
 8	Mhor	Mor	ADJ	Aq	_	7	amod	_	_
 9	le	le	ADP	Sp	_	10	case	_	_
-10	heileacoptair	heileacoptair	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+10	heileacoptair	heileacoptair	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	3	obl:agent	_	_
 11	feachd	feachd	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	_
 12	an	an	DET	Tdsmg	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	adhair	adhair	NOUN	Ncsmg	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
@@ -6550,7 +6550,7 @@
 8	Port	port	PROPN	Nt	NounType=Top	5	obl	_	_
 9	Rìgh	Rìgh	PROPN	Nt	NounType=Top	8	flat:name	_	FlatType=Top
 10	le	le	ADP	Sp	_	11	case	_	_
-11	Comhairle	comhairle	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+11	Comhairle	comhairle	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	5	obl:agent	_	_
 12	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Gaidhealtachd	gaidhealtachd	NOUN	Ncsfg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
 14	an	an	ADV	Rt	AdvType=Tim|ExtPos=ADV	5	advmod	_	_
@@ -7703,7 +7703,7 @@
 14	an	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	t-seachdainn	seachdainn	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	_
 16	le	le	ADP	Sp	_	17	case	_	_
-17	diofar	diofar	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+17	diofar	diofar	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	8	obl:agent	_	_
 18	eaglaisean	eaglais	NOUN	Ncpfg	Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
 19	is	is	CCONJ	Cc	_	20	cc	_	_
 20	chreideamhan	creideamh	NOUN	Ncpmg	Case=Gen|Gender=Masc|Number=Plur	17	conj	_	_

@@ -7647,7 +7647,7 @@
 6	a'	an	DET	Tdsmg	_	7	det	_	_
 7	Bhruthainn	Bruthainn	PROPN	Nn	Case=Gen	5	nmod	_	_
 8	le	le	ADP	Sp	_	9	case	_	_
-9	riochdairean	riochdair	NOUN	Ncpmd	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
+9	riochdairean	riochdair	NOUN	Ncpmd	Case=Dat|Gender=Masc|Number=Plur	2	obl:agent	_	_
 10	Chomhairle	comhairle	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	9	nmod:unmarked	_	_
 11	nan	an	DET	Tdpmg	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	Eilean	eil	NOUN	Ncpmg	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
@@ -8006,7 +8006,7 @@
 10	gu	gu	ADP	Sp	_	11	case	_	_
 11	bàs	bàs	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
 12	le	le	ADP	Sp	_	13	case	_	_
-13	lighiche-sprèidh	lighiche-sprèidh	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	lighiche-sprèidh	lighiche-sprèidh	NOUN	Ncsmd	Case=Dat|Gender=Masc|Number=Sing	9	obl:agent	_	SpaceAfter=No
 14	.	.	PUNCT	Fe	_	9	punct	_	_
 
 # sent_id = ns08_013
