@@ -56,12 +56,14 @@ def check_feats(sentence) -> int:
     """
     Checks the FEATS column for
     1. ExtPos if the node is head of the fixed relation
-    2. Scottish Gaelic-specific features (currently AdvType).
+    2. AdvType for ADV.
+    3. NounType for PROPN.
 
     Returns an integer with the number of errors found.
     """
     errors = 0
     allowed_advtypes = ["Conj", "Man", "Loc", "Tim"]
+    allowed_nountypes = ["Chr", "Cmn", "Glt", "Nau", "Nos", "Org", "Prs", "Top"]
     for word, prev_word in ud_words(sentence, lambda t: t.deprel == "fixed"):
         if prev_word.deprel != "fixed":
             if "ExtPos" not in prev_word.feats:
@@ -73,6 +75,14 @@ def check_feats(sentence) -> int:
                 if advtype not in allowed_advtypes:
                     errors += 1
                     print(f"E {sentence.id} {word.id} Unrecognised AdvType {advtype}")
+        if word.upos == "PROPN" and "NounType" not in word.feats:
+            errors += 1
+            print(f"E {sentence.id} {word.id} NounType must be in FEATS for PROPN")
+        if "NounType" in word.feats:
+            for nountype in word.feats["NounType"]:
+                if nountype not in allowed_nountypes:
+                    errors += 1
+                    print(f"E {sentence.id} {word.id} Unrecognised NounType {nountype}")
     return errors
 
 def check_misc(sentence) -> int:

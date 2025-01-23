@@ -73,9 +73,24 @@ with open(sys.argv[2],'w') as clean:
                 word.feats.pop("CleftType", None)
             if (word.xpos.startswith("Nn") or word.xpos in ["Mr", "Up", "Xfe", "Y"]) and word.deprel == "flat:name":
                 word.misc["FlatType"] = ["Name"]
+            if word.upos == "PROPN" and "Glt" in word.feats["NounType"]:
+                word.feats.pop("Number", None)
+            if word.upos == "NOUN" and word.lemma == "gaidheil":
+                word.feats["NounType"] = ["Eth"]
+                word.upos = "PROPN"
+            if word.upos == "NOUN" and word.lemma == "gàidhlig":
+                word.feats.pop("Number", None)
+                word.feats["NounType"] = ["Glt"]
+                word.upos = "PROPN"
+            if word.upos == "NOUN" and word.lemma == "gaidhealtachd":
+                word.feats.pop("Number", None)
+                word.feats["NounType"] = ["Top"]                
+                word.upos = "PROPN"
+            if word.upos == "PROPN" and word.xpos.startswith("Nn") and "NounType" not in word.feats:
+                word.feats["NounType"] = ["Prs"]
             if word.deprel == "flat:foreign":
                 word.misc["FlatType"] = ["Foreign"]
-            if word.xpos == "Nt":
+            if word.xpos == "Nt" and word.feats["NounType"] is None:
                 """
                 https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/40
                 """
