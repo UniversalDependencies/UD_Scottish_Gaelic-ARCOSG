@@ -21,7 +21,7 @@ def check_bi(node) -> int:
     if "xcomp:pred" not in deprels and deprels != []:
         possible_predicates = [n for n in node.children if possible_predicate(n)]
         if possible_predicates != []:
-            print(f"{node.address()} should have an xcomp:pred among {possible_predicates}")
+            print(f"E {node.address()} should have an xcomp:pred among {possible_predicates}")
         objs = [p for p in possible_predicates if p.deprel == "obj" and p.upos != "PART"]
         for obj in objs:
             # check what Irish does about obj of bi.
@@ -73,8 +73,9 @@ def check_cleft(node) -> int:
             errors += 1
             print(f"E {node.address()} is a cleft and should have CleftType")
     if "csubj:cleft" not in child_deprels and "csubj:outer" not in child_deprels and "CleftType" in node.feats:
+        cleft_phrase = " ".join([d.form for d in node.descendants(add_self = True)])
         errors += 1
-        print(f"E {node.address()} is not a cleft and should not have CleftType")
+        print(f"E {node.address()} '{cleft_phrase}' is not a cleft and '{node.form}' should not have CleftType")
     return errors
 
 def check_closed_classes(sentence) -> int:
@@ -92,10 +93,10 @@ def check_closed_classes(sentence) -> int:
 
     allowed = {
         "ADP": [
-            "a", "à", "ach", "ag", "an", "aig", "air", "ar", "as", "ás", "bho", "de", "do", "eadar", "fa",
-            "far", "fo", "gun", "gu", "gus", "le", "ma", "mar", "mu", "mun", "na", "o'n", "os",
-            "ri", "ro", "seach", "thar",
-            "tro", "troimh", "tarsaing", "tarsainn", "tarsuinn",
+            "a", "à", "ach", "ag", "an", "aig", "air", "ar", "as", "ás", "bho", "cum", "de", "do", "eadar", "fa",
+            "far", "fo", "gun", "gu", "gus", "le", "ma", "mar", "mu", "mun", "na", "o", "os", "rè",
+            "ri", "ro", "roimh", "seach", "thar", "tre", "treimh", "tro", "troimh", "tarsaing", "tarsainn",
+            "tarsuinn",
             "aindeoin", "ainneoin", "airson", "a-measg", "am-measg", "aonais", "a-rèir", "a-réir",
             "a-thaobh", "beulaibh",
             "broinn", "cionn", "cùlaibh", "deidh",
@@ -121,13 +122,16 @@ def check_closed_classes(sentence) -> int:
             "theagamh", "uair"
         ]
     }
-    if "CorrectLemma" in node.misc:
+    
+    if node.misc["ModernLemma"] != "":
+        lemma = node.misc["ModernLemma"]
+    elif node.misc["CorrectLemma"] != "":
         lemma = node.misc["CorrectLemma"]
     else:
         lemma = node.lemma
     if "Foreign" not in node.feats and node.xpos != "Xsi" and lemma not in allowed[node.upos]:
         errors += 1
-        print(f"E {node.address()} {node.lemma} not allowed for {node.upos}")
+        print(f"E {node.address()} '{lemma}' not allowed for {node.upos}")
     return errors
 
 def check_csubj(node) -> int:
@@ -168,7 +172,7 @@ def check_feats_column(node) -> int:
             print(f"E {node.address()} Unrecognised AdvType {node.feats['AdvType']}")
     if node.upos == "PROPN" and "NounType" not in node.feats:
             errors += 1
-            print(f"E {node.address()} NounType must be in FEATS for PROPN")
+            print(f"E {node.address()} NounType must be in FEATS for PROPN '{node.form}'")
     if "NounType" in node.feats:
         if node.feats["NounType"] not in allowed_nountypes:
             errors += 1
@@ -209,7 +213,15 @@ def check_fixed_expressions(node, allowed_fixed) -> int:
     """
     errors = 0
     norm_node_form = node.form.lower().replace("‘", "'").replace("’", "'")
+    if node.misc["CorrectForm"] != "":
+        norm_node_form = node.misc["CorrectForm"]
+    elif node.misc["ModernForm"] != "":
+        norm_node_form = node.misc["ModernForm"]
     norm_prev_node_form = node.prev_node.form.lower().replace("‘", "'").replace("’", "'")
+    if node.prev_node.misc["CorrectForm"] != "":
+        norm_prev_node_form = node.prev_node.misc["CorrectForm"]
+    elif node.prev_node.misc["ModernForm"] != "":
+        norm_prev_node_form = node.prev_node.misc["ModernForm"]
     if norm_node_form not in allowed_fixed:
         errors +=1
         print(f"E {node.address()} '{node.form}' not in fixed list")
@@ -315,7 +327,7 @@ def check_oblique_marking(node) -> int:
         child_deprels = [c.deprel for c in node.children]
         if "case" not in child_deprels and node.feats["Case"] not in ["Dat", "Gen"]:
             errors += 1
-            print(f"E {node.address()} UNMARKED should be {node.udeprel}:unmarked")
+            print(f"E {node.address()} UNMARKED '{node.form}' should be {node.udeprel}:unmarked")
     if node.deprel in ["nmod:unmarked", "obl:unmarked"]:
         child_deprels = [c.deprel for c in node.children]
         if "case" in child_deprels and node.feats["Case"] in ["Dat", "Gen"]:
@@ -387,7 +399,7 @@ def check_parent_upos(node) -> int:
     if node.deprel in allowed_parent_upos and "VerbForm" not in node.parent.feats:
         if node.parent.upos not in allowed_parent_upos[node.deprel]:
             errors += 1
-            print(f"E {node.parent.address()} parent of {node.address()}/{node.deprel} must be one of ({', '.join(allowed_parent_upos[node.deprel])}) not {node.parent.upos}")
+            print(f"E {node.parent.address()} parent of '{node.form}' ({node.address()}/{node.deprel}) must be one of ({', '.join(allowed_parent_upos[node.deprel])}) not {node.parent.upos}")
     return errors
 
 
@@ -468,7 +480,35 @@ def check_multiples(node) -> int:
         children = [c for c in node.children if c.deprel == singleton_deprel]
         if len(children) > 1:
             errors += 1
-            print(f"E {node.address()} too many {singleton_deprel} ({[c.ord for c in children]})")
+            print(f"E {node.address()} too many {singleton_deprel} ({[c.ord for c in children]}) for '{node.form}'")
+    return errors
+
+def check_mwes(node) -> int:
+    """
+    Checks for multiword tokens in the UD sense like leam and rium that should be broken up.
+    """
+    errors = 0
+    mwes = ["leam", "leat", "leatha", "leotha", "rium", "riut", "rithe", "f'a", "fodha", "uam"]
+    dubia = ["ann", "leis", "ris"]
+    dubia_exceptions = ["an", "a", "gach", "a-seo", "a-seothach", "a-sin", "a-sineach", "a-siud", "na", "gu", "nach"]
+    if node.misc["CorrectForm"] != "":
+        norm_node_form = node.misc["CorrectForm"]
+    elif node.misc["ModernForm"] != "":
+        norm_node_form = node.misc["ModernForm"]
+    else:
+        norm_node_form = node.form
+    if norm_node_form.lower() in mwes and node.upos == "ADP":
+        errors += 1
+        print(f"E {node.address()} '{node.form}' is a MWE and should be split up")
+    if node.next_node is not None:
+        if node.next_node.misc["CorrectLemma"] != "":
+            norm_next_node_lemma = node.next_node.misc["CorrectLemma"]
+        elif node.next_node.misc["ModernLemma"] != "":
+            norm_next_node_lemma = node.next_node.misc["ModernLemma"]
+        else:
+            norm_next_node_lemma = node.next_node.lemma
+        if norm_node_form in dubia and norm_next_node_lemma not in dubia_exceptions:
+            print(f"? {node.address()} '{node.form}' is probably a MWE as the next token is '{node.next_node.form}' (lemma '{node.next_node.lemma}')")
     return errors
 
 def check_relatives(node) -> int:
@@ -518,7 +558,7 @@ def check_child_upos(node) -> int:
         if child.upos not in allowed_upos[child.deprel]:
             if extpos is None or extpos not in allowed_upos[child.deprel]:
                 errors += 1
-                print(f"E {child.address()} {child.upos} should be one of {allowed_upos[child.deprel]}")
+                print(f"E {child.address()} '{child.lemma}': {child.upos} should be one of {allowed_upos[child.deprel]}")
     return errors
 
 def possible_predicate(node) -> bool:
@@ -601,6 +641,7 @@ for b in document.bundles:
         total_warnings = total_warnings + warnings
         total_errors = total_errors + check_feats_column(node)
         total_errors = total_errors + check_misc_column(node)
+        total_errors = total_errors + check_mwes(node)
         total_errors = total_errors + check_others(node)
         if not node.is_root():
             total_errors = total_errors + check_parent_deprel(node)

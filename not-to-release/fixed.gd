@@ -3,6 +3,8 @@
 'n ear
 'n iar
 'n seo
+'n sin
+'n siud
 'n uair
 'n uairsin
 's an e
@@ -18,15 +20,18 @@ a chèile
 a chéile
 a chionn
 a chuile
+a chum
 a deas
 a dh'aindeoin
 a dh'ainneoin
 a dh'aithghearr
 a dh'aona-ghnothaich
+a dh' aon ghnothuch
 a h-uile
 a lùib
 a mach
 a màireach
+a mhàin
 a muigh
 a neisd
 a nis
@@ -210,6 +215,7 @@ nach an e
 'n dà
 na b'
 na bu
+na 's
 nach e
 o chionn
 o'n uairsin

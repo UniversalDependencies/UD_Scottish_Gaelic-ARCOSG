@@ -6746,7 +6746,7 @@
 18	'm	an	ADP	Sp	_	19	case	_	_
 19	brùid	brùid	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	17	xcomp:pred	_	_
 20	ann	an	ADP	Sp	ExtPos=ADP	22	case	_	_
-21	a'	ag	ADP	Sp	_	20	fixed	_	_
+21	a'	an	ADP	Sp	_	20	fixed	_	_
 22	Libiria	Libiria	PROPN	Nt	NounType=Top	19	nmod	_	_
 
 # sent_id = ns06_000b
@@ -7531,7 +7531,7 @@
 8	a	a	PART	Ug	PartType=Inf	9	mark:prt	_	_
 9	ruith	ruith	NOUN	Nv	VerbForm=Inf	6	xcomp	_	_
 10	ann	an	ADP	Sp	ExtPos=ADP	12	case	_	_
-11	a'	ag	ADP	Sp	_	10	fixed	_	_
+11	a'	an	ADP	Sp	_	10	fixed	_	_
 12	sgìrean	sgìre	NOUN	Ncpfd	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	_
 13	sònraichte	sònraichte	ADJ	Aq-pfd	Case=Dat|Gender=Fem|Number=Plur	12	amod	_	_
 14	a	a	DET	Dq	ExtPos=DET|PronType=Art	17	det	_	_
@@ -9331,7 +9331,7 @@
 4	sinne	sinn	PRON	Pp1p--e	Form=Emp|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 5	a'	ag	PART	Sa	_	6	case	_	_
 6	faighinn	faigh	NOUN	Nv	VerbForm=Vnoun	3	xcomp:pred	_	_
-7	o'n	o'n	ADP	Sp	_	9	case	_	_
+7	o'n	o	ADP	Sp	_	9	case	_	_
 8	a'	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
 9	Westford	Westford	PROPN	Nt	NounType=Top	6	obl	_	_
 10	o	bho	ADP	Sp	ExtPos=ADP	12	case	_	_
