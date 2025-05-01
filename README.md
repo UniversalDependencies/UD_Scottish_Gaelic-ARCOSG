@@ -92,6 +92,15 @@ We wish to thank all of the contributors to ARCOSG and fellow Celtic language UD
 
 # Changelog
 
+* 2025-05-15 v2.16
+  * Speech reviewed in the light of the current ccomp/parataxis guidelines
+  * AdvType and CleftType added to FEATS
+  * nmod:unmarked and obl:unmarked now used and replacing other subtypes of obl
+  * advcl:relcl added
+  * Promoted=Yes added to MISC column to help the local validator
+  * Names brought into line with UD specification
+  * obl:agent added for passives
+  * Extra NounTypes added for proper nouns
 * 2024-11-15 v2.15
   * Added PronType, VerbForm and Mood features systematically.
 * 2024-05-15 v2.14
