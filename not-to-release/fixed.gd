@@ -50,7 +50,6 @@ a shineach
 a sineach
 a staigh
 a steach
-a stigh
 a thaobh
 a thoireadh
 a thoradh
