@@ -3991,7 +3991,7 @@
 50	seo	seo	DET	Dd	PronType=Art	49	det	_	_
 51	de	de	ADP	Sp	_	52	case	_	_
 52	Shruth	Sruth	PROPN	Nt	NounType=Top	49	nmod	_	_
-53	na	an	DET	Tdsfg	_	54	det	_	_
+53	na	an	DET	Tdsfg	PronType=Art	54	det	_	_
 54	Maoile	Maoile	PROPN	Nt	Case=Gen|NounType=Top	52	nmod	_	SpaceAfter=No
 55	.	.	PUNCT	Fe	_	6	punct	_	_
 
@@ -7649,7 +7649,7 @@
 3	do	do	ADP	Sp	_	4	case	_	_
 4	Chaledonian	Caledonian	PROPN	Nn	NounType=Prs	2	obl	_	_
 5	Mac	Mac	PART	Up	PartType=Pat	4	flat:name	_	FlatType=Name
-6	a'	an	DET	Tdsmg	_	7	det	_	_
+6	a'	an	DET	Tdsmg	PronType=Art	7	det	_	_
 7	Bhruthainn	Bruthainn	PROPN	Nn	Case=Gen|NounType=Prs	5	nmod	_	_
 8	le	le	ADP	Sp	_	9	case	_	_
 9	riochdairean	riochdair	NOUN	Ncpmd	Case=Dat|Gender=Masc|Number=Plur	2	obl:agent	_	_
@@ -8352,7 +8352,7 @@
 8	faisg	faisg	ADJ	Ap	_	1	xcomp:pred	_	_
 9	air	air	ADP	Sp	_	10	case	_	_
 10	Pàirc'	Pàirce	PROPN	Nt	NounType=Top	8	obl	_	_
-11	a'	an	DET	Tdsmg	_	10	det	_	_
+11	a'	an	DET	Tdsmg	PronType=Art	10	det	_	_
 12	Bhught	Bught	PROPN	Nt	Case=Gen|NounType=Top	10	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	Fe	_	1	punct	_	_
 
@@ -8888,7 +8888,7 @@
 28	Highlanders	highlanders	NOUN	Xfe	_	27	flat	_	FlatType=Borrow|OrigLang=en
 29	tidsear	tidsear	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
 30	Cheann	Ceann	PROPN	Nt	Case=Gen|NounType=Top	29	nmod	_	_
-31	a'	an	DET	Tdsmg	_	32	det	_	_
+31	a'	an	DET	Tdsmg	PronType=Art	32	det	_	_
 32	Bhàigh	Bàigh	PROPN	Nt	Case=Gen|NounType=Top	30	nmod	_	_
 33	fear	fear	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	35	nmod:unmarked	_	_
 34	Mr.	Mr.	NOUN	Y	Abbr=Yes	35	nmod:unmarked	_	_
@@ -8908,7 +8908,7 @@
 8	ann	an	ADP	Sp	ExtPos=ADP	10	case	_	_
 9	an	an	ADP	Sp	_	8	fixed	_	_
 10	Ceann	Ceann	PROPN	Nt	NounType=Top	7	xcomp:pred	_	_
-11	a'	an	DET	Tdsmg	_	12	det	_	_
+11	a'	an	DET	Tdsmg	PronType=Art	12	det	_	_
 12	Bhàigh	Bàigh	PROPN	Nt	Case=Gen|NounType=Top	10	nmod	_	_
 13	Lovat	Lovat	PROPN	Nn	NounType=Prs	10	flat:name	_	FlatType=Name
 14	Scouts	Scouts	PROPN	Nn	NounType=Prs	10	flat:name	_	FlatType=Name
@@ -8981,7 +8981,7 @@
 # text = luchd-teagaisg Cheann a' Bhàigh thug e dhaibh thug iad dhaibh dà not agus na Lovat Scouts not agus an Captain Dòmhnallach dà not agus mar sin air adhart agus nach eil sin annasach Mister J. A. MacKintosh traveller ten and six
 1	luchd-teagaisg	neach-teagaisg	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	5	dislocated	_	_
 2	Cheann	Ceann	PROPN	Nt	Case=Gen|NounType=Top	1	nmod	_	_
-3	a'	an	DET	Tdsmg	_	4	det	_	_
+3	a'	an	DET	Tdsmg	PronType=Art	4	det	_	_
 4	Bhàigh	Bàigh	PROPN	Nt	Case=Gen|NounType=Top	2	nmod	_	_
 5	thug	toir	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	9	reparandum	_	_
 6	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
@@ -10923,7 +10923,7 @@
 26	Deas	deas	ADJ	Aq	_	25	fixed	_	_
 27	agus	agus	CCONJ	Cc	_	28	cc	_	_
 28	Beinn	Beinn	PROPN	Nt	NounType=Top	24	conj	_	_
-29	na	an	DET	Tdsfg	_	30	det	_	_
+29	na	an	DET	Tdsfg	PronType=Art	30	det	_	_
 30	Fadhla	Fadhla	PROPN	Nt	Case=Gen|NounType=Top	28	nmod	_	_
 31	air	air	PART	Sa	_	33	case	_	_
 32	a	a	PART	Ug	PartType=Inf	33	mark:prt	_	_
@@ -11096,7 +11096,7 @@
 30	mhotha	mòr	ADJ	Apc	Degree=Cmp,Sup	24	amod	_	_
 31	eadar	eadar	ADP	Sp	_	32	case	_	_
 32	Bàgh	Bàgh	PROPN	Nt	NounType=Top	27	nmod	_	_
-33	a’	an	DET	Tdsmg	_	34	det	_	_
+33	a’	an	DET	Tdsmg	PronType=Art	34	det	_	_
 34	Chaisteil	Caisteil	PROPN	Nt	Case=Gen|NounType=Top	32	nmod	_	_
 35	agus	agus	CCONJ	Cc	_	36	cc	_	_
 36	Bhatarsaigh	Bhatarsaigh	PROPN	Nt	NounType=Top	32	conj	_	SpaceAfter=No
@@ -11314,7 +11314,7 @@
 24	Ròghadal	Ròghadal	PROPN	Nt	NounType=Top	22	obl	_	_
 25	agus	agus	CCONJ	Cc	_	26	cc	_	_
 26	Beinn	Beinn	PROPN	Nt	NounType=Top	24	conj	_	_
-27	a’	an	DET	Tdsmg	_	28	det	_	_
+27	a’	an	DET	Tdsmg	PronType=Art	28	det	_	_
 28	Chaolais	Caolais	PROPN	Nt	Case=Gen|NounType=Top	26	nmod	_	_
 29	agus	agus	CCONJ	Cc	_	31	cc	_	_
 30	a’	ag	PART	Sa	_	31	case	_	_
@@ -11522,7 +11522,7 @@
 5	ùra	ùr	ADJ	Aq-pmn	Case=Nom|Gender=Masc|Number=Plur	3	advmod	_	_
 6	aig	aig	ADP	Sp	_	7	case	_	_
 7	Ceann	Ceann	PROPN	Nt	NounType=Top	3	obl	_	_
-8	a’	an	DET	Tdsmg	_	9	det	_	_
+8	a’	an	DET	Tdsmg	PronType=Art	9	det	_	_
 9	Ghàrraidh	Gàrraidh	PROPN	Nt	Case=Gen|NounType=Top	7	nmod	_	_
 10	ann	an	ADP	Sp	ExtPos=ADP	12	case	_	_
 11	an	an	ADP	Sp	_	10	fixed	_	_
@@ -11575,7 +11575,7 @@
 35	ann	an	ADP	Sp	ExtPos=ADP	37	case	_	_
 36	an	an	ADP	Sp	_	35	fixed	_	_
 37	Caol	Caol	PROPN	Nt	NounType=Top	32	nmod	_	_
-38	na	an	DET	Tdsfg	_	39	det	_	_
+38	na	an	DET	Tdsfg	PronType=Art	39	det	_	_
 39	Hearadh	Hearadh	PROPN	Nt	Case=Gen|NounType=Top	37	nmod	_	SpaceAfter=No
 40	.	.	PUNCT	Fe	_	1	punct	_	_
 
@@ -11787,7 +11787,7 @@
 25	ann	an	ADP	Sp	ExtPos=ADP	27	case	_	_
 26	am	an	ADP	Sp	_	25	fixed	_	_
 27	Bàgh	Bàgh	PROPN	Nt	NounType=Top	24	xcomp:pred	_	_
-28	a’	an	DET	Tdsmg	_	29	det	_	_
+28	a’	an	DET	Tdsmg	PronType=Art	29	det	_	_
 29	Chaisteil	Caisteil	PROPN	Nt	Case=Gen|NounType=Top	27	nmod	_	_
 30	aig	aig	ADP	Sp	_	32	case	_	_
 31	àrd	àrd	ADJ	Ar	_	32	amod	_	_
