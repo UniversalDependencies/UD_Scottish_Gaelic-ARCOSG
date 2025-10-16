@@ -3767,7 +3767,7 @@
 24	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	xcomp:pred	_	_
 25	air	air	PART	Sa	_	27	case	_	_
 26	an	an	DET	Dp3p	Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	obj	_	_
-27	ainmeachadh	ainmich	NOUN	Nv	VerbForm=Inf	20	obl	_	_
+27	ainmeachadh	ainmich	NOUN	Nv	VerbForm=Inf	20	xcomp	_	_
 28	air	air	ADP	Sp	_	29	case	_	_
 29	Mairearad	Mairearad	PROPN	Nn-fd	Case=Dat|Gender=Fem|NounType=Prs	27	obl	_	SpaceAfter=No
 30	;	;	PUNCT	Fi	_	32	punct	_	_
