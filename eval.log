@@ -1,13 +1,17 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Scottish_Gaelic-ARCOSG:
-commit 78e9e18e2971fdd39fd6c3614bc810926b5d3f67
+commit 598cf5a4a50ad1363d1b83712821a5133c719e2b
+Merge: 7c2213d e80e508
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 22:39:00 2025 +0200
-Size: counted 90018 of 90018 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.00001930066586.
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'gd_arcosg'
+Language code (from CoNLL-U file name) = 'gd'
+Found the following data files: gd_arcosg-ud-dev.conllu, gd_arcosg-ud-test.conllu, gd_arcosg-ud-train.conllu
+Size: counted 90016 of 90016 words (nodes).
+Size: min(0, log((N/1000)**2)) = 8.99997486461489.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,14 +19,10 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 64063 out of 90018 total words have one or more features.
+Features: 64134 out of 90016 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi:
-               TOTAL         90
-Udapi: found 90 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 90018 words.
 Genres: found 4 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang gd --max-err=10 UD_Scottish_Gaelic-ARCOSG/gd_arcosg-ud-dev.conllu
 *** PASSED ***
@@ -31,14 +31,13 @@ Genres: found 4 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang gd --max-err=10 UD_Scottish_Gaelic-ARCOSG/gd_arcosg-ud-train.conllu
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.222222222222222) = 0.0170940170940171
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.651443119883658) = 0.167036697406066
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.99000199960008) = 0.304615999876948
-(weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.77786660349692) * (availability=1) * (validity=1) = 0.77786660349692
-STARS = 4
-UD_Scottish_Gaelic-ARCOSG	0.77786660349692	4
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.222222222222222) = 0.0246913580246914
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.651439903495036) = 0.241274038331495
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{udeprels}=0.691891891891892) = 0.0768768768768769
+(TOTAL score=0.683583013973804) * (availability=1) * (validity=1) = 0.683583013973804
+STARS = 3.5
+UD_Scottish_Gaelic-ARCOSG	0.683583013973804	3.5
