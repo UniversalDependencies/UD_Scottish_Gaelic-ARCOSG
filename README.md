@@ -153,6 +153,7 @@ We wish to thank all of the contributors to ARCOSG and fellow Celtic language UD
 Data available since: UD v2.5
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: nonfiction fiction news spoken 
 Lemmas: converted from manual
 UPOS: converted from manual

@@ -98,9 +98,9 @@ def check_closed_classes(sentence) -> int:
             "ri", "ro", "roimh", "seach", "thar", "tre", "treimh", "tro", "troimh", "tarsaing", "tarsainn",
             "tarsuinn",
             "aindeoin", "ainneoin", "airson", "a-measg", "am-measg", "aonais", "a-rèir", "a-réir",
-            "a-thaobh", "beulaibh",
-            "broinn", "cionn", "cùlaibh", "deidh",
-            "dèidh", "déidh", "deidhinn", "feadh", "lùib", "measg", "rèir", "réir", "sgath", "son",
+            "a-thaobh", "beul",
+            "broinn", "cionn", "cùl", "deidh",
+            "dèidh", "déidh", "deidhinn", "feadh", "lùib", "measg", "rèir", "ruige", "réir", "sgath", "son",
             "taca", "timcheall", "timchioll"
         ],
         "DET": [
@@ -110,6 +110,18 @@ def check_closed_classes(sentence) -> int:
         "CCONJ": [
             "a", "ach", "agus", "air", "is", "na", "neo", "no", "so", "oir", "sgàth", "thoireadh",
             "thoradh"
+        ],
+        "PRON": [
+            "na",
+            "mo", "do", "a", "ar", "ur", "an",
+            "mi", "thu", "e", "i", "sinn", "sibh", "iad",
+            "seo", "so", "sin", "sean", "siud", "siod",
+            "a-seo", "a-sin", "a-siud",
+            "seothach", "sineach", "siudach", "siodach",
+            "fèin", "féin", "cèile", "céile", "a-chèile",
+            "bè", "cà", "cà'", "c'à", "càil", "càit", "càite", "carson", "cia", "ciamar", "cò", "có", "cuine",
+            "dè", "dé", "diamar", "ge", "b'e", "gu", "mar", "mheud", "car", "son",
+            "gar", "bith", "brith"
         ],
         "SCONJ": [
             "a", "'air", "air", "airson", "'ar", "agus", "am", "an", "aon", "as",
@@ -131,7 +143,7 @@ def check_closed_classes(sentence) -> int:
         lemma = node.lemma
     if "Foreign" not in node.feats and node.xpos != "Xsi" and lemma not in allowed[node.upos]:
         errors += 1
-        print(f"E {node.address()} '{lemma}' not allowed for {node.upos}")
+        print(f"E {node.address()} '{lemma}' not allowed for {node.upos} ({node.xpos})")
     return errors
 
 def check_csubj(node) -> int:
@@ -384,6 +396,7 @@ def check_ranges(node) -> (int, int):
 def check_parent_upos(node) -> int:
     """
     Checks that for example obl is headed by something verbal and nmod something nominal.
+    See https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG/issues/46 for more details.
 
     Returns an integer number of errors found in the sentence
     """
@@ -488,9 +501,11 @@ def check_mwes(node) -> int:
     Checks for multiword tokens in the UD sense like leam and rium that should be broken up.
     """
     errors = 0
-    mwes = ["leam", "leat", "leatha", "leotha", "rium", "riut", "rithe", "f'a", "fodha", "uam"]
+    mwes = ["agam", "agat", "aige", "aice", "againn", "agaibh", "aca",
+            "dhomh", "dhut", "dhi", "dhuinn", "dhaibh", "dhiubh",
+            "leam", "leat", "leatha", "leotha", "rium", "riut", "rithe", "f'a", "fodha", "uam"]
     dubia = ["ann", "leis", "ris"]
-    dubia_exceptions = ["an", "a", "gach", "a-seo", "a-seothach", "a-sin", "a-sineach", "a-siud", "na", "gu", "nach"]
+    dubia_exceptions = ["am", "an", "a", "gach", "a-seo", "a-seothach", "a-sin", "a-sineach", "a-siud", "na", "gu", "nach"]
     if node.misc["CorrectForm"] != "":
         norm_node_form = node.misc["CorrectForm"]
     elif node.misc["ModernForm"] != "":
@@ -652,7 +667,7 @@ for b in document.bundles:
             total_errors = total_errors + check_child_upos(node)
             total_errors = total_errors + check_cleft(node)
             total_errors = total_errors + check_multiples(node)
-        if node.upos in ["ADP", "CCONJ", "DET", "SCONJ"]:
+        if node.upos in ["ADP", "CCONJ", "DET", "PRON", "SCONJ"]:
             total_errors = total_errors + check_closed_classes(node)
         if node.deprel in ["acl:relcl", "advcl", "advcl:relcl", "ccomp"]:
             errors, warnings = check_clause_types(node, speech_lemmata)
