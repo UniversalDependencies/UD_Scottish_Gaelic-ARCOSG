@@ -6726,6 +6726,7 @@
 # newdoc id = ns06
 # sent_id = ns06_000a
 # text = Tha àrd riochdairean bho riaghaltas Bhreatainn a-nise an lùib na h-iomairt airson saoradh an fheadhainn a tha 'm brùid ann a' Libiria
+# text_en = High representatives from the British government are now involved in the campaign to free the people who are captive in Liberia.
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	àrd	àrd	ADJ	Ar	_	3	amod	_	_
 3	riochdairean	riochdair	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
@@ -6744,13 +6745,14 @@
 16	a	a	PART	Q-r	PartType=Vb|PronType=Rel	17	nsubj	_	_
 17	tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
 18	'm	an	ADP	Sp	_	19	case	_	_
-19	brùid	brùid	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	17	xcomp:pred	_	_
+19	brùid	brùid	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing|Typo=Yes	17	xcomp:pred	_	CorrectForm=bruid|CorrectLemma=bruid
 20	ann	an	ADP	Sp	ExtPos=ADP	22	case	_	_
 21	a'	an	ADP	Sp	_	20	fixed	_	_
 22	Libiria	Libiria	PROPN	Nt	NounType=Top	19	nmod	_	_
 
 # sent_id = ns06_000b
 # text = Chaidh sianar - ceathrar dhuibh à Breatuinn - a tha 'g obair dha buidheannan carthannais a chur an grèim a-bhòn-dè.
+# text_en = Six people - four of them from Britain - who are working for charities were captured the day before yesterday.
 1	Chaidh	rach	AUX	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
 2	sianar	sianar	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	18	nsubj:pass	_	_
 3	-	-	PUNCT	Fb	_	4	punct	_	_
@@ -6777,6 +6779,7 @@
 
 # sent_id = ns06_001
 # text = Sann à Nirribhidh agus an Eadailt a tha 'n dithis eile.
+# text_en = The other two are from Norway and Italy.
 1-3	Sann	_	_	_	_	_	_	_	_
 1	is	is	AUX	Wp-i	ExtPos=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
 2	an	an	ADP	Sp	_	1	fixed	_	_
@@ -6795,6 +6798,7 @@
 
 # sent_id = ns06_002
 # text = Tha dùil gu bheil iad uile à [?] buidheann de luchd carthannais a tha glaiste aig a’ chrìch le Guinea, is reubaltaich ag ràdh nach fhaigh iad tarsuinn na crìch mur a tèid connadh a thoirt dhaibh.
+# text_en = It is expected that all of the people from the [?] group of charity workers who were captured on the border with Guinea, with the rebels saying that they will not get across the border if they are not going to give them fuel.
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	dùil	dùil	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
 3	gu	gu	PART	Qa	PartType=Cmpl	4	mark:prt	_	_
@@ -6839,13 +6843,14 @@
 
 # sent_id = ns06_003
 # text = Tha 'm poilis ann am Beul Fuerst a' rannsachadh ionnsaidh air taigh le boma-peatroil air taobh tuath a’ bhaile.
+# text_en = The police in Belfast are investigating an attack on a house with a petrol bomb on the north side of the city.
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	'm	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	poilis	poilis	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	ann	an	ADP	Sp	ExtPos=ADP	6	case	_	_
 5	am	an	ADP	Sp	_	4	fixed	_	_
 6	Beul	Beul	PROPN	Nt	NounType=Top	3	nmod	_	_
-7	Fuerst	Fuerst	PROPN	Nt	NounType=Top	6	flat:name	_	FlatType=Top
+7	Fuerst	Fuerst	PROPN	Nt	NounType=Top|Typo=Yes	6	flat:name	_	CorrectForm=Feirste|CorrectLemma=Feirste|FlatType=Top
 8	a'	ag	PART	Sa	_	9	case	_	_
 9	rannsachadh	rannsaich	NOUN	Nv	VerbForm=Vnoun	1	xcomp:pred	_	_
 10	ionnsaidh	ionnsaidh	NOUN	Ncsfg	Case=Gen|Gender=Fem|Number=Sing	9	obj	_	_
@@ -6862,6 +6867,7 @@
 
 # sent_id = ns06_004
 # text = Bha gille sia bliadhna dh’aois san taigh aig an àm, ach cha deach a leòn.
+# text_en = A six-year-old boy was in the house at the time, but was not injured.
 1	Bha	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	gille	gille	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 3	sia	sia	NUM	Mc	NumForm=Word|NumType=Card	4	nummod	_	_
@@ -6884,6 +6890,7 @@
 
 # sent_id = ns06_005
 # text = Tha 'm poilis cuideachd a' feuchainn ri faighinn a-mach carson a chaidh inneal spreadhaidh agus gunna fhàgail faisg air sgoil sa bhaile.
+# text_en = The police are also trying to find out why an explosive device and a gun were left near the town's school.
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	'm	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	poilis	poilis	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -6912,6 +6919,7 @@
 
 # sent_id = ns06_006
 # text = Bha 'n inneal spreadhaidh ann an croca cofaidh a lorg luchd obrach aig a’ sgoil 'sa mhadainn an-diugh.
+# text_en = The explosive device was found in a jar of coffee by workers at the school this morning.
 1	Bha	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	'n	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	inneal	inneal	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -6936,6 +6944,7 @@
 
 # sent_id = ns06_007
 # text = Bha gunna agus peilearan cuideachd faisg air làimh.
+# text_en = There were also a gun and bullets nearby.
 1	Bha	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	gunna	gunna	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 3	agus	agus	CCONJ	Cc	_	4	cc	_	_
@@ -6948,6 +6957,7 @@
 
 # sent_id = ns06_008
 # text = Tha dragh air èirigh mu fhòirneart is Dìlsich air cead fhaighinn a dhol a chaismeachd ann an Doire agus Beul Feurst a-màireach.
+# text_en = Concern has been raised about violence as the Loyalists have permission to march in Derry and Belfast tomorrow.
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	dragh	dragh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 3	air	air	PART	Sa	_	4	case	_	_
@@ -6974,6 +6984,7 @@
 
 # sent_id = ns06_009
 # text = Tha coltas gun cosg Pàrlamaid na h-Alba co-dhiu trì muillean not - neo deich sa cheud - a bharrachd na bha dùil airson a ruith 'sa cheud bhliadhna aice.
+# text_en = It is likely that the Scottish Parliament will cost at least three million pounds - or ten percent - more than was expected to run in its first year.
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	coltas	coltas	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 3	gun	gu	PART	Qa	PartType=Cmpl	4	mark:prt	_	_
@@ -6981,7 +6992,7 @@
 5	Pàrlamaid	pàrlamaid	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 6	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	h-Alba	Alba	PROPN	Nt	Case=Gen|NounType=Top	5	nmod	_	_
-8	co-dhiu	co-dhiu	ADV	Rg	AdvType=Man	4	advmod	_	_
+8	co-dhiu	co-dhiu	ADV	Rg	AdvType=Man	4	advmod	_	Gloss=at least
 9	trì	trì	NUM	Mc	NumForm=Word|NumType=Card	11	nummod	_	_
 10	muillean	muillean	NUM	Mc	NumForm=Word|NumType=Card	11	nummod	_	_
 11	not	not	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	4	obj	_	_
@@ -7013,6 +7024,7 @@
 
 # sent_id = ns06_010
 # text = Bha Oifis na h-Alba an toiseach den bheachd gum bitheadh naoi thar fhichead muillean not gu leòr - ach tha sin trì muillean not gann air na bhitheas a dhìth, a-rèir àrd-oifigear na Pàrlamaid, Sir Daibhidh Steel.
+# text_en = The Scottish Office was initially of the opinion that twenty-nine million pounds would be enough - but that is three million pounds short of what will be needed, according to the Presiding Officer, Sir David Steel.
 1	Bha	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	Oifis	oifis	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
 3	na	an	DET	Tdsfg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -7059,6 +7071,7 @@
 # revision = 2025-01-26: retagged "cosgaisean" to be feminine
 # sent_id = ns06_011
 # text = Cha deach suim a ghabhail de na cosgaisean air fad - leithid coimpiutairean dha na buill Pàrlamaid - 'n uair a chaidh na cosgaisean ullachadh.
+# text_en = The sum was not included in the full costs - for example computers for MSPs - when the costs were prepared.
 1	Cha	cha	PART	Qn	PartType=Vb|Polarity=Neg	5	mark:prt	_	_
 2	deach	rach	AUX	V-s--d	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
 3	suim	suim	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
@@ -7086,8 +7099,10 @@
 25	ullachadh	ullaich	NOUN	Nv	VerbForm=Vnoun	5	advcl	_	SpaceAfter=No
 26	.	.	PUNCT	Fe	_	5	punct	_	_
 
+# comment = "sa" must be "agus an" here?
 # sent_id = ns06_012
 # text = Tha na Toraidhean 's na Nàiseantaich air ionnsaidh chruaidh a thoirt air a’ riaghaltas, airson cead a thoirt stèiseanan maor cladaich an Obain sa Chaol Arcaich a dhùnadh.
+# text_en = The Conservatives and the SNP have attacked the government strongly for allowing the closure of coastguard stations in Oban and the Pentland Firth.
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	na	an	DET	Tdpm	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	Toraidhean	toradh	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
@@ -7124,6 +7139,7 @@
 # comment = 2024-12-16: node 14 would normally be preceded by "do"
 # sent_id = ns06_013
 # text = Thubhairt Annabel Goldie, as leth nan Toraidhean, gum bu choir a’ chùis a bhith air a dhol fa chomhair na Pàrlamaid Albannaich mus deach co-dhùnadh a dhèanamh.
+# text_en = Annabel Goldie, on behalf of the Conservatives, said that the matter should be put under the consideration of the Scottish Parliament before a decision is made.
 1	Thubhairt	abair	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	Annabel	Annabel	PROPN	Nn-fn	Case=Nom|Gender=Fem|NounType=Prs	1	nsubj	_	_
 3	Goldie	Goldie	PROPN	Nn	NounType=Prs	2	flat:name	_	FlatType=Name|SpaceAfter=No
@@ -7158,6 +7174,7 @@
 # comment = 2024-12-21: node 17 retagged to PART/Ug to avoid multiple objects
 # sent_id = ns06_014
 # text = Agus thubhairt Coinneach MacAsgaill, bho na Nàiseantaich, gu bheil e fhathast iomchaidh a’ chùis a thogail aig Holyrood.
+# text_en = An Kenny Macaskill, from the SNP, said that it is still appropriate to raise the matter at Holyrood.
 1	Agus	agus	CCONJ	Cc	_	2	cc	_	_
 2	thubhairt	abair	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	Coinneach	Coinneach	PROPN	Nn-mn	Case=Nom|Gender=Masc|NounType=Prs	2	nsubj	_	_
@@ -7171,7 +7188,7 @@
 11	bheil	bi	VERB	V-p--d	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 12	e	e	PRON	Pp3sm	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 13	fhathast	fhathast	ADV	Rt	AdvType=Tim	11	advmod	_	_
-14	iomchaidh	iomchaidh	ADJ	Ap	_	11	xcomp:pred	_	_
+14	iomchaidh	iomchaidh	ADJ	Ap	_	11	xcomp:pred	_	Gloss=appropriate
 15	a’	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	chùis	cùis	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	18	obj	_	_
 17	a	a	PART	Ug	PartType=Inf	18	mark:prt	_	_
@@ -7182,6 +7199,7 @@
 
 # sent_id = ns06_015
 # text = Tha rannsachadh air dearbhadh gu robh suas ri sia fichead oileanaich ann an Dùn Èideann ri foill anns na deuchainnean aca.
+# text_en = An investigation has confirmed that up to 140 students at Edinburgh were cheating in their exams.
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	rannsachadh	rannsachadh	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 3	air	air	PART	Sa	_	4	case	_	_
@@ -7209,6 +7227,7 @@
 
 # sent_id = ns06_016
 # text = Thachair seo ann an deuchainnean coimpiutadh saidheans, le luchd sgrùdaidh a lorg gu robh oileanaich air E-mail a chleachdadh airson fiosrachadh a thoirt dha chèile.
+# text_en = This happened in computer science examinations, with inspectors finding that students were using E-mail to give information to each other.
 1	Thachair	tachair	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	seo	seo	PRON	Pd	PronType=Dem	1	nsubj	_	_
 3	ann	an	ADP	Sp	ExtPos=ADP	5	case	_	_
@@ -7239,6 +7258,7 @@
 
 # sent_id = ns06_017
 # text = Tha dùil gun tèid dèiligeadh gu cruaidh ris na h-oileanaich, le càin a' dol air cuid dhuibh.
+# text_en = It is expected that the students will be dealt with strictly, with fines on some of them.
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	dùil	dùil	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
 3	gun	gu	PART	Qa	PartType=Cmpl	5	mark:prt	_	_
@@ -7264,6 +7284,7 @@
 # comment = removed square brackets from node 7 in ARCOSG.
 # sent_id = ns06_018
 # text = 'S dòcha gun tèid feadhainn eile a chur a-mach à Oilthigh Dhùn Èidinn.
+# text_en = Perhaps some of them will be expelled from Edinburgh University.
 1	'S	is	AUX	Wp-i	Mood=Ind|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	dòcha	dòcha	NOUN	Uf	_	0	root	_	_
 3	gun	gu	PART	Qa	PartType=Cmpl	8	mark:prt	_	_
@@ -7281,6 +7302,7 @@
 
 # sent_id = ns06_019
 # text = Chaidh tidsear a shaoradh as a’ chùirt ann an Dùn Phàrlain an-diugh, air casaid gun do bhuail i caileag san sgoil aice.
+# text_en = A teacher was freed from the court in Dunfermline today from a charge that she struck a girl in her school.
 1	Chaidh	rach	AUX	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
 2	tidsear	tidsear	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	a	a	PART	Ug	PartType=Inf	4	mark:prt	_	_
@@ -7312,6 +7334,7 @@
 
 # sent_id = ns06_020
 # text = Chaidh Amanda Lynne - aois dà fhichead sa trì - as àicheadh gun tug i ionnsaidh air a’ chaileag ann am bun-sgoil ann am Fìobha.
+# text_en = Amanda Lynne - age 43 - denied that she attacked a girl in a primary school in Fife.
 1	Chaidh	rach	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	Amanda	Amanda	PROPN	Nn-fn	Case=Nom|Gender=Fem|NounType=Prs	1	nsubj	_	_
 3	Lynne	Lynne	PROPN	Nn	NounType=Prs	2	flat:name	_	FlatType=Name
@@ -7343,6 +7366,7 @@
 
 # sent_id = ns06_021
 # text = Ged a thubhairt clann eile gun rug an tidsear air falt na caileig, thug an siorraidh breith gu robh teagamh mun fhianais.
+# text_en = Although other children said that the teacher grabbed the child's hair, the sheriff ruled that there was doubt about the evidence.
 1	Ged	ged	SCONJ	Cs	_	3	mark	_	_
 2	a	a	PART	Q-r	PartType=Vb|PronType=Rel	3	mark:prt	_	_
 3	thubhairt	abair	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	15	advcl	_	_
@@ -7373,6 +7397,7 @@
 # comment = Manually edited XPOS of node 10 to satisfy validator.
 # sent_id = ns06_022
 # text = Tha 'n t-ionad mu dheireadh ann am Breatainn, a dh’aon ghnothaich airson cait arach airson eòlaidheachd saidheans, air dùnadh.
+# text_en = The last centre in Britain, specifically for cats for scientific research, has closed.
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	'n	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	t-ionad	ionad	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -7398,6 +7423,7 @@
 
 # sent_id = ns06_023
 # text = Thug oifigearan bhon RSPCA ochd ceud cat air falbh troimh 'n oidhche bho 'n tuath faisg air Oxford, agus fanaidh iad fo chùram an RSPCA gus an tèid dachaidhean a lorg dhaibh.
+# text_en = Officers from the RSPCA took eight hundred cats away throughout the night from the farm close to Oxford and will leave them in the care of the RSPCA until houses can be found for them.
 1	Thug	toir	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	oifigearan	oifigear	NOUN	Ncpmn	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
 3-4	bhon	_	_	_	_	_	_	_	_
@@ -7439,6 +7465,7 @@
 
 # sent_id = ns06_024
 # text = Bha luchd iomairt chòirichean bheathaichean tric is minic a' gearain mun tuath thar iomadh bliadhna.
+# text_en = Animal rights campaigners have often complained about the farm over many years.
 1	Bha	bi	VERB	V-s	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	luchd	neach	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 3	iomairt	iomairt	NOUN	Ncsfg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
@@ -7460,6 +7487,7 @@
 
 # sent_id = ns06_025
 # text = Tha a’ chompanaidh bhusaichean as motha ann am Breatuinn a' brosnachadh dhaoine ann an Glaschu gus am bus a ghabhail an àite carbaid.
+# text_en = The biggest bus company in Britain is encouraging people in Glasgow to take the bus instead of cars.
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	a’	an	DET	Tdsf	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	chompanaidh	companaidh	NOUN	Ncsfn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
@@ -7487,6 +7515,7 @@
 
 # sent_id = ns06_026
 # text = Tha prìomh mhinistear na h-Alba, Dòmhnall Dewar - a tha riochdachadh sgìre ann an Glaschu 'sa phàrlamaid - air a thaic a thoirt dhan iomairt.
+# text_en = The first minister of Scotland, Donald Dewar - who represents a Glasgow constituency in parliament - has given his support to the campaign.
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	prìomh	prìomh	ADJ	Ar	_	3	amod	_	_
 3	mhinistear	ministear	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -7521,6 +7550,7 @@
 
 # sent_id = ns06_027
 # text = Tha First Bus Group a' gealltainn bus a ruith ann a' sgìrean sònraichte a h-uile deich mionaidean.
+# text_en = First Bus Group promises to run buses in specific areas every ten minutes.
 1	Tha	bi	VERB	V-p	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	First	first	X	Xfe	Foreign=Yes	1	nsubj	_	OrigLang=en
 3	Bus	bus	X	Xfe	Foreign=Yes	2	flat	_	FlatType=Foreign|OrigLang=en
