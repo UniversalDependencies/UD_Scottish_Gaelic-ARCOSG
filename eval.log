@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Scottish_Gaelic-ARCOSG:
-commit d899aedfd1bfb5383e8867294d7db8f85108fb32
+commit f74137a5ae7cbfdfe0ed9b950378bd0c020778b0
+Merge: bfbb542 f09ba8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 20:48:36 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'gd_arcosg'
 Language code (from CoNLL-U file name) = 'gd'
@@ -29,6 +29,18 @@ Genres: found 4 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang gd --max-err=10 UD_Scottish_Gaelic-ARCOSG/gd_arcosg-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang gd --max-err=10 UD_Scottish_Gaelic-ARCOSG/gd_arcosg-ud-train.conllu
+[Line 26058 Sent fp01_028d]: [L4 WARNING unknown-lang] Language [ghc] is unknown in Universal Dependencies.
+[Line 26059 Sent fp01_028d]: [L4 WARNING unknown-lang] Language [ghc] is unknown in Universal Dependencies.
+[Line 26060 Sent fp01_028d]: [L4 WARNING unknown-lang] Language [ghc] is unknown in Universal Dependencies.
+[Line 26061 Sent fp01_028d]: [L4 WARNING unknown-lang] Language [ghc] is unknown in Universal Dependencies.
+[Line 26063 Sent fp01_028d]: [L4 WARNING unknown-lang] Language [ghc] is unknown in Universal Dependencies.
+[Line 26064 Sent fp01_028d]: [L4 WARNING unknown-lang] Language [ghc] is unknown in Universal Dependencies.
+[Line 26065 Sent fp01_028d]: [L4 WARNING unknown-lang] Language [ghc] is unknown in Universal Dependencies.
+[Line 26066 Sent fp01_028d]: [L4 WARNING unknown-lang] Language [ghc] is unknown in Universal Dependencies.
+[Line 34465 Sent fp08_031]: [L4 WARNING unknown-lang] Language [ghc] is unknown in Universal Dependencies.
+[Line 34466 Sent fp08_031]: [L4 WARNING unknown-lang] Language [ghc] is unknown in Universal Dependencies.
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 12
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
