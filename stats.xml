@@ -107,7 +107,7 @@
     <feat name="Tense" value="Fut" upos="AUX,VERB">1084</feat><!-- bidh, feumaidh, bhios, bi, gheibh, thèid, tèid, nì, faodaidh, bheir -->
     <feat name="Tense" value="Past" upos="AUX,PART,VERB">4827</feat><!-- bha, robh, chaidh, do, fhuair, thuirt, ars’, b', chuir, thàinig -->
     <feat name="Tense" value="Pres" upos="AUX,PART,VERB">3715</feat><!-- tha, eil, bheil, 's, is, gur, th', as, chan, nach -->
-    <feat name="Typo" value="Yes" upos="ADJ,ADP,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB">132</feat><!-- lain, a', a’, co, dìon, na, an, diofar, pàirc, adhbhar -->
+    <feat name="Typo" value="Yes" upos="ADJ,ADP,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB">134</feat><!-- lain, a', a’, co, dìon, na, an, diofar, pàirc, adhbhar -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">10318</feat><!-- tha, bha, robh, eil, bheil, chaidh, 's, is, bhiodh, fhuair -->
     <feat name="VerbForm" value="Inf" upos="NOUN">1561</feat><!-- bhith, chur, dhèanamh, thoirt, dhol, feuchainn, cur, ràdh, toirt, thogail -->
     <feat name="VerbForm" value="Vnoun" upos="NOUN">2659</feat><!-- dol, ràdh, tighinn, feuchainn, iarraidh, faighinn, cur, dèanamh, ruith, coimhead -->
